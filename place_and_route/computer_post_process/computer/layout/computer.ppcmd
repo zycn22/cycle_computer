@@ -1,0 +1,44 @@
+# PPCMD 1 
+# sroute -connect { blockPin padPin padRing corePin floatingStripe } -layerChangeRange { MET1 MET4 } -blockPinTarget { nearestTarget } -padPinPortConnect { allPort oneGeom } -padPinTarget { nearestTarget } -corePinTarget { firstAfterRowEnd } -floatingStripeTarget { blockring padring ring stripe ringpin blockpin followpin } -allowJogging 1 -crossoverViaLayerRange { MET1 MET4 } -nets { vdd! gnd! } -allowLayerChange 1 -blockPin useLef -targetViaLayerRange { MET1 MET4 }
+# 2 
+# 16 
+# 0 
+# 0 
+# 0 
+# 0 
+# BOX_LIST 
+# END_BOX_LIST 
+# NET_INFO_LIST 
+# END_NET_INFO_LIST 
+# END_PPCMD 1 
+
+# PPCMD 2 
+# addRing -type core_rings -nets {gnd! vdd!} -center 1 -layer {bottom MET3 top MET3 right MET4 left MET4} -width 20 -spacing 2 -layer_bottom MET3 -layer_top MET3 -layer_right MET4 -layer_left MET4 -width_top {20} -width_bottom {20} -width_left {20} -width_right {20} -spacing_top {2} -spacing_bottom {2} -spacing_left {2} -spacing_right {2} -stacked_via_top_layer topLayer -stacked_via_bottom_layer bottomLayer
+# 1 
+# 32 
+# 1 
+# 0 
+# 0 
+# 0 
+# BOX_LIST 
+# END_BOX_LIST 
+# NET_INFO_LIST 
+# vdd! 20000 3 1 0 0 0 0 0 
+# RING_PT_INFO_LIST 
+# 1270450 360050 1270450 2159050 
+# END_RING_PT_INFO_LIST 
+# vdd! 20000 4 1 0 0 0 0 0 
+# RING_PT_INFO_LIST 
+# 360100 1259550 2180800 1259550 
+# END_RING_PT_INFO_LIST 
+# gnd! 20000 3 1 0 0 0 0 0 
+# RING_PT_INFO_LIST 
+# 1270450 382050 1270450 2137050 
+# END_RING_PT_INFO_LIST 
+# gnd! 20000 4 1 0 0 0 0 0 
+# RING_PT_INFO_LIST 
+# 382100 1259550 2158800 1259550 
+# END_RING_PT_INFO_LIST 
+# END_NET_INFO_LIST 
+# END_PPCMD 2 
+

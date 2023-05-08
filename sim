@@ -1,0 +1,32 @@
+#! /bin/sh
+
+case $1 in
+  pr) cp gate_level/monitor.sv place_and_route
+      cp gate_level/options.sv place_and_route
+      cp gate_level/system.tcl place_and_route
+      cp place_and_route/computer_final.v place_and_route/computer.v
+      ./simulate -gate -sdf place_and_route/SDF/computer_func_max.sdf place_and_route/ $2
+      ;;
+
+  gl) ./simulate  -gate  -sdf gate_level/computer.sdf  gate_level  $2
+      ;;
+
+  bh) ./simulate behavioural $2
+      ;;
+
+  *)  echo
+      echo "================================================================="
+      echo "Now you can choose your simulate stage"
+      echo "Options are shown below"
+      echo "================================================================="
+      echo "./sim {option} {simulation time}"
+      echo "      bh        behavioural simulation"
+      echo "      gl        post-synthesis simulation"
+      echo "      pr        post-layout simulation"
+      echo "================================================================="
+      echo
+    ;;
+
+esac
+
+

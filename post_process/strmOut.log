@@ -1,0 +1,394 @@
+********************************************************************************
+Product   : Virtuoso(R) XStream Out
+Program   : @(#)$CDS: strmout version 6.1.7-64b 10/06/2017 20:09 (sjfhw315) $
+          : sub-version  IC6.1.7-64b.500.15 
+Started at: 04-May-2023  19:43:34
+User Name : yz17g22
+Host Name : srv02749
+Directory : /home/yz17g22/mydocuments/design/system_on_chip/github/local_chip/post_process
+CADENCE Design Systems, Inc.
+********************************************************************************
+Info: Cellview Rev Num:99,  Tech Rev Num:59
+
+INFO (XSTRM-217): Reading the layer map file, /home/yz17g22/mydocuments/design/system_on_chip/github/local_chip/post_process/Bondpackage/EP_packages.layertable
+INFO (XSTRM-162): You have not used the viaMap option. If the OpenAccess design has native oaVia instances, use the -viaMap option for preserving oaVia instances in a Stream Out - Stream In round trip. Using the -viaMap option improves performance and VM usage of applications using the Streamed-In design.  For details on the viaMap option, refer to the "Design Data Translator's Reference" guide for XStream.
+
+Summary of Options :
+library                                 computer_post_process
+strmFile                                computer_pack.gds
+topCell                                 computer_pack
+view                                    layout
+logFile                                 strmOut.log
+techLib                                 TECH_C35B4
+hierDepth                               20
+layerMap                                /home/yz17g22/mydocuments/design/system_on_chip/github/local_chip/post_process/Bondpackage/EP_packages.layertable
+userSkillFile                           /opt/cad/designkits/ams/v410/cds/HK_C35/skill/ams_sdl.il
+case                                    Preserve
+convertDot                              node
+
+INFO (XSTRM-223): 1. Translating cellView Bondpackage/DIL28/layout as STRUCTURE DIL28.
+INFO (XSTRM-223): 2. Translating cellView TECH_C35B4/VIA1_C/layout as STRUCTURE VIA1_C_CDNS_683225814710.
+WARNING (XSTRM-35): The objects in the layer-purpose pair 'VIA1:drawing' are ignored. This is because the layer-purpose pair used in the design is not specified in the layer map file. Specify the layer-purpose pair in the layer map file and try again.
+WARNING (XSTRM-35): The objects in the layer-purpose pair 'MET1:drawing' are ignored. This is because the layer-purpose pair used in the design is not specified in the layer map file. Specify the layer-purpose pair in the layer map file and try again.
+WARNING (XSTRM-35): The objects in the layer-purpose pair 'MET2:drawing' are ignored. This is because the layer-purpose pair used in the design is not specified in the layer map file. Specify the layer-purpose pair in the layer map file and try again.
+WARNING (XSTRM-399): The STRUCT 'VIA1_C_CDNS_683225814710' generated for 'TECH_C35B4/VIA1_C/layout' in GDS is empty because either the design is empty or no shape or object was translated.
+INFO (XSTRM-223): 3. Translating cellView TECH_C35B4/VIA2_C/layout as STRUCTURE VIA2_C_CDNS_683225814711.
+WARNING (XSTRM-35): The objects in the layer-purpose pair 'VIA2:drawing' are ignored. This is because the layer-purpose pair used in the design is not specified in the layer map file. Specify the layer-purpose pair in the layer map file and try again.
+WARNING (XSTRM-35): The objects in the layer-purpose pair 'MET3:drawing' are ignored. This is because the layer-purpose pair used in the design is not specified in the layer map file. Specify the layer-purpose pair in the layer map file and try again.
+WARNING (XSTRM-399): The STRUCT 'VIA2_C_CDNS_683225814711' generated for 'TECH_C35B4/VIA2_C/layout' in GDS is empty because either the design is empty or no shape or object was translated.
+INFO (XSTRM-223): 4. Translating cellView TECH_C35B4/VIA3_C/layout as STRUCTURE VIA3_C_CDNS_683225814712.
+WARNING (XSTRM-35): The objects in the layer-purpose pair 'VIA3:drawing' are ignored. This is because the layer-purpose pair used in the design is not specified in the layer map file. Specify the layer-purpose pair in the layer map file and try again.
+WARNING (XSTRM-35): The objects in the layer-purpose pair 'MET4:drawing' are ignored. This is because the layer-purpose pair used in the design is not specified in the layer map file. Specify the layer-purpose pair in the layer map file and try again.
+WARNING (XSTRM-399): The STRUCT 'VIA3_C_CDNS_683225814712' generated for 'TECH_C35B4/VIA3_C/layout' in GDS is empty because either the design is empty or no shape or object was translated.
+INFO (XSTRM-223): 5. Translating cellView TECH_C35B4/VIA3_C/layout as STRUCTURE VIA3_C_CDNS_683225814713.
+WARNING (XSTRM-399): The STRUCT 'VIA3_C_CDNS_683225814713' generated for 'TECH_C35B4/VIA3_C/layout' in GDS is empty because either the design is empty or no shape or object was translated.
+INFO (XSTRM-223): 6. Translating cellView TECH_C35B4/VIA3_C/layout as STRUCTURE VIA3_C_CDNS_683225814714.
+WARNING (XSTRM-399): The STRUCT 'VIA3_C_CDNS_683225814714' generated for 'TECH_C35B4/VIA3_C/layout' in GDS is empty because either the design is empty or no shape or object was translated.
+INFO (XSTRM-223): 7. Translating cellView TECH_C35B4/VIA2_C/layout as STRUCTURE VIA2_C_CDNS_683225814715.
+WARNING (XSTRM-399): The STRUCT 'VIA2_C_CDNS_683225814715' generated for 'TECH_C35B4/VIA2_C/layout' in GDS is empty because either the design is empty or no shape or object was translated.
+INFO (XSTRM-223): 8. Translating cellView TECH_C35B4/VIA1_C/layout as STRUCTURE VIA1_C_CDNS_683225814716.
+WARNING (XSTRM-399): The STRUCT 'VIA1_C_CDNS_683225814716' generated for 'TECH_C35B4/VIA1_C/layout' in GDS is empty because either the design is empty or no shape or object was translated.
+INFO (XSTRM-223): 9. Translating cellView TECH_C35B4/VIA2_C/layout as STRUCTURE VIA2_C_CDNS_683225814717.
+WARNING (XSTRM-399): The STRUCT 'VIA2_C_CDNS_683225814717' generated for 'TECH_C35B4/VIA2_C/layout' in GDS is empty because either the design is empty or no shape or object was translated.
+INFO (XSTRM-223): 10. Translating cellView TECH_C35B4/VIA3_C/layout as STRUCTURE VIA3_C_CDNS_683225814718.
+WARNING (XSTRM-399): The STRUCT 'VIA3_C_CDNS_683225814718' generated for 'TECH_C35B4/VIA3_C/layout' in GDS is empty because either the design is empty or no shape or object was translated.
+INFO (XSTRM-223): 11. Translating cellView TECH_C35B4/VIA2_C/layout as STRUCTURE VIA2_C_CDNS_683225814719.
+WARNING (XSTRM-399): The STRUCT 'VIA2_C_CDNS_683225814719' generated for 'TECH_C35B4/VIA2_C/layout' in GDS is empty because either the design is empty or no shape or object was translated.
+INFO (XSTRM-223): 12. Translating cellView TECH_C35B4/VIA3_C/layout as STRUCTURE VIA3_C_CDNS_6832258147110.
+WARNING (XSTRM-399): The STRUCT 'VIA3_C_CDNS_6832258147110' generated for 'TECH_C35B4/VIA3_C/layout' in GDS is empty because either the design is empty or no shape or object was translated.
+INFO (XSTRM-223): 13. Translating cellView TECH_C35B4/VIA1_C/layout as STRUCTURE VIA1_C_CDNS_6832258147111.
+WARNING (XSTRM-399): The STRUCT 'VIA1_C_CDNS_6832258147111' generated for 'TECH_C35B4/VIA1_C/layout' in GDS is empty because either the design is empty or no shape or object was translated.
+INFO (XSTRM-223): 14. Translating cellView TECH_C35B4/VIA1_PR/layout as STRUCTURE VIA1_PR.
+WARNING (XSTRM-399): The STRUCT 'VIA1_PR' generated for 'TECH_C35B4/VIA1_PR/layout' in GDS is empty because either the design is empty or no shape or object was translated.
+INFO (XSTRM-223): 15. Translating cellView TECH_C35B4/VIA2_PR/layout as STRUCTURE VIA2_PR.
+WARNING (XSTRM-399): The STRUCT 'VIA2_PR' generated for 'TECH_C35B4/VIA2_PR/layout' in GDS is empty because either the design is empty or no shape or object was translated.
+INFO (XSTRM-223): 16. Translating cellView TECH_C35B4/VIA3_PR/layout as STRUCTURE VIA3_PR.
+WARNING (XSTRM-399): The STRUCT 'VIA3_PR' generated for 'TECH_C35B4/VIA3_PR/layout' in GDS is empty because either the design is empty or no shape or object was translated.
+INFO (XSTRM-223): 17. Translating cellView TECH_C35B4/VIA1_DNORTH/layout as STRUCTURE VIA1_DNORTH.
+WARNING (XSTRM-399): The STRUCT 'VIA1_DNORTH' generated for 'TECH_C35B4/VIA1_DNORTH/layout' in GDS is empty because either the design is empty or no shape or object was translated.
+INFO (XSTRM-223): 18. Translating cellView TECH_C35B4/VIA1_DWEST/layout as STRUCTURE VIA1_DWEST.
+WARNING (XSTRM-399): The STRUCT 'VIA1_DWEST' generated for 'TECH_C35B4/VIA1_DWEST/layout' in GDS is empty because either the design is empty or no shape or object was translated.
+INFO (XSTRM-223): 19. Translating cellView IOLIB_4M/g_padonly_VIA2_C/layout as STRUCTURE g_padonly_VIA2_C.
+WARNING (XSTRM-399): The STRUCT 'g_padonly_VIA2_C' generated for 'IOLIB_4M/g_padonly_VIA2_C/layout' in GDS is empty because either the design is empty or no shape or object was translated.
+INFO (XSTRM-223): 20. Translating cellView IOLIB_4M/g_padonly_VIA2/layout as STRUCTURE g_padonly_VIA2.
+INFO (XSTRM-223): 21. Translating cellView IOLIB_4M/g_padonly_VIA3_C/layout as STRUCTURE g_padonly_VIA3_C.
+WARNING (XSTRM-399): The STRUCT 'g_padonly_VIA3_C' generated for 'IOLIB_4M/g_padonly_VIA3_C/layout' in GDS is empty because either the design is empty or no shape or object was translated.
+INFO (XSTRM-223): 22. Translating cellView IOLIB_4M/g_padonly_VIA3/layout as STRUCTURE g_padonly_VIA3.
+INFO (XSTRM-223): 23. Translating cellView IOLIB_4M/g_padonly_VIA1_C/layout as STRUCTURE g_padonly_VIA1_C.
+WARNING (XSTRM-399): The STRUCT 'g_padonly_VIA1_C' generated for 'IOLIB_4M/g_padonly_VIA1_C/layout' in GDS is empty because either the design is empty or no shape or object was translated.
+INFO (XSTRM-223): 24. Translating cellView IOLIB_4M/g_padonly_VIA1/layout as STRUCTURE g_padonly_VIA1.
+INFO (XSTRM-223): 25. Translating cellView IOLIB_4M/g_padonly/layout as STRUCTURE g_padonly.
+WARNING (XSTRM-35): The objects in the layer-purpose pair 'PAD:drawing' are ignored. This is because the layer-purpose pair used in the design is not specified in the layer map file. Specify the layer-purpose pair in the layer map file and try again.
+INFO (XSTRM-223): 26. Translating cellView IOLIB_4M/BU8P/layout as STRUCTURE BU8P.
+WARNING (XSTRM-35): The objects in the layer-purpose pair 'SUBDEF:drawing' are ignored. This is because the layer-purpose pair used in the design is not specified in the layer map file. Specify the layer-purpose pair in the layer map file and try again.
+WARNING (XSTRM-35): The objects in the layer-purpose pair 'text:drawing' are ignored. This is because the layer-purpose pair used in the design is not specified in the layer map file. Specify the layer-purpose pair in the layer map file and try again.
+WARNING (XSTRM-35): The objects in the layer-purpose pair 'MET4:pin' are ignored. This is because the layer-purpose pair used in the design is not specified in the layer map file. Specify the layer-purpose pair in the layer map file and try again.
+WARNING (XSTRM-35): The objects in the layer-purpose pair 'MET3:pin' are ignored. This is because the layer-purpose pair used in the design is not specified in the layer map file. Specify the layer-purpose pair in the layer map file and try again.
+WARNING (XSTRM-35): The objects in the layer-purpose pair 'MET2:pin' are ignored. This is because the layer-purpose pair used in the design is not specified in the layer map file. Specify the layer-purpose pair in the layer map file and try again.
+WARNING (XSTRM-35): The objects in the layer-purpose pair 'MET1:pin' are ignored. This is because the layer-purpose pair used in the design is not specified in the layer map file. Specify the layer-purpose pair in the layer map file and try again.
+WARNING (XSTRM-35): The objects in the layer-purpose pair 'DIODE:drawing' are ignored. This is because the layer-purpose pair used in the design is not specified in the layer map file. Specify the layer-purpose pair in the layer map file and try again.
+WARNING (XSTRM-35): The objects in the layer-purpose pair 'RESTRM:drawing' are ignored. This is because the layer-purpose pair used in the design is not specified in the layer map file. Specify the layer-purpose pair in the layer map file and try again.
+WARNING (XSTRM-35): The objects in the layer-purpose pair 'RESDEF:drawing' are ignored. This is because the layer-purpose pair used in the design is not specified in the layer map file. Specify the layer-purpose pair in the layer map file and try again.
+WARNING (XSTRM-35): The objects in the layer-purpose pair 'background:drawing' are ignored. This is because the layer-purpose pair used in the design is not specified in the layer map file. Specify the layer-purpose pair in the layer map file and try again.
+WARNING (XSTRM-35): The objects in the layer-purpose pair 'NTUB:drawing' are ignored. This is because the layer-purpose pair used in the design is not specified in the layer map file. Specify the layer-purpose pair in the layer map file and try again.
+WARNING (XSTRM-35): The objects in the layer-purpose pair 'DIFF:drawing' are ignored. This is because the layer-purpose pair used in the design is not specified in the layer map file. Specify the layer-purpose pair in the layer map file and try again.
+WARNING (XSTRM-35): The objects in the layer-purpose pair 'NPLUS:drawing' are ignored. This is because the layer-purpose pair used in the design is not specified in the layer map file. Specify the layer-purpose pair in the layer map file and try again.
+WARNING (XSTRM-35): The objects in the layer-purpose pair 'PPLUS:drawing' are ignored. This is because the layer-purpose pair used in the design is not specified in the layer map file. Specify the layer-purpose pair in the layer map file and try again.
+WARNING (XSTRM-35): The objects in the layer-purpose pair 'CONT:drawing' are ignored. This is because the layer-purpose pair used in the design is not specified in the layer map file. Specify the layer-purpose pair in the layer map file and try again.
+WARNING (XSTRM-35): The objects in the layer-purpose pair 'POLY1:drawing' are ignored. This is because the layer-purpose pair used in the design is not specified in the layer map file. Specify the layer-purpose pair in the layer map file and try again.
+WARNING (XSTRM-35): The objects in the layer-purpose pair 'PIN:pad' are ignored. This is because the layer-purpose pair used in the design is not specified in the layer map file. Specify the layer-purpose pair in the layer map file and try again.
+WARNING (XSTRM-35): The objects in the layer-purpose pair 'PIN:metal2' are ignored. This is because the layer-purpose pair used in the design is not specified in the layer map file. Specify the layer-purpose pair in the layer map file and try again.
+WARNING (XSTRM-35): The objects in the layer-purpose pair 'PIN:metal3' are ignored. This is because the layer-purpose pair used in the design is not specified in the layer map file. Specify the layer-purpose pair in the layer map file and try again.
+WARNING (XSTRM-35): The objects in the layer-purpose pair 'CELBOX:drawing' are ignored. This is because the layer-purpose pair used in the design is not specified in the layer map file. Specify the layer-purpose pair in the layer map file and try again.
+INFO (XSTRM-223): 27. Translating cellView IOLIB_4M/ICUP/layout as STRUCTURE ICUP.
+INFO (XSTRM-223): 28. Translating cellView CORELIB/OAI212/layout as STRUCTURE OAI212.
+WARNING (XSTRM-35): The objects in the layer-purpose pair 'PIN:metal1' are ignored. This is because the layer-purpose pair used in the design is not specified in the layer map file. Specify the layer-purpose pair in the layer map file and try again.
+WARNING (XSTRM-399): The STRUCT 'OAI212' generated for 'CORELIB/OAI212/layout' in GDS is empty because either the design is empty or no shape or object was translated.
+INFO (XSTRM-223): 29. Translating cellView CORELIB/NAND20/layout as STRUCTURE NAND20.
+WARNING (XSTRM-399): The STRUCT 'NAND20' generated for 'CORELIB/NAND20/layout' in GDS is empty because either the design is empty or no shape or object was translated.
+INFO (XSTRM-223): 30. Translating cellView CORELIB/NOR22/layout as STRUCTURE NOR22.
+WARNING (XSTRM-399): The STRUCT 'NOR22' generated for 'CORELIB/NOR22/layout' in GDS is empty because either the design is empty or no shape or object was translated.
+INFO (XSTRM-223): 31. Translating cellView CORELIB/OAI2110/layout as STRUCTURE OAI2110.
+WARNING (XSTRM-399): The STRUCT 'OAI2110' generated for 'CORELIB/OAI2110/layout' in GDS is empty because either the design is empty or no shape or object was translated.
+INFO (XSTRM-223): 32. Translating cellView CORELIB/ADD31/layout as STRUCTURE ADD31.
+WARNING (XSTRM-399): The STRUCT 'ADD31' generated for 'CORELIB/ADD31/layout' in GDS is empty because either the design is empty or no shape or object was translated.
+INFO (XSTRM-223): 33. Translating cellView CORELIB/NAND22/layout as STRUCTURE NAND22.
+WARNING (XSTRM-399): The STRUCT 'NAND22' generated for 'CORELIB/NAND22/layout' in GDS is empty because either the design is empty or no shape or object was translated.
+INFO (XSTRM-223): 34. Translating cellView CORELIB/XNR20/layout as STRUCTURE XNR20.
+WARNING (XSTRM-399): The STRUCT 'XNR20' generated for 'CORELIB/XNR20/layout' in GDS is empty because either the design is empty or no shape or object was translated.
+INFO (XSTRM-223): 35. Translating cellView CORELIB/BUF8/layout as STRUCTURE BUF8.
+WARNING (XSTRM-399): The STRUCT 'BUF8' generated for 'CORELIB/BUF8/layout' in GDS is empty because either the design is empty or no shape or object was translated.
+INFO (XSTRM-223): 36. Translating cellView CORELIB/OAI2112/layout as STRUCTURE OAI2112.
+WARNING (XSTRM-399): The STRUCT 'OAI2112' generated for 'CORELIB/OAI2112/layout' in GDS is empty because either the design is empty or no shape or object was translated.
+INFO (XSTRM-223): 37. Translating cellView CORELIB/IMUX21/layout as STRUCTURE IMUX21.
+WARNING (XSTRM-399): The STRUCT 'IMUX21' generated for 'CORELIB/IMUX21/layout' in GDS is empty because either the design is empty or no shape or object was translated.
+INFO (XSTRM-223): 38. Translating cellView CORELIB/NAND24/layout as STRUCTURE NAND24.
+WARNING (XSTRM-399): The STRUCT 'NAND24' generated for 'CORELIB/NAND24/layout' in GDS is empty because either the design is empty or no shape or object was translated.
+INFO (XSTRM-223): 39. Translating cellView CORELIB/IMUX23/layout as STRUCTURE IMUX23.
+WARNING (XSTRM-399): The STRUCT 'IMUX23' generated for 'CORELIB/IMUX23/layout' in GDS is empty because either the design is empty or no shape or object was translated.
+INFO (XSTRM-223): 40. Translating cellView CORELIB/AOI221/layout as STRUCTURE AOI221.
+WARNING (XSTRM-399): The STRUCT 'AOI221' generated for 'CORELIB/AOI221/layout' in GDS is empty because either the design is empty or no shape or object was translated.
+INFO (XSTRM-223): 41. Translating cellView CORELIB/NAND28/layout as STRUCTURE NAND28.
+WARNING (XSTRM-399): The STRUCT 'NAND28' generated for 'CORELIB/NAND28/layout' in GDS is empty because either the design is empty or no shape or object was translated.
+INFO (XSTRM-223): 42. Translating cellView CORELIB/NOR41/layout as STRUCTURE NOR41.
+WARNING (XSTRM-399): The STRUCT 'NOR41' generated for 'CORELIB/NOR41/layout' in GDS is empty because either the design is empty or no shape or object was translated.
+INFO (XSTRM-223): 43. Translating cellView CORELIB/BUF6/layout as STRUCTURE BUF6.
+WARNING (XSTRM-399): The STRUCT 'BUF6' generated for 'CORELIB/BUF6/layout' in GDS is empty because either the design is empty or no shape or object was translated.
+INFO (XSTRM-223): 44. Translating cellView CORELIB/NOR31/layout as STRUCTURE NOR31.
+WARNING (XSTRM-399): The STRUCT 'NOR31' generated for 'CORELIB/NOR31/layout' in GDS is empty because either the design is empty or no shape or object was translated.
+INFO (XSTRM-223): 45. Translating cellView CORELIB/DFSEP1/layout as STRUCTURE DFSEP1.
+WARNING (XSTRM-399): The STRUCT 'DFSEP1' generated for 'CORELIB/DFSEP1/layout' in GDS is empty because either the design is empty or no shape or object was translated.
+INFO (XSTRM-223): 46. Translating cellView CORELIB/IMUX40/layout as STRUCTURE IMUX40.
+WARNING (XSTRM-399): The STRUCT 'IMUX40' generated for 'CORELIB/IMUX40/layout' in GDS is empty because either the design is empty or no shape or object was translated.
+INFO (XSTRM-223): 47. Translating cellView CORELIB/NAND41/layout as STRUCTURE NAND41.
+WARNING (XSTRM-399): The STRUCT 'NAND41' generated for 'CORELIB/NAND41/layout' in GDS is empty because either the design is empty or no shape or object was translated.
+INFO (XSTRM-223): 48. Translating cellView CORELIB/DFSP1/layout as STRUCTURE DFSP1.
+WARNING (XSTRM-399): The STRUCT 'DFSP1' generated for 'CORELIB/DFSP1/layout' in GDS is empty because either the design is empty or no shape or object was translated.
+INFO (XSTRM-223): 49. Translating cellView CORELIB/NAND43/layout as STRUCTURE NAND43.
+WARNING (XSTRM-399): The STRUCT 'NAND43' generated for 'CORELIB/NAND43/layout' in GDS is empty because either the design is empty or no shape or object was translated.
+INFO (XSTRM-223): 50. Translating cellView CORELIB/NOR21/layout as STRUCTURE NOR21.
+WARNING (XSTRM-399): The STRUCT 'NOR21' generated for 'CORELIB/NOR21/layout' in GDS is empty because either the design is empty or no shape or object was translated.
+INFO (XSTRM-223): 51. Translating cellView CORELIB/IMUX42/layout as STRUCTURE IMUX42.
+WARNING (XSTRM-399): The STRUCT 'IMUX42' generated for 'CORELIB/IMUX42/layout' in GDS is empty because either the design is empty or no shape or object was translated.
+INFO (XSTRM-223): 52. Translating cellView CORELIB/INV8/layout as STRUCTURE INV8.
+WARNING (XSTRM-399): The STRUCT 'INV8' generated for 'CORELIB/INV8/layout' in GDS is empty because either the design is empty or no shape or object was translated.
+INFO (XSTRM-223): 53. Translating cellView CORELIB/AOI311/layout as STRUCTURE AOI311.
+WARNING (XSTRM-399): The STRUCT 'AOI311' generated for 'CORELIB/AOI311/layout' in GDS is empty because either the design is empty or no shape or object was translated.
+INFO (XSTRM-223): 54. Translating cellView CORELIB/AOI211/layout as STRUCTURE AOI211.
+WARNING (XSTRM-399): The STRUCT 'AOI211' generated for 'CORELIB/AOI211/layout' in GDS is empty because either the design is empty or no shape or object was translated.
+INFO (XSTRM-223): 55. Translating cellView CORELIB/BUF2/layout as STRUCTURE BUF2.
+WARNING (XSTRM-399): The STRUCT 'BUF2' generated for 'CORELIB/BUF2/layout' in GDS is empty because either the design is empty or no shape or object was translated.
+INFO (XSTRM-223): 56. Translating cellView CORELIB/CLKIN1/layout as STRUCTURE CLKIN1.
+WARNING (XSTRM-399): The STRUCT 'CLKIN1' generated for 'CORELIB/CLKIN1/layout' in GDS is empty because either the design is empty or no shape or object was translated.
+INFO (XSTRM-223): 57. Translating cellView CORELIB/OAI221/layout as STRUCTURE OAI221.
+WARNING (XSTRM-399): The STRUCT 'OAI221' generated for 'CORELIB/OAI221/layout' in GDS is empty because either the design is empty or no shape or object was translated.
+INFO (XSTRM-223): 58. Translating cellView CORELIB/INV6/layout as STRUCTURE INV6.
+WARNING (XSTRM-399): The STRUCT 'INV6' generated for 'CORELIB/INV6/layout' in GDS is empty because either the design is empty or no shape or object was translated.
+INFO (XSTRM-223): 59. Translating cellView CORELIB/BUF12/layout as STRUCTURE BUF12.
+WARNING (XSTRM-399): The STRUCT 'BUF12' generated for 'CORELIB/BUF12/layout' in GDS is empty because either the design is empty or no shape or object was translated.
+INFO (XSTRM-223): 60. Translating cellView CORELIB/NOR40/layout as STRUCTURE NOR40.
+WARNING (XSTRM-399): The STRUCT 'NOR40' generated for 'CORELIB/NOR40/layout' in GDS is empty because either the design is empty or no shape or object was translated.
+INFO (XSTRM-223): 61. Translating cellView CORELIB/AOI2111/layout as STRUCTURE AOI2111.
+WARNING (XSTRM-399): The STRUCT 'AOI2111' generated for 'CORELIB/AOI2111/layout' in GDS is empty because either the design is empty or no shape or object was translated.
+INFO (XSTRM-223): 62. Translating cellView CORELIB/CLKIN3/layout as STRUCTURE CLKIN3.
+WARNING (XSTRM-399): The STRUCT 'CLKIN3' generated for 'CORELIB/CLKIN3/layout' in GDS is empty because either the design is empty or no shape or object was translated.
+INFO (XSTRM-223): 63. Translating cellView CORELIB/DFSC3/layout as STRUCTURE DFSC3.
+WARNING (XSTRM-399): The STRUCT 'DFSC3' generated for 'CORELIB/DFSC3/layout' in GDS is empty because either the design is empty or no shape or object was translated.
+INFO (XSTRM-223): 64. Translating cellView CORELIB/NOR30/layout as STRUCTURE NOR30.
+WARNING (XSTRM-399): The STRUCT 'NOR30' generated for 'CORELIB/NOR30/layout' in GDS is empty because either the design is empty or no shape or object was translated.
+INFO (XSTRM-223): 65. Translating cellView CORELIB/NAND31/layout as STRUCTURE NAND31.
+WARNING (XSTRM-399): The STRUCT 'NAND31' generated for 'CORELIB/NAND31/layout' in GDS is empty because either the design is empty or no shape or object was translated.
+INFO (XSTRM-223): 66. Translating cellView CORELIB/NAND33/layout as STRUCTURE NAND33.
+WARNING (XSTRM-399): The STRUCT 'NAND33' generated for 'CORELIB/NAND33/layout' in GDS is empty because either the design is empty or no shape or object was translated.
+INFO (XSTRM-223): 67. Translating cellView CORELIB/CLKIN15/layout as STRUCTURE CLKIN15.
+WARNING (XSTRM-399): The STRUCT 'CLKIN15' generated for 'CORELIB/CLKIN15/layout' in GDS is empty because either the design is empty or no shape or object was translated.
+INFO (XSTRM-223): 68. Translating cellView CORELIB/NOR20/layout as STRUCTURE NOR20.
+WARNING (XSTRM-399): The STRUCT 'NOR20' generated for 'CORELIB/NOR20/layout' in GDS is empty because either the design is empty or no shape or object was translated.
+INFO (XSTRM-223): 69. Translating cellView CORELIB/CLKBU15/layout as STRUCTURE CLKBU15.
+WARNING (XSTRM-399): The STRUCT 'CLKBU15' generated for 'CORELIB/CLKBU15/layout' in GDS is empty because either the design is empty or no shape or object was translated.
+INFO (XSTRM-223): 70. Translating cellView CORELIB/INV3/layout as STRUCTURE INV3.
+WARNING (XSTRM-399): The STRUCT 'INV3' generated for 'CORELIB/INV3/layout' in GDS is empty because either the design is empty or no shape or object was translated.
+INFO (XSTRM-223): 71. Translating cellView CORELIB/MUX24/layout as STRUCTURE MUX24.
+WARNING (XSTRM-399): The STRUCT 'MUX24' generated for 'CORELIB/MUX24/layout' in GDS is empty because either the design is empty or no shape or object was translated.
+INFO (XSTRM-223): 72. Translating cellView CORELIB/OAI311/layout as STRUCTURE OAI311.
+WARNING (XSTRM-399): The STRUCT 'OAI311' generated for 'CORELIB/OAI311/layout' in GDS is empty because either the design is empty or no shape or object was translated.
+INFO (XSTRM-223): 73. Translating cellView CORELIB/INV12/layout as STRUCTURE INV12.
+WARNING (XSTRM-399): The STRUCT 'INV12' generated for 'CORELIB/INV12/layout' in GDS is empty because either the design is empty or no shape or object was translated.
+INFO (XSTRM-223): 74. Translating cellView CORELIB/OAI211/layout as STRUCTURE OAI211.
+WARNING (XSTRM-399): The STRUCT 'OAI211' generated for 'CORELIB/OAI211/layout' in GDS is empty because either the design is empty or no shape or object was translated.
+INFO (XSTRM-223): 75. Translating cellView CORELIB/DFSEC1/layout as STRUCTURE DFSEC1.
+WARNING (XSTRM-399): The STRUCT 'DFSEC1' generated for 'CORELIB/DFSEC1/layout' in GDS is empty because either the design is empty or no shape or object was translated.
+INFO (XSTRM-223): 76. Translating cellView CORELIB/JKSC1/layout as STRUCTURE JKSC1.
+WARNING (XSTRM-399): The STRUCT 'JKSC1' generated for 'CORELIB/JKSC1/layout' in GDS is empty because either the design is empty or no shape or object was translated.
+INFO (XSTRM-223): 77. Translating cellView CORELIB/NAND21/layout as STRUCTURE NAND21.
+WARNING (XSTRM-399): The STRUCT 'NAND21' generated for 'CORELIB/NAND21/layout' in GDS is empty because either the design is empty or no shape or object was translated.
+INFO (XSTRM-223): 78. Translating cellView CORELIB/DFSEC3/layout as STRUCTURE DFSEC3.
+WARNING (XSTRM-399): The STRUCT 'DFSEC3' generated for 'CORELIB/DFSEC3/layout' in GDS is empty because either the design is empty or no shape or object was translated.
+INFO (XSTRM-223): 79. Translating cellView CORELIB/IMUX20/layout as STRUCTURE IMUX20.
+WARNING (XSTRM-399): The STRUCT 'IMUX20' generated for 'CORELIB/IMUX20/layout' in GDS is empty because either the design is empty or no shape or object was translated.
+INFO (XSTRM-223): 80. Translating cellView CORELIB/OAI2111/layout as STRUCTURE OAI2111.
+WARNING (XSTRM-399): The STRUCT 'OAI2111' generated for 'CORELIB/OAI2111/layout' in GDS is empty because either the design is empty or no shape or object was translated.
+INFO (XSTRM-223): 81. Translating cellView CORELIB/NAND23/layout as STRUCTURE NAND23.
+WARNING (XSTRM-399): The STRUCT 'NAND23' generated for 'CORELIB/NAND23/layout' in GDS is empty because either the design is empty or no shape or object was translated.
+INFO (XSTRM-223): 82. Translating cellView CORELIB/IMUX22/layout as STRUCTURE IMUX22.
+WARNING (XSTRM-399): The STRUCT 'IMUX22' generated for 'CORELIB/IMUX22/layout' in GDS is empty because either the design is empty or no shape or object was translated.
+INFO (XSTRM-223): 83. Translating cellView CORELIB/AOI220/layout as STRUCTURE AOI220.
+WARNING (XSTRM-399): The STRUCT 'AOI220' generated for 'CORELIB/AOI220/layout' in GDS is empty because either the design is empty or no shape or object was translated.
+INFO (XSTRM-223): 84. Translating cellView CORELIB/IMUX24/layout as STRUCTURE IMUX24.
+WARNING (XSTRM-399): The STRUCT 'IMUX24' generated for 'CORELIB/IMUX24/layout' in GDS is empty because either the design is empty or no shape or object was translated.
+INFO (XSTRM-223): 85. Translating cellView CORELIB/AOI222/layout as STRUCTURE AOI222.
+WARNING (XSTRM-399): The STRUCT 'AOI222' generated for 'CORELIB/AOI222/layout' in GDS is empty because either the design is empty or no shape or object was translated.
+INFO (XSTRM-223): 86. Translating cellView CORELIB/DFSE1/layout as STRUCTURE DFSE1.
+WARNING (XSTRM-35): The objects in the layer-purpose pair 'NET:metal1' are ignored. This is because the layer-purpose pair used in the design is not specified in the layer map file. Specify the layer-purpose pair in the layer map file and try again.
+WARNING (XSTRM-399): The STRUCT 'DFSE1' generated for 'CORELIB/DFSE1/layout' in GDS is empty because either the design is empty or no shape or object was translated.
+INFO (XSTRM-223): 87. Translating cellView CORELIB/DFC1/layout as STRUCTURE DFC1.
+INFO (XSTRM-180): You have not used the objectMap option. The design has instance(s) of at least one of following OpenAccess objects: oaBlockage, oaBoundary, oaRow, and oaMarker. Any information about these objects will not be translated into the generated stream file. Use the objectMap option to translate/preserve these objects using XStream. For details on the objectMap option, refer to the "Design Data Translator's Reference" guide for XStream.
+WARNING (XSTRM-399): The STRUCT 'DFC1' generated for 'CORELIB/DFC1/layout' in GDS is empty because either the design is empty or no shape or object was translated.
+INFO (XSTRM-223): 88. Translating cellView CORELIB/XOR21/layout as STRUCTURE XOR21.
+WARNING (XSTRM-399): The STRUCT 'XOR21' generated for 'CORELIB/XOR21/layout' in GDS is empty because either the design is empty or no shape or object was translated.
+INFO (XSTRM-223): 89. Translating cellView CORELIB/NAND40/layout as STRUCTURE NAND40.
+WARNING (XSTRM-399): The STRUCT 'NAND40' generated for 'CORELIB/NAND40/layout' in GDS is empty because either the design is empty or no shape or object was translated.
+INFO (XSTRM-223): 90. Translating cellView CORELIB/NOR24/layout as STRUCTURE NOR24.
+WARNING (XSTRM-399): The STRUCT 'NOR24' generated for 'CORELIB/NOR24/layout' in GDS is empty because either the design is empty or no shape or object was translated.
+INFO (XSTRM-223): 91. Translating cellView CORELIB/DFSC1/layout as STRUCTURE DFSC1.
+WARNING (XSTRM-399): The STRUCT 'DFSC1' generated for 'CORELIB/DFSC1/layout' in GDS is empty because either the design is empty or no shape or object was translated.
+INFO (XSTRM-223): 92. Translating cellView CORELIB/NAND42/layout as STRUCTURE NAND42.
+WARNING (XSTRM-399): The STRUCT 'NAND42' generated for 'CORELIB/NAND42/layout' in GDS is empty because either the design is empty or no shape or object was translated.
+INFO (XSTRM-223): 93. Translating cellView CORELIB/IMUX41/layout as STRUCTURE IMUX41.
+WARNING (XSTRM-399): The STRUCT 'IMUX41' generated for 'CORELIB/IMUX41/layout' in GDS is empty because either the design is empty or no shape or object was translated.
+INFO (XSTRM-223): 94. Translating cellView CORELIB/AOI310/layout as STRUCTURE AOI310.
+WARNING (XSTRM-399): The STRUCT 'AOI310' generated for 'CORELIB/AOI310/layout' in GDS is empty because either the design is empty or no shape or object was translated.
+INFO (XSTRM-223): 95. Translating cellView CORELIB/MUX42/layout as STRUCTURE MUX42.
+WARNING (XSTRM-399): The STRUCT 'MUX42' generated for 'CORELIB/MUX42/layout' in GDS is empty because either the design is empty or no shape or object was translated.
+INFO (XSTRM-223): 96. Translating cellView CORELIB/LOGIC1/layout as STRUCTURE LOGIC1.
+WARNING (XSTRM-399): The STRUCT 'LOGIC1' generated for 'CORELIB/LOGIC1/layout' in GDS is empty because either the design is empty or no shape or object was translated.
+INFO (XSTRM-223): 97. Translating cellView CORELIB/AOI312/layout as STRUCTURE AOI312.
+WARNING (XSTRM-399): The STRUCT 'AOI312' generated for 'CORELIB/AOI312/layout' in GDS is empty because either the design is empty or no shape or object was translated.
+INFO (XSTRM-223): 98. Translating cellView CORELIB/AOI210/layout as STRUCTURE AOI210.
+WARNING (XSTRM-399): The STRUCT 'AOI210' generated for 'CORELIB/AOI210/layout' in GDS is empty because either the design is empty or no shape or object was translated.
+INFO (XSTRM-223): 99. Translating cellView CORELIB/BUF15/layout as STRUCTURE BUF15.
+WARNING (XSTRM-399): The STRUCT 'BUF15' generated for 'CORELIB/BUF15/layout' in GDS is empty because either the design is empty or no shape or object was translated.
+INFO (XSTRM-223): 100. Translating cellView CORELIB/CLKIN0/layout as STRUCTURE CLKIN0.
+WARNING (XSTRM-399): The STRUCT 'CLKIN0' generated for 'CORELIB/CLKIN0/layout' in GDS is empty because either the design is empty or no shape or object was translated.
+INFO (XSTRM-223): 101. Translating cellView CORELIB/NAND30/layout as STRUCTURE NAND30.
+WARNING (XSTRM-399): The STRUCT 'NAND30' generated for 'CORELIB/NAND30/layout' in GDS is empty because either the design is empty or no shape or object was translated.
+INFO (XSTRM-223): 102. Translating cellView CORELIB/AOI212/layout as STRUCTURE AOI212.
+WARNING (XSTRM-399): The STRUCT 'AOI212' generated for 'CORELIB/AOI212/layout' in GDS is empty because either the design is empty or no shape or object was translated.
+INFO (XSTRM-223): 103. Translating cellView CORELIB/OAI220/layout as STRUCTURE OAI220.
+WARNING (XSTRM-399): The STRUCT 'OAI220' generated for 'CORELIB/OAI220/layout' in GDS is empty because either the design is empty or no shape or object was translated.
+INFO (XSTRM-223): 104. Translating cellView CORELIB/CLKIN2/layout as STRUCTURE CLKIN2.
+WARNING (XSTRM-399): The STRUCT 'CLKIN2' generated for 'CORELIB/CLKIN2/layout' in GDS is empty because either the design is empty or no shape or object was translated.
+INFO (XSTRM-223): 105. Translating cellView CORELIB/XOR20/layout as STRUCTURE XOR20.
+WARNING (XSTRM-399): The STRUCT 'XOR20' generated for 'CORELIB/XOR20/layout' in GDS is empty because either the design is empty or no shape or object was translated.
+INFO (XSTRM-223): 106. Translating cellView CORELIB/AOI2110/layout as STRUCTURE AOI2110.
+WARNING (XSTRM-399): The STRUCT 'AOI2110' generated for 'CORELIB/AOI2110/layout' in GDS is empty because either the design is empty or no shape or object was translated.
+INFO (XSTRM-223): 107. Translating cellView CORELIB/CLKBU2/layout as STRUCTURE CLKBU2.
+WARNING (XSTRM-399): The STRUCT 'CLKBU2' generated for 'CORELIB/CLKBU2/layout' in GDS is empty because either the design is empty or no shape or object was translated.
+INFO (XSTRM-223): 108. Translating cellView CORELIB/NOR33/layout as STRUCTURE NOR33.
+WARNING (XSTRM-399): The STRUCT 'NOR33' generated for 'CORELIB/NOR33/layout' in GDS is empty because either the design is empty or no shape or object was translated.
+INFO (XSTRM-223): 109. Translating cellView CORELIB/DFSP3/layout as STRUCTURE DFSP3.
+WARNING (XSTRM-399): The STRUCT 'DFSP3' generated for 'CORELIB/DFSP3/layout' in GDS is empty because either the design is empty or no shape or object was translated.
+INFO (XSTRM-223): 110. Translating cellView CORELIB/AOI2112/layout as STRUCTURE AOI2112.
+WARNING (XSTRM-399): The STRUCT 'AOI2112' generated for 'CORELIB/AOI2112/layout' in GDS is empty because either the design is empty or no shape or object was translated.
+INFO (XSTRM-223): 111. Translating cellView CORELIB/OAI222/layout as STRUCTURE OAI222.
+WARNING (XSTRM-399): The STRUCT 'OAI222' generated for 'CORELIB/OAI222/layout' in GDS is empty because either the design is empty or no shape or object was translated.
+INFO (XSTRM-223): 112. Translating cellView CORELIB/CLKIN10/layout as STRUCTURE CLKIN10.
+WARNING (XSTRM-399): The STRUCT 'CLKIN10' generated for 'CORELIB/CLKIN10/layout' in GDS is empty because either the design is empty or no shape or object was translated.
+INFO (XSTRM-223): 113. Translating cellView CORELIB/CLKBU4/layout as STRUCTURE CLKBU4.
+WARNING (XSTRM-399): The STRUCT 'CLKBU4' generated for 'CORELIB/CLKBU4/layout' in GDS is empty because either the design is empty or no shape or object was translated.
+INFO (XSTRM-223): 114. Translating cellView CORELIB/INV10/layout as STRUCTURE INV10.
+WARNING (XSTRM-399): The STRUCT 'INV10' generated for 'CORELIB/INV10/layout' in GDS is empty because either the design is empty or no shape or object was translated.
+INFO (XSTRM-223): 115. Translating cellView CORELIB/NOR23/layout as STRUCTURE NOR23.
+WARNING (XSTRM-399): The STRUCT 'NOR23' generated for 'CORELIB/NOR23/layout' in GDS is empty because either the design is empty or no shape or object was translated.
+INFO (XSTRM-223): 116. Translating cellView CORELIB/CLKIN12/layout as STRUCTURE CLKIN12.
+WARNING (XSTRM-399): The STRUCT 'CLKIN12' generated for 'CORELIB/CLKIN12/layout' in GDS is empty because either the design is empty or no shape or object was translated.
+INFO (XSTRM-223): 117. Translating cellView CORELIB/CLKBU12/layout as STRUCTURE CLKBU12.
+WARNING (XSTRM-399): The STRUCT 'CLKBU12' generated for 'CORELIB/CLKBU12/layout' in GDS is empty because either the design is empty or no shape or object was translated.
+INFO (XSTRM-223): 118. Translating cellView CORELIB/CLKIN6/layout as STRUCTURE CLKIN6.
+WARNING (XSTRM-399): The STRUCT 'CLKIN6' generated for 'CORELIB/CLKIN6/layout' in GDS is empty because either the design is empty or no shape or object was translated.
+INFO (XSTRM-223): 119. Translating cellView CORELIB/CLKBU6/layout as STRUCTURE CLKBU6.
+WARNING (XSTRM-399): The STRUCT 'CLKBU6' generated for 'CORELIB/CLKBU6/layout' in GDS is empty because either the design is empty or no shape or object was translated.
+INFO (XSTRM-223): 120. Translating cellView CORELIB/NAND32/layout as STRUCTURE NAND32.
+WARNING (XSTRM-399): The STRUCT 'NAND32' generated for 'CORELIB/NAND32/layout' in GDS is empty because either the design is empty or no shape or object was translated.
+INFO (XSTRM-223): 121. Translating cellView CORELIB/CLKIN8/layout as STRUCTURE CLKIN8.
+WARNING (XSTRM-399): The STRUCT 'CLKIN8' generated for 'CORELIB/CLKIN8/layout' in GDS is empty because either the design is empty or no shape or object was translated.
+INFO (XSTRM-223): 122. Translating cellView CORELIB/XNR21/layout as STRUCTURE XNR21.
+WARNING (XSTRM-399): The STRUCT 'XNR21' generated for 'CORELIB/XNR21/layout' in GDS is empty because either the design is empty or no shape or object was translated.
+INFO (XSTRM-223): 123. Translating cellView CORELIB/CLKBU8/layout as STRUCTURE CLKBU8.
+WARNING (XSTRM-399): The STRUCT 'CLKBU8' generated for 'CORELIB/CLKBU8/layout' in GDS is empty because either the design is empty or no shape or object was translated.
+INFO (XSTRM-223): 124. Translating cellView CORELIB/NAND34/layout as STRUCTURE NAND34.
+WARNING (XSTRM-399): The STRUCT 'NAND34' generated for 'CORELIB/NAND34/layout' in GDS is empty because either the design is empty or no shape or object was translated.
+INFO (XSTRM-223): 125. Translating cellView CORELIB/MUX41/layout as STRUCTURE MUX41.
+WARNING (XSTRM-399): The STRUCT 'MUX41' generated for 'CORELIB/MUX41/layout' in GDS is empty because either the design is empty or no shape or object was translated.
+INFO (XSTRM-223): 126. Translating cellView CORELIB/INV15/layout as STRUCTURE INV15.
+WARNING (XSTRM-399): The STRUCT 'INV15' generated for 'CORELIB/INV15/layout' in GDS is empty because either the design is empty or no shape or object was translated.
+INFO (XSTRM-223): 127. Translating cellView CORELIB/OAI310/layout as STRUCTURE OAI310.
+WARNING (XSTRM-399): The STRUCT 'OAI310' generated for 'CORELIB/OAI310/layout' in GDS is empty because either the design is empty or no shape or object was translated.
+INFO (XSTRM-223): 128. Translating cellView CORELIB/IMAJ30/layout as STRUCTURE IMAJ30.
+WARNING (XSTRM-399): The STRUCT 'IMAJ30' generated for 'CORELIB/IMAJ30/layout' in GDS is empty because either the design is empty or no shape or object was translated.
+INFO (XSTRM-223): 129. Translating cellView CORELIB/NOR42/layout as STRUCTURE NOR42.
+WARNING (XSTRM-399): The STRUCT 'NOR42' generated for 'CORELIB/NOR42/layout' in GDS is empty because either the design is empty or no shape or object was translated.
+INFO (XSTRM-223): 130. Translating cellView CORELIB/OAI312/layout as STRUCTURE OAI312.
+WARNING (XSTRM-399): The STRUCT 'OAI312' generated for 'CORELIB/OAI312/layout' in GDS is empty because either the design is empty or no shape or object was translated.
+INFO (XSTRM-223): 131. Translating cellView CORELIB/MAJ31/layout as STRUCTURE MAJ31.
+WARNING (XSTRM-399): The STRUCT 'MAJ31' generated for 'CORELIB/MAJ31/layout' in GDS is empty because either the design is empty or no shape or object was translated.
+INFO (XSTRM-223): 132. Translating cellView CORELIB/MUX21/layout as STRUCTURE MUX21.
+WARNING (XSTRM-399): The STRUCT 'MUX21' generated for 'CORELIB/MUX21/layout' in GDS is empty because either the design is empty or no shape or object was translated.
+INFO (XSTRM-223): 133. Translating cellView CORELIB/OAI210/layout as STRUCTURE OAI210.
+WARNING (XSTRM-399): The STRUCT 'OAI210' generated for 'CORELIB/OAI210/layout' in GDS is empty because either the design is empty or no shape or object was translated.
+INFO (XSTRM-223): 134. Translating cellView CORELIB/NOR32/layout as STRUCTURE NOR32.
+WARNING (XSTRM-399): The STRUCT 'NOR32' generated for 'CORELIB/NOR32/layout' in GDS is empty because either the design is empty or no shape or object was translated.
+INFO (XSTRM-223): 135. Translating cellView IOLIB_4M/CORNERP/layout as STRUCTURE CORNERP.
+WARNING (XSTRM-399): The STRUCT 'CORNERP' generated for 'IOLIB_4M/CORNERP/layout' in GDS is empty because either the design is empty or no shape or object was translated.
+INFO (XSTRM-223): 136. Translating cellView IOLIB_4M/GND3ALLP/layout as STRUCTURE GND3ALLP.
+WARNING (XSTRM-35): The objects in the layer-purpose pair 'METRES:via2' are ignored. This is because the layer-purpose pair used in the design is not specified in the layer map file. Specify the layer-purpose pair in the layer map file and try again.
+WARNING (XSTRM-35): The objects in the layer-purpose pair 'changedLayer:tool0' are ignored. This is because the layer-purpose pair used in the design is not specified in the layer map file. Specify the layer-purpose pair in the layer map file and try again.
+WARNING (XSTRM-35): The objects in the layer-purpose pair 'METRES:via1' are ignored. This is because the layer-purpose pair used in the design is not specified in the layer map file. Specify the layer-purpose pair in the layer map file and try again.
+INFO (XSTRM-223): 137. Translating cellView IOLIB_4M/VDD3ALLP/layout as STRUCTURE VDD3ALLP.
+INFO (XSTRM-223): 138. Translating cellView IOLIB_4M/VDD3IP/layout as STRUCTURE VDD3IP.
+INFO (XSTRM-223): 139. Translating cellView IOLIB_4M/GND3IP/layout as STRUCTURE GND3IP.
+INFO (XSTRM-223): 140. Translating cellView IOLIB_4M/PERI_SPACER_100_P/layout as STRUCTURE PERI_SPACER_100_P.
+WARNING (XSTRM-399): The STRUCT 'PERI_SPACER_100_P' generated for 'IOLIB_4M/PERI_SPACER_100_P/layout' in GDS is empty because either the design is empty or no shape or object was translated.
+INFO (XSTRM-223): 141. Translating cellView IOLIB_4M/PERI_SPACER_50_P/layout as STRUCTURE PERI_SPACER_50_P.
+WARNING (XSTRM-399): The STRUCT 'PERI_SPACER_50_P' generated for 'IOLIB_4M/PERI_SPACER_50_P/layout' in GDS is empty because either the design is empty or no shape or object was translated.
+INFO (XSTRM-223): 142. Translating cellView IOLIB_4M/PERI_SPACER_20_P/layout as STRUCTURE PERI_SPACER_20_P.
+WARNING (XSTRM-399): The STRUCT 'PERI_SPACER_20_P' generated for 'IOLIB_4M/PERI_SPACER_20_P/layout' in GDS is empty because either the design is empty or no shape or object was translated.
+INFO (XSTRM-223): 143. Translating cellView IOLIB_4M/PERI_SPACER_10_P/layout as STRUCTURE PERI_SPACER_10_P.
+WARNING (XSTRM-399): The STRUCT 'PERI_SPACER_10_P' generated for 'IOLIB_4M/PERI_SPACER_10_P/layout' in GDS is empty because either the design is empty or no shape or object was translated.
+INFO (XSTRM-223): 144. Translating cellView IOLIB_4M/PERI_SPACER_2_P/layout as STRUCTURE PERI_SPACER_2_P.
+WARNING (XSTRM-399): The STRUCT 'PERI_SPACER_2_P' generated for 'IOLIB_4M/PERI_SPACER_2_P/layout' in GDS is empty because either the design is empty or no shape or object was translated.
+INFO (XSTRM-223): 145. Translating cellView IOLIB_4M/PERI_SPACER_1_P/layout as STRUCTURE PERI_SPACER_1_P.
+WARNING (XSTRM-399): The STRUCT 'PERI_SPACER_1_P' generated for 'IOLIB_4M/PERI_SPACER_1_P/layout' in GDS is empty because either the design is empty or no shape or object was translated.
+INFO (XSTRM-223): 146. Translating cellView CORELIB/ENDCAPL/layout as STRUCTURE ENDCAPL.
+WARNING (XSTRM-399): The STRUCT 'ENDCAPL' generated for 'CORELIB/ENDCAPL/layout' in GDS is empty because either the design is empty or no shape or object was translated.
+INFO (XSTRM-223): 147. Translating cellView CORELIB/ENDCAPR/layout as STRUCTURE ENDCAPR.
+WARNING (XSTRM-399): The STRUCT 'ENDCAPR' generated for 'CORELIB/ENDCAPR/layout' in GDS is empty because either the design is empty or no shape or object was translated.
+INFO (XSTRM-223): 148. Translating cellView CORELIB/FILL10/layout as STRUCTURE FILL10.
+WARNING (XSTRM-35): The objects in the layer-purpose pair 'DIFCUT:drawing' are ignored. This is because the layer-purpose pair used in the design is not specified in the layer map file. Specify the layer-purpose pair in the layer map file and try again.
+WARNING (XSTRM-399): The STRUCT 'FILL10' generated for 'CORELIB/FILL10/layout' in GDS is empty because either the design is empty or no shape or object was translated.
+INFO (XSTRM-223): 149. Translating cellView CORELIB/FILL2/layout as STRUCTURE FILL2.
+WARNING (XSTRM-399): The STRUCT 'FILL2' generated for 'CORELIB/FILL2/layout' in GDS is empty because either the design is empty or no shape or object was translated.
+INFO (XSTRM-223): 150. Translating cellView CORELIB/FILL5/layout as STRUCTURE FILL5.
+WARNING (XSTRM-399): The STRUCT 'FILL5' generated for 'CORELIB/FILL5/layout' in GDS is empty because either the design is empty or no shape or object was translated.
+INFO (XSTRM-223): 151. Translating cellView CORELIB/FILL25/layout as STRUCTURE FILL25.
+WARNING (XSTRM-399): The STRUCT 'FILL25' generated for 'CORELIB/FILL25/layout' in GDS is empty because either the design is empty or no shape or object was translated.
+INFO (XSTRM-223): 152. Translating cellView CORELIB/FILLRT1/layout as STRUCTURE FILLRT1.
+WARNING (XSTRM-399): The STRUCT 'FILLRT1' generated for 'CORELIB/FILLRT1/layout' in GDS is empty because either the design is empty or no shape or object was translated.
+INFO (XSTRM-223): 153. Translating cellView CORELIB/FILLRT25/layout as STRUCTURE FILLRT25.
+WARNING (XSTRM-399): The STRUCT 'FILLRT25' generated for 'CORELIB/FILLRT25/layout' in GDS is empty because either the design is empty or no shape or object was translated.
+INFO (XSTRM-223): 154. Translating cellView CORELIB/FILLRT10/layout as STRUCTURE FILLRT10.
+WARNING (XSTRM-399): The STRUCT 'FILLRT10' generated for 'CORELIB/FILLRT10/layout' in GDS is empty because either the design is empty or no shape or object was translated.
+INFO (XSTRM-223): 155. Translating cellView CORELIB/FILLRT2/layout as STRUCTURE FILLRT2.
+WARNING (XSTRM-399): The STRUCT 'FILLRT2' generated for 'CORELIB/FILLRT2/layout' in GDS is empty because either the design is empty or no shape or object was translated.
+INFO (XSTRM-223): 156. Translating cellView CORELIB/FILLRT5/layout as STRUCTURE FILLRT5.
+WARNING (XSTRM-399): The STRUCT 'FILLRT5' generated for 'CORELIB/FILLRT5/layout' in GDS is empty because either the design is empty or no shape or object was translated.
+INFO (XSTRM-223): 157. Translating cellView computer_post_process/computer/layout as STRUCTURE computer.
+INFO (XSTRM-223): 158. Translating cellView computer_post_process/computer_pack/layout as STRUCTURE computer_pack.
+
+Summary of Objects Translated:
+	Scalar Instances:                       28475
+	Array Instances:                        113
+	Polygons:                               8
+	Paths:                                  26
+	Rectangles:                             46
+	Lines:                                  0
+	Arcs:                                   0
+	Donuts:                                 0
+	Dots:                                   0
+	Ellipses:                               0
+	Boundaries:                             0
+	Area Blockages:                         0
+	Layer Blockages:                        0
+	Area Halos:                             0
+	Markers:                                0
+	Rows:                                   0
+	Standard Vias                           798
+	Custom Vias:                            149143
+	CdsGen Vias:                            0
+	Pathsegs:                               0
+	Text:                                   28
+	TextDisplay:                            0
+	Cells:                                  158
+
+Elapsed Time: 1.6s   User Time: 0.6s   CPU Time: 0.3s   Peak VM: 44584KB
+INFO (XSTRM-234): Translation completed. '0' error(s) and '179' warning(s) found.

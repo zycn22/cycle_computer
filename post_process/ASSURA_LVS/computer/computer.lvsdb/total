@@ -1,0 +1,5 @@
+; Assura generated file -- DO NOT EDIT --
+; Do NOT rely on the content of this file, it may change.
+;
+2 device net parameter pin rewire total
+1  5 (( ( S "computer layout computer_post_process" )( L "computer schematic computer_post_process" ) )(( 1 2 3 )( 3 0 22 )))

@@ -1,0 +1,5 @@
+*drcRulesFile: $AMS_DIR/calibre/c35b4/c35b4c3.rules
+*drcIncludeSVRFCmds: 1
+*drcSVRFCmds: {#DEFINE NO_METRES}
+*cmnVConnectNamesState: ALL
+*cmnVConnectReport: 1

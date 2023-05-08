@@ -1,0 +1,5 @@
+; Assura generated file -- DO NOT EDIT --
+; Do NOT rely on the content of this file, it may change.
+;
+2 unmatched shorts opens unbound model ambig ambig_model ambig_swapex ambig_maybe unmatched_dir
+1 3 ((S "nMode")(S "ScanEnable")(S "nReset")(S "nDigit<3>")(S "nDigit<2>")(S "nDigit<1>")(S "nDigit<0>")(S "SDI")(S "Test")(S "SegF")(S "nCrank")(S "DP")(S "SegC")(S "SegE")(S "SegD")(S "SegA")(S "nTrip")(S "SDO")(S "SegB")(S "Clock")(S "nFork")(S "SegG"))

@@ -1,0 +1,34 @@
+catch { setAnalysisMode -analysisType bcwc }
+catch { setAnalysisMode -checkType setup }
+catch { setAnalysisMode -clkSrcPath true }
+catch { setAnalysisMode -clockPropagation sdcControl }
+catch { setOptMode -drcMargin 0 }
+catch { setOptMode -effort high }
+catch { setOptMode -fixDrc true }
+catch { setOptMode -optimizeFF true }
+catch { setOptMode -setupTargetSlack 0 }
+setExtractRCMode  -lefTechFileMap /opt/cad/designkits/ams/v410/cds/HK_C35/LEF/c35b4/qrclaymap.ccl -engine preRoute
+catch { setCTSMode -engine ck }
+catch { setCTSMode -moveGateLimit 25 }
+catch { setCTSMode -routeBottomPreferredLayer MET1 }
+catch { setCTSMode -routeTopPreferredLayer MET4 }
+catch { setCTSMode -traceDPinAsLeaf true }
+catch { setCTSMode -traceIoPinAsLeaf true }
+catch {setNanoRouteMode -quiet -drouteStartIteration 0}
+catch {setNanoRouteMode -quiet -routeTopRoutingLayer 4}
+
+catch { setPlaceMode -hardFence true }
+catch { setIlmMode -keepHighFanoutPorts true -loopBack false -keepFlatten true }
+catch { setDelayCalMode -enable_high_fanout true }
+catch { setDelayCalMode -engine aae }
+catch { setDelayCalMode -ignore_clock_idealness false }
+catch { setDelayCalMode -ignoreNetLoad false }
+catch { setPinAssignMode -maxLayer 4 }
+catch { setTrialRouteMode -handlePreroute true }
+catch { setTrialRouteMode -keepMarkedOptRoutes true }
+catch { setTrialRouteMode -maxRouteLayer 4 }
+catch { setCheckMode -tapeOut true }
+catch { setImportMode -keepEmptyModule true }
+catch { setImportMode -treatUndefinedCellAsBbox false }
+catch { setTieHiLoMode -cell {LOGIC1 LOGIC0} }
+catch { setTieHiLoMode -maxFanout 10 }

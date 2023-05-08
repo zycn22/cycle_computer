@@ -1,0 +1,18 @@
+*WARNING* Because of the label priority, discard label "vdd3r2!" at (1.450, 267.100),
+but keep original label "vdd3o!" on net C1.
+*WARNING* Because of the label priority, discard label "vdd3r1!" at (1.450, 322.900),
+but keep original label "vdd3o!" on net C1.
+*WARNING* Because of the label priority, discard label "vdd3r2!" at (99.350, 267.100),
+but keep original label "vdd3o!" on net C1.
+*WARNING* Because of the label priority, discard label "vdd3r1!" at (99.450, 322.900),
+but keep original label "vdd3o!" on net C1.
+*WARNING* Because of the label priority, discard label "A" at (49.350, 334.100),
+but keep original label "vdd3o!" on net C1.
+*WARNING* 5 net(s) with multi-label warnings found in cell 'VDD3ALLP layout IOLIB_4M'.
+*WARNING* Because of the label priority, discard label "gnd3r!" at (1.450, 297.150),
+but keep original label "gnd3o!" on net C1.
+*WARNING* Because of the label priority, discard label "gnd3r!" at (99.250, 297.150),
+but keep original label "gnd3o!" on net C1.
+*WARNING* Because of the label priority, discard label "A" at (60.100, 334.850),
+but keep original label "gnd3o!" on net C1.
+*WARNING* 3 net(s) with multi-label warnings found in cell 'GND3ALLP layout IOLIB_4M'.

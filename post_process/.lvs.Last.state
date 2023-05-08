@@ -1,0 +1,558 @@
+;----------------------------------------------------------------------------
+; @(#)$CDS: assura version av4.1:Production:dfII6.1.7-64b:IC6.1.7-64b.500.4 07/10/17 21:23 (sjfnl321) $
+; sub-version 4.1_USR5_HF11
+;----------------------------------------------------------------------------
+
+
+;----------------------------------------------------------------------------
+; Assura 3.2 LVS saved state
+;----------------------------------------------------------------------------
+
+
+
+vuiLVSFormTable = '(
+	schematicSource  "DFII"
+	layoutSource  "DFII"
+	runName  ""
+	runDir  "ASSURA_LVS/computer"
+	machineLoc  "local"
+	viewRules  t
+	technologyField  "c35b4c3"
+	runsetField  "Full"
+	extract  "/srv/cad/designkits/ams/v410/assura/c35b4/c35b4c3/extract.rul"
+	compare  "/srv/cad/designkits/ams/v410/assura/c35b4/c35b4c3/compare.rul"
+	switches  ""
+	bind  "/srv/cad/designkits/ams/v410/assura/c35b4/c35b4c3/bind.rul"
+	rsfInclude  "/srv/cad/designkits/ams/v410/assura/c35b4/c35b4c3/LVSinclude.rsf"
+	varTag  "None"
+	varVal  ""
+	varDefVal  ""
+	varDesc  ""
+	avView  nil
+	avCompareView  nil
+	additionalFunctionsButton  nil
+	schLibrary  "computer_post_process"
+	schCell  "computer"
+	schView  "schematic"
+	existingSchNetlist  nil
+	useVerilogTopCell  nil
+	layLibrary  "computer_post_process"
+	layCell  "computer"
+	layView  "layout"
+	layUseExistingNL  nil
+	extractButton  nil
+	compareButton  nil
+	bindButton  nil
+	rsfIncludeButton  nil
+)
+
+
+
+
+vuiLVSFormVarTable = '(
+)
+
+
+additionalFunctionsFieldsTable = '(
+	AFflattenCellFlag  nil
+	AFjoinableNetsFlag  nil
+	AFoutFileFlag  nil
+	AFchangeLabelFlag  nil
+	AFmustJoinNetFlag  nil
+	AFdeleteCellTextFlag  nil
+)
+
+
+vuiLVSFormAdditionalFunctionsTable = '(
+     flattenCell  nil
+     joinableNets nil
+     changeLabel  nil
+     mustJoinNet  nil
+     outFile      nil
+     deleteCellText nil
+)
+
+
+
+vuiLVSschNLoptionFormTable = '(
+	templateFileOverride  nil
+	templateFile  ""
+	viewList  "auCdl schematic cmos_sch symbol"
+	stopList  "auCdl"
+	deviceInformation  "/srv/cad/designkits/ams/v410/assura/c35b4/c35b4c3/deviceInfo.rul"
+	avSimName  ""
+	avMFactorPropName  ""
+	avVerilogRefLibName  ""
+	avCdlGlobalModeCyclic  "floating"
+	ignoreNamePrefix  (nil)
+	avErrorOnMissingMaster  (nil)
+	avUseModelPropOnInstance  (nil)
+	disableWildCardPG  (nil)
+	verilogBusMapIEEE  (t)
+	netlistCyclic  "CDL"
+	netlistFileHolding  ""
+	netlistLib  ""
+	netlistFile  nil
+	deviceInformationButton  nil
+)
+
+
+;----------------------------------------------------------------------------
+; @(#)$CDS: assura version av4.1:Production:dfII6.1.7-64b:IC6.1.7-64b.500.4 07/10/17 21:23 (sjfnl321) $
+; sub-version 4.1_USR5_HF11
+;----------------------------------------------------------------------------
+
+
+;----------------------------------------------------------------------------
+; Assura 3.2 Template Version 1
+;----------------------------------------------------------------------------
+
+vuiLVSOptions = '(
+     (( ?autoGrid ) 
+             ( "view" t )
+             ( "edit" t )
+             ( "use" nil )
+             ( disableGridding t )
+             ( keepGridCells nil )
+             ( autoGrid "Cells" )
+             ( cells "" )
+             ( excludeCells "" )
+             ( layers "" )
+     )
+     (( ?avrpt ) 
+             ( "view" t )
+             ( "edit" t )
+             ( "use" t )
+             ( avrpt t )
+             ( spacer "  " )
+             ( spacer2 "  " )
+             ( printError nil )
+             ( useOption nil )
+             ( maxErrorShapesPerCell 1000 )
+     )
+     (( ?blackBoxCell ) 
+             ( "view" t )
+             ( "edit" t )
+             ( "use" nil )
+             ( standardCell nil )
+             ( blackBoxCellList "" )
+             ( blackBoxFileList nil )
+     )
+     (( ?diskList ) 
+             ( "view" t )
+             ( "edit" t )
+             ( "use" nil )
+             ( dir "" )
+             ( diskList (" ") )
+     )
+     (( ?dspfCells ) 
+             ( "view" t )
+             ( "edit" t )
+             ( "use" nil )
+             ( source "Specified in a LEF file" )
+             ( fileName "/programs/ams_develop/artist/HK_S35/LEF/s35d4/CORELIB.lef" )
+     )
+     (( ?expandCellToParent ) 
+             ( "view" t )
+             ( "edit" t )
+             ( "use" nil )
+             ( label "Expand Cell to Parent" )
+             ( areaPercent 999 )
+             ( cells "" )
+             ( excludeCells "" )
+     )
+     (( ?expandCellToTop ) 
+             ( "view" t )
+             ( "edit" t )
+             ( "use" nil )
+             ( label nil )
+             ( areaPercent nil )
+             ( cells "" )
+             ( excludeCells nil )
+     )
+     (( ?expandUniqueCells ) 
+             ( "view" t )
+             ( "edit" t )
+             ( "use" nil )
+             ( label nil )
+             ( expandUniqueCells nil )
+     )
+     (( ?flagOffGrid ) 
+             ( "view" t )
+             ( "edit" t )
+             ( "use" nil )
+             ( label "Flag Off Grid" )
+             ( gridSize 0.025 )
+             ( markerSize 1.0 )
+     )
+     (( ?flattenCellContents ) 
+             ( "view" t )
+             ( "edit" t )
+             ( "use" nil )
+             ( flattenCellContents "Cells" )
+             ( label "Flatten Cell Contents" )
+             ( cell " " )
+             ( file nil )
+     )
+     (( ?ignoreCell ) 
+             ( "view" t )
+             ( "edit" t )
+             ( "use" t )
+             ( label "Ignore Cell(s)" )
+             ( ignoreCell "VDD3RP\nVDD3OP" )
+             ( ignoreCellFile ("") )
+     )
+     (( ?joinPins ) 
+             ( "view" t )
+             ( "edit" t )
+             ( "use" nil )
+             ( joinPins "All Levels" )
+     )
+     (( ?multiCPU ) 
+             ( "view" t )
+             ( "edit" t )
+             ( "use" nil )
+             ( multiCPU t )
+             ( number 1 )
+     )
+     (( ?netTextFile ) 
+             ( "view" t )
+             ( "edit" t )
+             ( "use" nil )
+             ( netText (" ") )
+     )
+     (( ?overwrite ) 
+             ( "view" t )
+             ( "edit" t )
+             ( "use" t )
+             ( overwrite t )
+     )
+     (( ?pinTextFile ) 
+             ( "view" t )
+             ( "edit" t )
+             ( "use" nil )
+             ( pinText (" ") )
+     )
+     (( ?standardCell ) 
+             ( "view" t )
+             ( "edit" t )
+             ( "use" nil )
+             ( label "Standard Cell(s)" )
+             ( standardCell "Cells" )
+             ( standardCellList " " )
+             ( standardCellFile nil )
+     )
+     (( ?textLevel ) 
+             ( "view" t )
+             ( "edit" t )
+             ( "use" nil )
+             ( label "textLevel" )
+             ( from 0 )
+             ( to 0 )
+     )
+     (( ?textPriOnly ) 
+             ( "view" t )
+             ( "edit" t )
+             ( "use" nil )
+             ( textPriOnly nil )
+     )
+     (( ?time ) 
+             ( "view" t )
+             ( "edit" t )
+             ( "use" nil )
+             ( time t )
+     )
+)
+
+;----------------------------------------------------------------------------
+; @(#)$CDS: assura version av4.1:Production:dfII6.1.7-64b:IC6.1.7-64b.500.4 07/10/17 21:23 (sjfnl321) $
+; sub-version 4.1_USR5_HF11
+;----------------------------------------------------------------------------
+
+
+;----------------------------------------------------------------------------
+; Assura 3.2 Template Version 1
+;----------------------------------------------------------------------------
+
+vuiAVCGenOptions = '(
+     (( abortOnUnboundDevices ) 
+             ( "view" t )
+             ( "edit" t )
+             ( "use" t )
+             ( abortOnUnboundDevices nil )
+     )
+     (( alwaysContinue ) 
+             ( "view" t )
+             ( "edit" t )
+             ( "use" t )
+             ( alwaysContinue t )
+     )
+     (( autoPinSwap ) 
+             ( "view" t )
+             ( "edit" t )
+             ( "use" t )
+             ( autoPinSwap t )
+             ( thresholdValue 1000 )
+             ( cell "" )
+             ( selectSubCells nil )
+             ( unBoundPinsOnly nil )
+             ( autoPinSwapListBox ("autoPinSwap( t 1000 )") )
+     )
+     (( bindVariants ) 
+             ( "view" t )
+             ( "edit" t )
+             ( "use" nil )
+             ( bindVariants t )
+     )
+     (( blackBox ) 
+             ( "view" t )
+             ( "edit" t )
+             ( "use" nil )
+             ( blackBox "" )
+     )
+     (( combineTolerance ) 
+             ( "view" t )
+             ( "edit" t )
+             ( "use" nil )
+             ( combineTolerance "" )
+     )
+     (( compareParameter ) 
+             ( "view" t )
+             ( "edit" t )
+             ( "use" nil )
+             ( compareParameter "" )
+     )
+     (( defineDerivedInstances ) 
+             ( "view" t )
+             ( "edit" t )
+             ( "use" nil )
+             ( defineDerivedInstances nil )
+     )
+     (( echoUsedAvCompareRules ) 
+             ( "view" t )
+             ( "edit" t )
+             ( "use" nil )
+             ( echoUsedAvCompareRules nil )
+     )
+     (( enableDeviceFixing ) 
+             ( "view" t )
+             ( "edit" t )
+             ( "use" nil )
+             ( enableDeviceFixing nil )
+     )
+     (( enableRewire ) 
+             ( "view" t )
+             ( "edit" t )
+             ( "use" nil )
+             ( enableRewire t )
+     )
+     (( expandOnError ) 
+             ( "view" t )
+             ( "edit" t )
+             ( "use" t )
+             ( unstableDev t )
+             ( enableSwap t )
+             ( enableReduce t )
+             ( enablePins t )
+             ( enableMatch t )
+             ( enableSwapThres t )
+             ( instCount t )
+             ( skipMatchOnReduceError t )
+             ( ambiguousPinAssignment nil )
+             ( parameter nil )
+     )
+     (( filterReduceLoop ) 
+             ( "view" t )
+             ( "edit" t )
+             ( "use" nil )
+             ( filterReduceLoop nil )
+     )
+     (( filterReduceStatistics ) 
+             ( "view" t )
+             ( "edit" t )
+             ( "use" t )
+             ( label nil )
+             ( filterReduceStatistics t )
+     )
+     (( formGate ) 
+             ( "view" t )
+             ( "edit" t )
+             ( "use" t )
+             ( formGate "none" )
+             ( mos "MOS" )
+             ( cells "" )
+             ( devicename "" )
+             ( noldd nil )
+             ( formGateListBox ("formGate( MOS none )") )
+     )
+     (( keepSeriesLoop ) 
+             ( "view" t )
+             ( "edit" t )
+             ( "use" nil )
+             ( keepSeriesLoop nil )
+     )
+     (( lineLimit ) 
+             ( "view" t )
+             ( "edit" t )
+             ( "use" nil )
+             ( lineLimit 20000 )
+     )
+     (( listFilteredDevices ) 
+             ( "view" t )
+             ( "edit" t )
+             ( "use" t )
+             ( listFilteredDevices t )
+     )
+     (( listXRef ) 
+             ( "view" t )
+             ( "edit" t )
+             ( "use" t )
+             ( listXRef t )
+     )
+     (( mergeParallel ) 
+             ( "view" t )
+             ( "edit" t )
+             ( "use" nil )
+             ( mergeParallel "" )
+     )
+     (( mergeSeries ) 
+             ( "view" t )
+             ( "edit" t )
+             ( "use" nil )
+             ( mergeSeries "" )
+     )
+     (( mergeSplitGate ) 
+             ( "view" t )
+             ( "edit" t )
+             ( "use" t )
+             ( mode "Device Type" )
+             ( deviceName "" )
+             ( deviceType "LDD" )
+             ( mergeSplitGate "sameOrder" )
+             ( mixTypesMerge nil )
+             ( mergeSplitGateListBox ("mergeSplitGate( MOS sameOrder )" "mergeSplitGate( LDD sameOrder )") )
+     )
+     (( nameBinding ) 
+             ( "view" t )
+             ( "edit" t )
+             ( "use" nil )
+             ( bindCell t )
+             ( bindNet nil )
+             ( bindInstance nil )
+             ( bindPin "t" )
+     )
+     (( nameBindingOptions ) 
+             ( "view" t )
+             ( "edit" t )
+             ( "use" nil )
+             ( nameBindingOptions "" )
+     )
+     (( nameBindingStyle ) 
+             ( "view" t )
+             ( "edit" t )
+             ( "use" nil )
+             ( nameBindingStyle "cellName" )
+     )
+     (( parameterModifiedDevice ) 
+             ( "view" t )
+             ( "edit" t )
+             ( "use" nil )
+             ( parameterModifiedDevice "" )
+     )
+     (( rootCell ) 
+             ( "view" t )
+             ( "edit" t )
+             ( "use" nil )
+             ( rootCell "" )
+     )
+     (( runName ) 
+             ( "view" t )
+             ( "edit" t )
+             ( "use" nil )
+             ( runName "" )
+     )
+     (( sectionLineLimit ) 
+             ( "view" t )
+             ( "edit" t )
+             ( "use" nil )
+             ( sectionLineLimit 1000 )
+     )
+     (( showErrorNetwork ) 
+             ( "view" t )
+             ( "edit" t )
+             ( "use" nil )
+             ( showErrorNetwork nil )
+     )
+     (( simpleAutoPinSwap ) 
+             ( "view" t )
+             ( "edit" t )
+             ( "use" nil )
+             ( simpleAutoPinSwap nil )
+     )
+     (( smartCaseForAutoBind ) 
+             ( "view" t )
+             ( "edit" t )
+             ( "use" nil )
+             ( bindCell t )
+             ( bindPin t )
+             ( bindNet t )
+             ( bindInstance t )
+     )
+     (( sramReduce ) 
+             ( "view" t )
+             ( "edit" t )
+             ( "use" nil )
+             ( passDeviceName nil )
+             ( pullupDeviceName nil )
+             ( sramReduceListBox nil )
+     )
+     (( unmatchedNetDetail ) 
+             ( "view" t )
+             ( "edit" t )
+             ( "use" t )
+             ( unmatchedNetDetail t )
+     )
+     (( verifyTopLayPins ) 
+             ( "view" t )
+             ( "edit" t )
+             ( "use" t )
+             ( verifyTopLayPins t )
+             ( allLayMode1 nil )
+             ( floatingPins "notKeepFloatingPins" )
+     )
+     (( verifyTopSchPins ) 
+             ( "view" t )
+             ( "edit" t )
+             ( "use" t )
+             ( verifyTopSchPins t )
+             ( allSchMode1 nil )
+             ( floatingPins "notKeepFloatingPins" )
+     )
+)
+
+;----------------------------------------------------------------------------
+; @(#)$CDS: assura version av4.1:Production:dfII6.1.7-64b:IC6.1.7-64b.500.4 07/10/17 21:23 (sjfnl321) $
+; sub-version 4.1_USR5_HF11
+;----------------------------------------------------------------------------
+
+
+;----------------------------------------------------------------------------
+; Assura 3.2 Template Version 1
+;----------------------------------------------------------------------------
+
+vuiAVCLayOptions = '(
+)
+
+;----------------------------------------------------------------------------
+; @(#)$CDS: assura version av4.1:Production:dfII6.1.7-64b:IC6.1.7-64b.500.4 07/10/17 21:23 (sjfnl321) $
+; sub-version 4.1_USR5_HF11
+;----------------------------------------------------------------------------
+
+
+;----------------------------------------------------------------------------
+; Assura 3.2 Template Version 1
+;----------------------------------------------------------------------------
+
+vuiAVCSchOptions = '(
+)
+

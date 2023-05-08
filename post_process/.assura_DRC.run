@@ -1,0 +1,3 @@
+#!/bin/sh -f
+/eda/cadence/assura/tools.lnx86/assura/bin/assura /home/yz17g22/mydocuments/design/system_on_chip/github/local_chip/post_process/ASSURA_DRC/computer/computer.rsf -cdslib /home/yz17g22/mydocuments/design/system_on_chip/github/local_chip/post_process/cds.lib -restart -gui
+exit $?

@@ -1,0 +1,45 @@
+#######################################################
+#                                                     
+#  Encounter Command Logging File                     
+#  Created on Sun Apr 30 22:21:29 2023                
+#                                                     
+#######################################################
+
+#@(#)CDS: Encounter v14.26-s039_1 (64bit) 07/15/2015 11:34 (Linux 2.6.18-194.el5)
+#@(#)CDS: NanoRoute v14.26-s022 NR150713-1956/14_26-UB (database version 2.30, 267.6.1) {superthreading v1.25}
+#@(#)CDS: CeltIC v14.26-s013_1 (64bit) 07/14/2015 03:32:40 (Linux 2.6.18-194.el5)
+#@(#)CDS: AAE 14.26-s007 (64bit) 07/15/2015 (Linux 2.6.18-194.el5)
+#@(#)CDS: CTE 14.26-s010_1 (64bit) Jul 15 2015 01:38:12 (Linux 2.6.18-194.el5)
+#@(#)CDS: CPE v14.26-s026
+#@(#)CDS: IQRC/TQRC 14.2.2-s217 (64bit) Wed Apr 15 23:10:24 PDT 2015 (Linux 2.6.18-194.el5)
+
+setCheckMode -tapeOut true
+set defHierChar /
+set init_oa_ref_lib {TECH_C35B4  CORELIB  IOLIB_4M  }
+set init_verilog VERILOG/computer.v
+set init_top_cell computer
+set init_pwr_net {vdd!  vdd3r1! vdd3r2! vdd3o!  }
+set init_gnd_net {gnd!  gnd3r! gnd3o!  }
+set init_mmmc_file c35_computer_mmmc.view
+set conf_gen_footprint 1
+set fp_core_to_left 50.000000
+set fp_core_to_right 50.000000
+set fp_core_to_top 50.000000
+set fp_core_to_bottom 50.000000
+set lsgOCPGainMult 1.000000
+set conf_ioOri R0
+set fp_core_util 0.850
+set init_assign_buffer 0
+set conf_in_tran_delay 0.1ps
+set init_import_mode { -keepEmptyModule 1 -treatUndefinedCellAsBbox 0}
+set init_layout_view layout
+set init_abstract_view abstract
+print {---# TCL Script amsSetup.tcl loaded}
+print {---# Additional ams TCL Procedures loaded}
+getVersion
+getVersion
+print {### austriamicrosystems HitKit-Utilities Menu added}
+set_global _enable_mmmc_by_default_flow      $CTE::mmmc_default
+suppressMessage ENCEXT-2799
+win
+uiSetTool stretchWire

@@ -1,0 +1,33 @@
+Assura Errors & Warnings Search (PLEASE CAREFULLY REVIEW THESE MESSAGES)
+================================================================================
+WARNINGS & ERRORS found in Assura NVN Run Log file
+--------------------------------------------------------------------------------
+*WARNING* deleteCellPin - Unable to find cell 'PMOSD30M'
+ WARNING (AVLVSNN-10050) : mosDevice - cell 'PMOSML4' not found.
+ WARNING (AVLVSNN-10050) : mosDevice - cell 'PMOSM4' not found.
+ WARNING (AVLVSNN-10050) : mosDevice - cell 'PMOSL4' not found.
+ WARNING (AVLVSNN-10050) : mosDevice - cell 'PMOS4' not found.
+ WARNING (AVLVSNN-10050) : mosDevice - cell 'NMOSML4' not found.
+ WARNING (AVLVSNN-10050) : mosDevice - cell 'NMOSM4' not found.
+ WARNING (AVLVSNN-10050) : mosDevice - cell 'NMOSL4' not found.
+ WARNING (AVLVSNN-10050) : mosDevice - cell 'NMOS4' not found.
+ WARNING (AVLVSNN-10050) : lddDevice - cell 'PMOSD30M' not found.
+ WARNING (AVLVSNN-10050) : lddDevice - cell 'PMOS30M' not found.
+ WARNING (AVLVSNN-10050) : lddDevice - cell 'NMOSMHL' not found.
+ WARNING (AVLVSNN-10050) : lddDevice - cell 'NMOSMH' not found.
+ WARNING (AVLVSNN-10050) : lddDevice - cell 'NMOSHL' not found.
+ WARNING (AVLVSNN-10050) : lddDevice - cell 'NMOSH' not found.
+ WARNING (AVLVSNN-10050) : lddDevice - cell 'NMOS30M' not found.
+ WARNING (AVLVSNN-10050) : lddDevice - cell 'NMOS18T' not found.
+*WARNING* deleteCellPin - Unable to find cell 'RPOLYZ'
+*WARNING* deleteCellPin - Unable to find cell 'RPOLYM'
+*WARNING* deleteCellPin - Unable to find cell 'RPOLYH'
+*WARNING* deleteCellPin - Unable to find cell 'RPOLY2'
+*WARNING* deleteCellPin - Unable to find cell 'RPOLY2P'
+*WARNING* deleteCellPin - Unable to find cell 'RPOLY2PH'
+*WARNING* deleteCellPin - Unable to find cell 'PNPVERT15'
+*WARNING* deleteCellPin - Unable to find cell 'PNPVERT2'
+*WARNING* deleteCellPin - Unable to find cell 'PNPVERT5'
+*WARNING* deleteCellPin - Unable to find cell 'PNPVERT10'
+*WARNING* deleteCellPin - Unable to find cell 'PNPVERT3'
+*WARNING* deleteCellPin - Unable to find cell 'PMOSD30M'

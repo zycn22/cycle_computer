@@ -1,0 +1,3659 @@
+
+            Assura (R) Physical Verification Version av4.1:Production:dfII6.1.7-64b:IC6.1.7-64b.500.4
+            Release 4.1_USR5_HF11
+
+Copyright (c) Cadence Design Systems. All rights reserved.
+@(#)$CDS: assura_64 version av4.1:Production:dfII6.1.7-64b:IC6.1.7-64b.500.4 07/10/2017 21:38 (sjfnl321) $
+sub-version 4.1_USR5_HF11, integ signature 2017-07-10-2113
+
+run on srv02749 from /srv/eda/cadence/2017-18/RHELx86/ASSURA_04.15.111/tools.lnx86/assura/bin/64bit/assura on Thu May  4 19:26:27 2023
+
+Loading all available p-cell functions
+AMS_DB set to cds
+
+Starting /eda/cadence/assura//tools.lnx86/assura/bin/aveng /home/yz17g22/mydocuments/design/system_on_chip/github/local_chip/post_process/ASSURA_LVS/computer/computer.rsf -exec1 -LVS -cdslib /home/yz17g22/mydocuments/design/system_on_chip/github/local_chip/post_process/cds.lib
+@(#)$CDS: aveng_64 version av4.1:Production:dfII6.1.7-64b:IC6.1.7-64b.500.4 07/10/2017 21:38 (sjfnl321) $
+sub-version 4.1_USR5_HF11, integ signature 2017-07-10-2113
+
+run on srv02749 from /srv/eda/cadence/2017-18/RHELx86/ASSURA_04.15.111/tools.lnx86/assura/bin/64bit/aveng on Thu May  4 19:26:27 2023
+
+Loading all available p-cell functions
+AMS_DB set to cds
+*WARNING* No technology dir found at /opt/cad/designkits/ams/v410/assura/c35b4/c35b4o7
+	  Defined in assura_tech map file /opt/cad/designkits/ams/v410/assura/c35b4/assura_tech.lib at line 20
+*WARNING* No technology dir found at /opt/cad/designkits/ams/v410/assura/c35b4/c35b4l7
+	  Defined in assura_tech map file /opt/cad/designkits/ams/v410/assura/c35b4/assura_tech.lib at line 21
+*WARNING* No technology dir found at /opt/cad/designkits/ams/v410/assura/c35b4/c35b4o7
+	  Defined in assura_tech map file /opt/cad/designkits/ams/v410/assura/c35b4/assura_tech.lib at line 20
+*WARNING* No technology dir found at /opt/cad/designkits/ams/v410/assura/c35b4/c35b4l7
+	  Defined in assura_tech map file /opt/cad/designkits/ams/v410/assura/c35b4/assura_tech.lib at line 21
+
+Loading tech rule set file : /opt/cad/designkits/ams/v410/assura/c35b4/c35b4c3/techRuleSets
+*WARNING* No technology dir found at /opt/cad/designkits/ams/v410/assura/c35b4/c35b4o7
+	  Defined in assura_tech map file /opt/cad/designkits/ams/v410/assura/c35b4/assura_tech.lib at line 20
+*WARNING* No technology dir found at /opt/cad/designkits/ams/v410/assura/c35b4/c35b4l7
+	  Defined in assura_tech map file /opt/cad/designkits/ams/v410/assura/c35b4/assura_tech.lib at line 21
+
+Loading tech rule set file : /opt/cad/designkits/ams/v410/assura/c35b4/c35b4c3/techRuleSets
+*WARNING* No technology dir found at /opt/cad/designkits/ams/v410/assura/c35b4/c35b4o7
+	  Defined in assura_tech map file /opt/cad/designkits/ams/v410/assura/c35b4/assura_tech.lib at line 20
+*WARNING* No technology dir found at /opt/cad/designkits/ams/v410/assura/c35b4/c35b4l7
+	  Defined in assura_tech map file /opt/cad/designkits/ams/v410/assura/c35b4/assura_tech.lib at line 21
+*WARNING* No technology dir found at /opt/cad/designkits/ams/v410/assura/c35b4/c35b4o7
+	  Defined in assura_tech map file /opt/cad/designkits/ams/v410/assura/c35b4/assura_tech.lib at line 20
+*WARNING* No technology dir found at /opt/cad/designkits/ams/v410/assura/c35b4/c35b4l7
+	  Defined in assura_tech map file /opt/cad/designkits/ams/v410/assura/c35b4/assura_tech.lib at line 21
+*WARNING* No technology dir found at /opt/cad/designkits/ams/v410/assura/c35b4/c35b4o7
+	  Defined in assura_tech map file /opt/cad/designkits/ams/v410/assura/c35b4/assura_tech.lib at line 20
+*WARNING* No technology dir found at /opt/cad/designkits/ams/v410/assura/c35b4/c35b4l7
+	  Defined in assura_tech map file /opt/cad/designkits/ams/v410/assura/c35b4/assura_tech.lib at line 21
+*WARNING* No technology dir found at /opt/cad/designkits/ams/v410/assura/c35b4/c35b4o7
+	  Defined in assura_tech map file /opt/cad/designkits/ams/v410/assura/c35b4/assura_tech.lib at line 20
+*WARNING* No technology dir found at /opt/cad/designkits/ams/v410/assura/c35b4/c35b4l7
+	  Defined in assura_tech map file /opt/cad/designkits/ams/v410/assura/c35b4/assura_tech.lib at line 21
+
+Loading tech rule set file : /opt/cad/designkits/ams/v410/assura/c35b4/c35b4c3/techRuleSets
+ Summary Report: computer.sum
+ RSF           : /home/yz17g22/mydocuments/design/system_on_chip/github/local_chip/post_process/ASSURA_LVS/computer/computer.rsf
+ Library Name  : computer_post_process
+ CDSLIB Path   : "/home/yz17g22/mydocuments/design/system_on_chip/github/local_chip/post_process/cds.lib"
+ Cell Name     : computer
+ View Name     : layout
+ Rules File    : /opt/cad/designkits/ams/v410/assura/c35b4/c35b4c3/extract.rul
+ Options       : -exec1 -LVS -cdslib /home/yz17g22/mydocuments/design/system_on_chip/github/local_chip/post_process/cds.lib 
+ Work Directory: /home/yz17g22/mydocuments/design/system_on_chip/github/local_chip/post_process/ASSURA_LVS/computer
+ Operating Mode: Legacy Mode is Off
+
+
+Starting dfIIToVdb...
+Virtuoso Framework License (111) was checked out successfully. Total checkout time was 0.02s.
+@(#)$CDS: dfIIToVdb_64 version av4.1:Production:dfII6.1.7-64b:IC6.1.7-64b.500.4 07/10/2017 21:49 (sjfnl321) $
+sub-version 4.1_USR5_HF11, integ signature 2017-07-10-2113
+
+run on srv02749 from /srv/eda/cadence/2017-18/RHELx86/ASSURA_04.15.111/tools.lnx86/assura/bin/64bit/dfIIToVdb on Thu May  4 19:26:28 2023
+
+Loading all available p-cell functions
+AMS_DB set to cds
+*WARNING* No technology dir found at /opt/cad/designkits/ams/v410/assura/c35b4/c35b4o7
+	  Defined in assura_tech map file /opt/cad/designkits/ams/v410/assura/c35b4/assura_tech.lib at line 20
+*WARNING* No technology dir found at /opt/cad/designkits/ams/v410/assura/c35b4/c35b4l7
+	  Defined in assura_tech map file /opt/cad/designkits/ams/v410/assura/c35b4/assura_tech.lib at line 21
+*WARNING* No technology dir found at /opt/cad/designkits/ams/v410/assura/c35b4/c35b4o7
+	  Defined in assura_tech map file /opt/cad/designkits/ams/v410/assura/c35b4/assura_tech.lib at line 20
+*WARNING* No technology dir found at /opt/cad/designkits/ams/v410/assura/c35b4/c35b4l7
+	  Defined in assura_tech map file /opt/cad/designkits/ams/v410/assura/c35b4/assura_tech.lib at line 21
+
+Loading tech rule set file : /opt/cad/designkits/ams/v410/assura/c35b4/c35b4c3/techRuleSets
+*WARNING* No technology dir found at /opt/cad/designkits/ams/v410/assura/c35b4/c35b4o7
+	  Defined in assura_tech map file /opt/cad/designkits/ams/v410/assura/c35b4/assura_tech.lib at line 20
+*WARNING* No technology dir found at /opt/cad/designkits/ams/v410/assura/c35b4/c35b4l7
+	  Defined in assura_tech map file /opt/cad/designkits/ams/v410/assura/c35b4/assura_tech.lib at line 21
+
+Loading tech rule set file : /opt/cad/designkits/ams/v410/assura/c35b4/c35b4c3/techRuleSets
+*WARNING* No technology dir found at /opt/cad/designkits/ams/v410/assura/c35b4/c35b4o7
+	  Defined in assura_tech map file /opt/cad/designkits/ams/v410/assura/c35b4/assura_tech.lib at line 20
+*WARNING* No technology dir found at /opt/cad/designkits/ams/v410/assura/c35b4/c35b4l7
+	  Defined in assura_tech map file /opt/cad/designkits/ams/v410/assura/c35b4/assura_tech.lib at line 21
+*WARNING* No technology dir found at /opt/cad/designkits/ams/v410/assura/c35b4/c35b4o7
+	  Defined in assura_tech map file /opt/cad/designkits/ams/v410/assura/c35b4/assura_tech.lib at line 20
+*WARNING* No technology dir found at /opt/cad/designkits/ams/v410/assura/c35b4/c35b4l7
+	  Defined in assura_tech map file /opt/cad/designkits/ams/v410/assura/c35b4/assura_tech.lib at line 21
+*WARNING* No technology dir found at /opt/cad/designkits/ams/v410/assura/c35b4/c35b4o7
+	  Defined in assura_tech map file /opt/cad/designkits/ams/v410/assura/c35b4/assura_tech.lib at line 20
+*WARNING* No technology dir found at /opt/cad/designkits/ams/v410/assura/c35b4/c35b4l7
+	  Defined in assura_tech map file /opt/cad/designkits/ams/v410/assura/c35b4/assura_tech.lib at line 21
+*WARNING* No technology dir found at /opt/cad/designkits/ams/v410/assura/c35b4/c35b4o7
+	  Defined in assura_tech map file /opt/cad/designkits/ams/v410/assura/c35b4/assura_tech.lib at line 20
+*WARNING* No technology dir found at /opt/cad/designkits/ams/v410/assura/c35b4/c35b4l7
+	  Defined in assura_tech map file /opt/cad/designkits/ams/v410/assura/c35b4/assura_tech.lib at line 21
+
+Loading tech rule set file : /opt/cad/designkits/ams/v410/assura/c35b4/c35b4c3/techRuleSets
+*WARNING* LIB SPIRALS_4M from File /home/yz17g22/mydocuments/design/system_on_chip/github/local_chip/post_process/cds.lib Line 60 redefines
+LIB SPIRALS_4M from the same file (defined earlier.)
+*WARNING* LIB TECH_C35B4 from File /home/yz17g22/mydocuments/design/system_on_chip/github/local_chip/post_process/cds.lib Line 61 redefines
+LIB TECH_C35B4 from the same file (defined earlier.)
+*WARNING* LIB SPIRALS_4M from File /home/yz17g22/mydocuments/design/system_on_chip/github/local_chip/post_process/cds.lib Line 60 redefines
+LIB SPIRALS_4M from the same file (defined earlier.)
+*WARNING* LIB TECH_C35B4 from File /home/yz17g22/mydocuments/design/system_on_chip/github/local_chip/post_process/cds.lib Line 61 redefines
+LIB TECH_C35B4 from the same file (defined earlier.)
+Compiling rules...
+
+*WARNING* ddGetObj: *.oa matches multiple files in '/srv/cad/designkits/ams/v410/cds/HK_C35/PRIMLIB/nmos18t/auLvs'.
+*WARNING* ddGetObj: *.oa matches multiple files in '/srv/cad/designkits/ams/v410/cds/HK_C35/PRIMLIB/pfuse/auLvs'.
+*WARNING* ddGetObj: *.oa matches multiple files in '/srv/cad/designkits/ams/v410/cds/HK_C35/PRIMLIB/short/auLvs'.
+WARNING LVS Run detected.
+Non-legacy mode has been disabled for this LVS run
+Checking out license for Assura_LVS
+*WARNING* Failed to obtain license for Assura_LVS
+No Assura license available.
+Checking out license for Phys_Ver_Sys_LVS_XL
+
+Reading the design data...
+
+
+
+Finished dfIIToVdb.
+
+Building the VDB part 2 in background mode.
+
+Building tables for LVS Preprocessing in background mode.
+
+
+Starting /eda/cadence/assura/tools.lnx86/assura/bin/vdbToCells /home/yz17g22/mydocuments/design/system_on_chip/github/local_chip/post_process/ASSURA_LVS/computer computer
+
+Finished /eda/cadence/assura/tools.lnx86/assura/bin/vdbToCells
+
+Starting Nvn PreExtraction...
+
+Starting /eda/cadence/assura/tools.lnx86/assura/bin/nvn /home/yz17g22/mydocuments/design/system_on_chip/github/local_chip/post_process/ASSURA_LVS/computer/computer.rsf -preExtract -exec1 -cdslib /home/yz17g22/mydocuments/design/system_on_chip/github/local_chip/post_process/cds.lib
+Checking out license for Assura_LVS
+Checking out license for Phys_Ver_Sys_LVS_XL
+@(#)$CDS: nvn_64 version av4.1:Production:dfII6.1.7-64b:IC6.1.7-64b.500.4 07/10/2017 21:49 (sjfnl321) $
+sub-version 4.1_USR5_HF11, integ signature 2017-07-10-2113
+run on srv02749 at Thu May  4 19:26:45 2023
+Loading all available p-cell functions
+AMS_DB set to cds
+Reading schematic network
+ running dfIIToVldb -cdslib /home/yz17g22/mydocuments/design/system_on_chip/github/local_chip/post_process/cds.lib /home/yz17g22/mydocuments/design/system_on_chip/github/local_chip/post_process/ASSURA_LVS/computer/computer.vlr /home/yz17g22/mydocuments/design/system_on_chip/github/local_chip/post_process/ASSURA_LVS/computer/computer.rsf
+Virtuoso Framework License (111) was checked out successfully. Total checkout time was 0.03s.
+@(#)$CDS: dfIIToVldb_64 version av4.1:Production:dfII6.1.7-64b:IC6.1.7-64b.500.4 07/10/2017 21:48 (sjfnl321) $
+sub-version 4.1_USR5_HF11, integ signature 2017-07-10-2113
+
+run on srv02749 from /srv/eda/cadence/2017-18/RHELx86/ASSURA_04.15.111/tools.lnx86/assura/bin/64bit/dfIIToVldb on Thu May  4 19:26:46 2023
+
+Loading all available p-cell functions
+AMS_DB set to cds
+*WARNING* No technology dir found at /opt/cad/designkits/ams/v410/assura/c35b4/c35b4o7
+	  Defined in assura_tech map file /opt/cad/designkits/ams/v410/assura/c35b4/assura_tech.lib at line 20
+*WARNING* No technology dir found at /opt/cad/designkits/ams/v410/assura/c35b4/c35b4l7
+	  Defined in assura_tech map file /opt/cad/designkits/ams/v410/assura/c35b4/assura_tech.lib at line 21
+*WARNING* No technology dir found at /opt/cad/designkits/ams/v410/assura/c35b4/c35b4o7
+	  Defined in assura_tech map file /opt/cad/designkits/ams/v410/assura/c35b4/assura_tech.lib at line 20
+*WARNING* No technology dir found at /opt/cad/designkits/ams/v410/assura/c35b4/c35b4l7
+	  Defined in assura_tech map file /opt/cad/designkits/ams/v410/assura/c35b4/assura_tech.lib at line 21
+
+Loading tech rule set file : /opt/cad/designkits/ams/v410/assura/c35b4/c35b4c3/techRuleSets
+function modelName redefined
+function namePrefix redefined
+function termMapping redefined
+function termOrder redefined
+function instParams redefined
+Top Cell Library: "computer_post_process"
+Top Cell Name: "computer"
+Top Cell View: "schematic"
+Output Data Base Name: "/home/yz17g22/mydocuments/design/system_on_chip/github/local_chip/post_process/ASSURA_LVS/computer/computer.sdb"
+Simulator Name: "auCdl"
+Failed to obtain license for "Assura_LVS". 
+Checking out license for Phys_Ver_Sys_LVS_XL
+ERROR (LMF-02005): License call failed for feature Assura_LVS, version 4.100 and quantity 1. The license server search path is defined as 5280@cadencelm.soton.ac.uk:5280@cadencelm3.soton.ac.uk:27060@alteralm1.soton.ac.uk:27060@alteralm2.soton.ac.uk:27060@alteralm3.soton.ac.uk. The FLEXnet error message is as follows,
+    FLEXnet ERROR(-5, 0, 0): No such feature exists.
+
+Run 'lic_error LMF-02005' for more information.
+*WARNING* LIB SPIRALS_4M from File /home/yz17g22/mydocuments/design/system_on_chip/github/local_chip/post_process/cds.lib Line 60 redefines
+LIB SPIRALS_4M from the same file (defined earlier.)
+View List: "auCdl schematic cmos_sch symbol"
+Stop List: "auCdl"
+*WARNING* LIB TECH_C35B4 from File /home/yz17g22/mydocuments/design/system_on_chip/github/local_chip/post_process/cds.lib Line 61 redefines
+LIB TECH_C35B4 from the same file (defined earlier.)
+*WARNING* LIB SPIRALS_4M from File /home/yz17g22/mydocuments/design/system_on_chip/github/local_chip/post_process/cds.lib Line 60 redefines
+LIB SPIRALS_4M from the same file (defined earlier.)
+*WARNING* LIB TECH_C35B4 from File /home/yz17g22/mydocuments/design/system_on_chip/github/local_chip/post_process/cds.lib Line 61 redefines
+LIB TECH_C35B4 from the same file (defined earlier.)
+Net Listing Mode is Analog
+*WARNING* Connection error: The instTerm. REF, on instance RLIB1 in cell ICUP cmos_sch IOLIB_4M does not have a corresponding terminal in the master, RPOLY1.
+*WARNING* Connection error: The instTerm. REF, on instance R3 in cell g_proto schematic IOLIB_4M does not have a corresponding terminal in the master, RPOLY1.
+*WARNING* Connection error: The instTerm. REF, on instance RLIB_GC1 in cell VDD3IP cmos_sch IOLIB_4M does not have a corresponding terminal in the master, RPOLY1.
+*WARNING* Connection error: The instTerm. REF, on instance RLIB_GC1 in cell VDD3ALLP cmos_sch IOLIB_4M does not have a corresponding terminal in the master, RPOLY1.
+Global net gnd3o! found
+Global net gnd3r! found
+Global net vdd3o! found
+Global net vdd3r! found
+Global net gnd! found
+Global net vdd! found
+*WARNING* Connection error: The instTerm. REF, on instance RLIB_GC1 in cell GND3ALLP cmos_sch IOLIB_4M does not have a corresponding terminal in the master, RPOLY1.
+writing /home/yz17g22/mydocuments/design/system_on_chip/github/local_chip/post_process/ASSURA_LVS/computer/computer.sdb
+ inputting /home/yz17g22/mydocuments/design/system_on_chip/github/local_chip/post_process/ASSURA_LVS/computer/computer.sdb
+Reading layout network
+ inputting network ASSURA_LVS/computer/computer.ldb
+Preprocessing schematic network phase 1
+*WARNING* genericDevice("PDL2N02S01") - cell does not exist. This command will be ignored.
+*WARNING* genericDevice("PDL2N01S01") - cell does not exist. This command will be ignored.
+*WARNING* genericDevice("PNPLAT3") - cell does not exist. This command will be ignored.
+*WARNING* genericDevice("LAT2") - cell does not exist. This command will be ignored.
+*WARNING* genericDevice("GCNSCR1") - cell does not exist. This command will be ignored.
+*WARNING* genericDevice("CVART") - cell does not exist. This command will be ignored.
+*WARNING* genericDevice("CVARM") - cell does not exist. This command will be ignored.
+*WARNING* genericDevice("CVAR") - cell does not exist. This command will be ignored.
+*WARNING* deleteCellPin - Unable to find cell 'PMOSD30M'
+Preprocessing layout network phase 1
+*WARNING* deleteCellPin - Unable to find cell 'RPOLYZ'
+*WARNING* deleteCellPin - Unable to find cell 'RPOLYM'
+*WARNING* deleteCellPin - Unable to find cell 'RPOLY2P'
+*WARNING* deleteCellPin - Unable to find cell 'PNPVERT15'
+*WARNING* deleteCellPin - Unable to find cell 'PNPVERT2'
+*WARNING* deleteCellPin - Unable to find cell 'PNPVERT5'
+*WARNING* deleteCellPin - Unable to find cell 'PNPVERT3'
+*WARNING* deleteCellPin - Unable to find cell 'PMOSD30M'
+Preprocessing schematic network phase 2
+Preprocessing layout network phase 2
+cpu=0.00m  wall=0.08m  mem=59.67mb
+
+Finished /eda/cadence/assura/tools.lnx86/assura/bin/nvn
+
+Executing: substrate_all = cellBoundary(root)
+
+Building the VDB part 3 in background mode.
+
+Finished building the VDB. VDB build times for main process:
+cpu: 0.20  elap: 24  pf: 0  in: 0  out: 128  virt: 101M  phys: 605M
+
+Running the Task Processor, 149 cells, 4533 steps...
+
+Top Cell is 'computer layout computer_post_process'
+
+Executing: bkgnd = geomBkgnd()
+
+Executing: OPTDEF = geomEmpty()
+
+Executing: PPLUS_DPL = geomEmpty()
+
+Executing: POLY1_pinshape = geomOr(POLY1_sympin geomTextShape(POLY1_pintext))
+
+Executing: MET1_pinshape = geomOr(MET1_sympin geomTextShape(MET1_pintext))
+
+Executing: MET2_pinshape = geomOr(MET2_sympin geomTextShape(MET2_pintext))
+
+Executing: MET3_pinshape = geomOr(MET3_sympin geomTextShape(MET3_pintext))
+
+Executing: MET4_pinshape = geomOr(MET4_sympin geomTextShape(MET4_pintext))
+
+Executing: PAD_pinshape = geomTextShape(PAD_pintext)
+
+Executing: PADTSV_pinshape = geomTextShape(PADTSV_pintext)
+
+Executing: OPTDEF_pinshape = geomEmpty()
+
+Executing: subdef_ring = geomAndNot(SUBDEF geomSize(SUBDEF -0.05))
+
+Executing: ntub_subdefcut = geomAndNot(NTUB subdef_ring)
+
+Executing: net_psub = geomOr(geomAndNot(substrate_all subdef_ring) geomAnd(subdef_ring N...
+
+Executing: diff_cut = geomAndNot(DIFF DIFCUT)
+
+Executing: poly1_cut = geomAndNot(POLY1 PO1CUT)
+
+Executing: poly2_cut = geomAndNot(POLY2 PO2CUT)
+
+Executing: poly1_n_poly2 = geomAndNot(poly1_cut poly2_cut)
+
+Executing: net_poly1con = geomAnd(CONT poly1_n_poly2)
+
+Executing: net_poly2con = geomAnd(CONT poly2_cut)
+
+Executing: diffcon = geomAnd(CONT diff_cut)
+
+Executing: net_via2_metcap = geomAnd(VIA2 METCAP)
+
+Executing: via2_met2 = geomAndNot(VIA2 net_via2_metcap)
+
+Executing: via_cont_pin = geomOr(VIA1 CONT MET1_pinshape)
+
+Executing: ndiff_1 = geomAnd(diff_cut NPLUS)
+
+Executing: pdiff_1 = geomAnd(diff_cut PPLUS)
+
+Executing: pfuse = geomAnd(poly1_cut DEVDEF_pfuse)
+
+Executing: PFUSE_device = geomCat(pfuse)
+
+Executing: poly1_poly2 = geomAnd(POLY1 POLY2)
+
+Executing: pres1_1 = geomAndNot(geomAnd(poly1_cut RESDEF) HRES)
+
+Executing: pres1_2 = geomAndNot(pres1_1 poly1_poly2)
+
+Executing: pres1_3 = geomAndNot(pres1_2 RESTRM)
+
+Executing: pres1 = geomAvoiding(pres1_3 pfuse)
+
+Executing: resdef_2p = geomGetTexted(RESDEF RESDEF_text "RPOLY2P")
+
+Executing: presp_1 = geomAndNot(geomAnd(poly2_cut resdef_2p) HRES)
+
+Executing: presp_2 = geomAndNot(presp_1 poly1_poly2)
+
+Executing: presp = geomAndNot(presp_2 RESTRM)
+
+Executing: resdef_2ph = geomGetTexted(RESDEF RESDEF_text "RPOLY2PH")
+
+Executing: presph_1 = geomAndNot(geomAnd(poly2_cut resdef_2ph) HRES)
+
+Executing: presph_2 = geomAndNot(presph_1 poly1_poly2)
+
+Executing: presph = geomAndNot(presph_2 RESTRM)
+
+Executing: resdef = geomAndNot(geomAndNot(RESDEF resdef_2p) resdef_2ph)
+
+Executing: pres_1 = geomAndNot(geomAnd(poly2_cut resdef) HRES)
+
+Executing: pres_2 = geomAndNot(pres_1 poly1_poly2)
+
+Executing: pres = geomAndNot(pres_2 RESTRM)
+
+Executing: RPOLY2RF_device = geomEnclose(RFDEF geomInside(pres ntub_subdefcut))
+
+Executing: zero_tc = geomGetTexted(HRES HRES_text "RPOLYZ")
+
+Executing: presz_1 = geomAnd(poly2_cut zero_tc)
+
+Executing: presz = geomAnd(geomAndNot(presz_1 PPLUS) RESDEF)
+
+Executing: hres = geomAndNot(HRES zero_tc)
+
+Executing: presh_1 = geomAnd(poly2_cut hres)
+
+Executing: presh = geomAnd(geomAndNot(presh_1 PPLUS) RESDEF)
+
+Executing: preshterm = geomAnd(presh_1 PPLUS)
+
+Executing: RPOLYHRF_device = geomEnclose(RFDEF geomInside(presh ntub_subdefcut))
+
+Executing: pdres_1 = geomAnd(pdiff_1 RESDEF)
+
+Executing: pdres_2 = geomAvoiding(pdres_1 pres)
+
+Executing: RDIFFP_device = geomAndNot(pdres_2 RESTRM)
+
+Executing: ndres_1 = geomAnd(ndiff_1 RESDEF)
+
+Executing: ndres_2 = geomAvoiding(ndres_1 pres)
+
+Executing: RDIFFN_device = geomAndNot(ndres_2 RESTRM)
+
+Executing: nwres_1 = geomAnd(NTUB TUBDEF)
+
+Executing: nwres_3 = geomAvoiding(nwres_1 RDIFFP_device)
+
+Executing: nwres_4 = geomAvoiding(nwres_3 RDIFFN_device)
+
+Executing: RNWELL_device = geomAndNot(nwres_4 RESTRM)
+
+Executing: nwres_trm = geomButting(RESTRM RNWELL_device)
+
+Executing: pdres_trm = geomButting(RESTRM RDIFFP_device)
+
+Executing: pres_trm = geomButting(RESTRM pres)
+
+Executing: presph_trm = geomButting(RESTRM presph)
+
+Executing: pres1_trm = geomButting(RESTRM pres1)
+
+Executing: presh_trm = geomButting(preshterm presh)
+
+Executing: net_poly1 = geomAndNot(geomAndNot(poly1_cut pres1) pfuse)
+
+Executing: poly2_1 = geomAndNot(poly2_cut pres)
+
+Executing: poly2_2 = geomAndNot(poly2_1 presp)
+
+Executing: poly2_3 = geomAndNot(poly2_2 presph)
+
+Executing: poly2_4 = geomAndNot(poly2_3 presh)
+
+Executing: net_poly2 = geomAndNot(poly2_4 presz)
+
+Executing: nmos30m_hvdef_a = geomGetTexted(HVDEF HVDEF_text "NMOS30M_*")
+
+Executing: nmos18t_hvdef_a = geomGetTexted(HVDEF HVDEF_text "NMOS18T_*")
+
+Executing: nmoshv_hvdef_filter = geomCat(nmos30m_hvdef_a nmos18t_hvdef_a)
+
+Executing: nmos30_ntub_clos = geomSize(geomSize(geomButtOrOver(NTUB nmoshv_hvdef_filter)...
+
+Executing: net_nwell = geomOr(geomAndNot(ntub_subdefcut RNWELL_device) nmos30_ntub_clos)
+
+Executing: ndiff_2 = geomAndNot(ndiff_1 net_poly1)
+
+Executing: net_ndiff = geomAndNot(ndiff_2 RDIFFN_device)
+
+Executing: pdiff_2 = geomAndNot(pdiff_1 net_poly1)
+
+Executing: net_pdiff = geomAndNot(pdiff_2 RDIFFP_device)
+
+Executing: trans = geomAnd(diff_cut net_poly1)
+
+Executing: ngate = geomAndNot(trans NTUB)
+
+Executing: pgate = geomAnd(trans NTUB)
+
+Executing: gate = geomOr(ngate pgate)
+
+Executing: nmos30m_ndevx = geomAnd(ngate NPLUS)
+
+Executing: ndev = geomAndNot(geomAnd(ngate NPLUS) HVDEF)
+
+Executing: pdev = geomAnd(pgate PPLUS)
+
+Executing: pnpvert_0 = geomAnd(net_pdiff geomSize(NTUB 1.1))
+
+Executing: pnpvert_1 = drc(geomHoles(pnpvert_0 innermost) (area < 1000.0))
+
+Executing: pnpvert_2 = geomInside(NTUB pnpvert_1)
+
+Executing: pnpvert_3 = geomAnd(net_ndiff pnpvert_2)
+
+Executing: geomHoles(pnpvert_3)
+
+Executing: pnpvert_5 = geomInside(net_pdiff pnpvert_4)
+
+Executing: pnpvert_6a = geomGetLength(pnpvert_5 ((12.59 < keep) < 12.61) contiguous fig)
+
+Executing: pnpvert_6 = geomGetLength(pnpvert_5 ((39.9 < keep) < 40.1) contiguous fig)
+
+Executing: pnpvert3_e = drc(pnpvert_6a ((9.82 < area) < 10.0))
+
+Executing: VERT3_device = geomSize(pnpvert3_e 1.64)
+
+Executing: pnpvert10_e = drc(pnpvert_6 ((99.9 < area) < 100.1))
+
+Executing: VERT10_device = geomSize(pnpvert10_e 2.0)
+
+Executing: pnplat = drc(geomHoles(pdev) (area < 10.0))
+
+Executing: pnplat2_e = geomGetLength(pnplat ((7.5 < keep) < 8.05) contiguous fig)
+
+Executing: LAT2_device = geomButtOnly(pdev pnplat2_e)
+
+Executing: pnplat2_c = geomAndNot(geomButtOnly(net_pdiff LAT2_device) pnplat2_e)
+
+Executing: nwell_ill = geomButtOnly(NTUB trans)
+
+Executing: nwell_hv_trans = geomStraddle(NTUB trans)
+
+Executing: nwell_ovlp_good = drc(nwell_hv_trans trans ((1.6 <= ovlp) <= 1.6) opposite pa...
+
+Executing: nwell_ovlp_bad = drc(nwell_hv_trans trans (ovlp < 2.0) opposite parallel)
+
+Executing: ill_hvmos_nwell = geomOr(nwell_ill geomEnclose(NTUB geomAvoiding(nwell_ovlp_b...
+
+Executing: errorLayer(geomAvoiding(geomButtOrOver(ndev ill_hvmos_nwell) nwell_ovlp_good) "DEVICE Error: Illegal nmosh device")
+
+Executing: routp_n_trans = geomAndNot(net_poly1 trans)
+
+Executing: waffle_poly1_1 = geomGetHoled(net_poly1)
+
+Executing: waffle_holes = geomAnd(geomHoles(waffle_poly1_1 innermostEmpty) diff_cut)
+
+Executing: waffle_poly1 = geomAndNot(waffle_poly1_1 geomGetHoled(geomOr(waffle_poly1_1 w...
+
+Executing: waffle_gate = geomButtOrOver(geomAnd(geomSize(waffle_holes 3.1 edges) waffle_...
+
+Executing: waffle_w_poly1 = geomCat(waffle_poly1_1)
+
+Executing: waffle_w_holes_0 = geomHoles(waffle_w_poly1 innermostEmpty)
+
+Executing: waffle_w_holes_0_diff = geomAnd(waffle_w_holes_0 DIFF)
+
+Executing: waffle_w_holes_0_check_diffgap = geomAndNot(waffle_w_holes_0 waffle_w_holes_0...
+
+Executing: waffle_w_holes_0 = geomAvoiding(waffle_w_holes_0_diff waffle_w_holes_0_check_...
+
+Executing: waffle_w_holes_1 = geomGetVertex(waffle_w_holes_0 (keep == 4))
+
+Executing: waffle_w_holes_1_edge = geomGetEdge(waffle_w_holes_1 butting waffle_poly1_1)
+
+Executing: waffle_w_holes_1_edge_length = geomSize(geomGetLength(waffle_w_holes_1_edge (...
+
+Executing: waffle_w_holes_good = geomButtOrOver(waffle_w_holes_1 waffle_w_holes_1_edge_l...
+
+Executing: waffle_w_gate = geomButtOrOver(geomAnd(geomSize(waffle_w_holes_good 3.1 edges...
+
+Executing: pmos_waffle_w = geomButtOnly(waffle_w_gate net_pdiff (keep == 2))
+
+Executing: nmos_waffle_w = geomButtOnly(waffle_w_gate net_ndiff (keep == 2))
+
+Executing: pmosw_device_all = geomAndNot(geomAndNot(geomAndNot(pmos_waffle_w MIDOX) LVTD...
+
+Executing: pmosmw_device_all = geomAndNot(geomAndNot(geomAnd(pmos_waffle_w MIDOX) LVTDEF...
+
+Executing: nmosw_device_all = geomAndNot(geomAndNot(geomAndNot(nmos_waffle_w MIDOX) LVTD...
+
+Executing: nmosmw_device_all = geomAndNot(geomAndNot(geomAnd(nmos_waffle_w MIDOX) LVTDEF...
+
+Executing: waffle_w_poly1_good = geomButtOrOver(waffle_w_poly1 waffle_w_holes_good)
+
+Executing: waffle_w_ndiff_good = geomButtOrOver(net_ndiff waffle_w_poly1_good)
+
+Executing: waffle_w_ndiff_diffc_1 = geomButtOrOver(waffle_w_ndiff_good diffcon (keep == 1))
+
+Executing: waffle_w_ndiff_diffc_2 = geomButtOrOver(waffle_w_ndiff_good diffcon (keep == 2))
+
+Executing: waffle_w_ndiff_diffc_4 = geomButtOrOver(waffle_w_ndiff_good diffcon (keep == 4))
+
+Executing: waffle_w_nmosw_4n = geomButtOrOver(nmosw_device_all waffle_w_ndiff_diffc_4 (k...
+
+Executing: waffle_w_nmosw_3n = geomAnd(geomButtOrOver(nmosw_device_all waffle_w_ndiff_di...
+
+Executing: waffle_w_nmosw_2n = geomAnd(geomButtOrOver(nmosw_device_all waffle_w_ndiff_di...
+
+Executing: waffle_w_nmosmw_4n = geomButtOrOver(nmosmw_device_all waffle_w_ndiff_diffc_4 ...
+
+Executing: waffle_w_nmosmw_3n = geomAnd(geomButtOrOver(nmosmw_device_all waffle_w_ndiff_...
+
+Executing: waffle_w_nmosmw_2n = geomAnd(geomButtOrOver(nmosmw_device_all waffle_w_ndiff_...
+
+Executing: NMOSW_4N_device = geomCat(waffle_w_nmosw_4n)
+
+Executing: NMOSW_3N_device = geomCat(waffle_w_nmosw_3n)
+
+Executing: NMOSW_2N_device = geomCat(waffle_w_nmosw_2n)
+
+Executing: NMOSMW_4N_device = geomCat(waffle_w_nmosmw_4n)
+
+Executing: NMOSMW_3N_device = geomCat(waffle_w_nmosmw_3n)
+
+Executing: NMOSMW_2N_device = geomCat(waffle_w_nmosmw_2n)
+
+Executing: waffle_w_pdiff_good = geomButtOrOver(net_pdiff waffle_w_poly1_good)
+
+Executing: waffle_w_pdiff_diffc_1 = geomButtOrOver(waffle_w_pdiff_good diffcon (keep == 1))
+
+Executing: waffle_w_pdiff_diffc_2 = geomButtOrOver(waffle_w_pdiff_good diffcon (keep == 2))
+
+Executing: waffle_w_pdiff_diffc_4 = geomButtOrOver(waffle_w_pdiff_good diffcon (keep == 4))
+
+Executing: waffle_w_pmosw_4n = geomButtOrOver(pmosw_device_all waffle_w_pdiff_diffc_4 (k...
+
+Executing: waffle_w_pmosw_3n = geomAnd(geomButtOrOver(pmosw_device_all waffle_w_pdiff_di...
+
+Executing: waffle_w_pmosw_2n = geomAnd(geomButtOrOver(pmosw_device_all waffle_w_pdiff_di...
+
+Executing: waffle_w_pmosmw_4n = geomButtOrOver(pmosmw_device_all waffle_w_pdiff_diffc_4 ...
+
+Executing: waffle_w_pmosmw_3n = geomAnd(geomButtOrOver(pmosmw_device_all waffle_w_pdiff_...
+
+Executing: waffle_w_pmosmw_2n = geomAnd(geomButtOrOver(pmosmw_device_all waffle_w_pdiff_...
+
+Executing: PMOSW_4N_device = geomCat(waffle_w_pmosw_4n)
+
+Executing: PMOSW_3N_device = geomCat(waffle_w_pmosw_3n)
+
+Executing: PMOSW_2N_device = geomCat(waffle_w_pmosw_2n)
+
+Executing: PMOSMW_4N_device = geomCat(waffle_w_pmosmw_4n)
+
+Executing: PMOSMW_3N_device = geomCat(waffle_w_pmosmw_3n)
+
+Executing: PMOSMW_2N_device = geomCat(waffle_w_pmosmw_2n)
+
+Executing: pmos_waffle = geomButtOnly(geomAvoiding(waffle_gate waffle_w_gate) net_pdiff ...
+
+Executing: nmos_waffle = geomButtOnly(geomAvoiding(waffle_gate waffle_w_gate) net_ndiff ...
+
+Executing: pmos_1 = geomAndNot(pdev LAT2_device)
+
+Executing: pmos_2 = geomButtOnly(pmos_1 routp_n_trans)
+
+Executing: pmos_3 = geomButtOnly(pmos_2 net_pdiff (keep == 2))
+
+Executing: pmos_4 = geomAndNot(pmos_3 waffle_poly1)
+
+Executing: pmos_5 = geomAnd(pmos_2 pmos_waffle)
+
+Executing: PMOS_device = geomAndNot(geomAndNot(geomAndNot(pmos_4 MIDOX) LVTDEF) RFDEF)
+
+Executing: PMOSM_device = geomAndNot(geomAndNot(geomAndNot(geomAnd(pmos_4 MIDOX) PPLUS_D...
+
+Executing: DPMOSM_device = geomAndNot(geomAndNot(geomAnd(geomAnd(pmos_4 MIDOX) PPLUS_DPL...
+
+Executing: PMOSL_device = geomAndNot(geomAnd(geomAndNot(pmos_4 MIDOX) LVTDEF) RFDEF)
+
+Executing: PMOSML_device = geomAndNot(geomAnd(geomAnd(pmos_4 MIDOX) LVTDEF) RFDEF)
+
+Executing: pmosrf_trans = geomAnd(geomAndNot(geomAndNot(pmos_4 MIDOX) LVTDEF) RFDEF)
+
+Executing: PMOSRF_device = geomEnclose(RFDEF pmosrf_trans)
+
+Executing: PMOS_WAFFLE_device = geomAndNot(geomAndNot(geomAndNot(pmos_5 MIDOX) LVTDEF) R...
+
+Executing: PMOSM_WAFFLE_device = geomAndNot(geomAndNot(geomAnd(pmos_5 MIDOX) LVTDEF) RFDEF)
+
+Executing: PMOSL_WAFFLE_device = geomAndNot(geomAnd(geomAndNot(pmos_5 MIDOX) LVTDEF) RFDEF)
+
+Executing: PMOSML_WAFFLE_device = geomAndNot(geomAnd(geomAnd(pmos_5 MIDOX) LVTDEF) RFDEF)
+
+Executing: nmosh_1 = geomAndNot(geomOr(geomButtOnly(trans NTUB) geomStraddle(trans NTUB)...
+
+Executing: nmosh = geomButtOrOver(nmosh_1 ndev)
+
+Executing: nmoshall = geomAnd(nmosh_1 geomAnd(trans NPLUS))
+
+Executing: nmosh_d = geomAnd(net_ndiff geomButtOrOver(NTUB nmoshall))
+
+Executing: nmosh_d_fill = drc(nmosh_d nmosh (sep < 6.0) opposite parallel)
+
+Executing: nmosh_d_term_1 = geomOr(nmosh_d nmosh_d_fill)
+
+Executing: nmosh_d_term_2 = geomButtOnly(nmosh_d_term_1 nmosh)
+
+Executing: nmosh_d_term = geomOverlap(net_nwell nmosh_d_term_2)
+
+Executing: NMOSH_device = geomAvoiding(geomAvoiding(nmosh MIDOX) LVTDEF)
+
+Executing: NMOSMH_device = geomAvoiding(geomButtOrOver(nmosh MIDOX) LVTDEF)
+
+Executing: NMOSHL_device = geomButtOrOver(geomAvoiding(nmosh MIDOX) LVTDEF)
+
+Executing: NMOSMHL_device = geomButtOrOver(geomButtOrOver(nmosh MIDOX) LVTDEF)
+
+Executing: nmos_1 = geomAndNot(ndev nmosh)
+
+Executing: nmos_2 = geomAvoiding(nmos_1 ill_hvmos_nwell)
+
+Executing: nmos_3 = geomButtOnly(nmos_2 routp_n_trans)
+
+Executing: nmos_4 = geomButtOnly(nmos_3 net_ndiff (keep == 2))
+
+Executing: nmos_5 = geomAndNot(nmos_4 waffle_poly1)
+
+Executing: nmos_6 = geomAnd(nmos_3 nmos_waffle)
+
+Executing: NMOS_device = geomAndNot(geomAndNot(geomAndNot(nmos_5 MIDOX) LVTDEF) RFDEF)
+
+Executing: NMOSM_device = geomAndNot(geomAndNot(geomAnd(nmos_5 MIDOX) LVTDEF) RFDEF)
+
+Executing: NMOSL_device = geomAndNot(geomAnd(geomAndNot(nmos_5 MIDOX) LVTDEF) RFDEF)
+
+Executing: NMOSML_device = geomAndNot(geomAnd(geomAnd(nmos_5 MIDOX) LVTDEF) RFDEF)
+
+Executing: nmosrf_trans = geomAnd(geomAndNot(geomAndNot(nmos_5 MIDOX) LVTDEF) RFDEF)
+
+Executing: NMOSRF_device = geomEnclose(RFDEF nmosrf_trans)
+
+Executing: NMOS_WAFFLE_device = geomAndNot(geomAndNot(geomAndNot(nmos_6 MIDOX) LVTDEF) R...
+
+Executing: NMOSM_WAFFLE_device = geomAndNot(geomAndNot(geomAnd(nmos_6 MIDOX) LVTDEF) RFDEF)
+
+Executing: NMOSL_WAFFLE_device = geomAndNot(geomAnd(geomAndNot(nmos_6 MIDOX) LVTDEF) RFDEF)
+
+Executing: NMOSML_WAFFLE_device = geomAndNot(geomAnd(geomAnd(nmos_6 MIDOX) LVTDEF) RFDEF)
+
+Executing: cpoly = geomAnd(geomAndNot(net_poly1 HRES) poly2_cut)
+
+Executing: CPOLYRF_device = geomEnclose(RFDEF geomAnd(cpoly ntub_subdefcut))
+
+Executing: cvar = geomAnd(geomAnd(pgate NPLUS) RFDEF)
+
+Executing: cvar_all_c35 = geomAvoiding(geomAnd(pgate NPLUS) geomOr(nmosh geomOr(RFDEF HV...
+
+Executing: ndiode_1 = geomAvoiding(geomAndNot(net_ndiff NTUB) trans)
+
+Executing: ND_device = geomAnd(ndiode_1 DIODE)
+
+Executing: pdiode_1 = geomAvoiding(geomAnd(net_pdiff NTUB) trans)
+
+Executing: PD_device = geomAnd(pdiode_1 DIODE)
+
+Executing: sbd_diode_definition = geomGetTexted(DIODE DIODE_text "SBD5*")
+
+Executing: NWD_device = geomAnd(NTUB geomAndNot(DIODE sbd_diode_definition))
+
+Executing: zdiode_1 = geomGetEdge(net_pdiff butting net_ndiff)
+
+Executing: zdiode_2 = geomSize(zdiode_1 0.1 unmergedOut edges)
+
+Executing: zdiode_3 = geomAnd(net_pdiff net_ndiff)
+
+Executing: zdiode_4 = geomOr(zdiode_2 zdiode_3)
+
+Executing: zdiode_5 = geomButtOrOver(net_pdiff zdiode_4)
+
+Executing: zdiode_6 = geomButtOrOver(net_ndiff zdiode_4)
+
+Executing: zdiode_7 = geomOr(zdiode_5 zdiode_6)
+
+Executing: zdiode_8 = geomAnd(zdiode_7 ZENER)
+
+Executing: zdiode_9 = geomEnclose(zdiode_8 zdiode_7)
+
+Executing: zdiode_all = geomAnd(zdiode_4 zdiode_9)
+
+Executing: zdiode_02_1 = drc(zdiode_all ((0.2 <= width) <= 0.2) parallel opposite)
+
+Executing: zdiode_02 = geomButtOrOver(zdiode_all zdiode_02_1)
+
+Executing: ZD2SM24_device = geomOr(zdiode_02)
+
+Executing: net_ndiffcon = geomAndNot(geomAnd(ndiff_1 CONT) net_poly1con)
+
+Executing: net_pdiffcon = geomAndNot(geomAnd(pdiff_1 CONT) net_poly1con)
+
+Executing: te_pro_pad = drc(PAD (area < 2401))
+
+Executing: net_bondpad = geomAndNot(PAD te_pro_pad)
+
+Executing: met1_withslots = geomAndNot(MET1 M1HOLE)
+
+Executing: met2_withslots = geomAndNot(MET2 M2HOLE)
+
+Executing: met3_withslots = geomAndNot(MET3 M3HOLE)
+
+Executing: met4_withslots = geomAndNot(MET4 M4HOLE)
+
+Executing: implant = geomOr(NPLUS PPLUS)
+
+Executing: net_welltap = geomAnd(net_ndiff net_nwell)
+
+Executing: net_subtap = geomAndNot(net_pdiff net_nwell)
+
+Executing: net_nsd = geomOverlap(net_ndiff geomAndNot(net_ndiff net_welltap))
+
+Executing: net_psd = geomAndNot(net_pdiff net_subtap)
+
+Executing: metcap_bottom_plate = geomEnclose(MET2 METCAP)
+
+Executing: cmim = geomAnd(METCAP metcap_bottom_plate)
+
+Executing: CMIM_device = geomAndNot(cmim RFDEF)
+
+Executing: CPMIM_device = geomAnd(METCAP geomAnd(MET2 geomAnd(POLY2 POLY1)))
+
+Executing: PHDNWA850_device = geomAvoiding(geomAnd(geomAnd(NTUB net_ndiff) OPTDEF) PAD_B...
+
+Executing: PHDNWA850_device_x = geomCat(PHDNWA850_device)
+	   errorLayer(PHDNWA850_device_x "Process Modules : PHDNWA850 not available for this process module")
+
+Executing: PHDNWB850_device = geomButtOrOver(geomAnd(geomAnd(NTUB net_ndiff) OPTDEF) PAD...
+
+Executing: PHDNWB850_device_x = geomCat(PHDNWB850_device)
+	   errorLayer(PHDNWB850_device_x "Process Modules : PHDNWB850 not available for this process module")
+
+Executing: sbd_diode_def_ok = geomGetTexted(DIODE DIODE_text "SBD5_REV_1.0")
+
+Executing: sbd5_err = geomAndNot(sbd_diode_definition sbd_diode_def_ok)
+	   errorLayer(sbd5_err "Version od SBD5 obsolte or missing")
+
+Executing: sbd5_ndiff_1 = geomHoles(geomAnd(ndiff_1 sbd_diode_definition) innermost)
+
+Executing: sbdcon = geomAnd(geomAndNot(diffcon implant) sbd_diode_definition)
+
+Executing: net_sbd_anode_diff = geomEnclose(geomAndNot(DIFF implant) sbdcon)
+
+Executing: SBD5_device = geomCat(sbd5_ndiff_1)
+
+Executing: SBD5_device_x = geomCat(SBD5_device)
+	   errorLayer(SBD5_device_x "Process Modules : SBD5 not available for this process module")
+
+Executing: esdpd12_hvdef_def = geomAndNot(geomGetTexted(HVDEF HVDEF_text "ESDPD12_*") ge...
+
+Executing: esdpd12_cath_ndiff_c_ntub = geomAnd(geomAnd(net_ndiff NTUB) esdpd12_hvdef_def)
+
+Executing: esdpd12_ntub = geomEnclose(NTUB esdpd12_cath_ndiff_c_ntub)
+
+Executing: ESDPD12_device = geomCat(esdpd12_ntub)
+
+Executing: esdpd18_hvdef_def = geomAndNot(geomGetTexted(HVDEF HVDEF_text "ESDPD18_*") ge...
+
+Executing: esdpd18_cath_ndiff_c_ntub = geomAnd(geomAnd(net_ndiff NTUB) esdpd18_hvdef_def)
+
+Executing: esdpd18_ntub = geomEnclose(NTUB esdpd18_cath_ndiff_c_ntub)
+
+Executing: ESDPD18_device = geomCat(esdpd18_ntub)
+
+Executing: esdpd26_hvdef_def = geomAndNot(geomGetTexted(HVDEF HVDEF_text "ESDPD26_*") ge...
+
+Executing: esdpd26_cath_ndiff_c_ntub = geomAnd(geomAnd(net_ndiff NTUB) esdpd26_hvdef_def)
+
+Executing: esdpd26_ntub = geomEnclose(NTUB esdpd26_cath_ndiff_c_ntub)
+
+Executing: ESDPD26_device = geomCat(esdpd26_ntub)
+
+Executing: esdpd30_hvdef_def = geomAndNot(geomGetTexted(HVDEF HVDEF_text "ESDPD30_*") ge...
+
+Executing: esdpd30_cath_ndiff_c_ntub = geomAnd(geomAnd(net_ndiff NTUB) esdpd30_hvdef_def)
+
+Executing: esdpd30_ntub = geomEnclose(NTUB esdpd30_cath_ndiff_c_ntub)
+
+Executing: ESDPD30_device = geomCat(esdpd30_ntub)
+
+Executing: esdfdp5_hvdef_def = geomAndNot(geomGetTexted(HVDEF HVDEF_text "ESDFDP5_*") ge...
+
+Executing: esdfdp5_anod_pdiff_d_ntub = geomAnd(geomAnd(net_pdiff NTUB) esdfdp5_hvdef_def)
+
+Executing: ESDFDP5_device = geomCat(esdfdp5_anod_pdiff_d_ntub)
+
+Executing: esdgcp5_hvdef_def = geomAndNot(geomGetTexted(HVDEF HVDEF_text "ESDGCP5_*") ge...
+
+Executing: esdgcp5_anod_pdiff_d_ntub = geomAnd(geomAnd(net_pdiff NTUB) esdgcp5_hvdef_def)
+
+Executing: ESDGCP5_device = geomCat(esdgcp5_anod_pdiff_d_ntub)
+
+Executing: esdfdn5_hvdef_def = geomAndNot(geomGetTexted(HVDEF HVDEF_text "ESDFDN5_*") ge...
+
+Executing: esdfdn5_cath_ndiff_d_sub = geomAnd(geomAndNot(net_ndiff NTUB) esdfdn5_hvdef_def)
+
+Executing: ESDFDN5_device = geomCat(esdfdn5_cath_ndiff_d_sub)
+
+Executing: esdgcn5_hvdef_def = geomAndNot(geomGetTexted(HVDEF HVDEF_text "ESDGCN5_*") ge...
+
+Executing: esdgcn5_cath_ndiff_d_sub = geomAnd(geomAndNot(net_ndiff NTUB) esdgcn5_hvdef_def)
+
+Executing: ESDGCN5_device = geomCat(esdgcn5_cath_ndiff_d_sub)
+
+Executing: ndiff_nldd = geomCat(net_ndiff)
+
+Executing: nmos30_1 = geomEnclose(geomHoles(net_poly1 innermost) ndiff_nldd)
+
+Executing: nmos30_2 = geomButting(net_poly1 nmos30_1)
+
+Executing: nmos30_3 = geomStraddle(geomButtOrOver(nmos30m_ndevx nmos30_2) FIDEF)
+
+Executing: nmos30_ndiff = geomInside(ndiff_nldd nmos30_1)
+
+Executing: nmos30_d_fill = drc(nmos30_ndiff nmos30_3 (sep < 2.5) parallel opposite)
+
+Executing: nmos30_4 = geomOr(geomButting(nmos30_3 nmos30_d_fill) nmos30_d_fill)
+
+Executing: nmos30_combidiff = geomOr(nmos30_4 geomButting(ndiff_nldd nmos30_4))
+
+Executing: nmos30_fimp = geomStraddle(FIDEF nmos30_combidiff)
+
+Executing: nmos30_gate_l = geomAndNot(nmos30_3 nmos30_fimp)
+
+Executing: nmos30_4g = geomAnd(nmos30_4 DIFF)
+
+Executing: nmos30m = geomButtOrOver(nmos30_4 geomInside(nmos30_4g MIDOX))
+
+Executing: nmos18t = geomAndNot(nmos30_4 nmos30m)
+
+Executing: nmos30_drain = geomButtOnly(nmos30_ndiff nmos30_4)
+
+Executing: nmos30m_double = geomOr(nmos30m geomButtOnly(nmos30_drain nmos30m))
+
+Executing: nmos18t_double = geomOr(nmos18t geomButtOnly(nmos30_drain nmos18t))
+
+Executing: NMOS30M_device = geomCat(nmos30m_double)
+
+Executing: NMOS18T_device = geomCat(nmos18t_double)
+
+Executing: pmosd30m_pdiff = geomCat(net_pdiff)
+
+Executing: pmosd30m_1 = geomEnclose(geomHoles(net_poly1 innermost) geomAnd(pmosd30m_pdif...
+
+Executing: pmosd30m_2 = geomButting(net_poly1 pmosd30m_1)
+
+Executing: pmosd30m_3 = geomStraddle(geomButtOrOver(pmosd30m_pdevx pmosd30m_2) PFIMP)
+
+Executing: pmosd30m_pdiff = geomInside(pmosd30m_pdiff pmosd30m_1)
+
+Executing: pmosd30m_d_fill = drc(pmosd30m_pdiff pmosd30m_3 (sep < 2.7) parallel opposite)
+
+Executing: pmosd30m_4 = geomOr(geomButting(pmosd30m_3 pmosd30m_d_fill) pmosd30m_d_fill)
+
+Executing: pmosd30m_4g = geomAnd(pmosd30m_4 DIFF)
+
+Executing: pmosd30m_xx = geomButtOrOver(pmosd30m_4 geomInside(pmosd30m_4g MIDOX))
+
+Executing: pmosd30m_hvdef_def = geomGetTexted(HVDEF HVDEF_text "PMOSD30M_*")
+
+Executing: pmos30m_hvdef_def = geomGetTexted(HVDEF HVDEF_text "PMOS30M_*")
+
+Executing: pmosd30m_drain = geomButtOrOver(geomButtOnly(pmosd30m_pdiff pmosd30m_4) pmosd...
+
+Executing: pmosd30m_double = geomButtOrOver(geomOr(pmosd30m_xx geomButtOnly(pmosd30m_dra...
+
+Executing: PMOSD30M_device = geomCat(pmosd30m_double)
+
+Executing: pmos30m_drain = geomButtOrOver(geomButtOnly(pmosd30m_pdiff pmosd30m_4) pmos30...
+
+Executing: pmos30m_double = geomButtOrOver(geomOr(pmosd30m_xx geomButtOnly(pmos30m_drain...
+
+Executing: PMOS30M_device = geomCat(pmos30m_double)
+
+Executing: ESDPD12_modeled = geomSize(esdpd12_hvdef_def 0.7)
+
+Executing: ESDPD18_modeled = geomSize(esdpd18_hvdef_def 0.7)
+
+Executing: ESDPD26_modeled = geomSize(esdpd26_hvdef_def 0.7)
+
+Executing: ESDPD30_modeled = geomSize(esdpd30_hvdef_def 0.7)
+
+Executing: ESDFDP5_modeled = geomSize(esdfdp5_hvdef_def 0.7)
+
+Executing: ESDGCP5_modeled = geomSize(esdgcp5_hvdef_def 0.7)
+
+Executing: ESDFDN5_modeled = geomSize(esdfdn5_hvdef_def 0.7)
+
+Executing: ESDGCN5_modeled = geomSize(esdgcn5_hvdef_def 0.7)
+
+Executing: NMOS30M_modeled = geomOverlap(HVDEF NMOS30M_device)
+
+Executing: NMOS18T_modeled = geomOverlap(HVDEF NMOS18T_device)
+
+Executing: PMOSD30M_modeled = geomSize(geomOverlap(HVDEF PMOSD30M_device) 1.5)
+
+Executing: PMOS30M_modeled = geomSize(geomOverlap(HVDEF PMOS30M_device) 1.5)
+
+Executing: diodes_modeled = geomCat(ESDPD12_modeled ESDPD18_modeled ESDPD26_modeled ESDP...
+
+Executing: p_nwd_1 = geomAndNot(net_nwell geomOr(DIODE geomButtOrOver(net_nwell geomOr(O...
+
+Executing: p_nwd_2 = geomAndNot(p_nwd_1 geomOverlap(p_nwd_1 geomOr(pnpvert3_e pnpvert10_...
+
+Executing: p_nwd_3 = geomAndNot(p_nwd_2 geomOverlap(p_nwd_1 pnplat2_e))
+
+Executing: p_nwd_4 = geomAndNot(p_nwd_3 diodes_modeled)
+
+Executing: p_nwd_5 = geomAndNot(p_nwd_4 geomOr(cvar cvar_all_c35))
+
+Executing: P_NWD_device = geomAndNot(p_nwd_5 geomStraddle(p_nwd_2 ZD2SM24_device))
+
+Executing: p_pd_1 = geomAndNot(pdiode_1 DIODE)
+
+Executing: p_pd_2 = geomAndNot(geomOutside(p_pd_1 ZD2SM24_device) geomOr(pnpvert3_e pnpv...
+
+Executing: p_pd_3 = geomAndNot(p_pd_2 diodes_modeled)
+
+Executing: P_PD_device = geomAndNot(geomAndNot(p_pd_3 pnplat2_e) pnplat2_c)
+
+Executing: spiral_term11_1 = geomGetTexted(geomButtOrOver(RESTRM INDDEF) MET3_pintext "P1")
+
+Executing: spiral_term22_1 = geomGetTexted(geomButtOrOver(RESTRM INDDEF) MET3_pintext "P2")
+
+Executing: spiral_term11_2 = geomGetTexted(geomButtOrOver(RESTRM INDDEF) MET4_pintext "P1")
+
+Executing: spiral_term22_2 = geomGetTexted(geomButtOrOver(RESTRM INDDEF) MET4_pintext "P2")
+
+Executing: spiral_term11 = geomOr(spiral_term11_1 spiral_term11_2)
+
+Executing: spiral_term22 = geomOr(spiral_term22_1 spiral_term22_2)
+
+Executing: spiral_term11_met4 = geomGetTexted(geomButtOrOver(RESTRM INDDEF) MET4_pintext...
+
+Executing: spiral_term22_met4 = geomGetTexted(geomButtOrOver(RESTRM INDDEF) MET4_pintext...
+
+Executing: spiral_met_all_1 = geomOr(geomAnd(MET2 INDDEF) geomAnd(MET3 INDDEF))
+
+Executing: spiral_met_all = geomOr(spiral_met_all_1 geomAnd(MET4 INDDEF))
+
+Executing: spiral_term_xx = geomOr(geomOr(spiral_term11 spiral_term22) geomOr(spiral_ter...
+
+Executing: spiral_term = geomButtOrOver(geomAnd(spiral_term_xx INDDEF) spiral_met_all)
+
+Executing: spiral_inddef = geomButtOrOver(INDDEF spiral_term (keep == 2))
+
+Executing: spiral_body = geomAnd(spiral_inddef spiral_met_all)
+
+Executing: SP133S300T_device = geomAnd(spiral_body geomGetTexted(spiral_inddef INDDEF_te...
+
+Executing: SP100S250T_device = geomAnd(spiral_body geomGetTexted(spiral_inddef INDDEF_te...
+
+Executing: SP073S250T_device = geomAnd(spiral_body geomGetTexted(spiral_inddef INDDEF_te...
+
+Executing: SP060S300T_device = geomAnd(spiral_body geomGetTexted(spiral_inddef INDDEF_te...
+
+Executing: SP049S300T_device = geomAnd(spiral_body geomGetTexted(spiral_inddef INDDEF_te...
+
+Executing: SP047S250T_device = geomAnd(spiral_body geomGetTexted(spiral_inddef INDDEF_te...
+
+Executing: SP037S250T_device = geomAnd(spiral_body geomGetTexted(spiral_inddef INDDEF_te...
+
+Executing: SP033S150T_device = geomAnd(spiral_body geomGetTexted(spiral_inddef INDDEF_te...
+
+Executing: SP031S250T_device = geomAnd(spiral_body geomGetTexted(spiral_inddef INDDEF_te...
+
+Executing: SP024S250T_device = geomAnd(spiral_body geomGetTexted(spiral_inddef INDDEF_te...
+
+Executing: SP021S200T_device = geomAnd(spiral_body geomGetTexted(spiral_inddef INDDEF_te...
+
+Executing: SP020S250T_device = geomAnd(spiral_body geomGetTexted(spiral_inddef INDDEF_te...
+
+Executing: SP015S250T_device = geomAnd(spiral_body geomGetTexted(spiral_inddef INDDEF_te...
+
+Executing: SP011S200T_device = geomAnd(spiral_body geomGetTexted(spiral_inddef INDDEF_te...
+
+Executing: spiral_body_named_typet = geomCat(SP133S300T_device SP100S250T_device SP073S2...
+
+Executing: SP014S300D_device = geomAnd(spiral_body geomGetTexted(spiral_inddef INDDEF_te...
+
+Executing: SP018S300D_device = geomAnd(spiral_body geomGetTexted(spiral_inddef INDDEF_te...
+
+Executing: SP020S180D_device = geomAnd(spiral_body geomGetTexted(spiral_inddef INDDEF_te...
+
+Executing: SP023S200D_device = geomAnd(spiral_body geomGetTexted(spiral_inddef INDDEF_te...
+
+Executing: SP025C200D_device = geomAnd(spiral_body geomGetTexted(spiral_inddef INDDEF_te...
+
+Executing: SP026S200D_device = geomAnd(spiral_body geomGetTexted(spiral_inddef INDDEF_te...
+
+Executing: SP028S300D_device = geomAnd(spiral_body geomGetTexted(spiral_inddef INDDEF_te...
+
+Executing: SP028C200D_device = geomAnd(spiral_body geomGetTexted(spiral_inddef INDDEF_te...
+
+Executing: SP030C200D_device = geomAnd(spiral_body geomGetTexted(spiral_inddef INDDEF_te...
+
+Executing: SP037S180D_device = geomAnd(spiral_body geomGetTexted(spiral_inddef INDDEF_te...
+
+Executing: SP038S300D_device = geomAnd(spiral_body geomGetTexted(spiral_inddef INDDEF_te...
+
+Executing: SP040C200D_device = geomAnd(spiral_body geomGetTexted(spiral_inddef INDDEF_te...
+
+Executing: SP040C300D_device = geomAnd(spiral_body geomGetTexted(spiral_inddef INDDEF_te...
+
+Executing: SP045C200D_device = geomAnd(spiral_body geomGetTexted(spiral_inddef INDDEF_te...
+
+Executing: SP047S180D_device = geomAnd(spiral_body geomGetTexted(spiral_inddef INDDEF_te...
+
+Executing: SP050S155D_device = geomAnd(spiral_body geomGetTexted(spiral_inddef INDDEF_te...
+
+Executing: SP051C300D_device = geomAnd(spiral_body geomGetTexted(spiral_inddef INDDEF_te...
+
+Executing: SP068C300D_device = geomAnd(spiral_body geomGetTexted(spiral_inddef INDDEF_te...
+
+Executing: SP090C200D_device = geomAnd(spiral_body geomGetTexted(spiral_inddef INDDEF_te...
+
+Executing: SP090S155D_device = geomAnd(spiral_body geomGetTexted(spiral_inddef INDDEF_te...
+
+Executing: SP112C300D_device = geomAnd(spiral_body geomGetTexted(spiral_inddef INDDEF_te...
+
+Executing: SP140C200D_device = geomAnd(spiral_body geomGetTexted(spiral_inddef INDDEF_te...
+
+Executing: SP200C200D_device = geomAnd(spiral_body geomGetTexted(spiral_inddef INDDEF_te...
+
+Executing: SY014C165D_device = geomAnd(spiral_body geomGetTexted(spiral_inddef INDDEF_te...
+
+Executing: SY015C200D_device = geomAnd(spiral_body geomGetTexted(spiral_inddef INDDEF_te...
+
+Executing: SY016C180D_device = geomAnd(spiral_body geomGetTexted(spiral_inddef INDDEF_te...
+
+Executing: SY017C165D_device = geomAnd(spiral_body geomGetTexted(spiral_inddef INDDEF_te...
+
+Executing: SY019C180D_device = geomAnd(spiral_body geomGetTexted(spiral_inddef INDDEF_te...
+
+Executing: SY028C160D_device = geomAnd(spiral_body geomGetTexted(spiral_inddef INDDEF_te...
+
+Executing: spiral_body_named_typed = geomCat(SY014C165D_device SP014S300D_device SY015C2...
+
+Executing: spiral_body_di_15 = geomAnd(spiral_body geomGetTexted(spiral_inddef INDDEF_te...
+
+Executing: spiral_body_di_20 = geomAnd(spiral_body geomGetTexted(spiral_inddef INDDEF_te...
+
+Executing: spiral_body_di_25 = geomAnd(spiral_body geomGetTexted(spiral_inddef INDDEF_te...
+
+Executing: spiral_body_di_30 = geomAnd(spiral_body geomGetTexted(spiral_inddef INDDEF_te...
+
+Executing: spiral_body_di_35 = geomAnd(spiral_body geomGetTexted(spiral_inddef INDDEF_te...
+
+Executing: spiral_body_di_40 = geomAnd(spiral_body geomGetTexted(spiral_inddef INDDEF_te...
+
+Executing: spiral_body_di_45 = geomAnd(spiral_body geomGetTexted(spiral_inddef INDDEF_te...
+
+Executing: spiral_body_di_50 = geomAnd(spiral_body geomGetTexted(spiral_inddef INDDEF_te...
+
+Executing: spiral_body_di_55 = geomAnd(spiral_body geomGetTexted(spiral_inddef INDDEF_te...
+
+Executing: spiral_body_di_60 = geomAnd(spiral_body geomGetTexted(spiral_inddef INDDEF_te...
+
+Executing: spiral_body_named_type_diff = geomCat((DI15PT_device = geomCat(spiral_body_di...
+
+Executing: SP014S300C_device = geomAnd(spiral_body geomGetTexted(spiral_inddef INDDEF_te...
+
+Executing: SP018S300C_device = geomAnd(spiral_body geomGetTexted(spiral_inddef INDDEF_te...
+
+Executing: SP020S180C_device = geomAnd(spiral_body geomGetTexted(spiral_inddef INDDEF_te...
+
+Executing: SP023S200C_device = geomAnd(spiral_body geomGetTexted(spiral_inddef INDDEF_te...
+
+Executing: SP025C200C_device = geomAnd(spiral_body geomGetTexted(spiral_inddef INDDEF_te...
+
+Executing: SP026S200C_device = geomAnd(spiral_body geomGetTexted(spiral_inddef INDDEF_te...
+
+Executing: SP028S300C_device = geomAnd(spiral_body geomGetTexted(spiral_inddef INDDEF_te...
+
+Executing: SP028C200C_device = geomAnd(spiral_body geomGetTexted(spiral_inddef INDDEF_te...
+
+Executing: SP030C200C_device = geomAnd(spiral_body geomGetTexted(spiral_inddef INDDEF_te...
+
+Executing: SP037S180C_device = geomAnd(spiral_body geomGetTexted(spiral_inddef INDDEF_te...
+
+Executing: SP038S300C_device = geomAnd(spiral_body geomGetTexted(spiral_inddef INDDEF_te...
+
+Executing: SP040C200C_device = geomAnd(spiral_body geomGetTexted(spiral_inddef INDDEF_te...
+
+Executing: SP040C300C_device = geomAnd(spiral_body geomGetTexted(spiral_inddef INDDEF_te...
+
+Executing: SP045C200C_device = geomAnd(spiral_body geomGetTexted(spiral_inddef INDDEF_te...
+
+Executing: SP047S180C_device = geomAnd(spiral_body geomGetTexted(spiral_inddef INDDEF_te...
+
+Executing: SP050S155C_device = geomAnd(spiral_body geomGetTexted(spiral_inddef INDDEF_te...
+
+Executing: SP051C300C_device = geomAnd(spiral_body geomGetTexted(spiral_inddef INDDEF_te...
+
+Executing: SP068C300C_device = geomAnd(spiral_body geomGetTexted(spiral_inddef INDDEF_te...
+
+Executing: SP090C200C_device = geomAnd(spiral_body geomGetTexted(spiral_inddef INDDEF_te...
+
+Executing: SP090S155C_device = geomAnd(spiral_body geomGetTexted(spiral_inddef INDDEF_te...
+
+Executing: SP112C300C_device = geomAnd(spiral_body geomGetTexted(spiral_inddef INDDEF_te...
+
+Executing: SP140C200C_device = geomAnd(spiral_body geomGetTexted(spiral_inddef INDDEF_te...
+
+Executing: SP200C200C_device = geomAnd(spiral_body geomGetTexted(spiral_inddef INDDEF_te...
+
+Executing: SY014C165C_device = geomAnd(spiral_body geomGetTexted(spiral_inddef INDDEF_te...
+
+Executing: SY015C200C_device = geomAnd(spiral_body geomGetTexted(spiral_inddef INDDEF_te...
+
+Executing: SY016C180C_device = geomAnd(spiral_body geomGetTexted(spiral_inddef INDDEF_te...
+
+Executing: SY017C165C_device = geomAnd(spiral_body geomGetTexted(spiral_inddef INDDEF_te...
+
+Executing: SY019C180C_device = geomAnd(spiral_body geomGetTexted(spiral_inddef INDDEF_te...
+
+Executing: SY028C160C_device = geomAnd(spiral_body geomGetTexted(spiral_inddef INDDEF_te...
+
+Executing: spiral_body_named_typec = geomCat(SY014C165C_device SP014S300C_device SY015C2...
+
+Executing: spiral_body_named = geomCat(spiral_body_named_typet spiral_body_named_typed s...
+
+Executing: spiral_body_unknown = geomAndNot(spiral_body spiral_body_named)
+
+Executing: inddef_bad = geomButtOrOver(INDDEF spiral_body_unknown)
+	   errorLayer(inddef_bad "ERC Warning : Name of Spiral not identified")
+
+Executing: inddef_bad_all = geomAvoiding(INDDEF spiral_body_named)
+	   errorLayer(inddef_bad_all "ERC Warning : INDDEF does not define a correct spiral or is not valid for this process")
+
+Executing: bad_spirlay_1 = geomAnd(INDDEF DIFF)
+
+Executing: bad_spirlay_2 = geomAnd(INDDEF implant)
+
+Executing: bad_spirlay_3 = geomAnd(INDDEF POLY1)
+
+Executing: bad_spirlay_4 = geomAnd(INDDEF POLY2)
+
+Executing: bad_spirlay_5 = geomAnd(INDDEF via_cont_pin)
+
+Executing: bad_spirlay_6_1 = geomOr(geomAnd(INDDEF MET1) geomAnd(INDDEF MET2))
+
+Executing: bad_spirlay_6 = geomOr(bad_spirlay_6_1 geomAnd(INDDEF VIA2))
+
+Executing: bad_spirlay_all = geomOr(bad_spirlay_1 geomOr(bad_spirlay_2 geomOr(bad_spirla...
+
+Executing: bad_spirlay_all_1 = geomAndNot(bad_spirlay_all geomButtOrOver(INDDEF spiral_b...
+	   errorLayer(bad_spirlay_all_1 "ERC Warning : illegal layer under spiral")
+
+Executing: inddef_texted_all = geomGetTexted(INDDEF INDDEF_text "*")
+
+Executing: inddef_not_texted = geomAndNot(INDDEF inddef_texted_all)
+	   errorLayer(inddef_not_texted "ERC Warning : Each INDDEF shape must be marked with a single INDDEF text label")
+
+Executing: inddef_text_shape = geomTextShape(INDDEF_text)
+
+Executing: inddef_text_shape_bad = geomEnclose(INDDEF inddef_text_shape (keep > 1))
+	   errorLayer(inddef_text_shape_bad "ERC Warning : multiple text on INDEF")
+
+Executing: METRES_bad = geomOverlap(METRES geomCat(CONT VIA1 VIA2 VIA3))
+	   errorLayer(METRES_bad "Error: METRES overlapping CONT or VIAx")
+
+Executing: METRES_good = geomAndNot(METRES METRES_bad)
+
+Executing: MET1RES_bad = geomOverlap(MET1RES geomCat(CONT VIA1))
+	   errorLayer(MET1RES_bad "Error: MET1RES overlapping CONT or VIA1")
+
+Executing: MET1RES_good = geomAndNot(MET1RES MET1RES_bad)
+
+Executing: MET2RES_bad = geomOverlap(MET2RES geomCat(VIA1 VIA2))
+	   errorLayer(MET2RES_bad "Error: MET2RES overlapping VIA1 or VIA2")
+
+Executing: MET2RES_good = geomAndNot(MET2RES MET2RES_bad)
+
+Executing: MET3RES_bad = geomOverlap(MET3RES geomCat(VIA2 VIA3))
+	   errorLayer(MET3RES_bad "Error: MET3RES overlapping VIA2 or VIA3")
+
+Executing: MET3RES_good = geomAndNot(MET3RES MET3RES_bad)
+
+Executing: MET4RES_bad = geomOverlap(MET4RES VIA3)
+	   errorLayer(MET4RES_bad "Error: MET4RES overlapping VIA3")
+
+Executing: MET4RES_good = geomAndNot(MET4RES MET4RES_bad)
+
+Executing: rmet1_1 = geomAnd(met1_withslots geomOr(METRES_good MET1RES_good))
+
+Executing: rmet1_trm = geomAnd(geomAndNot(geomSize(rmet1_1 0.1) rmet1_1) met1_withslots)
+
+Executing: rmet1_2 = geomGetRectangle(rmet1_1)
+
+Executing: errorLayer(geomAndNot(rmet1_1 rmet1_2) "Error: MET1 resistors (shorts) must be rectangular")
+
+Executing: RMET1_device = geomButtOrOver(rmet1_2 rmet1_trm (keep == 2))
+
+Executing: errorLayer(geomAndNot(rmet1_2 RMET1_device) "Error: Number of MET1 resistor terminals != 2")
+
+Executing: rmet2_1 = geomAnd(met2_withslots geomOr(METRES_good MET2RES_good))
+
+Executing: rmet2_trm = geomAnd(geomAndNot(geomSize(rmet2_1 0.1) rmet2_1) met2_withslots)
+
+Executing: rmet2_2 = geomGetRectangle(rmet2_1)
+
+Executing: errorLayer(geomAndNot(rmet2_1 rmet2_2) "Error: MET2 resistors (shorts) must be rectangular")
+
+Executing: RMET2_device = geomButtOrOver(rmet2_2 rmet2_trm (keep == 2))
+
+Executing: errorLayer(geomAndNot(rmet2_2 RMET2_device) "Error: Number of MET2 resistor terminals != 2")
+
+Executing: rmet3_1 = geomAnd(met3_withslots geomOr(METRES_good MET3RES_good))
+
+Executing: rmet3_trm = geomAnd(geomAndNot(geomSize(rmet3_1 0.1) rmet3_1) met3_withslots)
+
+Executing: rmet3_2 = geomGetRectangle(rmet3_1)
+
+Executing: errorLayer(geomAndNot(rmet3_1 rmet3_2) "Error: MET3 resistors (shorts) must be rectangular")
+
+Executing: RMET3_device = geomButtOrOver(rmet3_2 rmet3_trm (keep == 2))
+
+Executing: errorLayer(geomAndNot(rmet3_2 RMET3_device) "Error: Number of MET3 resistor terminals != 2")
+
+Executing: rmet4_1 = geomAnd(met4_withslots geomOr(METRES_good MET4RES_good))
+
+Executing: rmet4_trm = geomAnd(geomAndNot(geomSize(rmet4_1 0.1) rmet4_1) met4_withslots)
+
+Executing: rmet4_2 = geomGetRectangle(rmet4_1)
+
+Executing: errorLayer(geomAndNot(rmet4_1 rmet4_2) "Error: MET4 resistors (shorts) must be rectangular")
+
+Executing: RMET4_device = geomButtOrOver(rmet4_2 rmet4_trm (keep == 2))
+
+Executing: errorLayer(geomAndNot(rmet4_2 RMET4_device) "Error: Number of MET4 resistor terminals != 2")
+
+Executing: met1_withslots_trunc = geomAndNot(met1_withslots RMET1_device)
+
+Executing: met2_withslots_trunc = geomAndNot(met2_withslots RMET2_device)
+
+Executing: met3_withslots_trunc = geomAndNot(met3_withslots RMET3_device)
+
+Executing: m1m2_commonx = geomStraddle(geomAnd(met1_withslots_trunc met2_withslots_trunc...
+
+Executing: RVIA1_device = geomAnd(m1m2_commonx METRES_VIA1)
+
+Executing: errorLayer(geomAnd(geomButtOrOver(geomAndNot(m1m2_commonx RVIA1_device) RVIA1_device) VIA1) "RVIA1 Definition layer: does not open all via conncetion, is shorted")
+
+Executing: errorLayer(geomGetEdge(METRES_VIA1 inside geomButtOrOver(VIA1 RVIA1_device)) "RVIA1 Definition layer: truncates via1, device shorted")
+
+Executing: errorLayer(geomAvoiding(METRES_VIA1 RVIA1_device) "RVIA1 Definition layer: does not define a device")
+
+Executing: errorLayer(geomCat(geomAnd(METRES_VIA1 METRES) geomAnd(METRES_VIA1 MET1RES) geomAnd(METRES_VIA1 MET2RES)) "RVIA1 Definition layer: over METRES")
+
+Executing: m2m3_commonx = geomStraddle(geomAnd(met2_withslots_trunc met3_withslots_trunc...
+
+Executing: RVIA2_device = geomAnd(m2m3_commonx METRES_VIA2)
+
+Executing: errorLayer(geomAnd(geomButtOrOver(geomAndNot(m2m3_commonx RVIA2_device) RVIA2_device) VIA2) "RVIA2 Definition layer: does not open all via conncetion, is shorted")
+
+Executing: errorLayer(geomGetEdge(METRES_VIA2 inside geomButtOrOver(VIA2 RVIA2_device)) "RVIA2 Definition layer: truncates via2, device shorted")
+
+Executing: errorLayer(geomAvoiding(METRES_VIA2 RVIA2_device) "RVIA2 Definition layer : does not define a device")
+
+Executing: errorLayer(geomCat(geomAnd(METRES_VIA2 METRES) geomAnd(METRES_VIA2 MET2RES) geomAnd(METRES_VIA2 MET3RES)) "RVIA2 Definition layer: over METRES")
+
+Executing: met4_withslots_trunc = geomAndNot(met4_withslots RMET4_device)
+
+Executing: m3m4_commonx = geomStraddle(geomAnd(met3_withslots_trunc met4_withslots_trunc...
+
+Executing: RVIA3_device = geomAnd(m3m4_commonx METRES_VIA3)
+
+Executing: errorLayer(geomAnd(geomButtOrOver(geomAndNot(m3m4_commonx RVIA3_device) RVIA3_device) VIA3) "RVIA3 Definition layer: does not open all via conncetion, is shorted")
+
+Executing: errorLayer(geomGetEdge(METRES_VIA3 inside geomButtOrOver(VIA3 RVIA3_device)) "RVIA3 Definition layer: truncates via3, device shorted")
+
+Executing: errorLayer(geomAvoiding(METRES_VIA3 RVIA3_device) "RVIA3 Definition layer : does not define a device")
+
+Executing: errorLayer(geomCat(geomAnd(METRES_VIA3 METRES) geomAnd(METRES_VIA3 MET2RES) geomAnd(METRES_VIA3 MET3RES)) "RVIA3 Definition layer: over METRES")
+
+Executing: net_met1 = geomAndNot(met1_withslots geomCat(spiral_body RMET1_device))
+
+Executing: net_met2 = geomAndNot(met2_withslots geomCat(spiral_body RMET2_device))
+
+Executing: net_met3 = geomAndNot(met3_withslots geomCat(spiral_body RMET3_device))
+
+Executing: net_via1 = geomAndNot(VIA1 geomCat(spiral_body RVIA1_device))
+
+Executing: net_via2_met2 = geomAndNot(via2_met2 geomCat(spiral_body RVIA2_device))
+
+Executing: net_metcap = geomCat(METCAP)
+
+Executing: net_met4 = geomAndNot(met4_withslots geomCat(spiral_body RMET4_device))
+
+Executing: net_via3 = geomAndNot(VIA3 geomCat(spiral_body RVIA3_device))
+
+Executing: tsv_term_bot = geomAnd(MET1 VIATSV)
+
+Executing: tsv_term_top = geomAnd(METTSV VIATSV)
+
+Executing: tsv_dev = geomAnd(tsv_term_bot tsv_term_top)
+
+Executing: cblock_met2cap_met2 = geomSize(cmim 0.9)
+
+Executing: rcxLayer(cblock_met2cap_met2)
+
+Executing: cblock_met1_fox = geomCat(CPOLYRF_device RPOLY2RF_device NMOSRF_device PMOSRF...
+
+Executing: rcxLayer(cblock_met1_fox)
+
+Executing: cblock_poly2_poly1 = geomSize(cpoly 0.9)
+
+Executing: rcxLayer(cblock_poly2_poly1)
+
+Executing: cblock_poly1_psub = geomCat(gate HVDEF pres1)
+
+Executing: rcxLayer(cblock_poly1_psub)
+
+Executing: cblock_poly2_psub = geomCat(pres presp presph presh presz)
+
+Executing: rcxLayer(cblock_poly2_psub)
+
+Executing: POLY1_pinshape_bad = geomOutside(POLY1_pinshape net_poly1)
+	   errorLayer(POLY1_pinshape_bad "ERROR : POLY1 pin outside poly1")
+
+Executing: MET1_pinshape_bad = geomOutside(MET1_pinshape net_met1)
+	   errorLayer(MET1_pinshape_bad "ERROR : MET1 pin outside met1")
+
+Executing: MET2_pinshape_bad = geomOutside(MET2_pinshape net_met2)
+	   errorLayer(MET2_pinshape_bad "ERROR : MET2 pin outside met2")
+
+Executing: PADTSV_pinshape_bad = geomOutside(PADTSV_pinshape METTSV)
+	   errorLayer(PADTSV_pinshape_bad "ERROR: PADTSV pin outside METTSV")
+
+Executing: MET3_pinshape_bad = geomAvoiding(geomOutside(MET3_pinshape net_met3) INDDEF)
+	   errorLayer(MET3_pinshape_bad "ERROR : MET3 pin outside met3")
+
+Executing: MET4_pinshape_bad = geomAvoiding(geomOutside(MET4_pinshape net_met4) INDDEF)
+	   errorLayer(MET4_pinshape_bad "ERROR : MET4 pin outside met4")
+
+Executing: PAD_pinshape_bad = geomOutside(PAD_pinshape net_met4)
+	   errorLayer(PAD_pinshape_bad "ERROR : PAD pin outside pad metal")
+
+Executing: net_poly1 = geomOr(net_poly1 POLY1_pinshape)
+
+Executing: net_met1 = geomOr(net_met1 MET1_pinshape)
+
+Executing: net_met2 = geomOr(net_met2 MET2_pinshape)
+
+Executing: net_met3 = geomOr(net_met3 MET3_pinshape)
+
+Executing: net_met4 = geomOr(net_met4 MET4_pinshape)
+
+Executing: net_optdef = geomOr(OPTDEF)
+
+Executing: geomConnect((label POLY1_pintext net_poly1 POLY1_pinshape) (label MET1_pintex...
+     3 net(s) with multi-label warnings found in cell 'VDD3ALLP layout IOLIB_4M'.
+ See the label report in "computer.erc" file for details.
+
+
+Executing: extractMOS("NMOS4" NMOS_device (net_poly1 "G") (net_nsd "S" "D") (net_psub "B...
+         5 'NMOS4' created in cell 'XOR21 layout CORELIB'.
+         5 'NMOS4' created in cell 'XOR20 layout CORELIB'.
+         5 'NMOS4' created in cell 'XNR21 layout CORELIB'.
+         5 'NMOS4' created in cell 'XNR20 layout CORELIB'.
+         6 'NMOS4' created in cell 'VDD3IP layout IOLIB_4M'.
+         6 'NMOS4' created in cell 'VDD3ALLP layout IOLIB_4M'.
+         4 'NMOS4' created in cell 'OAI312 layout CORELIB'.
+         4 'NMOS4' created in cell 'OAI311 layout CORELIB'.
+         4 'NMOS4' created in cell 'OAI310 layout CORELIB'.
+         4 'NMOS4' created in cell 'OAI222 layout CORELIB'.
+         4 'NMOS4' created in cell 'OAI221 layout CORELIB'.
+         4 'NMOS4' created in cell 'OAI220 layout CORELIB'.
+         3 'NMOS4' created in cell 'OAI212 layout CORELIB'.
+         8 'NMOS4' created in cell 'OAI2112 layout CORELIB'.
+         4 'NMOS4' created in cell 'OAI2111 layout CORELIB'.
+         4 'NMOS4' created in cell 'OAI2110 layout CORELIB'.
+         3 'NMOS4' created in cell 'OAI211 layout CORELIB'.
+         3 'NMOS4' created in cell 'OAI210 layout CORELIB'.
+         8 'NMOS4' created in cell 'NOR42 layout CORELIB'.
+         4 'NMOS4' created in cell 'NOR41 layout CORELIB'.
+         4 'NMOS4' created in cell 'NOR40 layout CORELIB'.
+         6 'NMOS4' created in cell 'NOR33 layout CORELIB'.
+         3 'NMOS4' created in cell 'NOR32 layout CORELIB'.
+         3 'NMOS4' created in cell 'NOR31 layout CORELIB'.
+         3 'NMOS4' created in cell 'NOR30 layout CORELIB'.
+         2 'NMOS4' created in cell 'NOR24 layout CORELIB'.
+         2 'NMOS4' created in cell 'NOR23 layout CORELIB'.
+         2 'NMOS4' created in cell 'NOR22 layout CORELIB'.
+         2 'NMOS4' created in cell 'NOR21 layout CORELIB'.
+         2 'NMOS4' created in cell 'NOR20 layout CORELIB'.
+         4 'NMOS4' created in cell 'NAND43 layout CORELIB'.
+         4 'NMOS4' created in cell 'NAND42 layout CORELIB'.
+         4 'NMOS4' created in cell 'NAND41 layout CORELIB'.
+         4 'NMOS4' created in cell 'NAND40 layout CORELIB'.
+         3 'NMOS4' created in cell 'NAND34 layout CORELIB'.
+         3 'NMOS4' created in cell 'NAND33 layout CORELIB'.
+         6 'NMOS4' created in cell 'NAND32 layout CORELIB'.
+         3 'NMOS4' created in cell 'NAND31 layout CORELIB'.
+         3 'NMOS4' created in cell 'NAND30 layout CORELIB'.
+         8 'NMOS4' created in cell 'NAND28 layout CORELIB'.
+         4 'NMOS4' created in cell 'NAND24 layout CORELIB'.
+         4 'NMOS4' created in cell 'NAND23 layout CORELIB'.
+         2 'NMOS4' created in cell 'NAND22 layout CORELIB'.
+         2 'NMOS4' created in cell 'NAND21 layout CORELIB'.
+         2 'NMOS4' created in cell 'NAND20 layout CORELIB'.
+        13 'NMOS4' created in cell 'MUX42 layout CORELIB'.
+        13 'NMOS4' created in cell 'MUX41 layout CORELIB'.
+        11 'NMOS4' created in cell 'MUX24 layout CORELIB'.
+         6 'NMOS4' created in cell 'MUX21 layout CORELIB'.
+         6 'NMOS4' created in cell 'MAJ31 layout CORELIB'.
+        23 'NMOS4' created in cell 'JKSC1 layout CORELIB'.
+         3 'NMOS4' created in cell 'INV8 layout CORELIB'.
+         2 'NMOS4' created in cell 'INV6 layout CORELIB'.
+         1 'NMOS4' created in cell 'INV3 layout CORELIB'.
+         5 'NMOS4' created in cell 'INV15 layout CORELIB'.
+         4 'NMOS4' created in cell 'INV12 layout CORELIB'.
+         4 'NMOS4' created in cell 'INV10 layout CORELIB'.
+        18 'NMOS4' created in cell 'IMUX42 layout CORELIB'.
+        12 'NMOS4' created in cell 'IMUX41 layout CORELIB'.
+        12 'NMOS4' created in cell 'IMUX40 layout CORELIB'.
+         5 'NMOS4' created in cell 'IMUX24 layout CORELIB'.
+         8 'NMOS4' created in cell 'IMUX23 layout CORELIB'.
+         9 'NMOS4' created in cell 'IMUX22 layout CORELIB'.
+         5 'NMOS4' created in cell 'IMUX21 layout CORELIB'.
+         5 'NMOS4' created in cell 'IMUX20 layout CORELIB'.
+         5 'NMOS4' created in cell 'IMAJ30 layout CORELIB'.
+        12 'NMOS4' created in cell 'ICUP layout IOLIB_4M'.
+         6 'NMOS4' created in cell 'GND3ALLP layout IOLIB_4M'.
+         1 'NMOS4' created in cell 'FILL5 layout CORELIB'.
+         1 'NMOS4' created in cell 'FILL25 layout CORELIB'.
+         1 'NMOS4' created in cell 'FILL2 layout CORELIB'.
+         1 'NMOS4' created in cell 'FILL10 layout CORELIB'.
+        19 'NMOS4' created in cell 'DFSP3 layout CORELIB'.
+        19 'NMOS4' created in cell 'DFSP1 layout CORELIB'.
+        22 'NMOS4' created in cell 'DFSEP1 layout CORELIB'.
+        22 'NMOS4' created in cell 'DFSEC3 layout CORELIB'.
+        22 'NMOS4' created in cell 'DFSEC1 layout CORELIB'.
+        20 'NMOS4' created in cell 'DFSE1 layout CORELIB'.
+        19 'NMOS4' created in cell 'DFSC3 layout CORELIB'.
+        19 'NMOS4' created in cell 'DFSC1 layout CORELIB'.
+        15 'NMOS4' created in cell 'DFC1 layout CORELIB'.
+         3 'NMOS4' created in cell 'CLKIN8 layout CORELIB'.
+         2 'NMOS4' created in cell 'CLKIN6 layout CORELIB'.
+         1 'NMOS4' created in cell 'CLKIN3 layout CORELIB'.
+         1 'NMOS4' created in cell 'CLKIN2 layout CORELIB'.
+         5 'NMOS4' created in cell 'CLKIN15 layout CORELIB'.
+         4 'NMOS4' created in cell 'CLKIN12 layout CORELIB'.
+         4 'NMOS4' created in cell 'CLKIN10 layout CORELIB'.
+         1 'NMOS4' created in cell 'CLKIN1 layout CORELIB'.
+         1 'NMOS4' created in cell 'CLKIN0 layout CORELIB'.
+         4 'NMOS4' created in cell 'CLKBU8 layout CORELIB'.
+         3 'NMOS4' created in cell 'CLKBU6 layout CORELIB'.
+         3 'NMOS4' created in cell 'CLKBU4 layout CORELIB'.
+         2 'NMOS4' created in cell 'CLKBU2 layout CORELIB'.
+         7 'NMOS4' created in cell 'CLKBU15 layout CORELIB'.
+         5 'NMOS4' created in cell 'CLKBU12 layout CORELIB'.
+         4 'NMOS4' created in cell 'BUF8 layout CORELIB'.
+         3 'NMOS4' created in cell 'BUF6 layout CORELIB'.
+         2 'NMOS4' created in cell 'BUF2 layout CORELIB'.
+         7 'NMOS4' created in cell 'BUF15 layout CORELIB'.
+         5 'NMOS4' created in cell 'BUF12 layout CORELIB'.
+        14 'NMOS4' created in cell 'BU8P layout IOLIB_4M'.
+         4 'NMOS4' created in cell 'AOI312 layout CORELIB'.
+         4 'NMOS4' created in cell 'AOI311 layout CORELIB'.
+         4 'NMOS4' created in cell 'AOI310 layout CORELIB'.
+         4 'NMOS4' created in cell 'AOI222 layout CORELIB'.
+         4 'NMOS4' created in cell 'AOI221 layout CORELIB'.
+         4 'NMOS4' created in cell 'AOI220 layout CORELIB'.
+         3 'NMOS4' created in cell 'AOI212 layout CORELIB'.
+         4 'NMOS4' created in cell 'AOI2112 layout CORELIB'.
+         4 'NMOS4' created in cell 'AOI2111 layout CORELIB'.
+         4 'NMOS4' created in cell 'AOI2110 layout CORELIB'.
+         3 'NMOS4' created in cell 'AOI211 layout CORELIB'.
+         3 'NMOS4' created in cell 'AOI210 layout CORELIB'.
+        14 'NMOS4' created in cell 'ADD31 layout CORELIB'.
+
+Executing: saveRecognition(NMOS_device "device")
+
+Executing: w = measureParameter(length (NMOS_device butting net_nsd) 5e-07)
+
+Executing: l = measureParameter(length (NMOS_device outside net_nsd) 5e-07)
+
+Executing: w_bends90 = measureParameter(bends_full (NMOS_device butting net_nsd))
+
+Executing: w_bends45 = measureParameter(bends_part (NMOS_device butting net_nsd))
+
+Executing: l_bends90 = measureParameter(bends_full (NMOS_device outside net_nsd))
+
+Executing: l_bends45 = measureParameter(bends_part (NMOS_device outside net_nsd))
+
+Executing: weff = calculateParameter(if((w > (l * (1 + (w_bends90 * 0.5) + (w_bends45 * ...
+
+Executing: leff = calculateParameter(if((l > (w * (1 + (l_bends90 * 0.5) + (l_bends45 * ...
+
+Executing: nameParameter(leff "l")
+
+Executing: nameParameter(weff "w")
+
+Executing: nameParameter(weff "wtot")
+
+Executing: NMOS_WAFFLE_bulk = geomCat(NMOS_WAFFLE_device)
+
+Executing: geomStamp(NMOS_WAFFLE_bulk net_psub)
+
+Executing: extractDevice("NMOS4" NMOS_WAFFLE_device (net_poly1 "G") (net_nsd "S" "D") (N...
+
+Executing: saveRecognition(NMOS_WAFFLE_device "device")
+
+Executing: w = measureParameter(length (NMOS_WAFFLE_device butting net_nsd) 5e-07)
+
+Executing: l = measureParameter(length (NMOS_WAFFLE_device outside net_nsd) 5e-07)
+
+Executing: nameParameter(l "l")
+
+Executing: nameParameter(w "w")
+
+Executing: nameParameter(w "wtot")
+
+Executing: extractMOS("NMOSM4" NMOSM_device (net_poly1 "G") (net_nsd "S" "D") (net_psub ...
+
+Executing: saveRecognition(NMOSM_device "device")
+
+Executing: w = measureParameter(length (NMOSM_device butting net_nsd) 5e-07)
+
+Executing: l = measureParameter(length (NMOSM_device outside net_nsd) 5e-07)
+
+Executing: w_bends90 = measureParameter(bends_full (NMOSM_device butting net_nsd))
+
+Executing: w_bends45 = measureParameter(bends_part (NMOSM_device butting net_nsd))
+
+Executing: l_bends90 = measureParameter(bends_full (NMOSM_device outside net_nsd))
+
+Executing: l_bends45 = measureParameter(bends_part (NMOSM_device outside net_nsd))
+
+Executing: weff = calculateParameter(if((w > (l * (1 + (w_bends90 * 0.5) + (w_bends45 * ...
+
+Executing: leff = calculateParameter(if((l > (w * (1 + (l_bends90 * 0.5) + (l_bends45 * ...
+
+Executing: nameParameter(leff "l")
+
+Executing: nameParameter(weff "w")
+
+Executing: nameParameter(weff "wtot")
+
+Executing: NMOSM_WAFFLE_bulk = geomCat(NMOSM_WAFFLE_device)
+
+Executing: geomStamp(NMOSM_WAFFLE_bulk net_psub)
+
+Executing: extractDevice("NMOSM4" NMOSM_WAFFLE_device (net_poly1 "G") (net_nsd "S" "D") ...
+
+Executing: saveRecognition(NMOSM_WAFFLE_device "device")
+
+Executing: w = measureParameter(length (NMOSM_WAFFLE_device butting net_nsd) 5e-07)
+
+Executing: l = measureParameter(length (NMOSM_WAFFLE_device outside net_nsd) 5e-07)
+
+Executing: nameParameter(l "l")
+
+Executing: nameParameter(w "w")
+
+Executing: nameParameter(w "wtot")
+
+Executing: extractMOS("PMOS4" PMOS_device (net_poly1 "G") (net_psd "S" "D") (net_nwell "...
+         5 'PMOS4' created in cell 'XOR21 layout CORELIB'.
+         5 'PMOS4' created in cell 'XOR20 layout CORELIB'.
+         5 'PMOS4' created in cell 'XNR21 layout CORELIB'.
+         5 'PMOS4' created in cell 'XNR20 layout CORELIB'.
+         6 'PMOS4' created in cell 'OAI312 layout CORELIB'.
+         4 'PMOS4' created in cell 'OAI311 layout CORELIB'.
+         4 'PMOS4' created in cell 'OAI310 layout CORELIB'.
+         4 'PMOS4' created in cell 'OAI222 layout CORELIB'.
+         4 'PMOS4' created in cell 'OAI221 layout CORELIB'.
+         4 'PMOS4' created in cell 'OAI220 layout CORELIB'.
+         3 'PMOS4' created in cell 'OAI212 layout CORELIB'.
+         6 'PMOS4' created in cell 'OAI2112 layout CORELIB'.
+         4 'PMOS4' created in cell 'OAI2111 layout CORELIB'.
+         4 'PMOS4' created in cell 'OAI2110 layout CORELIB'.
+         3 'PMOS4' created in cell 'OAI211 layout CORELIB'.
+         3 'PMOS4' created in cell 'OAI210 layout CORELIB'.
+         4 'PMOS4' created in cell 'NOR42 layout CORELIB'.
+         4 'PMOS4' created in cell 'NOR41 layout CORELIB'.
+         4 'PMOS4' created in cell 'NOR40 layout CORELIB'.
+         3 'PMOS4' created in cell 'NOR33 layout CORELIB'.
+         3 'PMOS4' created in cell 'NOR32 layout CORELIB'.
+         3 'PMOS4' created in cell 'NOR31 layout CORELIB'.
+         3 'PMOS4' created in cell 'NOR30 layout CORELIB'.
+         4 'PMOS4' created in cell 'NOR24 layout CORELIB'.
+         4 'PMOS4' created in cell 'NOR23 layout CORELIB'.
+         2 'PMOS4' created in cell 'NOR22 layout CORELIB'.
+         2 'PMOS4' created in cell 'NOR21 layout CORELIB'.
+         2 'PMOS4' created in cell 'NOR20 layout CORELIB'.
+         8 'PMOS4' created in cell 'NAND43 layout CORELIB'.
+         4 'PMOS4' created in cell 'NAND42 layout CORELIB'.
+         4 'PMOS4' created in cell 'NAND41 layout CORELIB'.
+         4 'PMOS4' created in cell 'NAND40 layout CORELIB'.
+         3 'PMOS4' created in cell 'NAND34 layout CORELIB'.
+         3 'PMOS4' created in cell 'NAND33 layout CORELIB'.
+         6 'PMOS4' created in cell 'NAND32 layout CORELIB'.
+         3 'PMOS4' created in cell 'NAND31 layout CORELIB'.
+         3 'PMOS4' created in cell 'NAND30 layout CORELIB'.
+         8 'PMOS4' created in cell 'NAND28 layout CORELIB'.
+         4 'PMOS4' created in cell 'NAND24 layout CORELIB'.
+         4 'PMOS4' created in cell 'NAND23 layout CORELIB'.
+         2 'PMOS4' created in cell 'NAND22 layout CORELIB'.
+         2 'PMOS4' created in cell 'NAND21 layout CORELIB'.
+         2 'PMOS4' created in cell 'NAND20 layout CORELIB'.
+        13 'PMOS4' created in cell 'MUX42 layout CORELIB'.
+        13 'PMOS4' created in cell 'MUX41 layout CORELIB'.
+        11 'PMOS4' created in cell 'MUX24 layout CORELIB'.
+         6 'PMOS4' created in cell 'MUX21 layout CORELIB'.
+         6 'PMOS4' created in cell 'MAJ31 layout CORELIB'.
+        23 'PMOS4' created in cell 'JKSC1 layout CORELIB'.
+         3 'PMOS4' created in cell 'INV8 layout CORELIB'.
+         2 'PMOS4' created in cell 'INV6 layout CORELIB'.
+         1 'PMOS4' created in cell 'INV3 layout CORELIB'.
+         5 'PMOS4' created in cell 'INV15 layout CORELIB'.
+         4 'PMOS4' created in cell 'INV12 layout CORELIB'.
+         4 'PMOS4' created in cell 'INV10 layout CORELIB'.
+        18 'PMOS4' created in cell 'IMUX42 layout CORELIB'.
+        12 'PMOS4' created in cell 'IMUX41 layout CORELIB'.
+        12 'PMOS4' created in cell 'IMUX40 layout CORELIB'.
+         5 'PMOS4' created in cell 'IMUX24 layout CORELIB'.
+         8 'PMOS4' created in cell 'IMUX23 layout CORELIB'.
+         9 'PMOS4' created in cell 'IMUX22 layout CORELIB'.
+         5 'PMOS4' created in cell 'IMUX21 layout CORELIB'.
+         5 'PMOS4' created in cell 'IMUX20 layout CORELIB'.
+         5 'PMOS4' created in cell 'IMAJ30 layout CORELIB'.
+        22 'PMOS4' created in cell 'ICUP layout IOLIB_4M'.
+         1 'PMOS4' created in cell 'FILL5 layout CORELIB'.
+         1 'PMOS4' created in cell 'FILL25 layout CORELIB'.
+         1 'PMOS4' created in cell 'FILL2 layout CORELIB'.
+         1 'PMOS4' created in cell 'FILL10 layout CORELIB'.
+        19 'PMOS4' created in cell 'DFSP3 layout CORELIB'.
+        19 'PMOS4' created in cell 'DFSP1 layout CORELIB'.
+        22 'PMOS4' created in cell 'DFSEP1 layout CORELIB'.
+        22 'PMOS4' created in cell 'DFSEC3 layout CORELIB'.
+        22 'PMOS4' created in cell 'DFSEC1 layout CORELIB'.
+        20 'PMOS4' created in cell 'DFSE1 layout CORELIB'.
+        19 'PMOS4' created in cell 'DFSC3 layout CORELIB'.
+        19 'PMOS4' created in cell 'DFSC1 layout CORELIB'.
+        15 'PMOS4' created in cell 'DFC1 layout CORELIB'.
+         3 'PMOS4' created in cell 'CLKIN8 layout CORELIB'.
+         2 'PMOS4' created in cell 'CLKIN6 layout CORELIB'.
+         1 'PMOS4' created in cell 'CLKIN3 layout CORELIB'.
+         1 'PMOS4' created in cell 'CLKIN2 layout CORELIB'.
+         5 'PMOS4' created in cell 'CLKIN15 layout CORELIB'.
+         4 'PMOS4' created in cell 'CLKIN12 layout CORELIB'.
+         4 'PMOS4' created in cell 'CLKIN10 layout CORELIB'.
+         1 'PMOS4' created in cell 'CLKIN1 layout CORELIB'.
+         1 'PMOS4' created in cell 'CLKIN0 layout CORELIB'.
+         4 'PMOS4' created in cell 'CLKBU8 layout CORELIB'.
+         3 'PMOS4' created in cell 'CLKBU6 layout CORELIB'.
+         3 'PMOS4' created in cell 'CLKBU4 layout CORELIB'.
+         2 'PMOS4' created in cell 'CLKBU2 layout CORELIB'.
+         7 'PMOS4' created in cell 'CLKBU15 layout CORELIB'.
+         5 'PMOS4' created in cell 'CLKBU12 layout CORELIB'.
+         4 'PMOS4' created in cell 'BUF8 layout CORELIB'.
+         3 'PMOS4' created in cell 'BUF6 layout CORELIB'.
+         2 'PMOS4' created in cell 'BUF2 layout CORELIB'.
+         7 'PMOS4' created in cell 'BUF15 layout CORELIB'.
+         5 'PMOS4' created in cell 'BUF12 layout CORELIB'.
+        23 'PMOS4' created in cell 'BU8P layout IOLIB_4M'.
+         4 'PMOS4' created in cell 'AOI312 layout CORELIB'.
+         4 'PMOS4' created in cell 'AOI311 layout CORELIB'.
+         4 'PMOS4' created in cell 'AOI310 layout CORELIB'.
+         4 'PMOS4' created in cell 'AOI222 layout CORELIB'.
+         4 'PMOS4' created in cell 'AOI221 layout CORELIB'.
+         4 'PMOS4' created in cell 'AOI220 layout CORELIB'.
+         4 'PMOS4' created in cell 'AOI212 layout CORELIB'.
+         8 'PMOS4' created in cell 'AOI2112 layout CORELIB'.
+         4 'PMOS4' created in cell 'AOI2111 layout CORELIB'.
+         4 'PMOS4' created in cell 'AOI2110 layout CORELIB'.
+         3 'PMOS4' created in cell 'AOI211 layout CORELIB'.
+         3 'PMOS4' created in cell 'AOI210 layout CORELIB'.
+        14 'PMOS4' created in cell 'ADD31 layout CORELIB'.
+
+Executing: saveRecognition(PMOS_device "device")
+
+Executing: w = measureParameter(length (PMOS_device butting net_psd) 5e-07)
+
+Executing: l = measureParameter(length (PMOS_device outside net_psd) 5e-07)
+
+Executing: w_bends90 = measureParameter(bends_full (PMOS_device butting net_psd))
+
+Executing: w_bends45 = measureParameter(bends_part (PMOS_device butting net_psd))
+
+Executing: l_bends90 = measureParameter(bends_full (PMOS_device outside net_psd))
+
+Executing: l_bends45 = measureParameter(bends_part (PMOS_device outside net_psd))
+
+Executing: weff = calculateParameter(if((w > (l * (1 + (w_bends90 * 0.5) + (w_bends45 * ...
+
+Executing: leff = calculateParameter(if((l > (w * (1 + (l_bends90 * 0.5) + (l_bends45 * ...
+
+Executing: nameParameter(leff "l")
+
+Executing: nameParameter(weff "w")
+
+Executing: nameParameter(weff "wtot")
+
+Executing: PMOS_WAFFLE_bulk = geomCat(PMOS_WAFFLE_device)
+
+Executing: geomStamp(PMOS_WAFFLE_bulk net_nwell)
+
+Executing: extractDevice("PMOS4" PMOS_WAFFLE_device (net_poly1 "G") (net_psd "S" "D") (P...
+
+Executing: saveRecognition(PMOS_WAFFLE_device "device")
+
+Executing: w = measureParameter(length (PMOS_WAFFLE_device butting net_psd) 5e-07)
+
+Executing: l = measureParameter(length (PMOS_WAFFLE_device outside net_psd) 5e-07)
+
+Executing: nameParameter(l "l")
+
+Executing: nameParameter(w "w")
+
+Executing: nameParameter(w "wtot")
+
+Executing: extractMOS("PMOSM4" PMOSM_device (net_poly1 "G") (net_psd "S" "D") (net_nwell...
+
+Executing: saveRecognition(PMOSM_device "device")
+
+Executing: w = measureParameter(length (PMOSM_device butting net_psd) 5e-07)
+
+Executing: l = measureParameter(length (PMOSM_device outside net_psd) 5e-07)
+
+Executing: w_bends90 = measureParameter(bends_full (PMOSM_device butting net_psd))
+
+Executing: w_bends45 = measureParameter(bends_part (PMOSM_device butting net_psd))
+
+Executing: l_bends90 = measureParameter(bends_full (PMOSM_device outside net_psd))
+
+Executing: l_bends45 = measureParameter(bends_part (PMOSM_device outside net_psd))
+
+Executing: weff = calculateParameter(if((w > (l * (1 + (w_bends90 * 0.5) + (w_bends45 * ...
+
+Executing: leff = calculateParameter(if((l > (w * (1 + (l_bends90 * 0.5) + (l_bends45 * ...
+
+Executing: nameParameter(leff "l")
+
+Executing: nameParameter(weff "w")
+
+Executing: nameParameter(weff "wtot")
+
+Executing: PMOSM_WAFFLE_bulk = geomCat(PMOSM_WAFFLE_device)
+
+Executing: geomStamp(PMOSM_WAFFLE_bulk net_nwell)
+
+Executing: extractDevice("PMOSM4" PMOSM_WAFFLE_device (net_poly1 "G") (net_psd "S" "D") ...
+
+Executing: saveRecognition(PMOSM_WAFFLE_device "device")
+
+Executing: w = measureParameter(length (PMOSM_WAFFLE_device butting net_psd) 5e-07)
+
+Executing: l = measureParameter(length (PMOSM_WAFFLE_device outside net_psd) 5e-07)
+
+Executing: nameParameter(l "l")
+
+Executing: nameParameter(w "w")
+
+Executing: nameParameter(w "wtot")
+
+Executing: extractDevice("RCX_DUMMY" NMOSL_device (net_poly1 "PLUS" "MINUS") (cellView "...
+
+Executing: extractDevice("RCX_DUMMY" NMOSL_WAFFLE_device (net_poly1 "PLUS" "MINUS") (cel...
+
+Executing: extractDevice("RCX_DUMMY" NMOSML_device (net_poly1 "PLUS" "MINUS") (cellView ...
+
+Executing: extractDevice("RCX_DUMMY" NMOSML_WAFFLE_device (net_poly1 "PLUS" "MINUS") (ce...
+
+Executing: extractDevice("RCX_DUMMY" PMOSL_device (net_poly1 "PLUS" "MINUS") (cellView "...
+
+Executing: extractDevice("RCX_DUMMY" PMOSL_WAFFLE_device (net_poly1 "PLUS" "MINUS") (cel...
+
+Executing: extractDevice("RCX_DUMMY" PMOSML_device (net_poly1 "PLUS" "MINUS") (cellView ...
+
+Executing: extractDevice("RCX_DUMMY" DPMOSM_device (net_poly1 "PLUS" "MINUS") (cellView ...
+
+Executing: extractDevice("RCX_DUMMY" PMOSML_WAFFLE_device (net_poly1 "PLUS" "MINUS") (ce...
+
+Executing: NMOSW_4N_bulk = geomCat(NMOSW_4N_device)
+
+Executing: geomStamp(NMOSW_4N_bulk net_psub)
+
+Executing: extractDevice("NMOS4" NMOSW_4N_device (net_poly1 "G") (net_nsd "S" "D") (NMOS...
+
+Executing: saveRecognition(NMOSW_4N_device "device")
+
+Executing: w = measureParameter(length (NMOSW_4N_device butting net_nsd) 5e-07)
+
+Executing: l = measureParameter(length (NMOSW_4N_device outside net_nsd) 5e-07)
+
+Executing: nameParameter(l "l")
+
+Executing: nameParameter(w "w")
+
+Executing: nameParameter(w "wtot")
+
+Executing: saveProperty(NMOSW_4N_device "SUBTYPE" "W_4N")
+
+Executing: saveProperty(NMOSW_4N_device "model" "nmosw_4n")
+
+Executing: NMOSW_3N_bulk = geomCat(NMOSW_3N_device)
+
+Executing: geomStamp(NMOSW_3N_bulk net_psub)
+
+Executing: extractDevice("NMOS4" NMOSW_3N_device (net_poly1 "G") (net_nsd "S" "D") (NMOS...
+
+Executing: saveRecognition(NMOSW_3N_device "device")
+
+Executing: w = measureParameter(length (NMOSW_3N_device butting net_nsd) 5e-07)
+
+Executing: l = measureParameter(length (NMOSW_3N_device outside net_nsd) 5e-07)
+
+Executing: nameParameter(l "l")
+
+Executing: nameParameter(w "w")
+
+Executing: nameParameter(w "wtot")
+
+Executing: saveProperty(NMOSW_3N_device "SUBTYPE" "W_3N")
+
+Executing: saveProperty(NMOSW_3N_device "model" "nmosw_3n")
+
+Executing: NMOSW_2N_bulk = geomCat(NMOSW_2N_device)
+
+Executing: geomStamp(NMOSW_2N_bulk net_psub)
+
+Executing: extractDevice("NMOS4" NMOSW_2N_device (net_poly1 "G") (net_nsd "S" "D") (NMOS...
+
+Executing: saveRecognition(NMOSW_2N_device "device")
+
+Executing: w = measureParameter(length (NMOSW_2N_device butting net_nsd) 5e-07)
+
+Executing: l = measureParameter(length (NMOSW_2N_device outside net_nsd) 5e-07)
+
+Executing: nameParameter(l "l")
+
+Executing: nameParameter(w "w")
+
+Executing: nameParameter(w "wtot")
+
+Executing: saveProperty(NMOSW_2N_device "SUBTYPE" "W_2N")
+
+Executing: saveProperty(NMOSW_2N_device "model" "nmosw_2n")
+
+Executing: NMOSMW_4N_bulk = geomCat(NMOSMW_4N_device)
+
+Executing: geomStamp(NMOSMW_4N_bulk net_psub)
+
+Executing: extractDevice("NMOSM4" NMOSMW_4N_device (net_poly1 "G") (net_nsd "S" "D") (NM...
+
+Executing: saveRecognition(NMOSMW_4N_device "device")
+
+Executing: w = measureParameter(length (NMOSMW_4N_device butting net_nsd) 5e-07)
+
+Executing: l = measureParameter(length (NMOSMW_4N_device outside net_nsd) 5e-07)
+
+Executing: nameParameter(l "l")
+
+Executing: nameParameter(w "w")
+
+Executing: nameParameter(w "wtot")
+
+Executing: saveProperty(NMOSMW_4N_device "SUBTYPE" "W_4N")
+
+Executing: saveProperty(NMOSMW_4N_device "model" "nmosmw_4n")
+
+Executing: NMOSMW_3N_bulk = geomCat(NMOSMW_3N_device)
+
+Executing: geomStamp(NMOSMW_3N_bulk net_psub)
+
+Executing: extractDevice("NMOSM4" NMOSMW_3N_device (net_poly1 "G") (net_nsd "S" "D") (NM...
+
+Executing: saveRecognition(NMOSMW_3N_device "device")
+
+Executing: w = measureParameter(length (NMOSMW_3N_device butting net_nsd) 5e-07)
+
+Executing: l = measureParameter(length (NMOSMW_3N_device outside net_nsd) 5e-07)
+
+Executing: nameParameter(l "l")
+
+Executing: nameParameter(w "w")
+
+Executing: nameParameter(w "wtot")
+
+Executing: saveProperty(NMOSMW_3N_device "SUBTYPE" "W_3N")
+
+Executing: saveProperty(NMOSMW_3N_device "model" "nmosmw_3n")
+
+Executing: NMOSMW_2N_bulk = geomCat(NMOSMW_2N_device)
+
+Executing: geomStamp(NMOSMW_2N_bulk net_psub)
+
+Executing: extractDevice("NMOSM4" NMOSMW_2N_device (net_poly1 "G") (net_nsd "S" "D") (NM...
+
+Executing: saveRecognition(NMOSMW_2N_device "device")
+
+Executing: w = measureParameter(length (NMOSMW_2N_device butting net_nsd) 5e-07)
+
+Executing: l = measureParameter(length (NMOSMW_2N_device outside net_nsd) 5e-07)
+
+Executing: nameParameter(l "l")
+
+Executing: nameParameter(w "w")
+
+Executing: nameParameter(w "wtot")
+
+Executing: saveProperty(NMOSMW_2N_device "SUBTYPE" "W_2N")
+
+Executing: saveProperty(NMOSMW_2N_device "model" "nmosmw_2n")
+
+Executing: PMOSW_4N_bulk = geomCat(PMOSW_4N_device)
+
+Executing: geomStamp(PMOSW_4N_bulk net_nwell)
+
+Executing: extractDevice("PMOS4" PMOSW_4N_device (net_poly1 "G") (net_psd "S" "D") (PMOS...
+
+Executing: saveRecognition(PMOSW_4N_device "device")
+
+Executing: w = measureParameter(length (PMOSW_4N_device butting net_psd) 5e-07)
+
+Executing: l = measureParameter(length (PMOSW_4N_device outside net_psd) 5e-07)
+
+Executing: nameParameter(l "l")
+
+Executing: nameParameter(w "w")
+
+Executing: nameParameter(w "wtot")
+
+Executing: saveProperty(PMOSW_4N_device "SUBTYPE" "W_4N")
+
+Executing: saveProperty(PMOSW_4N_device "model" "pmosw_4n")
+
+Executing: PMOSW_3N_bulk = geomCat(PMOSW_3N_device)
+
+Executing: geomStamp(PMOSW_3N_bulk net_nwell)
+
+Executing: extractDevice("PMOS4" PMOSW_3N_device (net_poly1 "G") (net_psd "S" "D") (PMOS...
+
+Executing: saveRecognition(PMOSW_3N_device "device")
+
+Executing: w = measureParameter(length (PMOSW_3N_device butting net_psd) 5e-07)
+
+Executing: l = measureParameter(length (PMOSW_3N_device outside net_psd) 5e-07)
+
+Executing: nameParameter(l "l")
+
+Executing: nameParameter(w "w")
+
+Executing: nameParameter(w "wtot")
+
+Executing: saveProperty(PMOSW_3N_device "SUBTYPE" "W_3N")
+
+Executing: saveProperty(PMOSW_3N_device "model" "pmosw_3n")
+
+Executing: PMOSW_2N_bulk = geomCat(PMOSW_2N_device)
+
+Executing: geomStamp(PMOSW_2N_bulk net_nwell)
+
+Executing: extractDevice("PMOS4" PMOSW_2N_device (net_poly1 "G") (net_psd "S" "D") (PMOS...
+
+Executing: saveRecognition(PMOSW_2N_device "device")
+
+Executing: w = measureParameter(length (PMOSW_2N_device butting net_psd) 5e-07)
+
+Executing: l = measureParameter(length (PMOSW_2N_device outside net_psd) 5e-07)
+
+Executing: nameParameter(l "l")
+
+Executing: nameParameter(w "w")
+
+Executing: nameParameter(w "wtot")
+
+Executing: saveProperty(PMOSW_2N_device "SUBTYPE" "W_2N")
+
+Executing: saveProperty(PMOSW_2N_device "model" "pmosw_2n")
+
+Executing: PMOSMW_4N_bulk = geomCat(PMOSMW_4N_device)
+
+Executing: geomStamp(PMOSMW_4N_bulk net_nwell)
+
+Executing: extractDevice("PMOSM4" PMOSMW_4N_device (net_poly1 "G") (net_psd "S" "D") (PM...
+
+Executing: saveRecognition(PMOSMW_4N_device "device")
+
+Executing: w = measureParameter(length (PMOSMW_4N_device butting net_psd) 5e-07)
+
+Executing: l = measureParameter(length (PMOSMW_4N_device outside net_psd) 5e-07)
+
+Executing: nameParameter(l "l")
+
+Executing: nameParameter(w "w")
+
+Executing: nameParameter(w "wtot")
+
+Executing: saveProperty(PMOSMW_4N_device "SUBTYPE" "W_4N")
+
+Executing: saveProperty(PMOSMW_4N_device "model" "pmosmw_4n")
+
+Executing: PMOSMW_3N_bulk = geomCat(PMOSMW_3N_device)
+
+Executing: geomStamp(PMOSMW_3N_bulk net_nwell)
+
+Executing: extractDevice("PMOSM4" PMOSMW_3N_device (net_poly1 "G") (net_psd "S" "D") (PM...
+
+Executing: saveRecognition(PMOSMW_3N_device "device")
+
+Executing: w = measureParameter(length (PMOSMW_3N_device butting net_psd) 5e-07)
+
+Executing: l = measureParameter(length (PMOSMW_3N_device outside net_psd) 5e-07)
+
+Executing: nameParameter(l "l")
+
+Executing: nameParameter(w "w")
+
+Executing: nameParameter(w "wtot")
+
+Executing: saveProperty(PMOSMW_3N_device "SUBTYPE" "W_3N")
+
+Executing: saveProperty(PMOSMW_3N_device "model" "pmosmw_3n")
+
+Executing: PMOSMW_2N_bulk = geomCat(PMOSMW_2N_device)
+
+Executing: geomStamp(PMOSMW_2N_bulk net_nwell)
+
+Executing: extractDevice("PMOSM4" PMOSMW_2N_device (net_poly1 "G") (net_psd "S" "D") (PM...
+
+Executing: saveRecognition(PMOSMW_2N_device "device")
+
+Executing: w = measureParameter(length (PMOSMW_2N_device butting net_psd) 5e-07)
+
+Executing: l = measureParameter(length (PMOSMW_2N_device outside net_psd) 5e-07)
+
+Executing: nameParameter(l "l")
+
+Executing: nameParameter(w "w")
+
+Executing: nameParameter(w "wtot")
+
+Executing: saveProperty(PMOSMW_2N_device "SUBTYPE" "W_2N")
+
+Executing: saveProperty(PMOSMW_2N_device "model" "pmosmw_2n")
+
+Executing: nmosh_dummy = geomAnd(NMOSH_device net_nwell)
+
+Executing: extractDevice("NMOSH" NMOSH_device (net_poly1 "G") (net_nsd "S") (nmosh_d_ter...
+
+Executing: saveRecognition(NMOSH_device "device")
+
+Executing: attachParameter(l1 "l" NMOSH_device)
+
+Executing: attachParameter(w1 "w" NMOSH_device)
+
+Executing: nmosmh_dummy = geomAnd(NMOSMH_device net_nwell)
+
+Executing: extractDevice("NMOSMH" NMOSMH_device (net_poly1 "G") (net_nsd "S") (nmosh_d_t...
+
+Executing: saveRecognition(NMOSMH_device "device")
+
+Executing: attachParameter(l1 "l" NMOSMH_device)
+
+Executing: attachParameter(w1 "w" NMOSMH_device)
+
+Executing: extractDevice("RCX_DUMMY" NMOSHL_device (net_poly1 "PLUS" "MINUS") (cellView ...
+
+Executing: extractDevice("RCX_DUMMY" NMOSMHL_device (net_poly1 "PLUS" "MINUS") (cellView...
+
+Executing: nmos30_device_all = geomOr(NMOS30M_device NMOS18T_device)
+
+Executing: ndiff_nmos30_all = geomButtOrOver(net_ndiff nmos30_device_all)
+
+Executing: ndiff_nmos30_1 = geomButtOrOver(nmos30_1 nmos30_device_all)
+
+Executing: net_ndiff_drain = geomAnd(ndiff_nmos30_all ndiff_nmos30_1)
+
+Executing: net_ndiff_source = geomAndNot(ndiff_nmos30_all ndiff_nmos30_1)
+
+Executing: geomStamp(net_ndiff_drain net_ndiff)
+
+Executing: geomStamp(net_ndiff_source net_ndiff)
+
+Executing: extractDevice("NMOS30M" NMOS30M_device (net_poly1 "G") (net_ndiff_source "S")...
+
+Executing: saveRecognition(NMOS30M_device "device")
+
+Executing: attachParameter(l "l" NMOS30M_device)
+
+Executing: attachParameter(w "w" NMOS30M_device)
+
+Executing: attachParameter(w "wtot" NMOS30M_device)
+
+Executing: attachParameter(wg "wg" NMOS30M_device)
+
+Executing: extractDevice("NMOS18T" NMOS18T_device (net_poly1 "G") (net_ndiff_source "S")...
+
+Executing: saveRecognition(NMOS18T_device "device")
+
+Executing: attachParameter(l "l" NMOS18T_device)
+
+Executing: attachParameter(w "w" NMOS18T_device)
+
+Executing: attachParameter(w "wtot" NMOS18T_device)
+
+Executing: attachParameter(wg "wg" NMOS18T_device)
+
+Executing: extractDevice("RCX_DUMMY" PMOSD30M_device (net_poly1 "PLUS" "MINUS") (cellVie...
+
+Executing: extractDevice("RCX_DUMMY" PMOS30M_device (net_poly1 "PLUS" "MINUS") (cellView...
+
+Executing: extractDIODE("ND" ND_device (net_psub "PLUS") (net_nsd "MINUS") (targetLayer ...
+         1 'ND' created in cell 'LOGIC1 layout CORELIB'.
+         1 'ND' created in cell 'ICUP layout IOLIB_4M'.
+         1 'ND' created in cell 'BU8P layout IOLIB_4M'.
+
+Executing: saveRecognition(ND_device "device")
+
+Executing: area = measureParameter(area (ND_device) 1e-12)
+
+Executing: perimeter1 = measureParameter(length (ND_device coincident DIFF) 1e-06)
+
+Executing: perimeter = calculateParameter(((area - area) + perimeter1))
+
+Executing: nameParameter(area "area")
+
+Executing: nameParameter(perimeter "perimeter")
+
+Executing: nameParameter(perimeter "pj")
+
+Executing: P_ND_device = geomAndNot(geomAndNot(geomAndNot(ndiode_1 DIODE) nmosh_d) HVDEF)
+
+Executing: extractDevice("RCX_DUMMY" P_ND_device (net_nsd "PLUS" "MINUS") (cellView "pca...
+
+Executing: extractDIODE("PD" PD_device (net_psd "PLUS") (net_nwell "MINUS") (targetLayer...
+         3 'PD' created in cell 'VDD3IP layout IOLIB_4M'.
+         3 'PD' created in cell 'ICUP layout IOLIB_4M'.
+         4 'PD' created in cell 'GND3IP layout IOLIB_4M'.
+         1 'PD' created in cell 'BU8P layout IOLIB_4M'.
+
+Executing: saveRecognition(PD_device "device")
+
+Executing: area = measureParameter(area (PD_device) 1e-12)
+
+Executing: perimeter1 = measureParameter(length (PD_device coincident DIFF) 1e-06)
+
+Executing: perimeter = calculateParameter(((area - area) + perimeter1))
+
+Executing: nameParameter(area "area")
+
+Executing: nameParameter(perimeter "perimeter")
+
+Executing: nameParameter(perimeter "pj")
+
+Executing: extractDevice("RCX_DUMMY" P_PD_device (net_psd "PLUS" "MINUS") (cellView "pca...
+
+Executing: extractDIODE("NWD" NWD_device (net_psub "PLUS") (net_nwell "MINUS") (targetLa...
+         6 'NWD' created in cell 'VDD3IP layout IOLIB_4M'.
+         6 'NWD' created in cell 'VDD3ALLP layout IOLIB_4M'.
+         8 'NWD' created in cell 'ICUP layout IOLIB_4M'.
+         4 'NWD' created in cell 'GND3IP layout IOLIB_4M'.
+         6 'NWD' created in cell 'GND3ALLP layout IOLIB_4M'.
+         8 'NWD' created in cell 'BU8P layout IOLIB_4M'.
+
+Executing: saveRecognition(NWD_device "device")
+
+Executing: area = measureParameter(area (NWD_device) 1e-12)
+
+Executing: perimeter1 = measureParameter(length (NWD_device coincident NTUB) 1e-06)
+
+Executing: perimeter = calculateParameter(((area - area) + perimeter1))
+
+Executing: nameParameter(area "area")
+
+Executing: nameParameter(perimeter "perimeter")
+
+Executing: nameParameter(perimeter "pj")
+
+Executing: extractDevice("RCX_DUMMY" P_NWD_device (net_nwell "PLUS" "MINUS") (cellView "...
+
+Executing: extractDIODE("ZD2SM24" ZD2SM24_device (net_psd "A") (net_welltap "C") (net_ps...
+
+Executing: saveRecognition(ZD2SM24_device "device")
+
+Executing: saveProperty(ZD2SM24_device "m" "1.0")
+
+Executing: saveProperty(ZD2SM24_device "area" 1.0)
+
+Executing: saveProperty(ZD2SM24_device "perimeter" 1.0)
+
+Executing: saveProperty(ZD2SM24_device "pj" 1.0)
+
+Executing: PHDNWA850_device_ntub = geomButtOrOver(net_nwell PHDNWA850_device)
+
+Executing: extractDevice("RCX_DUMMY" PHDNWA850_device_ntub (net_nwell "PLUS" "MINUS") (c...
+
+Executing: PHDNWB850_device_pad_barc = geomButtOrOver(PAD_BARC PHDNWB850_device)
+
+Executing: extractDevice("RCX_DUMMY" PHDNWB850_device_pad_barc (net_nwell "PLUS" "MINUS"...
+
+Executing: SBD5_device_sbdcon = geomButtOrOver(sbdcon SBD5_device)
+
+Executing: extractDevice("RCX_DUMMY" SBD5_device_sbdcon (net_nwell "PLUS" "MINUS") (cell...
+
+Executing: geomStamp(net_ndiff_d_sub net_ndiff)
+
+Executing: geomStamp(net_pdiff_d_ntub net_pdiff)
+
+Executing: extractDevice("ESDPD12" ESDPD12_device (net_psub "A") (net_nwell "C") (termOr...
+
+Executing: saveRecognition(ESDPD12_device "device")
+
+Executing: attachParameter(w "w" ESDPD12_device)
+
+Executing: attachParameter(l "l" ESDPD12_device)
+
+Executing: extractDevice("ESDPD18" ESDPD18_device (net_psub "A") (net_nwell "C") (termOr...
+
+Executing: saveRecognition(ESDPD18_device "device")
+
+Executing: attachParameter(w "w" ESDPD18_device)
+
+Executing: attachParameter(l "l" ESDPD18_device)
+
+Executing: extractDevice("ESDPD26" ESDPD26_device (net_psub "A") (net_nwell "C") (termOr...
+
+Executing: saveRecognition(ESDPD26_device "device")
+
+Executing: attachParameter(w "w" ESDPD26_device)
+
+Executing: attachParameter(l "l" ESDPD26_device)
+
+Executing: extractDevice("ESDPD30" ESDPD30_device (net_psub "A") (net_nwell "C") (termOr...
+
+Executing: saveRecognition(ESDPD30_device "device")
+
+Executing: attachParameter(w "w" ESDPD30_device)
+
+Executing: attachParameter(l "l" ESDPD30_device)
+
+Executing: extractDevice("ESDFDN5" ESDFDN5_device (net_psub "A") (net_ndiff_d_sub "C") (...
+
+Executing: saveRecognition(ESDFDN5_device "device")
+
+Executing: attachParameter(w "w" ESDFDN5_device)
+
+Executing: attachParameter(l "l" ESDFDN5_device)
+
+Executing: extractDevice("ESDGCN5" ESDGCN5_device (net_psub "A") (net_ndiff_d_sub "C") (...
+
+Executing: saveRecognition(ESDGCN5_device "device")
+
+Executing: attachParameter(w "w" ESDGCN5_device)
+
+Executing: attachParameter(l "l" ESDGCN5_device)
+
+Executing: extractDevice("ESDFDP5" ESDFDP5_device (net_nwell "C") (net_pdiff_d_ntub "A")...
+
+Executing: saveRecognition(ESDFDP5_device "device")
+
+Executing: attachParameter(w "w" ESDFDP5_device)
+
+Executing: attachParameter(l "l" ESDFDP5_device)
+
+Executing: extractDevice("ESDGCP5" ESDGCP5_device (net_nwell "C") (net_pdiff_d_ntub "A")...
+
+Executing: saveRecognition(ESDGCP5_device "device")
+
+Executing: attachParameter(w "w" ESDGCP5_device)
+
+Executing: attachParameter(l "l" ESDGCP5_device)
+
+Executing: extractRES("RNWELL" RNWELL_device (net_nwell "PLUS" "MINUS") (net_psub "B") (...
+
+Executing: saveRecognition(RNWELL_device "device")
+
+Executing: w = measureParameter(length (RNWELL_device butting nwres_trm) 5e-07)
+
+Executing: bends90 = measureParameter(bends_full (RNWELL_device over net_psub outside nw...
+
+Executing: bends45 = measureParameter(bends_part (RNWELL_device over net_psub))
+
+Executing: l = measureParameter(length (RNWELL_device outside nwres_trm) 5e-07)
+
+Executing: leff = calculateParameter((l - (w * ((bends90 * 0.5) + (bends45 * 0.084)))))
+
+Executing: r = calculateParameter(((leff / (w - (1.15 * 1e-06))) * 1000))
+
+Executing: nameParameter(leff "l")
+
+Executing: nameParameter(w "w")
+
+Executing: nameParameter(r "r")
+
+Executing: extractRES("RDIFFP3" RDIFFP_device (net_psd "PLUS" "MINUS") (net_nwell "B") (...
+         1 'RDIFFP3' created in cell 'LOGIC1 layout CORELIB'.
+         3 'RDIFFP3' created in cell 'ICUP layout IOLIB_4M'.
+         2 'RDIFFP3' created in cell 'BU8P layout IOLIB_4M'.
+
+Executing: saveRecognition(RDIFFP_device "device")
+
+Executing: w = measureParameter(length (RDIFFP_device butting pdres_trm) 5e-07)
+
+Executing: bends90 = measureParameter(bends_full (RDIFFP_device over net_psub outside pd...
+
+Executing: bends45 = measureParameter(bends_part (RDIFFP_device over net_psub))
+
+Executing: l = measureParameter(length (RDIFFP_device outside pdres_trm) 5e-07)
+
+Executing: leff = calculateParameter((l - (w * ((bends90 * 0.5) + (bends45 * 0.084)))))
+
+Executing: r = calculateParameter(((leff / (w - (-0.1 * 1e-06))) * 140))
+
+Executing: nameParameter(leff "l")
+
+Executing: nameParameter(w "w")
+
+Executing: nameParameter(r "r")
+
+Executing: ndres_trm = geomButting(RESTRM RDIFFN_device)
+
+Executing: extractRES("RDIFFN3" RDIFFN_device (net_nsd "PLUS" "MINUS") (net_psub "B") (t...
+
+Executing: saveRecognition(RDIFFN_device "device")
+
+Executing: w = measureParameter(length (RDIFFN_device butting ndres_trm) 5e-07)
+
+Executing: bends90 = measureParameter(bends_full (RDIFFN_device over net_psub outside nd...
+
+Executing: bends45 = measureParameter(bends_part (RDIFFN_device over net_psub))
+
+Executing: l = measureParameter(length (RDIFFN_device outside ndres_trm) 5e-07)
+
+Executing: leff = calculateParameter((l - (w * ((bends90 * 0.5) + (bends45 * 0.084)))))
+
+Executing: r = calculateParameter(((leff / (w - (-0.1 * 1e-06))) * 75))
+
+Executing: nameParameter(leff "l")
+
+Executing: nameParameter(w "w")
+
+Executing: nameParameter(r "r")
+
+Executing: RPOLY2_NTUB_device = geomAndNot(geomInside(pres net_nwell) RFDEF)
+
+Executing: RPOLY2_PSUB_device = geomAndNot(geomAndNot(pres RPOLY2_NTUB_device) RFDEF)
+
+Executing: pres_ntub_trm = geomButting(pres_trm RPOLY2_NTUB_device)
+
+Executing: pres_psub_trm = geomButting(pres_trm RPOLY2_PSUB_device)
+
+Executing: extractRES("RPOLY2" RPOLY2_PSUB_device (net_poly2 "PLUS" "MINUS") (net_psub "...
+
+Executing: saveRecognition(RPOLY2_PSUB_device "device")
+
+Executing: w = measureParameter(length (RPOLY2_PSUB_device butting pres_psub_trm) 5e-07)
+
+Executing: bends90 = measureParameter(bends_full (RPOLY2_PSUB_device over net_psub outsi...
+
+Executing: bends45 = measureParameter(bends_part (RPOLY2_PSUB_device over net_psub))
+
+Executing: l = measureParameter(length (RPOLY2_PSUB_device outside pres_psub_trm) 5e-07)
+
+Executing: leff = calculateParameter((l - (w * ((bends90 * 0.5) + (bends45 * 0.084)))))
+
+Executing: r = calculateParameter(((leff / (w - (0.25 * 1e-06))) * 50))
+
+Executing: ca = measureParameter(area (RPOLY2_PSUB_device) 1.19e-16)
+
+Executing: cp = measureParameter(length (RPOLY2_PSUB_device outside pres_psub_trm) 5.3e-17)
+
+Executing: c = calculateParameter((ca + cp))
+
+Executing: nameParameter(c "cap")
+
+Executing: nameParameter(leff "l")
+
+Executing: nameParameter(w "w")
+
+Executing: nameParameter(r "r")
+
+Executing: saveProperty(RPOLY2_PSUB_device "gwell" "Substrate")
+
+Executing: extractRES("RPOLY2" RPOLY2_NTUB_device (net_poly2 "PLUS" "MINUS") (net_nwell ...
+
+Executing: saveRecognition(RPOLY2_NTUB_device "device")
+
+Executing: w = measureParameter(length (RPOLY2_NTUB_device butting pres_ntub_trm) 5e-07)
+
+Executing: bends90 = measureParameter(bends_full (RPOLY2_NTUB_device over net_psub outsi...
+
+Executing: bends45 = measureParameter(bends_part (RPOLY2_NTUB_device over net_psub))
+
+Executing: l = measureParameter(length (RPOLY2_NTUB_device outside pres_ntub_trm) 5e-07)
+
+Executing: leff = calculateParameter((l - (w * ((bends90 * 0.5) + (bends45 * 0.084)))))
+
+Executing: r = calculateParameter(((leff / (w - (0.25 * 1e-06))) * 50))
+
+Executing: ca = measureParameter(area (RPOLY2_NTUB_device) 1.19e-16)
+
+Executing: cp = measureParameter(length (RPOLY2_NTUB_device outside pres_ntub_trm) 5.3e-17)
+
+Executing: c = calculateParameter((ca + cp))
+
+Executing: nameParameter(c "cap")
+
+Executing: nameParameter(leff "l")
+
+Executing: nameParameter(w "w")
+
+Executing: nameParameter(r "r")
+
+Executing: saveProperty(RPOLY2_NTUB_device "gwell" "N-Well")
+
+Executing: RPOLY2P_NTUB_device = geomAndNot(geomInside(presp net_nwell) RFDEF)
+
+Executing: RPOLY2P_PSUB_device = geomAndNot(geomAndNot(presp RPOLY2P_NTUB_device) RFDEF)
+
+Executing: extractDevice("RCX_DUMMY" RPOLY2P_PSUB_device (net_poly2 "PLUS" "MINUS") (cel...
+
+Executing: extractDevice("RCX_DUMMY" RPOLY2P_NTUB_device (net_poly2 "PLUS" "MINUS") (cel...
+
+Executing: RPOLY2PH_NTUB_device = geomAndNot(geomInside(presph net_nwell) RFDEF)
+
+Executing: RPOLY2PH_PSUB_device = geomAndNot(geomAndNot(presph RPOLY2PH_NTUB_device) RFDEF)
+
+Executing: presph_ntub_trm = geomButting(presph_trm RPOLY2PH_NTUB_device)
+
+Executing: presph_psub_trm = geomButting(presph_trm RPOLY2PH_PSUB_device)
+
+Executing: extractRES("RPOLY2PH" RPOLY2PH_PSUB_device (net_poly2 "PLUS" "MINUS") (net_ps...
+
+Executing: saveRecognition(RPOLY2PH_PSUB_device "device")
+
+Executing: w = measureParameter(length (RPOLY2PH_PSUB_device butting presph_psub_trm) 5e...
+
+Executing: bends90 = measureParameter(bends_full (RPOLY2PH_PSUB_device over net_psub out...
+
+Executing: bends45 = measureParameter(bends_part (RPOLY2PH_PSUB_device over net_psub))
+
+Executing: l = measureParameter(length (RPOLY2PH_PSUB_device outside presph_psub_trm) 5e...
+
+Executing: leff = calculateParameter((l - (w * ((bends90 * 0.5) + (bends45 * 0.084)))))
+
+Executing: r = calculateParameter(((leff / (w - (0.25 * 1e-06))) * 50))
+
+Executing: ca = measureParameter(area (RPOLY2PH_PSUB_device) 1.19e-16)
+
+Executing: cp = measureParameter(length (RPOLY2PH_PSUB_device outside presph_psub_trm) 5...
+
+Executing: c = calculateParameter((ca + cp))
+
+Executing: nameParameter(c "cap")
+
+Executing: nameParameter(leff "l")
+
+Executing: nameParameter(w "w")
+
+Executing: nameParameter(r "r")
+
+Executing: saveProperty(RPOLY2PH_PSUB_device "gwell" "Substrate")
+
+Executing: extractRES("RPOLY2PH" RPOLY2PH_NTUB_device (net_poly2 "PLUS" "MINUS") (net_nw...
+
+Executing: saveRecognition(RPOLY2PH_NTUB_device "device")
+
+Executing: w = measureParameter(length (RPOLY2PH_NTUB_device butting presph_ntub_trm) 5e...
+
+Executing: bends90 = measureParameter(bends_full (RPOLY2PH_NTUB_device over net_psub out...
+
+Executing: bends45 = measureParameter(bends_part (RPOLY2PH_NTUB_device over net_psub))
+
+Executing: l = measureParameter(length (RPOLY2PH_NTUB_device outside presph_ntub_trm) 5e...
+
+Executing: leff = calculateParameter((l - (w * ((bends90 * 0.5) + (bends45 * 0.084)))))
+
+Executing: r = calculateParameter(((leff / (w - (0.25 * 1e-06))) * 50))
+
+Executing: ca = measureParameter(area (RPOLY2PH_NTUB_device) 1.19e-16)
+
+Executing: cp = measureParameter(length (RPOLY2PH_NTUB_device outside presph_ntub_trm) 5...
+
+Executing: c = calculateParameter((ca + cp))
+
+Executing: nameParameter(c "cap")
+
+Executing: nameParameter(leff "l")
+
+Executing: nameParameter(w "w")
+
+Executing: nameParameter(r "r")
+
+Executing: saveProperty(RPOLY2PH_NTUB_device "gwell" "N-Well")
+
+Executing: RPOLYH_NTUB_device = geomAndNot(geomInside(presh net_nwell) RFDEF)
+
+Executing: RPOLYH_PSUB_device = geomAndNot(geomAndNot(presh RPOLYH_NTUB_device) RFDEF)
+
+Executing: presh_ntub_trm = geomButting(presh_trm RPOLYH_NTUB_device)
+
+Executing: presh_psub_trm = geomButting(presh_trm RPOLYH_PSUB_device)
+
+Executing: extractRES("RPOLYH" RPOLYH_PSUB_device (net_poly2 "PLUS" "MINUS") (net_psub "...
+
+Executing: saveRecognition(RPOLYH_PSUB_device "device")
+
+Executing: w = measureParameter(length (RPOLYH_PSUB_device butting presh_psub_trm) 5e-07)
+
+Executing: bends90 = measureParameter(bends_full (RPOLYH_PSUB_device over net_psub outsi...
+
+Executing: bends45 = measureParameter(bends_part (RPOLYH_PSUB_device over net_psub))
+
+Executing: l = measureParameter(length (RPOLYH_PSUB_device outside presh_psub_trm) 5e-07)
+
+Executing: leff = calculateParameter((l - (w * ((bends90 * 0.5) + (bends45 * 0.084)))))
+
+Executing: r = calculateParameter(((leff / (w - (0.2 * 1e-06))) * 1200))
+
+Executing: ca = measureParameter(area (RPOLYH_PSUB_device) 1.19e-16)
+
+Executing: cp = measureParameter(length (RPOLYH_PSUB_device outside presh_psub_trm) 5.3e...
+
+Executing: c = calculateParameter((ca + cp))
+
+Executing: nameParameter(c "cap")
+
+Executing: nameParameter(leff "l")
+
+Executing: nameParameter(w "w")
+
+Executing: nameParameter(r "r")
+
+Executing: saveProperty(RPOLYH_PSUB_device "gwell" "Substrate")
+
+Executing: extractRES("RPOLYH" RPOLYH_NTUB_device (net_poly2 "PLUS" "MINUS") (net_nwell ...
+
+Executing: saveRecognition(RPOLYH_NTUB_device "device")
+
+Executing: w = measureParameter(length (RPOLYH_NTUB_device butting presh_ntub_trm) 5e-07)
+
+Executing: bends90 = measureParameter(bends_full (RPOLYH_NTUB_device over net_psub outsi...
+
+Executing: bends45 = measureParameter(bends_part (RPOLYH_NTUB_device over net_psub))
+
+Executing: l = measureParameter(length (RPOLYH_NTUB_device outside presh_ntub_trm) 5e-07)
+
+Executing: leff = calculateParameter((l - (w * ((bends90 * 0.5) + (bends45 * 0.084)))))
+
+Executing: r = calculateParameter(((leff / (w - (0.2 * 1e-06))) * 1200))
+
+Executing: ca = measureParameter(area (RPOLYH_NTUB_device) 1.19e-16)
+
+Executing: cp = measureParameter(length (RPOLYH_NTUB_device outside presh_ntub_trm) 5.3e...
+
+Executing: c = calculateParameter((ca + cp))
+
+Executing: nameParameter(c "cap")
+
+Executing: nameParameter(leff "l")
+
+Executing: nameParameter(w "w")
+
+Executing: nameParameter(r "r")
+
+Executing: saveProperty(RPOLYH_NTUB_device "gwell" "N-Well")
+
+Executing: RPOLYZ_NTUB_device = geomAndNot(geomInside(presz net_nwell) RFDEF)
+
+Executing: RPOLYZ_PSUB_device = geomAndNot(geomAndNot(presz RPOLYZ_NTUB_device) RFDEF)
+
+Executing: extractDevice("RCX_DUMMY" RPOLYZ_PSUB_device (net_poly2 "PLUS" "MINUS") (cell...
+
+Executing: extractDevice("RCX_DUMMY" RPOLYZ_NTUB_device (net_poly2 "PLUS" "MINUS") (cell...
+
+Executing: RPOLY1_NTUB_device = geomAndNot(geomInside(pres1 net_nwell) RFDEF)
+
+Executing: RPOLY1_PSUB_device = geomAndNot(geomAndNot(pres1 RPOLY1_NTUB_device) RFDEF)
+
+Executing: pres1_ntub_trm = geomButting(pres1_trm RPOLY1_NTUB_device)
+
+Executing: pres1_psub_trm = geomButting(pres1_trm RPOLY1_PSUB_device)
+
+Executing: extractRES("RPOLY1" RPOLY1_PSUB_device (net_poly1 "PLUS" "MINUS") (net_psub "...
+         1 'RPOLY1' created in cell 'VDD3IP layout IOLIB_4M'.
+         1 'RPOLY1' created in cell 'GND3ALLP layout IOLIB_4M'.
+
+Executing: saveRecognition(RPOLY1_PSUB_device "device")
+
+Executing: w = measureParameter(length (RPOLY1_PSUB_device butting pres1_psub_trm) 5e-07)
+
+Executing: bends90 = measureParameter(bends_full (RPOLY1_PSUB_device over net_psub outsi...
+
+Executing: bends45 = measureParameter(bends_part (RPOLY1_PSUB_device over net_psub))
+
+Executing: l = measureParameter(length (RPOLY1_PSUB_device outside pres1_psub_trm) 5e-07)
+
+Executing: leff = calculateParameter((l - (w * ((bends90 * 0.5) + (bends45 * 0.084)))))
+
+Executing: r = calculateParameter(((leff / (w - (0.05 * 1e-06))) * 8))
+
+Executing: ca = measureParameter(area (RPOLY1_PSUB_device) 1.19e-16)
+
+Executing: cp = measureParameter(length (RPOLY1_PSUB_device outside pres1_psub_trm) 5.3e...
+
+Executing: c = calculateParameter((ca + cp))
+
+Executing: nameParameter(c "cap")
+
+Executing: nameParameter(leff "l")
+
+Executing: nameParameter(w "w")
+
+Executing: nameParameter(r "r")
+
+Executing: saveProperty(RPOLY1_PSUB_device "gwell" "Substrate")
+
+Executing: extractRES("RPOLY1" RPOLY1_NTUB_device (net_poly1 "PLUS" "MINUS") (net_nwell ...
+         1 'RPOLY1' created in cell 'VDD3ALLP layout IOLIB_4M'.
+         1 'RPOLY1' created in cell 'ICUP layout IOLIB_4M'.
+         1 'RPOLY1' created in cell 'BU8P layout IOLIB_4M'.
+
+Executing: saveRecognition(RPOLY1_NTUB_device "device")
+
+Executing: w = measureParameter(length (RPOLY1_NTUB_device butting pres1_ntub_trm) 5e-07)
+
+Executing: bends90 = measureParameter(bends_full (RPOLY1_NTUB_device over net_psub outsi...
+
+Executing: bends45 = measureParameter(bends_part (RPOLY1_NTUB_device over net_psub))
+
+Executing: l = measureParameter(length (RPOLY1_NTUB_device outside pres1_ntub_trm) 5e-07)
+
+Executing: leff = calculateParameter((l - (w * ((bends90 * 0.5) + (bends45 * 0.084)))))
+
+Executing: r = calculateParameter(((leff / (w - (0.05 * 1e-06))) * 8))
+
+Executing: ca = measureParameter(area (RPOLY1_NTUB_device) 1.19e-16)
+
+Executing: cp = measureParameter(length (RPOLY1_NTUB_device outside pres1_ntub_trm) 5.3e...
+
+Executing: c = calculateParameter((ca + cp))
+
+Executing: nameParameter(c "cap")
+
+Executing: nameParameter(leff "l")
+
+Executing: nameParameter(w "w")
+
+Executing: nameParameter(r "r")
+
+Executing: saveProperty(RPOLY1_NTUB_device "gwell" "N-Well")
+
+Executing: extractRES("PFUSE" PFUSE_device (net_poly1 "PLUS" "MINUS") (cellView "pfuse a...
+
+Executing: saveRecognition(PFUSE_device "device")
+
+Executing: w = measureParameter(length (PFUSE_device butting net_poly1) 5e-07)
+
+Executing: l = measureParameter(length (PFUSE_device outside net_poly1) 5e-07)
+
+Executing: r = calculateParameter(((l / (w - (0.05 * 1e-06))) * 8))
+
+Executing: nameParameter(r "r")
+
+Executing: nameParameter(l "l")
+
+Executing: nameParameter(w "w")
+
+Executing: geomStamp(rmet1_trm net_met1)
+
+Executing: extractRES("SHORT" RMET1_device (rmet1_trm "PLUS" "MINUS") (cellView "short a...
+
+Executing: w = measureParameter(length (RMET1_device butting rmet1_trm) 5e-07)
+
+Executing: l = measureParameter(length (RMET1_device outside rmet1_trm) 5e-07)
+
+Executing: r = calculateParameter(((l / (w - (0 * 1e-06))) * 0.07))
+
+Executing: nameParameter(r "r")
+
+Executing: geomStamp(rmet2_trm net_met2)
+
+Executing: extractRES("SHORT" RMET2_device (rmet2_trm "PLUS" "MINUS") (cellView "short a...
+
+Executing: w = measureParameter(length (RMET2_device butting rmet2_trm) 5e-07)
+
+Executing: l = measureParameter(length (RMET2_device outside rmet2_trm) 5e-07)
+
+Executing: r = calculateParameter(((l / (w - (0.1 * 1e-06))) * 0.07))
+
+Executing: nameParameter(r "r")
+
+Executing: geomStamp(rmet3_trm net_met3)
+
+Executing: extractRES("SHORT" RMET3_device (rmet3_trm "PLUS" "MINUS") (cellView "short a...
+
+Executing: w = measureParameter(length (RMET3_device butting rmet3_trm) 5e-07)
+
+Executing: l = measureParameter(length (RMET3_device outside rmet3_trm) 5e-07)
+
+Executing: r = calculateParameter(((l / (w - (0.1 * 1e-06))) * 0.07))
+
+Executing: nameParameter(r "r")
+
+Executing: geomStamp(rmet4_trm net_met4)
+
+Executing: extractRES("SHORT" RMET4_device (rmet4_trm "PLUS" "MINUS") (cellView "short a...
+
+Executing: w = measureParameter(length (RMET4_device butting rmet4_trm) 5e-07)
+
+Executing: l = measureParameter(length (RMET4_device outside rmet4_trm) 5e-07)
+
+Executing: r = calculateParameter(((l / (w - (0 * 1e-06))) * 0.04))
+
+Executing: nameParameter(r "r")
+
+Executing: extractRES("SHORT" RVIA1_device (net_met2 "PLUS") (net_met1 "MINUS") (cellVie...
+         6 'SHORT' created in cell 'GND3ALLP layout IOLIB_4M'.
+
+Executing: count_vias = measureParameter(figCount (RVIA1_device enclosing VIA1))
+
+Executing: vias = calculateParameter(count_vias)
+
+Executing: r = calculateParameter((1.2 / count_vias))
+
+Executing: nameParameter(vias "via1_count")
+
+Executing: nameParameter(r "r")
+
+Executing: extractRES("SHORT" RVIA2_device (net_met3 "PLUS") (net_met2 "MINUS") (cellVie...
+         6 'SHORT' created in cell 'VDD3ALLP layout IOLIB_4M'.
+         4 'SHORT' created in cell 'GND3ALLP layout IOLIB_4M'.
+
+Executing: count_vias = measureParameter(figCount (RVIA2_device enclosing VIA2))
+
+Executing: vias = calculateParameter(count_vias)
+
+Executing: r = calculateParameter((1.2 / count_vias))
+
+Executing: nameParameter(vias "via2_count")
+
+Executing: nameParameter(r "r")
+
+Executing: extractRES("SHORT" RVIA3_device (net_met4 "PLUS") (net_met3 "MINUS") (cellVie...
+
+Executing: count_vias = measureParameter(figCount (RVIA3_device enclosing VIA3))
+
+Executing: vias = calculateParameter(count_vias)
+
+Executing: r = calculateParameter((1.2 / count_vias))
+
+Executing: nameParameter(vias "via3_count")
+
+Executing: nameParameter(r "r")
+
+Executing: extractDevice("tsv80" tsv_dev (tsv_term_bot "TOP") (tsv_term_top "BOTTOM") (n...
+
+Executing: saveRecognition(tsv_dev "device")
+
+Executing: geomStamp(pnplat2_c net_psd)
+
+Executing: geomStamp(pnplat2_e net_psd)
+
+Executing: extractDevice("LAT2" LAT2_device (net_poly1 "G") (pnplat2_e "E") (pnplat2_c "...
+
+Executing: saveRecognition(LAT2_device "device")
+
+Executing: saveProperty(LAT2_device "m" "1.0")
+
+Executing: saveProperty(LAT2_device "area" 1)
+
+Executing: geomStamp(pnpvert3_e net_psd)
+
+Executing: extractDevice("RCX_DUMMY" VERT3_device (pnpvert3_e "PLUS") (net_psub "MINUS")...
+
+Executing: geomStamp(pnpvert10_e net_psd)
+
+Executing: pnpvert10_c = geomCat(net_psub)
+
+Executing: geomStamp(pnpvert10_c net_psub)
+
+Executing: extractBJT("PNPVERT10" VERT10_device (pnpvert10_c "C") (net_welltap "B") (pnp...
+
+Executing: saveRecognition(VERT10_device "device")
+
+Executing: saveProperty(VERT10_device "m" "1.0")
+
+Executing: saveProperty(VERT10_device "area" 1.0)
+
+Executing: saveProperty(VERT10_device "ea" 1.0)
+
+Executing: CPOLY_NTUB_device = geomAvoiding(geomAndNot(geomAnd(cpoly net_nwell) RFDEF) C...
+
+Executing: CPOLY_PSUB_device = geomAvoiding(geomAndNot(geomAndNot(cpoly net_nwell) RFDEF...
+
+Executing: extractCAP("CPOLYA" CPOLY_PSUB_device (net_poly2 "PLUS") (net_poly1 "MINUS") ...
+
+Executing: saveRecognition(CPOLY_PSUB_device "device")
+
+Executing: a = measureParameter(area (CPOLY_PSUB_device) 1e-12)
+
+Executing: p = measureParameter(perimeter (CPOLY_PSUB_device) 1e-06)
+
+Executing: c = calculateParameter(((a * 8.6e-16 * 1e+12) + (p * 8.6e-17 * 1000000.0)))
+
+Executing: nameParameter(c "c")
+
+Executing: nameParameter(a "area")
+
+Executing: nameParameter(p "perimeter")
+
+Executing: nameParameter(a "a")
+
+Executing: nameParameter(p "p")
+
+Executing: saveProperty(CPOLY_PSUB_device "gwell" "Substrate")
+
+Executing: extractCAP("CPOLYA" CPOLY_NTUB_device (net_poly2 "PLUS") (net_poly1 "MINUS") ...
+
+Executing: saveRecognition(CPOLY_NTUB_device "device")
+
+Executing: a = measureParameter(area (CPOLY_NTUB_device) 1e-12)
+
+Executing: p = measureParameter(perimeter (CPOLY_NTUB_device) 1e-06)
+
+Executing: c = calculateParameter(((a * 8.6e-16 * 1e+12) + (p * 8.6e-17 * 1000000.0)))
+
+Executing: nameParameter(c "c")
+
+Executing: nameParameter(a "area")
+
+Executing: nameParameter(p "perimeter")
+
+Executing: nameParameter(a "a")
+
+Executing: nameParameter(p "p")
+
+Executing: saveProperty(CPOLY_NTUB_device "gwell" "N-Well")
+
+Executing: cvar_ele = geomOr(cvar)
+
+Executing: cvar_ndiff = geomEnclose(ndiff_1 cvar_ele)
+
+Executing: cvar_ndiff_gap = drc(cvar_ndiff (sep < 1.8) opposite parallel)
+
+Executing: cvar_ndiff_closed = geomOr(cvar_ndiff cvar_ndiff_gap)
+
+Executing: net1_cvar = geomButtOrOver(net_poly1 cvar_ele)
+
+Executing: cvar_ndiff_cross1 = geomGetEdge(cvar_ndiff_closed inside net1_cvar)
+
+Executing: cvar_ndiff_cross = geomSize(cvar_ndiff_cross1 -0.1 edges)
+
+Executing: CVAR_device = geomOr(cvar_ndiff_closed)
+
+Executing: extractDevice("CVAR" CVAR_device (net_poly1 "G") (net_welltap "B") (net_psub ...
+
+Executing: saveRecognition(CVAR_device "device")
+
+Executing: attachParameter(lc "l" CVAR_device)
+
+Executing: attachParameter(wc "w" CVAR_device)
+
+Executing: count_elements = measureParameter(figCount (CVAR_device enclosing cvar_ele))
+
+Executing: cols = measureParameter(figCount (CVAR_device enclosing cvar_ndiff_cross) 0.5)
+
+Executing: rows = calculateParameter((count_elements / cols))
+
+Executing: nameParameter(rows "row")
+
+Executing: nameParameter(cols "col")
+
+Executing: CMIM_device_no_cpmim = geomAvoiding(CMIM_device CPMIM_device)
+
+Executing: extractDevice("RCX_DUMMY" CMIM_device_no_cpmim (net_metcap "PLUS" "MINUS") (c...
+
+Executing: extractDevice("RCX_DUMMY" CPMIM_device (net_metcap "PLUS" "MINUS") (cellView ...
+
+Executing: PROBE_device = geomCat(PROBE)
+
+Executing: extractDevice("probepad" PROBE_device (net_met4 "PAD") (cellView "probepad au...
+
+Executing: saveRecognition(PROBE_device "device")
+
+Executing: nmosrf_nsd = geomButtOrOver(net_nsd NMOSRF_device)
+
+Executing: extractDevice("NMOSRF" NMOSRF_device (net_poly1 "G") (net_nsd "S" "D") (net_p...
+
+Executing: saveRecognition(NMOSRF_device "device")
+
+Executing: attachParameter(lc "l" NMOSRF_device)
+
+Executing: attachParameter(wc "w" NMOSRF_device)
+
+Executing: attachParameter(count_elements "ng" NMOSRF_device)
+
+Executing: attachParameter(as "as" NMOSRF_device)
+
+Executing: attachParameter(as "ad" NMOSRF_device)
+
+Executing: attachParameter(ps "ps" NMOSRF_device)
+
+Executing: attachParameter(ps "pd" NMOSRF_device)
+
+Executing: pmosrf_psd = geomButtOrOver(net_psd PMOSRF_device)
+
+Executing: extractDevice("PMOSRF" PMOSRF_device (net_poly1 "G") (net_psd "S" "D") (net_n...
+
+Executing: saveRecognition(PMOSRF_device "device")
+
+Executing: attachParameter(lc "l" PMOSRF_device)
+
+Executing: attachParameter(wc "w" PMOSRF_device)
+
+Executing: attachParameter(count_elements "ng" PMOSRF_device)
+
+Executing: attachParameter(as "as" PMOSRF_device)
+
+Executing: attachParameter(as "ad" PMOSRF_device)
+
+Executing: attachParameter(ps "ps" PMOSRF_device)
+
+Executing: attachParameter(ps "pd" PMOSRF_device)
+
+Executing: cpolyrf_capbod = geomInside(cpoly CPOLYRF_device)
+
+Executing: extractCAP("CPOLYRF" CPOLYRF_device (net_poly2 "PLUS") (net_poly1 "MINUS") (n...
+
+Executing: saveRecognition(CPOLYRF_device "device")
+
+Executing: attachParameter(w "w" CPOLYRF_device)
+
+Executing: attachParameter(l "l" CPOLYRF_device)
+
+Executing: attachParameter(c "c" CPOLYRF_device)
+
+Executing: attachParameter(a "area" CPOLYRF_device)
+
+Executing: attachParameter(p "perimeter" CPOLYRF_device)
+
+Executing: attachParameter(a "a" CPOLYRF_device)
+
+Executing: attachParameter(p "p" CPOLYRF_device)
+
+Executing: saveProperty(CPOLYRF_device "gwell" "N-Well")
+
+Executing: rpoly2rf_resbod = geomInside(pres RPOLY2RF_device)
+
+Executing: pres_ntub_trm = geomButting(pres_trm rpoly2rf_resbod)
+
+Executing: net_pres_trm = geomCat(pres_trm)
+
+Executing: geomStamp(net_pres_trm net_poly2)
+
+Executing: extractRES("RPOLY2RF" RPOLY2RF_device (net_pres_trm "PLUS" "MINUS") (net_nwel...
+
+Executing: saveRecognition(RPOLY2RF_device "device")
+
+Executing: attachParameter(c "cap" RPOLY2RF_device)
+
+Executing: attachParameter(leff "l" RPOLY2RF_device)
+
+Executing: attachParameter(w "w" RPOLY2RF_device)
+
+Executing: attachParameter(r "r" RPOLY2RF_device)
+
+Executing: attachParameter(bends "Bends" RPOLY2RF_device)
+
+Executing: saveProperty(RPOLY2RF_device "gwell" "N-Well")
+
+Executing: net_presh_trm = geomCat(presh_trm)
+
+Executing: geomStamp(net_presh_trm net_poly2)
+
+Executing: rpolyhrf_resbod = geomInside(presh RPOLYHRF_device)
+
+Executing: preshrf_ntub_trm = geomButting(presh_trm rpolyhrf_resbod)
+
+Executing: extractRES("RPOLYHRF" RPOLYHRF_device (net_presh_trm "PLUS" "MINUS") (net_nwe...
+
+Executing: saveRecognition(RPOLYHRF_device "device")
+
+Executing: attachParameter(c "cap" RPOLYHRF_device)
+
+Executing: attachParameter(leff "l" RPOLYHRF_device)
+
+Executing: attachParameter(w "w" RPOLYHRF_device)
+
+Executing: attachParameter(r "r" RPOLYHRF_device)
+
+Executing: saveProperty(RPOLYHRF_device "gwell" "N-Well")
+
+Executing: extractDevice("SP014S300D" SP014S300D_device (spiral_term11 "P1") (spiral_ter...
+
+Executing: saveRecognition(SP014S300D_device "device")
+
+Executing: extractDevice("SP020S180D" SP020S180D_device (spiral_term11 "P1") (spiral_ter...
+
+Executing: saveRecognition(SP020S180D_device "device")
+
+Executing: extractDevice("SP026S200D" SP026S200D_device (spiral_term11 "P1") (spiral_ter...
+
+Executing: saveRecognition(SP026S200D_device "device")
+
+Executing: extractDevice("SP037S180D" SP037S180D_device (spiral_term11 "P1") (spiral_ter...
+
+Executing: saveRecognition(SP037S180D_device "device")
+
+Executing: extractDevice("SP047S180D" SP047S180D_device (spiral_term11 "P1") (spiral_ter...
+
+Executing: saveRecognition(SP047S180D_device "device")
+
+Executing: extractDevice("SP050S155D" SP050S155D_device (spiral_term11 "P1") (spiral_ter...
+
+Executing: saveRecognition(SP050S155D_device "device")
+
+Executing: extractDevice("SP090S155D" SP090S155D_device (spiral_term11 "P1") (spiral_ter...
+
+Executing: saveRecognition(SP090S155D_device "device")
+
+Executing: errorLayer(bkgnd1 "# INFO: Set -resimulate_extracted- Switch for QRC! #")
+
+Executing: errorLayer(bkgnd3 "# C35B4 ENG - 183 Rev9 (Last updated 26-Apr-2017 12:48) #")
+
+Finished running rules. Task processor time in main process:
+cpu: 43.28  elap: 44  pf: 0  in: 0  out: 1336  virt: 216M  phys: 1632M
+
+No output post-processing: This is not a DRC run
+
+Finished building the persistent database.
+cpu: 0.03  elap: 0  pf: 0  in: 0  out: 7168  virt: 216M  phys: 1632M
+
+
+*****  aveng terminated normally  *****
+
+
+Finished /eda/cadence/assura//tools.lnx86/assura/bin/aveng
+
+Starting /eda/cadence/assura//tools.lnx86/assura/bin/avrpt /home/yz17g22/mydocuments/design/system_on_chip/github/local_chip/post_process/ASSURA_LVS/computer/computer.rsf
+Loading all available p-cell functions
+AMS_DB set to cds
+*WARNING* No technology dir found at /opt/cad/designkits/ams/v410/assura/c35b4/c35b4o7
+	  Defined in assura_tech map file /opt/cad/designkits/ams/v410/assura/c35b4/assura_tech.lib at line 20
+*WARNING* No technology dir found at /opt/cad/designkits/ams/v410/assura/c35b4/c35b4l7
+	  Defined in assura_tech map file /opt/cad/designkits/ams/v410/assura/c35b4/assura_tech.lib at line 21
+*WARNING* No technology dir found at /opt/cad/designkits/ams/v410/assura/c35b4/c35b4o7
+	  Defined in assura_tech map file /opt/cad/designkits/ams/v410/assura/c35b4/assura_tech.lib at line 20
+*WARNING* No technology dir found at /opt/cad/designkits/ams/v410/assura/c35b4/c35b4l7
+	  Defined in assura_tech map file /opt/cad/designkits/ams/v410/assura/c35b4/assura_tech.lib at line 21
+
+Loading tech rule set file : /opt/cad/designkits/ams/v410/assura/c35b4/c35b4c3/techRuleSets
+*WARNING* No technology dir found at /opt/cad/designkits/ams/v410/assura/c35b4/c35b4o7
+	  Defined in assura_tech map file /opt/cad/designkits/ams/v410/assura/c35b4/assura_tech.lib at line 20
+*WARNING* No technology dir found at /opt/cad/designkits/ams/v410/assura/c35b4/c35b4l7
+	  Defined in assura_tech map file /opt/cad/designkits/ams/v410/assura/c35b4/assura_tech.lib at line 21
+
+Loading tech rule set file : /opt/cad/designkits/ams/v410/assura/c35b4/c35b4c3/techRuleSets
+*WARNING* No technology dir found at /opt/cad/designkits/ams/v410/assura/c35b4/c35b4o7
+	  Defined in assura_tech map file /opt/cad/designkits/ams/v410/assura/c35b4/assura_tech.lib at line 20
+*WARNING* No technology dir found at /opt/cad/designkits/ams/v410/assura/c35b4/c35b4l7
+	  Defined in assura_tech map file /opt/cad/designkits/ams/v410/assura/c35b4/assura_tech.lib at line 21
+*WARNING* No technology dir found at /opt/cad/designkits/ams/v410/assura/c35b4/c35b4o7
+	  Defined in assura_tech map file /opt/cad/designkits/ams/v410/assura/c35b4/assura_tech.lib at line 20
+*WARNING* No technology dir found at /opt/cad/designkits/ams/v410/assura/c35b4/c35b4l7
+	  Defined in assura_tech map file /opt/cad/designkits/ams/v410/assura/c35b4/assura_tech.lib at line 21
+@(#)$CDS: avrpt_64 version av4.1:Production:dfII6.1.7-64b:IC6.1.7-64b.500.4 07/10/2017 21:38 (sjfnl321) $
+sub-version 4.1_USR5_HF11, integ signature 2017-07-10-2113
+
+run on srv02749 from /srv/eda/cadence/2017-18/RHELx86/ASSURA_04.15.111/tools.lnx86/assura/bin/64bit/avrpt on Thu May  4 19:27:35 2023
+
+
+   Creating Error Database 'computer'...
+
+   Reading VDB ...
+--------------------------------------------------------------------------------
+Rule      Message                                    FlatCount     RealCount
+--------------------------------------------------------------------------------
+(    1)  dataAuditErrors                                     0            0
+(    2)  DEVICE Error: Illegal nmosh device                  0            0
+(    3)  Process Modules : PHDNWA850 not availabl            0            0
+(    4)  Process Modules : PHDNWB850 not availabl            0            0
+(    5)  Version od SBD5 obsolte or missing                  0            0
+(    6)  Process Modules : SBD5 not available for            0            0
+(    7)  ERC Warning : Name of Spiral not identif            0            0
+(    8)  ERC Warning : INDDEF does not define a c            0            0
+(    9)  ERC Warning : illegal layer under spiral            0            0
+(   10)  ERC Warning : Each INDDEF shape must be             0            0
+(   11)  ERC Warning : multiple text on INDEF                0            0
+(   12)  Error: METRES overlapping CONT or VIAx              0            0
+(   13)  Error: MET1RES overlapping CONT or VIA1             0            0
+(   14)  Error: MET2RES overlapping VIA1 or VIA2             0            0
+(   15)  Error: MET3RES overlapping VIA2 or VIA3             0            0
+(   16)  Error: MET4RES overlapping VIA3                     0            0
+(   17)  Error: MET1 resistors (shorts) must be r            0            0
+(   18)  Error: Number of MET1 resistor terminals            0            0
+(   19)  Error: MET2 resistors (shorts) must be r            0            0
+(   20)  Error: Number of MET2 resistor terminals            0            0
+(   21)  Error: MET3 resistors (shorts) must be r            0            0
+(   22)  Error: Number of MET3 resistor terminals            0            0
+(   23)  Error: MET4 resistors (shorts) must be r            0            0
+(   24)  Error: Number of MET4 resistor terminals            0            0
+(   25)  RVIA1 Definition layer: does not open al            0            0
+(   26)  RVIA1 Definition layer: truncates via1,             0            0
+(   27)  RVIA1 Definition layer: does not define             0            0
+(   28)  RVIA1 Definition layer: over METRES                 0            0
+(   29)  RVIA2 Definition layer: does not open al            0            0
+(   30)  RVIA2 Definition layer: truncates via2,             0            0
+(   31)  RVIA2 Definition layer : does not define            0            0
+(   32)  RVIA2 Definition layer: over METRES                 0            0
+(   33)  RVIA3 Definition layer: does not open al            0            0
+(   34)  RVIA3 Definition layer: truncates via3,             0            0
+(   35)  RVIA3 Definition layer : does not define            0            0
+(   36)  RVIA3 Definition layer: over METRES                 0            0
+(   37)  ERROR : POLY1 pin outside poly1                     0            0
+(   38)  ERROR : MET1 pin outside met1                       0            0
+(   39)  ERROR : MET2 pin outside met2                       0            0
+(   40)  ERROR: PADTSV pin outside METTSV                    0            0
+(   41)  ERROR : MET3 pin outside met3                       0            0
+(   42)  ERROR : MET4 pin outside met4                       0            0
+(   43)  ERROR : PAD pin outside pad metal                   0            0
+(   44)  # INFO: Set -resimulate_extracted- Switc        24153          149
+(   45)  # C35B4 ENG - 183 Rev9 (Last updated 26-        24153          149
+(   46)  malformed device NMOSH_device                       0            0
+(   47)  malformed device NMOSMH_device                      0            0
+(   48)  malformed device NMOS30M_device                     0            0
+(   49)  malformed device NMOS18T_device                     0            0
+(   50)  malformed device ESDPD12_device                     0            0
+(   51)  malformed device ESDPD18_device                     0            0
+(   52)  malformed device ESDPD26_device                     0            0
+(   53)  malformed device ESDPD30_device                     0            0
+(   54)  malformed device ESDFDN5_device                     0            0
+(   55)  malformed device ESDGCN5_device                     0            0
+(   56)  malformed device ESDFDP5_device                     0            0
+(   57)  malformed device ESDGCP5_device                     0            0
+(   58)  malformed device RNWELL_device                      0            0
+(   59)  malformed device RDIFFP_device                      0            0
+(   60)  malformed device RPOLY2_PSUB_device                 0            0
+(   61)  malformed device RPOLY2_NTUB_device                 0            0
+(   62)  malformed device RPOLY2PH_PSUB_device               0            0
+(   63)  malformed device RPOLY2PH_NTUB_device               0            0
+(   64)  malformed device RPOLYH_PSUB_device                 0            0
+(   65)  malformed device RPOLYH_NTUB_device                 0            0
+(   66)  malformed device RPOLY1_PSUB_device                 0            0
+(   67)  malformed device RPOLY1_NTUB_device                 0            0
+(   68)  malformed device PFUSE_device                       0            0
+(   69)  malformed device tsv_dev                            0            0
+(   70)  malformed device LAT2_device                        0            0
+(   71)  malformed device VERT10_device                      0            0
+(   72)  malformed device CPOLY_PSUB_device                  0            0
+(   73)  malformed device CPOLY_NTUB_device                  0            0
+(   74)  malformed device CVAR_device                        0            0
+(   75)  malformed device PROBE_device                       0            0
+(   76)  malformed device NMOSRF_device                      0            0
+(   77)  malformed device PMOSRF_device                      0            0
+(   78)  malformed device CPOLYRF_device                     0            0
+(   79)  malformed device RPOLY2RF_device                    0            0
+(   80)  malformed device RPOLYHRF_device                    0            0
+(   81)  malformed device SP014S300D_device                  0            0
+(   82)  malformed device SP020S180D_device                  0            0
+(   83)  malformed device SP026S200D_device                  0            0
+(   84)  malformed device SP037S180D_device                  0            0
+(   85)  malformed device SP047S180D_device                  0            0
+(   86)  malformed device SP050S155D_device                  0            0
+(   87)  malformed device SP090S155D_device                  0            0
+(   88)  unstable device for SP090S155D_device_De            0            0
+(   90)  unstable device for SP050S155D_device_De            0            0
+(   92)  unstable device for SP047S180D_device_De            0            0
+(   94)  unstable device for SP037S180D_device_De            0            0
+(   96)  unstable device for SP026S200D_device_De            0            0
+(   98)  unstable device for SP020S180D_device_De            0            0
+(  100)  unstable device for SP014S300D_device_De            0            0
+(  102)  unstable device for RPOLYHRF_device_RES_            0            0
+(  104)  unstable device for RPOLY2RF_device_RES_            0            0
+(  106)  unstable device for CPOLYRF_device_CAP_9            0            0
+(  108)  unstable device for PMOSRF_device_Device            0            0
+(  110)  unstable device for NMOSRF_device_Device            0            0
+(  112)  unstable device for PROBE_device_Device_            0            0
+(  114)  unstable device for CPMIM_device_Device_            0            0
+(  116)  unstable device for CMIM_device_no_cpmim            0            0
+(  118)  unstable device for CVAR_device_Device_8            0            0
+(  120)  unstable device for CPOLY_NTUB_device_CA            0            0
+(  122)  unstable device for CPOLY_PSUB_device_CA            0            0
+(  124)  unstable device for VERT10_device_BJT_82            0            0
+(  126)  unstable device for VERT3_device_Device_            0            0
+(  128)  unstable device for LAT2_device_Device_8            0            0
+(  130)  unstable device for tsv_dev_Device_79               0            0
+(  132)  unstable device for RVIA3_device_RES_78             0            0
+(  134)  unstable device for RVIA2_device_RES_77             0            0
+(  136)  unstable device for RVIA1_device_RES_76             0            0
+(  138)  unstable device for RMET4_device_RES_75             0            0
+(  140)  unstable device for RMET3_device_RES_74             0            0
+(  142)  unstable device for RMET2_device_RES_73             0            0
+(  144)  unstable device for RMET1_device_RES_72             0            0
+(  146)  unstable device for PFUSE_device_RES_71             0            0
+(  148)  unstable device for RPOLY1_NTUB_device_R            0            0
+(  150)  unstable device for RPOLY1_PSUB_device_R            0            0
+(  152)  unstable device for RPOLYZ_NTUB_device_D            0            0
+(  154)  unstable device for RPOLYZ_PSUB_device_D            0            0
+(  156)  unstable device for RPOLYH_NTUB_device_R            0            0
+(  158)  unstable device for RPOLYH_PSUB_device_R            0            0
+(  160)  unstable device for RPOLY2PH_NTUB_device            0            0
+(  162)  unstable device for RPOLY2PH_PSUB_device            0            0
+(  164)  unstable device for RPOLY2P_NTUB_device_            0            0
+(  166)  unstable device for RPOLY2P_PSUB_device_            0            0
+(  168)  unstable device for RPOLY2_NTUB_device_R            0            0
+(  170)  unstable device for RPOLY2_PSUB_device_R            0            0
+(  172)  unstable device for RDIFFN_device_RES_58            0            0
+(  174)  unstable device for RDIFFP_device_RES_57            0            0
+(  176)  unstable device for RNWELL_device_RES_56            0            0
+(  178)  unstable device for ESDGCP5_device_Devic            0            0
+(  180)  unstable device for ESDFDP5_device_Devic            0            0
+(  182)  unstable device for ESDGCN5_device_Devic            0            0
+(  184)  unstable device for ESDFDN5_device_Devic            0            0
+(  186)  unstable device for ESDPD30_device_Devic            0            0
+(  188)  unstable device for ESDPD26_device_Devic            0            0
+(  190)  unstable device for ESDPD18_device_Devic            0            0
+(  192)  unstable device for ESDPD12_device_Devic            0            0
+(  194)  unstable device for SBD5_device_sbdcon_D            0            0
+(  196)  unstable device for PHDNWB850_device_pad            0            0
+(  198)  unstable device for PHDNWA850_device_ntu            0            0
+(  200)  unstable device for ZD2SM24_device_DIODE            0            0
+(  202)  unstable device for P_NWD_device_Device_            0            0
+(  204)  unstable device for NWD_device_DIODE_42             0            0
+(  206)  unstable device for P_PD_device_Device_4            0            0
+(  208)  unstable device for PD_device_DIODE_40              0            0
+(  210)  unstable device for P_ND_device_Device_3            0            0
+(  212)  unstable device for ND_device_DIODE_38              0            0
+(  214)  unstable device for PMOS30M_device_Devic            0            0
+(  216)  unstable device for PMOSD30M_device_Devi            0            0
+(  218)  unstable device for NMOS18T_device_Devic            0            0
+(  220)  unstable device for NMOS30M_device_Devic            0            0
+(  222)  unstable device for NMOSMHL_device_Devic            0            0
+(  224)  unstable device for NMOSHL_device_Device            0            0
+(  226)  unstable device for NMOSMH_device_Device            0            0
+(  228)  unstable device for NMOSH_device_Device_            0            0
+(  230)  unstable device for PMOSMW_2N_device_Dev            0            0
+(  232)  unstable device for PMOSMW_3N_device_Dev            0            0
+(  234)  unstable device for PMOSMW_4N_device_Dev            0            0
+(  236)  unstable device for PMOSW_2N_device_Devi            0            0
+(  238)  unstable device for PMOSW_3N_device_Devi            0            0
+(  240)  unstable device for PMOSW_4N_device_Devi            0            0
+(  242)  unstable device for NMOSMW_2N_device_Dev            0            0
+(  244)  unstable device for NMOSMW_3N_device_Dev            0            0
+(  246)  unstable device for NMOSMW_4N_device_Dev            0            0
+(  248)  unstable device for NMOSW_2N_device_Devi            0            0
+(  250)  unstable device for NMOSW_3N_device_Devi            0            0
+(  252)  unstable device for NMOSW_4N_device_Devi            0            0
+(  254)  unstable device for PMOSML_WAFFLE_device            0            0
+(  256)  unstable device for DPMOSM_device_Device            0            0
+(  258)  unstable device for PMOSML_device_Device            0            0
+(  260)  unstable device for PMOSL_WAFFLE_device_            0            0
+(  262)  unstable device for PMOSL_device_Device_            0            0
+(  264)  unstable device for NMOSML_WAFFLE_device            0            0
+(  266)  unstable device for NMOSML_device_Device            0            0
+(  268)  unstable device for NMOSL_WAFFLE_device_            0            0
+(  270)  unstable device for NMOSL_device_Device_            0            0
+(  272)  unstable device for PMOSM_WAFFLE_device_            0            0
+(  274)  unstable device for PMOSM_device_MOS_7              0            0
+(  276)  unstable device for PMOS_WAFFLE_device_D            0            0
+(  278)  unstable device for PMOS_device_MOS_5               0            0
+(  280)  unstable device for NMOSM_WAFFLE_device_            0            0
+(  282)  unstable device for NMOSM_device_MOS_3              0            0
+(  284)  unstable device for NMOS_WAFFLE_device_D            0            0
+(  286)  unstable device for NMOS_device_MOS_1               0            0
+--------------------------------------------------------------------------------
+Total  errors:                                           48306          298
+--------------------------------------------------------------------------------
+
+   Finished creating Error Database ...
+
+   Writing Report into /home/yz17g22/mydocuments/design/system_on_chip/github/local_chip/post_process/ASSURA_LVS/computer/computer.err ...
+   Rule 44 done.
+   Rule 45 done.
+
+avrpt cpu sec:    0.11  elapsed:     1  virtual:    98M
+
+Finished /eda/cadence/assura//tools.lnx86/assura/bin/avrpt
+
+Starting /eda/cadence/assura//tools.lnx86/assura/bin/avcallproc /home/yz17g22/mydocuments/design/system_on_chip/github/local_chip/post_process/ASSURA_LVS/computer/computer.rsf -exec1 -LVS -cdslib /home/yz17g22/mydocuments/design/system_on_chip/github/local_chip/post_process/cds.lib
+Loading all available p-cell functions
+AMS_DB set to cds
+*WARNING* No technology dir found at /opt/cad/designkits/ams/v410/assura/c35b4/c35b4o7
+	  Defined in assura_tech map file /opt/cad/designkits/ams/v410/assura/c35b4/assura_tech.lib at line 20
+*WARNING* No technology dir found at /opt/cad/designkits/ams/v410/assura/c35b4/c35b4l7
+	  Defined in assura_tech map file /opt/cad/designkits/ams/v410/assura/c35b4/assura_tech.lib at line 21
+*WARNING* No technology dir found at /opt/cad/designkits/ams/v410/assura/c35b4/c35b4o7
+	  Defined in assura_tech map file /opt/cad/designkits/ams/v410/assura/c35b4/assura_tech.lib at line 20
+*WARNING* No technology dir found at /opt/cad/designkits/ams/v410/assura/c35b4/c35b4l7
+	  Defined in assura_tech map file /opt/cad/designkits/ams/v410/assura/c35b4/assura_tech.lib at line 21
+
+Loading tech rule set file : /opt/cad/designkits/ams/v410/assura/c35b4/c35b4c3/techRuleSets
+*WARNING* No technology dir found at /opt/cad/designkits/ams/v410/assura/c35b4/c35b4o7
+	  Defined in assura_tech map file /opt/cad/designkits/ams/v410/assura/c35b4/assura_tech.lib at line 20
+*WARNING* No technology dir found at /opt/cad/designkits/ams/v410/assura/c35b4/c35b4l7
+	  Defined in assura_tech map file /opt/cad/designkits/ams/v410/assura/c35b4/assura_tech.lib at line 21
+
+Loading tech rule set file : /opt/cad/designkits/ams/v410/assura/c35b4/c35b4c3/techRuleSets
+*WARNING* No technology dir found at /opt/cad/designkits/ams/v410/assura/c35b4/c35b4o7
+	  Defined in assura_tech map file /opt/cad/designkits/ams/v410/assura/c35b4/assura_tech.lib at line 20
+*WARNING* No technology dir found at /opt/cad/designkits/ams/v410/assura/c35b4/c35b4l7
+	  Defined in assura_tech map file /opt/cad/designkits/ams/v410/assura/c35b4/assura_tech.lib at line 21
+*WARNING* No technology dir found at /opt/cad/designkits/ams/v410/assura/c35b4/c35b4o7
+	  Defined in assura_tech map file /opt/cad/designkits/ams/v410/assura/c35b4/assura_tech.lib at line 20
+*WARNING* No technology dir found at /opt/cad/designkits/ams/v410/assura/c35b4/c35b4l7
+	  Defined in assura_tech map file /opt/cad/designkits/ams/v410/assura/c35b4/assura_tech.lib at line 21
+
+Finished /eda/cadence/assura//tools.lnx86/assura/bin/avcallproc
+
+Starting /eda/cadence/assura//tools.lnx86/assura/bin/avnx /home/yz17g22/mydocuments/design/system_on_chip/github/local_chip/post_process/ASSURA_LVS/computer/computer.rsf -exec1 -LVS -cdslib /home/yz17g22/mydocuments/design/system_on_chip/github/local_chip/post_process/cds.lib
+Virtuoso Framework License (111) was checked out successfully. Total checkout time was 0.01s.
+Loading all available p-cell functions
+AMS_DB set to cds
+*WARNING* No technology dir found at /opt/cad/designkits/ams/v410/assura/c35b4/c35b4o7
+	  Defined in assura_tech map file /opt/cad/designkits/ams/v410/assura/c35b4/assura_tech.lib at line 20
+*WARNING* No technology dir found at /opt/cad/designkits/ams/v410/assura/c35b4/c35b4l7
+	  Defined in assura_tech map file /opt/cad/designkits/ams/v410/assura/c35b4/assura_tech.lib at line 21
+*WARNING* No technology dir found at /opt/cad/designkits/ams/v410/assura/c35b4/c35b4o7
+	  Defined in assura_tech map file /opt/cad/designkits/ams/v410/assura/c35b4/assura_tech.lib at line 20
+*WARNING* No technology dir found at /opt/cad/designkits/ams/v410/assura/c35b4/c35b4l7
+	  Defined in assura_tech map file /opt/cad/designkits/ams/v410/assura/c35b4/assura_tech.lib at line 21
+
+Loading tech rule set file : /opt/cad/designkits/ams/v410/assura/c35b4/c35b4c3/techRuleSets
+*WARNING* No technology dir found at /opt/cad/designkits/ams/v410/assura/c35b4/c35b4o7
+	  Defined in assura_tech map file /opt/cad/designkits/ams/v410/assura/c35b4/assura_tech.lib at line 20
+*WARNING* No technology dir found at /opt/cad/designkits/ams/v410/assura/c35b4/c35b4l7
+	  Defined in assura_tech map file /opt/cad/designkits/ams/v410/assura/c35b4/assura_tech.lib at line 21
+
+Loading tech rule set file : /opt/cad/designkits/ams/v410/assura/c35b4/c35b4c3/techRuleSets
+*WARNING* No technology dir found at /opt/cad/designkits/ams/v410/assura/c35b4/c35b4o7
+	  Defined in assura_tech map file /opt/cad/designkits/ams/v410/assura/c35b4/assura_tech.lib at line 20
+*WARNING* No technology dir found at /opt/cad/designkits/ams/v410/assura/c35b4/c35b4l7
+	  Defined in assura_tech map file /opt/cad/designkits/ams/v410/assura/c35b4/assura_tech.lib at line 21
+*WARNING* No technology dir found at /opt/cad/designkits/ams/v410/assura/c35b4/c35b4o7
+	  Defined in assura_tech map file /opt/cad/designkits/ams/v410/assura/c35b4/assura_tech.lib at line 20
+*WARNING* No technology dir found at /opt/cad/designkits/ams/v410/assura/c35b4/c35b4l7
+	  Defined in assura_tech map file /opt/cad/designkits/ams/v410/assura/c35b4/assura_tech.lib at line 21
+Checking out license for Assura_LVS
+Checking out license for Phys_Ver_Sys_LVS_XL
+*WARNING* Failed to obtain license for Assura_LVS
+@(#)$CDS: avnx_64 version av4.1:Production:dfII6.1.7-64b:IC6.1.7-64b.500.4 07/10/2017 21:38 (sjfnl321) $
+sub-version 4.1_USR5_HF11, integ signature 2017-07-10-2113
+
+run on srv02749 from /srv/eda/cadence/2017-18/RHELx86/ASSURA_04.15.111/tools.lnx86/assura/bin/64bit/avnx on Thu May  4 19:27:37 2023
+
+avnx started...
+cpu: 0.57  elap: 0  pf: 0  in: 0  out: 400  virt: 576M  phys: 1027M
+
+Run time =  1.00 seconds
+CPU time =  0.67 seconds
+
+                  End of Summary Report
+
+************************************************************************
+cpu: 0.07  elap: 0  pf: 0  in: 0  out: 30336  virt: 468M  phys: 1029M
+***** avnx terminated normally ***** 
+
+
+Finished /eda/cadence/assura//tools.lnx86/assura/bin/avnx
+
+Starting /eda/cadence/assura//tools.lnx86/assura/bin/nvn /home/yz17g22/mydocuments/design/system_on_chip/github/local_chip/post_process/ASSURA_LVS/computer/computer.rsf -postExtract -exec1 -cdslib /home/yz17g22/mydocuments/design/system_on_chip/github/local_chip/post_process/cds.lib
+Checking out license for Assura_LVS
+Checking out license for Phys_Ver_Sys_LVS_XL
+@(#)$CDS: nvn_64 version av4.1:Production:dfII6.1.7-64b:IC6.1.7-64b.500.4 07/10/2017 21:49 (sjfnl321) $
+sub-version 4.1_USR5_HF11, integ signature 2017-07-10-2113
+run on srv02749 at Thu May  4 19:27:38 2023
+Loading all available p-cell functions
+AMS_DB set to cds
+Reading schematic network
+Reading layout network
+ inputting network ASSURA_LVS/computer/computer.ldb
+Preprocessing schematic network phase 1
+*WARNING* deleteCellPin - Unable to find cell 'PMOSD30M'
+Preprocessing layout network phase 1
+ WARNING (AVLVSNN-10050) : mosDevice - cell 'PMOSML4' not found.
+ WARNING (AVLVSNN-10050) : mosDevice - cell 'PMOSM4' not found.
+ WARNING (AVLVSNN-10050) : mosDevice - cell 'PMOSL4' not found.
+ WARNING (AVLVSNN-10050) : mosDevice - cell 'PMOS4' not found.
+ WARNING (AVLVSNN-10050) : mosDevice - cell 'NMOSML4' not found.
+ WARNING (AVLVSNN-10050) : mosDevice - cell 'NMOSM4' not found.
+ WARNING (AVLVSNN-10050) : mosDevice - cell 'NMOSL4' not found.
+ WARNING (AVLVSNN-10050) : mosDevice - cell 'NMOS4' not found.
+ WARNING (AVLVSNN-10050) : lddDevice - cell 'PMOSD30M' not found.
+ WARNING (AVLVSNN-10050) : lddDevice - cell 'PMOS30M' not found.
+ WARNING (AVLVSNN-10050) : lddDevice - cell 'NMOSMHL' not found.
+ WARNING (AVLVSNN-10050) : lddDevice - cell 'NMOSMH' not found.
+ WARNING (AVLVSNN-10050) : lddDevice - cell 'NMOSHL' not found.
+ WARNING (AVLVSNN-10050) : lddDevice - cell 'NMOSH' not found.
+ WARNING (AVLVSNN-10050) : lddDevice - cell 'NMOS30M' not found.
+ WARNING (AVLVSNN-10050) : lddDevice - cell 'NMOS18T' not found.
+*WARNING* deleteCellPin - Unable to find cell 'RPOLYZ'
+*WARNING* deleteCellPin - Unable to find cell 'RPOLYM'
+*WARNING* deleteCellPin - Unable to find cell 'RPOLYH'
+*WARNING* deleteCellPin - Unable to find cell 'RPOLY2'
+*WARNING* deleteCellPin - Unable to find cell 'RPOLY2P'
+*WARNING* deleteCellPin - Unable to find cell 'RPOLY2PH'
+*WARNING* deleteCellPin - Unable to find cell 'PNPVERT15'
+*WARNING* deleteCellPin - Unable to find cell 'PNPVERT2'
+*WARNING* deleteCellPin - Unable to find cell 'PNPVERT5'
+*WARNING* deleteCellPin - Unable to find cell 'PNPVERT10'
+*WARNING* deleteCellPin - Unable to find cell 'PNPVERT3'
+*WARNING* deleteCellPin - Unable to find cell 'PMOSD30M'
+Preprocessing schematic network phase 2
+Preprocessing layout network phase 2
+Comparing GND3ALLP cmos_sch IOLIB_4M vs GND3ALLP layout IOLIB_4M
+Comparing VDD3ALLP cmos_sch IOLIB_4M vs VDD3ALLP layout IOLIB_4M
+Comparing VDD3IP cmos_sch IOLIB_4M vs VDD3IP layout IOLIB_4M
+Comparing GND3IP cmos_sch IOLIB_4M vs GND3IP layout IOLIB_4M
+Comparing FILL25 cmos_sch CORELIB vs FILL25 layout CORELIB
+Comparing FILL10 cmos_sch CORELIB vs FILL10 layout CORELIB
+Comparing FILL2 cmos_sch CORELIB vs FILL2 layout CORELIB
+Comparing FILL5 cmos_sch CORELIB vs FILL5 layout CORELIB
+Comparing LOGIC1 cmos_sch CORELIB vs LOGIC1 layout CORELIB
+Comparing BU8P cmos_sch IOLIB_4M vs BU8P layout IOLIB_4M
+Comparing ICUP cmos_sch IOLIB_4M vs ICUP layout IOLIB_4M
+Comparing IMUX24 cmos_sch CORELIB vs IMUX24 layout CORELIB
+Comparing DFC1 cmos_sch CORELIB vs DFC1 layout CORELIB
+Comparing INV15 cmos_sch CORELIB vs INV15 layout CORELIB
+Comparing INV12 cmos_sch CORELIB vs INV12 layout CORELIB
+Comparing NAND32 cmos_sch CORELIB vs NAND32 layout CORELIB
+Comparing MUX24 cmos_sch CORELIB vs MUX24 layout CORELIB
+Comparing BUF12 cmos_sch CORELIB vs BUF12 layout CORELIB
+Comparing BUF8 cmos_sch CORELIB vs BUF8 layout CORELIB
+Comparing CLKBU12 cmos_sch CORELIB vs CLKBU12 layout CORELIB
+Comparing CLKIN8 cmos_sch CORELIB vs CLKIN8 layout CORELIB
+Comparing CLKIN10 cmos_sch CORELIB vs CLKIN10 layout CORELIB
+Comparing CLKBU15 cmos_sch CORELIB vs CLKBU15 layout CORELIB
+Comparing CLKIN12 cmos_sch CORELIB vs CLKIN12 layout CORELIB
+Comparing JKSC1 cmos_sch CORELIB vs JKSC1 layout CORELIB
+Comparing CLKIN15 cmos_sch CORELIB vs CLKIN15 layout CORELIB
+Comparing DFSEP1 cmos_sch CORELIB vs DFSEP1 layout CORELIB
+Comparing DFSP3 cmos_sch CORELIB vs DFSP3 layout CORELIB
+Comparing DFSP1 cmos_sch CORELIB vs DFSP1 layout CORELIB
+Comparing DFSEC3 cmos_sch CORELIB vs DFSEC3 layout CORELIB
+Comparing XNR21 cmos_sch CORELIB vs XNR21 layout CORELIB
+Comparing DFSEC1 cmos_sch CORELIB vs DFSEC1 layout CORELIB
+Comparing XOR20 cmos_sch CORELIB vs XOR20 layout CORELIB
+Comparing XOR21 cmos_sch CORELIB vs XOR21 layout CORELIB
+Comparing DFSC1 cmos_sch CORELIB vs DFSC1 layout CORELIB
+Comparing DFSC3 cmos_sch CORELIB vs DFSC3 layout CORELIB
+Comparing IMUX42 cmos_sch CORELIB vs IMUX42 layout CORELIB
+Comparing INV6 cmos_sch CORELIB vs INV6 layout CORELIB
+Comparing CLKBU6 cmos_sch CORELIB vs CLKBU6 layout CORELIB
+Comparing XNR20 cmos_sch CORELIB vs XNR20 layout CORELIB
+Comparing MUX42 cmos_sch CORELIB vs MUX42 layout CORELIB
+Comparing INV10 cmos_sch CORELIB vs INV10 layout CORELIB
+Comparing MUX41 cmos_sch CORELIB vs MUX41 layout CORELIB
+Comparing INV8 cmos_sch CORELIB vs INV8 layout CORELIB
+Comparing IMUX22 cmos_sch CORELIB vs IMUX22 layout CORELIB
+Comparing OAI312 cmos_sch CORELIB vs OAI312 layout CORELIB
+Comparing CLKBU2 cmos_sch CORELIB vs CLKBU2 layout CORELIB
+Comparing CLKIN2 cmos_sch CORELIB vs CLKIN2 layout CORELIB
+Comparing NOR33 cmos_sch CORELIB vs NOR33 layout CORELIB
+Comparing AOI222 cmos_sch CORELIB vs AOI222 layout CORELIB
+Comparing NOR31 cmos_sch CORELIB vs NOR31 layout CORELIB
+Comparing OAI2112 cmos_sch CORELIB vs OAI2112 layout CORELIB
+Comparing NAND28 cmos_sch CORELIB vs NAND28 layout CORELIB
+Comparing AOI2111 cmos_sch CORELIB vs AOI2111 layout CORELIB
+Comparing NAND43 cmos_sch CORELIB vs NAND43 layout CORELIB
+Comparing IMUX23 cmos_sch CORELIB vs IMUX23 layout CORELIB
+Comparing IMUX41 cmos_sch CORELIB vs IMUX41 layout CORELIB
+Comparing IMUX21 cmos_sch CORELIB vs IMUX21 layout CORELIB
+Comparing AOI312 cmos_sch CORELIB vs AOI312 layout CORELIB
+Comparing AOI2112 cmos_sch CORELIB vs AOI2112 layout CORELIB
+Comparing NOR42 cmos_sch CORELIB vs NOR42 layout CORELIB
+Comparing NAND34 cmos_sch CORELIB vs NAND34 layout CORELIB
+Comparing IMUX40 cmos_sch CORELIB vs IMUX40 layout CORELIB
+Comparing MUX21 cmos_sch CORELIB vs MUX21 layout CORELIB
+Comparing BUF15 cmos_sch CORELIB vs BUF15 layout CORELIB
+Comparing OAI221 cmos_sch CORELIB vs OAI221 layout CORELIB
+Comparing CLKIN6 cmos_sch CORELIB vs CLKIN6 layout CORELIB
+Comparing NOR32 cmos_sch CORELIB vs NOR32 layout CORELIB
+Comparing NAND33 cmos_sch CORELIB vs NAND33 layout CORELIB
+Comparing OAI222 cmos_sch CORELIB vs OAI222 layout CORELIB
+Comparing CLKBU4 cmos_sch CORELIB vs CLKBU4 layout CORELIB
+Comparing CLKBU8 cmos_sch CORELIB vs CLKBU8 layout CORELIB
+Comparing OAI211 cmos_sch CORELIB vs OAI211 layout CORELIB
+Comparing OAI310 cmos_sch CORELIB vs OAI310 layout CORELIB
+Comparing BUF2 cmos_sch CORELIB vs BUF2 layout CORELIB
+Comparing ADD31 cmos_sch CORELIB vs ADD31 layout CORELIB
+Comparing NAND24 cmos_sch CORELIB vs NAND24 layout CORELIB
+Comparing NOR22 cmos_sch CORELIB vs NOR22 layout CORELIB
+Comparing NOR24 cmos_sch CORELIB vs NOR24 layout CORELIB
+Comparing AOI211 cmos_sch CORELIB vs AOI211 layout CORELIB
+Comparing AOI212 cmos_sch CORELIB vs AOI212 layout CORELIB
+Comparing INV3 cmos_sch CORELIB vs INV3 layout CORELIB
+Comparing NOR23 cmos_sch CORELIB vs NOR23 layout CORELIB
+Comparing CLKIN3 cmos_sch CORELIB vs CLKIN3 layout CORELIB
+Comparing NAND23 cmos_sch CORELIB vs NAND23 layout CORELIB
+Comparing BUF6 cmos_sch CORELIB vs BUF6 layout CORELIB
+Comparing OAI220 cmos_sch CORELIB vs OAI220 layout CORELIB
+Comparing OAI311 cmos_sch CORELIB vs OAI311 layout CORELIB
+Comparing IMAJ30 cmos_sch CORELIB vs IMAJ30 layout CORELIB
+Comparing AOI310 cmos_sch CORELIB vs AOI310 layout CORELIB
+Comparing MAJ31 cmos_sch CORELIB vs MAJ31 layout CORELIB
+Comparing OAI210 cmos_sch CORELIB vs OAI210 layout CORELIB
+Comparing CLKIN0 cmos_sch CORELIB vs CLKIN0 layout CORELIB
+Comparing CLKIN1 cmos_sch CORELIB vs CLKIN1 layout CORELIB
+Comparing NOR30 cmos_sch CORELIB vs NOR30 layout CORELIB
+Comparing NAND42 cmos_sch CORELIB vs NAND42 layout CORELIB
+Comparing IMUX20 cmos_sch CORELIB vs IMUX20 layout CORELIB
+Comparing OAI2111 cmos_sch CORELIB vs OAI2111 layout CORELIB
+Comparing AOI220 cmos_sch CORELIB vs AOI220 layout CORELIB
+Comparing NOR40 cmos_sch CORELIB vs NOR40 layout CORELIB
+Comparing NAND40 cmos_sch CORELIB vs NAND40 layout CORELIB
+Comparing NOR21 cmos_sch CORELIB vs NOR21 layout CORELIB
+Comparing NAND31 cmos_sch CORELIB vs NAND31 layout CORELIB
+Comparing NOR41 cmos_sch CORELIB vs NOR41 layout CORELIB
+Comparing AOI311 cmos_sch CORELIB vs AOI311 layout CORELIB
+Comparing AOI221 cmos_sch CORELIB vs AOI221 layout CORELIB
+Comparing DFSE1 cmos_sch CORELIB vs DFSE1 layout CORELIB
+Comparing NAND30 cmos_sch CORELIB vs NAND30 layout CORELIB
+Comparing AOI2110 cmos_sch CORELIB vs AOI2110 layout CORELIB
+Comparing NAND21 cmos_sch CORELIB vs NAND21 layout CORELIB
+Comparing NAND22 cmos_sch CORELIB vs NAND22 layout CORELIB
+Comparing OAI2110 cmos_sch CORELIB vs OAI2110 layout CORELIB
+Comparing AOI210 cmos_sch CORELIB vs AOI210 layout CORELIB
+Comparing NOR20 cmos_sch CORELIB vs NOR20 layout CORELIB
+Comparing NAND20 cmos_sch CORELIB vs NAND20 layout CORELIB
+Comparing OAI212 cmos_sch CORELIB vs OAI212 layout CORELIB
+Comparing NAND41 cmos_sch CORELIB vs NAND41 layout CORELIB
+Top cell  computer schematic computer_post_process vs computer layout computer_post_process
+Compare errors, please see /home/yz17g22/mydocuments/design/system_on_chip/github/local_chip/post_process/ASSURA_LVS/computer/computer.csm and /home/yz17g22/mydocuments/design/system_on_chip/github/local_chip/post_process/ASSURA_LVS/computer/computer.cls files.
+Label related warnings. Please see /home/yz17g22/mydocuments/design/system_on_chip/github/local_chip/post_process/ASSURA_LVS/computer/computer.erc
+cpu=0.02m  wall=0.03m  mem=68.30mb
+
+Finished /eda/cadence/assura//tools.lnx86/assura/bin/nvn
+
+Starting /eda/cadence/assura//tools.lnx86/assura/bin/vldbToRpa computer.snn computer.tre computer.cel
+
+Finished /eda/cadence/assura//tools.lnx86/assura/bin/vldbToRpa
+
+Starting /eda/cadence/assura//tools.lnx86/assura/bin/vldbToRpa computer.lnn computer.tre2 computer.cel2
+
+Finished /eda/cadence/assura//tools.lnx86/assura/bin/vldbToRpa
+
+Starting /eda/cadence/assura//tools.lnx86/assura/bin/ercChk /home/yz17g22/mydocuments/design/system_on_chip/github/local_chip/post_process/ASSURA_LVS/computer/computer.rsf
+Virtuoso Framework License (111) was checked out successfully. Total checkout time was 0.01s.
+Loading all available p-cell functions
+AMS_DB set to cds
+*WARNING* No technology dir found at /opt/cad/designkits/ams/v410/assura/c35b4/c35b4o7
+	  Defined in assura_tech map file /opt/cad/designkits/ams/v410/assura/c35b4/assura_tech.lib at line 20
+*WARNING* No technology dir found at /opt/cad/designkits/ams/v410/assura/c35b4/c35b4l7
+	  Defined in assura_tech map file /opt/cad/designkits/ams/v410/assura/c35b4/assura_tech.lib at line 21
+*WARNING* No technology dir found at /opt/cad/designkits/ams/v410/assura/c35b4/c35b4o7
+	  Defined in assura_tech map file /opt/cad/designkits/ams/v410/assura/c35b4/assura_tech.lib at line 20
+*WARNING* No technology dir found at /opt/cad/designkits/ams/v410/assura/c35b4/c35b4l7
+	  Defined in assura_tech map file /opt/cad/designkits/ams/v410/assura/c35b4/assura_tech.lib at line 21
+
+Loading tech rule set file : /opt/cad/designkits/ams/v410/assura/c35b4/c35b4c3/techRuleSets
+*WARNING* No technology dir found at /opt/cad/designkits/ams/v410/assura/c35b4/c35b4o7
+	  Defined in assura_tech map file /opt/cad/designkits/ams/v410/assura/c35b4/assura_tech.lib at line 20
+*WARNING* No technology dir found at /opt/cad/designkits/ams/v410/assura/c35b4/c35b4l7
+	  Defined in assura_tech map file /opt/cad/designkits/ams/v410/assura/c35b4/assura_tech.lib at line 21
+
+Loading tech rule set file : /opt/cad/designkits/ams/v410/assura/c35b4/c35b4c3/techRuleSets
+*WARNING* No technology dir found at /opt/cad/designkits/ams/v410/assura/c35b4/c35b4o7
+	  Defined in assura_tech map file /opt/cad/designkits/ams/v410/assura/c35b4/assura_tech.lib at line 20
+*WARNING* No technology dir found at /opt/cad/designkits/ams/v410/assura/c35b4/c35b4l7
+	  Defined in assura_tech map file /opt/cad/designkits/ams/v410/assura/c35b4/assura_tech.lib at line 21
+*WARNING* No technology dir found at /opt/cad/designkits/ams/v410/assura/c35b4/c35b4o7
+	  Defined in assura_tech map file /opt/cad/designkits/ams/v410/assura/c35b4/assura_tech.lib at line 20
+*WARNING* No technology dir found at /opt/cad/designkits/ams/v410/assura/c35b4/c35b4l7
+	  Defined in assura_tech map file /opt/cad/designkits/ams/v410/assura/c35b4/assura_tech.lib at line 21
+*WARNING* No technology dir found at /opt/cad/designkits/ams/v410/assura/c35b4/c35b4o7
+	  Defined in assura_tech map file /opt/cad/designkits/ams/v410/assura/c35b4/assura_tech.lib at line 20
+*WARNING* No technology dir found at /opt/cad/designkits/ams/v410/assura/c35b4/c35b4l7
+	  Defined in assura_tech map file /opt/cad/designkits/ams/v410/assura/c35b4/assura_tech.lib at line 21
+*WARNING* No technology dir found at /opt/cad/designkits/ams/v410/assura/c35b4/c35b4o7
+	  Defined in assura_tech map file /opt/cad/designkits/ams/v410/assura/c35b4/assura_tech.lib at line 20
+*WARNING* No technology dir found at /opt/cad/designkits/ams/v410/assura/c35b4/c35b4l7
+	  Defined in assura_tech map file /opt/cad/designkits/ams/v410/assura/c35b4/assura_tech.lib at line 21
+
+Loading tech rule set file : /opt/cad/designkits/ams/v410/assura/c35b4/c35b4c3/techRuleSets
+*WARNING* LIB SPIRALS_4M from File /home/yz17g22/mydocuments/design/system_on_chip/github/local_chip/post_process/cds.lib Line 60 redefines
+LIB SPIRALS_4M from the same file (defined earlier.)
+*WARNING* LIB TECH_C35B4 from File /home/yz17g22/mydocuments/design/system_on_chip/github/local_chip/post_process/cds.lib Line 61 redefines
+LIB TECH_C35B4 from the same file (defined earlier.)
+*WARNING* LIB SPIRALS_4M from File /home/yz17g22/mydocuments/design/system_on_chip/github/local_chip/post_process/cds.lib Line 60 redefines
+LIB SPIRALS_4M from the same file (defined earlier.)
+*WARNING* LIB TECH_C35B4 from File /home/yz17g22/mydocuments/design/system_on_chip/github/local_chip/post_process/cds.lib Line 61 redefines
+LIB TECH_C35B4 from the same file (defined earlier.)
+
+Finished /eda/cadence/assura//tools.lnx86/assura/bin/ercChk
+
+Starting /eda/cadence/assura//tools.lnx86/assura/bin/avcallproc /home/yz17g22/mydocuments/design/system_on_chip/github/local_chip/post_process/ASSURA_LVS/computer/computer.rsf -trp -exec1
+Loading all available p-cell functions
+AMS_DB set to cds
+*WARNING* No technology dir found at /opt/cad/designkits/ams/v410/assura/c35b4/c35b4o7
+	  Defined in assura_tech map file /opt/cad/designkits/ams/v410/assura/c35b4/assura_tech.lib at line 20
+*WARNING* No technology dir found at /opt/cad/designkits/ams/v410/assura/c35b4/c35b4l7
+	  Defined in assura_tech map file /opt/cad/designkits/ams/v410/assura/c35b4/assura_tech.lib at line 21
+*WARNING* No technology dir found at /opt/cad/designkits/ams/v410/assura/c35b4/c35b4o7
+	  Defined in assura_tech map file /opt/cad/designkits/ams/v410/assura/c35b4/assura_tech.lib at line 20
+*WARNING* No technology dir found at /opt/cad/designkits/ams/v410/assura/c35b4/c35b4l7
+	  Defined in assura_tech map file /opt/cad/designkits/ams/v410/assura/c35b4/assura_tech.lib at line 21
+
+Loading tech rule set file : /opt/cad/designkits/ams/v410/assura/c35b4/c35b4c3/techRuleSets
+*WARNING* No technology dir found at /opt/cad/designkits/ams/v410/assura/c35b4/c35b4o7
+	  Defined in assura_tech map file /opt/cad/designkits/ams/v410/assura/c35b4/assura_tech.lib at line 20
+*WARNING* No technology dir found at /opt/cad/designkits/ams/v410/assura/c35b4/c35b4l7
+	  Defined in assura_tech map file /opt/cad/designkits/ams/v410/assura/c35b4/assura_tech.lib at line 21
+
+Loading tech rule set file : /opt/cad/designkits/ams/v410/assura/c35b4/c35b4c3/techRuleSets
+*WARNING* No technology dir found at /opt/cad/designkits/ams/v410/assura/c35b4/c35b4o7
+	  Defined in assura_tech map file /opt/cad/designkits/ams/v410/assura/c35b4/assura_tech.lib at line 20
+*WARNING* No technology dir found at /opt/cad/designkits/ams/v410/assura/c35b4/c35b4l7
+	  Defined in assura_tech map file /opt/cad/designkits/ams/v410/assura/c35b4/assura_tech.lib at line 21
+*WARNING* No technology dir found at /opt/cad/designkits/ams/v410/assura/c35b4/c35b4o7
+	  Defined in assura_tech map file /opt/cad/designkits/ams/v410/assura/c35b4/assura_tech.lib at line 20
+*WARNING* No technology dir found at /opt/cad/designkits/ams/v410/assura/c35b4/c35b4l7
+	  Defined in assura_tech map file /opt/cad/designkits/ams/v410/assura/c35b4/assura_tech.lib at line 21
+
+Finished /eda/cadence/assura//tools.lnx86/assura/bin/avcallproc
+
+
+Assura LVS terminated normally.
+
+
+
+Run ended: Thu May  4 19:27:41 2023
+
+*****  Assura terminated normally  *****
+

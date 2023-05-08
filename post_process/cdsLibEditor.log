@@ -1,0 +1,27 @@
+\o Program:		@(#)$CDS: cdsLibEditor version 6.1.7 - CAT35 09/11/2017 15:15 (sjfnl050) $
+\o Sub version:		sub-version  s057 
+\o Arguments:		-cdslib /home/yz17g22/mydocuments/design/system_on_chip/github/local_chip/post_process/cds.lib -mpssession virtuoso115648 -mpshost srv02749 
+\o Working Directory:	srv02749:/home/yz17g22/mydocuments/design/system_on_chip/github/local_chip/post_process
+\o 64-bit offsets
+\a nrSetWindowVisibility(cdsLibEditor "show")
+\o Qt version: 		4.8.5
+\a nrSetCurrentWindow(cdsLibEditor)
+\a nrListItemAction(cdsLibEditor->mainTable 0 0)
+\o Active cell: 0 0 "analogLib"
+\a nrResizeWindow(cdsLibEditor list(0 24 500 400))
+\a nrSetCurrentWindow(cdsLibEditor)
+\a nrResizeWindow(cdsLibEditor list(1147 46 500 400))
+\a nrSetCurrentWindow(cdsLibEditor)
+\a nrResizeWindow(cdsLibEditor list(1147 46 663 1288))
+\a nrListItemAction(cdsLibEditor->mainTable 51 0)
+\o Active cell: 51 0 ""
+\a nrListItemRename(cdsLibEditor->mainTable, 51 0 "computer_post_process")
+\a nrListItemAction(cdsLibEditor->mainTable 51 1)
+\o Active cell: 51 1 ""
+\a nrListItemRename(cdsLibEditor->mainTable, 51 1 "./computer_post_process")
+\a nrListItemAction(cdsLibEditor->mainTable 52 0)
+\o Active cell: 52 0 ""
+\a cdsLibEditor->fileSaveButton->value = t
+\a cdsLibEditor->fileExitButton->value = t
+\a nrSetWindowVisibility(cdsLibEditor "hide")
+\a exit(0)

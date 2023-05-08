@@ -1,0 +1,42 @@
+================================================================================
+Rule No. 7011 : PO_R_1 Minimum density of POLY1 area [%] = 14
+
+Real Error Count : 1; Flat Error Count : 1                     
+================================================================================
+
+--------------------------------------------------------------------------------
+Cell Name : computer layout computer_post_process
+
+                   Cell Errors    Real Errors   Cell Placements     Environments
+                             1              1                 1                1  
+--------------------------------------------------------------------------------
+Env.  Env. Placements            X1           Y1           X2           Y2    
+
+  1        1                  0.000        0.000     2540.800     2518.800
+
+Shape               Environments Status & Error Marker
+
+         1           X1         Y1         X2         Y2    Cov        Real area
+
+   1     X        0.000      0.000   2540.800   2518.800  0.087       554819.243
+================================================================================
+Rule No. 7290 : M2_R_1 Minimum density of MET2 area [%] = 30
+
+Real Error Count : 1; Flat Error Count : 1                     
+================================================================================
+
+--------------------------------------------------------------------------------
+Cell Name : computer layout computer_post_process
+
+                   Cell Errors    Real Errors   Cell Placements     Environments
+                             1              1                 1                1  
+--------------------------------------------------------------------------------
+Env.  Env. Placements            X1           Y1           X2           Y2    
+
+  1        1                  0.000        0.000     2540.800     2518.800
+
+Shape               Environments Status & Error Marker
+
+         1           X1         Y1         X2         Y2    Cov        Real area
+
+   1     X        0.000      0.000   2540.800   2518.800  0.224      1430682.918

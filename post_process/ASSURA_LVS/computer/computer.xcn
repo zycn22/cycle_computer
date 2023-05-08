@@ -1,0 +1,381 @@
+layer cblock_met2cap_met2
+layer cblock_met1_fox
+layer cblock_poly2_poly1
+layer cblock_poly1_psub
+layer cblock_poly2_psub
+text POLY1_pintext attach net_poly1 POLY1_pinshape
+text MET1_pintext attach net_met1 MET1_pinshape
+text MET2_pintext attach net_met2 MET2_pinshape
+text MET3_pintext attach net_met3 MET3_pinshape
+text MET4_pintext attach net_met4 MET4_pinshape
+text PAD_pintext attach net_met4 PAD_pinshape
+text PADTSV_pintext attach METTSV PADTSV_pinshape
+text OPTDEF_pintext attach net_optdef OPTDEF_pinshape
+connect net_met4 net_bondpad by PAD
+connect net_met4 net_met3 by net_via3
+connect net_met3 net_metcap by net_via2_metcap
+connect net_met3 net_met2 by net_via2_met2
+connect net_met2 net_met1 by net_via1
+connect net_met1 net_poly2 by net_poly2con
+connect net_met1 net_poly1 by net_poly1con
+connect net_met1 net_welltap by net_ndiffcon
+connect net_met1 net_nsd by net_ndiffcon
+connect net_welltap net_nsd by net_ndiffcon
+connect net_met1 net_subtap by net_pdiffcon
+connect net_met1 net_psd by net_pdiffcon
+connect net_subtap net_psd by net_pdiffcon
+connect net_sbd_anode_diff sbdcon by net_met1
+connect spiral_term11 net_met3 by spiral_term
+connect spiral_term11 spiral_term22 by spiral_term
+connect spiral_term11 net_met4 by spiral_term
+connect net_met3 spiral_term22 by spiral_term
+connect net_met3 net_met4 by spiral_term
+connect spiral_term22 net_met4 by spiral_term
+connect net_poly1 POLY1_pinshape by POLY1_pinshape
+connect net_met1 MET1_pinshape by MET1_pinshape
+connect net_met2 MET2_pinshape by MET2_pinshape
+connect net_met3 MET3_pinshape by MET3_pinshape
+connect net_met4 MET4_pinshape by MET4_pinshape
+connect net_met4 PAD_pinshape by PAD_pinshape
+connect PADTSV_pinshape METTSV by METTSV
+connect METTSV tsv_term_top by tsv_term_top
+connect net_met1 tsv_term_bot by tsv_term_bot
+connect net_optdef OPTDEF_pinshape by OPTDEF_pinshape
+connect net_welltap net_ndiff by net_ndiff
+connect net_nsd net_ndiff by net_ndiff
+connect nmosh_d_term net_ndiff by net_ndiff
+connect net_subtap net_pdiff by net_pdiff
+connect net_psd net_pdiff by net_pdiff
+connect net_psub net_subtap by net_subtap
+connect net_nwell net_welltap by net_welltap
+model=mos[NMOS4],MODN
+dfiimodel=mos[NMOS4],nmos4#20auLvs#20PRIMLIB
+element mos[NMOS4] NMOS_device_MOS_1 net_poly1 net_nsd net_psub 
+stamp NMOS_WAFFLE_bulk by net_psub
+model=generic[NMOS4_av2],MODN
+dfiimodel=generic[NMOS4_av2],nmos4#20auLvs#20PRIMLIB
+element generic[NMOS4_av2] NMOS_WAFFLE_device_Device_2 net_poly1[G] net_nsd[S] net_nsd[D] NMOS_WAFFLE_bulk[B] 
+model=mos[NMOSM4],MODNM
+dfiimodel=mos[NMOSM4],nmosm4#20auLvs#20PRIMLIB
+element mos[NMOSM4] NMOSM_device_MOS_3 net_poly1 net_nsd net_psub 
+stamp NMOSM_WAFFLE_bulk by net_psub
+model=generic[NMOSM4_av2],MODNM
+dfiimodel=generic[NMOSM4_av2],nmosm4#20auLvs#20PRIMLIB
+element generic[NMOSM4_av2] NMOSM_WAFFLE_device_Device_4 net_poly1[G] net_nsd[S] net_nsd[D] NMOSM_WAFFLE_bulk[B] 
+model=mos[PMOS4],MODP
+dfiimodel=mos[PMOS4],pmos4#20auLvs#20PRIMLIB
+element mos[PMOS4] PMOS_device_MOS_5 net_poly1 net_psd net_nwell 
+stamp PMOS_WAFFLE_bulk by net_nwell
+model=generic[PMOS4_av2],MODP
+dfiimodel=generic[PMOS4_av2],pmos4#20auLvs#20PRIMLIB
+element generic[PMOS4_av2] PMOS_WAFFLE_device_Device_6 net_poly1[G] net_psd[S] net_psd[D] PMOS_WAFFLE_bulk[B] 
+model=mos[PMOSM4],MODPM
+dfiimodel=mos[PMOSM4],pmosm4#20auLvs#20PRIMLIB
+element mos[PMOSM4] PMOSM_device_MOS_7 net_poly1 net_psd net_nwell 
+stamp PMOSM_WAFFLE_bulk by net_nwell
+model=generic[PMOSM4_av2],MODPM
+dfiimodel=generic[PMOSM4_av2],pmosm4#20auLvs#20PRIMLIB
+element generic[PMOSM4_av2] PMOSM_WAFFLE_device_Device_8 net_poly1[G] net_psd[S] net_psd[D] PMOSM_WAFFLE_bulk[B] 
+model=generic[RCX_DUMMY],RCX_DUMMY
+dfiimodel=generic[RCX_DUMMY],pcapacitor#20auLvs#20analogLib
+element generic[RCX_DUMMY] NMOSL_device_Device_9 net_poly1[PLUS] net_poly1[MINUS] 
+model=generic[RCX_DUMMY_av2],RCX_DUMMY
+dfiimodel=generic[RCX_DUMMY_av2],pcapacitor#20auLvs#20analogLib
+element generic[RCX_DUMMY_av2] NMOSL_WAFFLE_device_Device_10 net_poly1[PLUS] net_poly1[MINUS] 
+model=generic[RCX_DUMMY_av3],RCX_DUMMY
+dfiimodel=generic[RCX_DUMMY_av3],pcapacitor#20auLvs#20analogLib
+element generic[RCX_DUMMY_av3] NMOSML_device_Device_11 net_poly1[PLUS] net_poly1[MINUS] 
+model=generic[RCX_DUMMY_av4],RCX_DUMMY
+dfiimodel=generic[RCX_DUMMY_av4],pcapacitor#20auLvs#20analogLib
+element generic[RCX_DUMMY_av4] NMOSML_WAFFLE_device_Device_12 net_poly1[PLUS] net_poly1[MINUS] 
+model=generic[RCX_DUMMY_av5],RCX_DUMMY
+dfiimodel=generic[RCX_DUMMY_av5],pcapacitor#20auLvs#20analogLib
+element generic[RCX_DUMMY_av5] PMOSL_device_Device_13 net_poly1[PLUS] net_poly1[MINUS] 
+model=generic[RCX_DUMMY_av6],RCX_DUMMY
+dfiimodel=generic[RCX_DUMMY_av6],pcapacitor#20auLvs#20analogLib
+element generic[RCX_DUMMY_av6] PMOSL_WAFFLE_device_Device_14 net_poly1[PLUS] net_poly1[MINUS] 
+model=generic[RCX_DUMMY_av7],RCX_DUMMY
+dfiimodel=generic[RCX_DUMMY_av7],pcapacitor#20auLvs#20analogLib
+element generic[RCX_DUMMY_av7] PMOSML_device_Device_15 net_poly1[PLUS] net_poly1[MINUS] 
+model=generic[RCX_DUMMY_av8],RCX_DUMMY
+dfiimodel=generic[RCX_DUMMY_av8],pcapacitor#20auLvs#20analogLib
+element generic[RCX_DUMMY_av8] DPMOSM_device_Device_16 net_poly1[PLUS] net_poly1[MINUS] 
+model=generic[RCX_DUMMY_av9],RCX_DUMMY
+dfiimodel=generic[RCX_DUMMY_av9],pcapacitor#20auLvs#20analogLib
+element generic[RCX_DUMMY_av9] PMOSML_WAFFLE_device_Device_17 net_poly1[PLUS] net_poly1[MINUS] 
+stamp NMOSW_4N_bulk by net_psub
+model=generic[NMOS4_av3],NMOSW_4N
+dfiimodel=generic[NMOS4_av3],nmos4#20auLvs#20PRIMLIB
+element generic[NMOS4_av3] NMOSW_4N_device_Device_18 net_poly1[G] net_nsd[S] net_nsd[D] NMOSW_4N_bulk[B] 
+stamp NMOSW_3N_bulk by net_psub
+model=generic[NMOS4_av4],NMOSW_3N
+dfiimodel=generic[NMOS4_av4],nmos4#20auLvs#20PRIMLIB
+element generic[NMOS4_av4] NMOSW_3N_device_Device_19 net_poly1[G] net_nsd[S] net_nsd[D] NMOSW_3N_bulk[B] 
+stamp NMOSW_2N_bulk by net_psub
+model=generic[NMOS4_av5],NMOSW_2N
+dfiimodel=generic[NMOS4_av5],nmos4#20auLvs#20PRIMLIB
+element generic[NMOS4_av5] NMOSW_2N_device_Device_20 net_poly1[G] net_nsd[S] net_nsd[D] NMOSW_2N_bulk[B] 
+stamp NMOSMW_4N_bulk by net_psub
+model=generic[NMOSM4_av3],NMOSMW_4N
+dfiimodel=generic[NMOSM4_av3],nmosm4#20auLvs#20PRIMLIB
+element generic[NMOSM4_av3] NMOSMW_4N_device_Device_21 net_poly1[G] net_nsd[S] net_nsd[D] NMOSMW_4N_bulk[B] 
+stamp NMOSMW_3N_bulk by net_psub
+model=generic[NMOSM4_av4],NMOSMW_3N
+dfiimodel=generic[NMOSM4_av4],nmosm4#20auLvs#20PRIMLIB
+element generic[NMOSM4_av4] NMOSMW_3N_device_Device_22 net_poly1[G] net_nsd[S] net_nsd[D] NMOSMW_3N_bulk[B] 
+stamp NMOSMW_2N_bulk by net_psub
+model=generic[NMOSM4_av5],NMOSMW_2N
+dfiimodel=generic[NMOSM4_av5],nmosm4#20auLvs#20PRIMLIB
+element generic[NMOSM4_av5] NMOSMW_2N_device_Device_23 net_poly1[G] net_nsd[S] net_nsd[D] NMOSMW_2N_bulk[B] 
+stamp PMOSW_4N_bulk by net_nwell
+model=generic[PMOS4_av3],PMOSW_4N
+dfiimodel=generic[PMOS4_av3],pmos4#20auLvs#20PRIMLIB
+element generic[PMOS4_av3] PMOSW_4N_device_Device_24 net_poly1[G] net_psd[S] net_psd[D] PMOSW_4N_bulk[B] 
+stamp PMOSW_3N_bulk by net_nwell
+model=generic[PMOS4_av4],PMOSW_3N
+dfiimodel=generic[PMOS4_av4],pmos4#20auLvs#20PRIMLIB
+element generic[PMOS4_av4] PMOSW_3N_device_Device_25 net_poly1[G] net_psd[S] net_psd[D] PMOSW_3N_bulk[B] 
+stamp PMOSW_2N_bulk by net_nwell
+model=generic[PMOS4_av5],PMOSW_2N
+dfiimodel=generic[PMOS4_av5],pmos4#20auLvs#20PRIMLIB
+element generic[PMOS4_av5] PMOSW_2N_device_Device_26 net_poly1[G] net_psd[S] net_psd[D] PMOSW_2N_bulk[B] 
+stamp PMOSMW_4N_bulk by net_nwell
+model=generic[PMOSM4_av3],PMOSMW_4N
+dfiimodel=generic[PMOSM4_av3],pmosm4#20auLvs#20PRIMLIB
+element generic[PMOSM4_av3] PMOSMW_4N_device_Device_27 net_poly1[G] net_psd[S] net_psd[D] PMOSMW_4N_bulk[B] 
+stamp PMOSMW_3N_bulk by net_nwell
+model=generic[PMOSM4_av4],PMOSMW_3N
+dfiimodel=generic[PMOSM4_av4],pmosm4#20auLvs#20PRIMLIB
+element generic[PMOSM4_av4] PMOSMW_3N_device_Device_28 net_poly1[G] net_psd[S] net_psd[D] PMOSMW_3N_bulk[B] 
+stamp PMOSMW_2N_bulk by net_nwell
+model=generic[PMOSM4_av5],PMOSMW_2N
+dfiimodel=generic[PMOSM4_av5],pmosm4#20auLvs#20PRIMLIB
+element generic[PMOSM4_av5] PMOSMW_2N_device_Device_29 net_poly1[G] net_psd[S] net_psd[D] PMOSMW_2N_bulk[B] 
+model=generic[NMOSH],MODNH
+dfiimodel=generic[NMOSH],nmosh4#20auLvs#20PRIMLIB
+element generic[NMOSH] NMOSH_device_Device_30 net_poly1[G] net_nsd[S] nmosh_d_term[D] net_psub[B] 
+model=generic[NMOSMH],MODNMH
+dfiimodel=generic[NMOSMH],nmosmh4#20auLvs#20PRIMLIB
+element generic[NMOSMH] NMOSMH_device_Device_31 net_poly1[G] net_nsd[S] nmosh_d_term[D] net_psub[B] 
+model=generic[RCX_DUMMY_av10],RCX_DUMMY
+dfiimodel=generic[RCX_DUMMY_av10],pcapacitor#20auLvs#20analogLib
+element generic[RCX_DUMMY_av10] NMOSHL_device_Device_32 net_poly1[PLUS] net_poly1[MINUS] 
+model=generic[RCX_DUMMY_av11],RCX_DUMMY
+dfiimodel=generic[RCX_DUMMY_av11],pcapacitor#20auLvs#20analogLib
+element generic[RCX_DUMMY_av11] NMOSMHL_device_Device_33 net_poly1[PLUS] net_poly1[MINUS] 
+stamp net_ndiff_drain by net_ndiff
+stamp net_ndiff_source by net_ndiff
+model=generic[NMOS30M],MODN30M
+dfiimodel=generic[NMOS30M],nmos30m#20auLvs#20PRIMLIB
+element generic[NMOS30M] NMOS30M_device_Device_34 net_poly1[G] net_ndiff_source[S] net_ndiff_drain[D] net_psub[B] 
+model=generic[NMOS18T],MODN30T
+dfiimodel=generic[NMOS18T],nmos18t#20auLvs#20PRIMLIB
+element generic[NMOS18T] NMOS18T_device_Device_35 net_poly1[G] net_ndiff_source[S] net_ndiff_drain[D] net_psub[B] 
+model=generic[RCX_DUMMY_av12],RCX_DUMMY
+dfiimodel=generic[RCX_DUMMY_av12],pcapacitor#20auLvs#20analogLib
+element generic[RCX_DUMMY_av12] PMOSD30M_device_Device_36 net_poly1[PLUS] net_poly1[MINUS] 
+model=generic[RCX_DUMMY_av13],RCX_DUMMY
+dfiimodel=generic[RCX_DUMMY_av13],pcapacitor#20auLvs#20analogLib
+element generic[RCX_DUMMY_av13] PMOS30M_device_Device_37 net_poly1[PLUS] net_poly1[MINUS] 
+model=diode[ND],ND
+dfiimodel=diode[ND],subdiode#20auLvs#20PRIMLIB
+element diode[ND] ND_device_DIODE_38 net_psub net_nsd 
+model=generic[RCX_DUMMY_av14],RCX_DUMMY
+dfiimodel=generic[RCX_DUMMY_av14],pcapacitor#20auLvs#20analogLib
+element generic[RCX_DUMMY_av14] P_ND_device_Device_39 net_nsd[PLUS] net_nsd[MINUS] 
+model=diode[PD],PD
+dfiimodel=diode[PD],welldiode#20auLvs#20PRIMLIB
+element diode[PD] PD_device_DIODE_40 net_psd net_nwell 
+model=generic[RCX_DUMMY_av15],RCX_DUMMY
+dfiimodel=generic[RCX_DUMMY_av15],pcapacitor#20auLvs#20analogLib
+element generic[RCX_DUMMY_av15] P_PD_device_Device_41 net_psd[PLUS] net_psd[MINUS] 
+model=diode[NWD],NWD
+dfiimodel=diode[NWD],nwd#20auLvs#20PRIMLIB
+element diode[NWD] NWD_device_DIODE_42 net_psub net_nwell 
+model=generic[RCX_DUMMY_av16],RCX_DUMMY
+dfiimodel=generic[RCX_DUMMY_av16],pcapacitor#20auLvs#20analogLib
+element generic[RCX_DUMMY_av16] P_NWD_device_Device_43 net_nwell[PLUS] net_nwell[MINUS] 
+model=diode[ZD2SM24],ZD2SM24
+dfiimodel=diode[ZD2SM24],zd2sm24#20auLvs#20PRIMLIB
+element diode[ZD2SM24] ZD2SM24_device_DIODE_44 net_psd net_welltap net_psub 
+model=generic[RCX_DUMMY_av17],RCX_DUMMY
+dfiimodel=generic[RCX_DUMMY_av17],pcapacitor#20auLvs#20analogLib
+element generic[RCX_DUMMY_av17] PHDNWA850_device_ntub_Device_45 net_nwell[PLUS] net_nwell[MINUS] 
+model=generic[RCX_DUMMY_av18],RCX_DUMMY
+dfiimodel=generic[RCX_DUMMY_av18],pcapacitor#20auLvs#20analogLib
+element generic[RCX_DUMMY_av18] PHDNWB850_device_pad_barc_Device_46 net_nwell[PLUS] net_nwell[MINUS] 
+model=generic[RCX_DUMMY_av19],RCX_DUMMY
+dfiimodel=generic[RCX_DUMMY_av19],pcapacitor#20auLvs#20analogLib
+element generic[RCX_DUMMY_av19] SBD5_device_sbdcon_Device_47 net_nwell[PLUS] net_nwell[MINUS] 
+stamp net_ndiff_d_sub by net_ndiff
+stamp net_pdiff_d_ntub by net_pdiff
+model=generic[ESDPD12],ESDPD12
+dfiimodel=generic[ESDPD12],esdpd12#20auLvs#20ESDLIB
+element generic[ESDPD12] ESDPD12_device_Device_48 net_psub[A] net_nwell[C] 
+model=generic[ESDPD18],ESDPD18
+dfiimodel=generic[ESDPD18],esdpd18#20auLvs#20ESDLIB
+element generic[ESDPD18] ESDPD18_device_Device_49 net_psub[A] net_nwell[C] 
+model=generic[ESDPD26],ESDPD26
+dfiimodel=generic[ESDPD26],esdpd26#20auLvs#20ESDLIB
+element generic[ESDPD26] ESDPD26_device_Device_50 net_psub[A] net_nwell[C] 
+model=generic[ESDPD30],ESDPD30
+dfiimodel=generic[ESDPD30],esdpd30#20auLvs#20ESDLIB
+element generic[ESDPD30] ESDPD30_device_Device_51 net_psub[A] net_nwell[C] 
+model=generic[ESDFDN5],ESDFDN5
+dfiimodel=generic[ESDFDN5],esdfdn5#20auLvs#20ESDLIB
+element generic[ESDFDN5] ESDFDN5_device_Device_52 net_psub[A] net_ndiff_d_sub[C] 
+model=generic[ESDGCN5],ESDGCN5
+dfiimodel=generic[ESDGCN5],esdgcn5#20auLvs#20ESDLIB
+element generic[ESDGCN5] ESDGCN5_device_Device_53 net_psub[A] net_ndiff_d_sub[C] 
+model=generic[ESDFDP5],ESDFDP5
+dfiimodel=generic[ESDFDP5],esdfdp5#20auLvs#20ESDLIB
+element generic[ESDFDP5] ESDFDP5_device_Device_54 net_pdiff_d_ntub[A] net_nwell[C] net_psub[SUB] 
+model=generic[ESDGCP5],ESDGCP5
+dfiimodel=generic[ESDGCP5],esdgcp5#20auLvs#20ESDLIB
+element generic[ESDGCP5] ESDGCP5_device_Device_55 net_pdiff_d_ntub[A] net_nwell[C] net_psub[SUB] 
+model=res[RNWELL],RNWELL
+dfiimodel=res[RNWELL],rnwell#20auLvs#20PRIMLIB
+element res[RNWELL] RNWELL_device_RES_56 net_nwell net_psub 
+model=res[RDIFFP3],RDIFFP3
+dfiimodel=res[RDIFFP3],rdiffp3#20auLvs#20PRIMLIB
+element res[RDIFFP3] RDIFFP_device_RES_57 net_psd net_nwell 
+model=res[RDIFFN3],RDIFFN3
+dfiimodel=res[RDIFFN3],rdiffn3#20auLvs#20PRIMLIB
+element res[RDIFFN3] RDIFFN_device_RES_58 net_nsd net_psub 
+model=res[RPOLY2],RPOLY2
+dfiimodel=res[RPOLY2],rpoly2c#20auLvs#20PRIMLIB
+element res[RPOLY2] RPOLY2_PSUB_device_RES_59 net_poly2 net_psub 
+model=res[RPOLY2_av2],RPOLY2
+dfiimodel=res[RPOLY2_av2],rpoly2c#20auLvs#20PRIMLIB
+element res[RPOLY2_av2] RPOLY2_NTUB_device_RES_60 net_poly2 net_nwell 
+model=generic[RCX_DUMMY_av20],RCX_DUMMY
+dfiimodel=generic[RCX_DUMMY_av20],pcapacitor#20auLvs#20analogLib
+element generic[RCX_DUMMY_av20] RPOLY2P_PSUB_device_Device_61 net_poly2[PLUS] net_poly2[MINUS] 
+model=generic[RCX_DUMMY_av21],RCX_DUMMY
+dfiimodel=generic[RCX_DUMMY_av21],pcapacitor#20auLvs#20analogLib
+element generic[RCX_DUMMY_av21] RPOLY2P_NTUB_device_Device_62 net_poly2[PLUS] net_poly2[MINUS] 
+model=res[RPOLY2PH],RPOLY2PH
+dfiimodel=res[RPOLY2PH],rpoly2phc#20auLvs#20PRIMLIB
+element res[RPOLY2PH] RPOLY2PH_PSUB_device_RES_63 net_poly2 net_psub 
+model=res[RPOLY2PH_av2],RPOLY2PH
+dfiimodel=res[RPOLY2PH_av2],rpoly2phc#20auLvs#20PRIMLIB
+element res[RPOLY2PH_av2] RPOLY2PH_NTUB_device_RES_64 net_poly2 net_nwell 
+model=res[RPOLYH],RPOLYH
+dfiimodel=res[RPOLYH],rpolyhc#20auLvs#20PRIMLIB
+element res[RPOLYH] RPOLYH_PSUB_device_RES_65 net_poly2 net_psub 
+model=res[RPOLYH_av2],RPOLYH
+dfiimodel=res[RPOLYH_av2],rpolyhc#20auLvs#20PRIMLIB
+element res[RPOLYH_av2] RPOLYH_NTUB_device_RES_66 net_poly2 net_nwell 
+model=generic[RCX_DUMMY_av22],RCX_DUMMY
+dfiimodel=generic[RCX_DUMMY_av22],pcapacitor#20auLvs#20analogLib
+element generic[RCX_DUMMY_av22] RPOLYZ_PSUB_device_Device_67 net_poly2[PLUS] net_poly2[MINUS] 
+model=generic[RCX_DUMMY_av23],RCX_DUMMY
+dfiimodel=generic[RCX_DUMMY_av23],pcapacitor#20auLvs#20analogLib
+element generic[RCX_DUMMY_av23] RPOLYZ_NTUB_device_Device_68 net_poly2[PLUS] net_poly2[MINUS] 
+model=res[RPOLY1],RPOLY1
+dfiimodel=res[RPOLY1],rpoly1c#20auLvs#20PRIMLIB
+element res[RPOLY1] RPOLY1_PSUB_device_RES_69 net_poly1 net_psub 
+model=res[RPOLY1_av2],RPOLY1
+dfiimodel=res[RPOLY1_av2],rpoly1c#20auLvs#20PRIMLIB
+element res[RPOLY1_av2] RPOLY1_NTUB_device_RES_70 net_poly1 net_nwell 
+model=res[PFUSE],PFUSE
+dfiimodel=res[PFUSE],pfuse#20auLvs#20PRIMLIB
+element res[PFUSE] PFUSE_device_RES_71 net_poly1 
+stamp rmet1_trm by net_met1
+model=res[SHORT],SHORT
+dfiimodel=res[SHORT],short#20auLvs#20PRIMLIB
+element res[SHORT] RMET1_device_RES_72 rmet1_trm 
+stamp rmet2_trm by net_met2
+model=res[SHORT_av2],SHORT
+dfiimodel=res[SHORT_av2],short#20auLvs#20PRIMLIB
+element res[SHORT_av2] RMET2_device_RES_73 rmet2_trm 
+stamp rmet3_trm by net_met3
+model=res[SHORT_av3],SHORT
+dfiimodel=res[SHORT_av3],short#20auLvs#20PRIMLIB
+element res[SHORT_av3] RMET3_device_RES_74 rmet3_trm 
+stamp rmet4_trm by net_met4
+model=res[SHORT_av4],SHORT
+dfiimodel=res[SHORT_av4],short#20auLvs#20PRIMLIB
+element res[SHORT_av4] RMET4_device_RES_75 rmet4_trm 
+model=res2[SHORT_av5],SHORT
+dfiimodel=res2[SHORT_av5],short#20auLvs#20PRIMLIB
+element res2[SHORT_av5] RVIA1_device_RES_76 net_met2 net_met1 
+model=res2[SHORT_av6],SHORT
+dfiimodel=res2[SHORT_av6],short#20auLvs#20PRIMLIB
+element res2[SHORT_av6] RVIA2_device_RES_77 net_met3 net_met2 
+model=res2[SHORT_av7],SHORT
+dfiimodel=res2[SHORT_av7],short#20auLvs#20PRIMLIB
+element res2[SHORT_av7] RVIA3_device_RES_78 net_met4 net_met3 
+model=generic[tsv80],tsv80
+dfiimodel=generic[tsv80],tsv80#20auLvs#20PRIMLIB_WIP
+element generic[tsv80] tsv_dev_Device_79 tsv_term_bot[TOP] tsv_term_top[BOTTOM] net_psub[SUB] 
+stamp pnplat2_c by net_psd
+stamp pnplat2_e by net_psd
+model=generic[LAT2],LAT2
+dfiimodel=generic[LAT2],lat2#20auLvs#20PRIMLIB
+element generic[LAT2] LAT2_device_Device_80 pnplat2_c[C] net_nwell[B] pnplat2_e[E] net_psub[SUB] net_poly1[G] 
+stamp pnpvert3_e by net_psd
+model=generic[RCX_DUMMY_av24],RCX_DUMMY
+dfiimodel=generic[RCX_DUMMY_av24],presistor#20auLvs#20analogLib
+element generic[RCX_DUMMY_av24] VERT3_device_Device_81 pnpvert3_e[PLUS] net_psub[MINUS] 
+stamp pnpvert10_e by net_psd
+stamp pnpvert10_c by net_psub
+model=bjt[PNPVERT10],VERT10
+dfiimodel=bjt[PNPVERT10],vert10_4#20auLvs#20PRIMLIB
+element bjt[PNPVERT10] VERT10_device_BJT_82 pnpvert10_c net_welltap pnpvert10_e net_psub 
+model=cap[CPOLYA],CPOLY
+dfiimodel=cap[CPOLYA],cpoly#20auLvs#20PRIMLIB
+element cap[CPOLYA] CPOLY_PSUB_device_CAP_83 net_poly2 net_poly1 
+model=cap[CPOLYA_av2],CPOLY
+dfiimodel=cap[CPOLYA_av2],cpoly#20auLvs#20PRIMLIB
+element cap[CPOLYA_av2] CPOLY_NTUB_device_CAP_84 net_poly2 net_poly1 
+model=generic[CVAR],CVAR
+dfiimodel=generic[CVAR],cvar#20auLvs#20PRIMLIB
+element generic[CVAR] CVAR_device_Device_85 net_poly1[G] net_welltap[B] net_psub[S] 
+model=generic[RCX_DUMMY_av25],RCX_DUMMY
+dfiimodel=generic[RCX_DUMMY_av25],pcapacitor#20auLvs#20analogLib
+element generic[RCX_DUMMY_av25] CMIM_device_no_cpmim_Device_86 net_metcap[PLUS] net_metcap[MINUS] 
+model=generic[RCX_DUMMY_av26],RCX_DUMMY
+dfiimodel=generic[RCX_DUMMY_av26],pcapacitor#20auLvs#20analogLib
+element generic[RCX_DUMMY_av26] CPMIM_device_Device_87 net_metcap[PLUS] net_metcap[MINUS] 
+model=generic[probepad],probepad
+dfiimodel=generic[probepad],probepad#20auLvs#20IOLIB_4M
+element generic[probepad] PROBE_device_Device_88 net_met4[PAD] 
+model=generic[NMOSRF],MODNRF
+dfiimodel=generic[NMOSRF],nmosrf#20auLvs#20PRIMLIBRF
+element generic[NMOSRF] NMOSRF_device_Device_89 net_poly1[G] net_nsd[S] net_nsd[D] net_psub[B] 
+model=generic[PMOSRF],MODPRF
+dfiimodel=generic[PMOSRF],pmosrf#20auLvs#20PRIMLIBRF
+element generic[PMOSRF] PMOSRF_device_Device_90 net_poly1[G] net_psd[S] net_psd[D] net_nwell[B] 
+model=cap[CPOLYRF],CPOLYRF
+dfiimodel=cap[CPOLYRF],cpolyrf#20auLvs#20PRIMLIBRF
+element cap[CPOLYRF] CPOLYRF_device_CAP_91 net_poly2 net_poly1 net_nwell 
+stamp net_pres_trm by net_poly2
+model=res[RPOLY2RF],RPOLY2RF
+dfiimodel=res[RPOLY2RF],rpoly2rf#20auLvs#20PRIMLIBRF
+element res[RPOLY2RF] RPOLY2RF_device_RES_92 net_pres_trm net_nwell 
+stamp net_presh_trm by net_poly2
+model=res[RPOLYHRF],RPOLYHRF
+dfiimodel=res[RPOLYHRF],rpolyhrf#20auLvs#20PRIMLIBRF
+element res[RPOLYHRF] RPOLYHRF_device_RES_93 net_presh_trm net_nwell 
+model=generic[SP014S300D],SP014S300D
+dfiimodel=generic[SP014S300D],SP014S300D#20auLvs#20SPIRALS_4M
+element generic[SP014S300D] SP014S300D_device_Device_94 spiral_term11[P1] spiral_term22[P2] net_psub[SUB] 
+model=generic[SP020S180D],SP020S180D
+dfiimodel=generic[SP020S180D],SP020S180D#20auLvs#20SPIRALS_4M
+element generic[SP020S180D] SP020S180D_device_Device_95 spiral_term11[P1] spiral_term22[P2] net_psub[SUB] 
+model=generic[SP026S200D],SP026S200D
+dfiimodel=generic[SP026S200D],SP026S200D#20auLvs#20SPIRALS_4M
+element generic[SP026S200D] SP026S200D_device_Device_96 spiral_term11[P1] spiral_term22[P2] net_psub[SUB] 
+model=generic[SP037S180D],SP037S180D
+dfiimodel=generic[SP037S180D],SP037S180D#20auLvs#20SPIRALS_4M
+element generic[SP037S180D] SP037S180D_device_Device_97 spiral_term11[P1] spiral_term22[P2] net_psub[SUB] 
+model=generic[SP047S180D],SP047S180D
+dfiimodel=generic[SP047S180D],SP047S180D#20auLvs#20SPIRALS_4M
+element generic[SP047S180D] SP047S180D_device_Device_98 spiral_term11[P1] spiral_term22[P2] net_psub[SUB] 
+model=generic[SP050S155D],SP050S155D
+dfiimodel=generic[SP050S155D],SP050S155D#20auLvs#20SPIRALS_4M
+element generic[SP050S155D] SP050S155D_device_Device_99 spiral_term11[P1] spiral_term22[P2] net_psub[SUB] 
+model=generic[SP090S155D],SP090S155D
+dfiimodel=generic[SP090S155D],SP090S155D#20auLvs#20SPIRALS_4M
+element generic[SP090S155D] SP090S155D_device_Device_100 spiral_term11[P1] spiral_term22[P2] net_psub[SUB] 

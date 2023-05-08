@@ -1,0 +1,350 @@
+;----------------------------------------------------------------------------
+; @(#)$CDS: assura version av4.1:Production:dfII6.1.7-64b:IC6.1.7-64b.500.4 07/10/17 21:23 (sjfnl321) $
+; sub-version 4.1_USR5_HF11
+;----------------------------------------------------------------------------
+
+
+;----------------------------------------------------------------------------
+; Assura 3.2 DRC saved state
+;----------------------------------------------------------------------------
+
+
+
+vuiDRCFormTable = '(
+	format  "DFII"
+	vui2dbxor  nil
+	runName  ""
+	runDir  "ASSURA_DRC/computer"
+	machineLoc  "local"
+	viewRules  t
+	technologyField  "c35b4c3"
+	runsetField  "dfII"
+	rules  "/srv/cad/designkits/ams/v410/assura/c35b4/c35b4c3/drc.rul"
+	switches  ""
+	rsfInclude  "/srv/cad/designkits/ams/v410/assura/c35b4/c35b4c3/DRCinclude.rsf"
+	varTag  "None"
+	varVal  ""
+	varDefVal  ""
+	varDesc  ""
+	avView  nil
+	additionalFunctionsButton  nil
+	limitDRCswitcher  nil
+	library  "computer_post_process"
+	cell  "computer"
+	view  "layout"
+	saveExtracted  nil
+	extractedView  "drc_extracted"
+	areaButton  "Full"
+	rulesButton  nil
+	rsfIncludeButton  nil
+)
+
+
+
+
+limitDrcCheckTable = '(
+	limitDRCTreatModeList  "include"
+	limitDRCFiltersList  "inputLayer"
+	layersListText  nil
+	limitDRCEditor  ""
+)
+
+
+
+
+vuiDRCFormVarTable = '(
+)
+
+
+additionalFunctionsFieldsTable = '(
+	AFflattenCellFlag  nil
+	AFjoinableNetsFlag  nil
+	AFoutFileFlag  nil
+	AFchangeLabelFlag  nil
+	AFdeleteCellTextFlag  nil
+)
+
+
+vuiDRCFormAdditionalFunctionsTable = '(
+     flattenCell  nil
+     joinableNets nil
+     changeLabel  nil
+     mustJoinNet  nil
+     outFile      nil
+     deleteCellText nil
+)
+
+;----------------------------------------------------------------------------
+; @(#)$CDS: assura version av4.1:Production:dfII6.1.7-64b:IC6.1.7-64b.500.4 07/10/17 21:23 (sjfnl321) $
+; sub-version 4.1_USR5_HF11
+;----------------------------------------------------------------------------
+
+
+;----------------------------------------------------------------------------
+; Assura 3.2 Template Version 1
+;----------------------------------------------------------------------------
+
+vuiDRCOptions = '(
+     (( ?autoGrid ) 
+             ( "view" t )
+             ( "edit" t )
+             ( "use" nil )
+             ( disableGridding t )
+             ( keepGridCells nil )
+             ( autoGrid "Cells" )
+             ( cells "" )
+             ( excludeCells "" )
+             ( layers "" )
+     )
+     (( ?avrpt ) 
+             ( "view" t )
+             ( "edit" t )
+             ( "use" t )
+             ( avrpt t )
+             ( spacer "  " )
+             ( spacer2 "  " )
+             ( printError nil )
+             ( useOption nil )
+             ( maxErrorShapesPerCell 1000 )
+     )
+     (( ?compileOnly ) 
+             ( "view" t )
+             ( "edit" t )
+             ( "use" nil )
+             ( compileOnly nil )
+     )
+     (( ?diskList ) 
+             ( "view" t )
+             ( "edit" t )
+             ( "use" nil )
+             ( dir "" )
+             ( diskList (" ") )
+     )
+     (( ?errorCounts ) 
+             ( "view" t )
+             ( "edit" t )
+             ( "use" nil )
+             ( errc1 t )
+             ( errc2 "1000" )
+             ( errc3 "End run if the count of shapes:" )
+             ( errc4 "" )
+             ( errc5 "" )
+             ( errc6 "Real" )
+             ( errc0 "\t\t" )
+             ( errc7 "Unmerged" )
+     )
+     (( ?errorOnMissingMaster ) 
+             ( "view" t )
+             ( "edit" t )
+             ( "use" nil )
+             ( errorOnMissingMaster nil )
+     )
+     (( ?exceptionFile ) 
+             ( "view" t )
+             ( "edit" t )
+             ( "use" nil )
+             ( exceptionFile "" )
+     )
+     (( ?expandCellToParent ) 
+             ( "view" t )
+             ( "edit" t )
+             ( "use" nil )
+             ( label "Expand Cell to Parent" )
+             ( areaPercent 51 )
+             ( cells "" )
+             ( excludeCells "" )
+     )
+     (( ?expandCellToTop ) 
+             ( "view" t )
+             ( "edit" t )
+             ( "use" nil )
+             ( label nil )
+             ( areaPercent nil )
+             ( cells "" )
+             ( excludeCells nil )
+     )
+     (( ?expandPathsLikeDFII ) 
+             ( "view" t )
+             ( "edit" t )
+             ( "use" nil )
+             ( exppathlikedf0 "Select path-to-polygon expansion algorithm" )
+             ( exppathlikedf2 "DFII" )
+     )
+     (( ?expandUniqueCells ) 
+             ( "view" t )
+             ( "edit" t )
+             ( "use" nil )
+             ( label nil )
+             ( expandUniqueCells nil )
+     )
+     (( ?flagAcuteAngle ) 
+             ( "view" t )
+             ( "edit" t )
+             ( "use" nil )
+             ( flag nil )
+     )
+     (( ?flagMalformed ) 
+             ( "view" t )
+             ( "edit" t )
+             ( "use" nil )
+             ( flag nil )
+     )
+     (( ?flagNon45 ) 
+             ( "view" t )
+             ( "edit" t )
+             ( "use" nil )
+             ( flag nil )
+     )
+     (( ?flagOffGrid ) 
+             ( "view" t )
+             ( "edit" t )
+             ( "use" nil )
+             ( label "Flag Off Grid" )
+             ( gridSize 0.0 )
+             ( markerSize 1.0 )
+     )
+     (( ?flagUnconnectedVias ) 
+             ( "view" t )
+             ( "edit" t )
+             ( "use" nil )
+             ( flagUnconnectedVias nil )
+     )
+     (( ?flattenCellContents ) 
+             ( "view" t )
+             ( "edit" t )
+             ( "use" nil )
+             ( flattenCellContents "Cells" )
+             ( label "Flatten Cell Contents" )
+             ( cell " " )
+             ( file nil )
+     )
+     (( ?gateArray ) 
+             ( "view" t )
+             ( "edit" t )
+             ( "use" nil )
+             ( siteCells "" )
+             ( personality "Layer" )
+             ( personalityLayer "" )
+             ( personalityCell "" )
+             ( label "Exclude Site Cell(s)" )
+             ( label2 "Exclude Personality Cell(s)" )
+             ( excludeScell "" )
+             ( excludePcell "" )
+     )
+     (( ?ignoreCell ) 
+             ( "view" t )
+             ( "edit" t )
+             ( "use" nil )
+             ( label "Ignore Cell(s)" )
+             ( ignoreCell "" )
+             ( ignoreCellFile ("") )
+     )
+     (( ?joinPins ) 
+             ( "view" t )
+             ( "edit" t )
+             ( "use" nil )
+             ( joinPins "None" )
+     )
+     (( ?keepData ) 
+             ( "view" t )
+             ( "edit" t )
+             ( "use" nil )
+             ( keepData nil )
+     )
+     (( ?keepOriginal ) 
+             ( "view" t )
+             ( "edit" t )
+             ( "use" nil )
+             ( keepOriginal nil )
+     )
+     (( ?labelPriority ) 
+             ( "view" t )
+             ( "edit" t )
+             ( "use" nil )
+             ( textLabel "" )
+             ( ignoreLabelType nil )
+     )
+     (( ?legacyMode ) 
+             ( "view" t )
+             ( "edit" t )
+             ( "use" t )
+             ( legacyMode nil )
+     )
+     (( ?maintain45 ) 
+             ( "view" t )
+             ( "edit" t )
+             ( "use" nil )
+             ( maintain45 "Off" )
+     )
+     (( ?multiCPU ) 
+             ( "view" t )
+             ( "edit" t )
+             ( "use" nil )
+             ( multiCPU nil )
+             ( number 1 )
+     )
+     (( ?netTextFile ) 
+             ( "view" t )
+             ( "edit" t )
+             ( "use" nil )
+             ( netText (" ") )
+     )
+     (( ?overwrite ) 
+             ( "view" t )
+             ( "edit" t )
+             ( "use" t )
+             ( overwrite t )
+     )
+     (( ?pinTextFile ) 
+             ( "view" t )
+             ( "edit" t )
+             ( "use" nil )
+             ( pinText (" ") )
+     )
+     (( ?preserveCells ) 
+             ( "view" t )
+             ( "edit" t )
+             ( "use" nil )
+             ( unpresDevices nil )
+             ( preserveCellsContents nil )
+             ( preserveCellsFile "" )
+             ( label nil )
+             ( label1 nil )
+             ( label2 nil )
+             ( cell nil )
+             ( excludeCells nil )
+     )
+     (( ?textLevel ) 
+             ( "view" t )
+             ( "edit" t )
+             ( "use" nil )
+             ( label "textLevel" )
+             ( from 0 )
+             ( to 0 )
+     )
+     (( ?textPriOnly ) 
+             ( "view" t )
+             ( "edit" t )
+             ( "use" nil )
+             ( textPriOnly nil )
+     )
+     (( ?time ) 
+             ( "view" t )
+             ( "edit" t )
+             ( "use" nil )
+             ( time nil )
+     )
+     (( ?verbose ) 
+             ( "view" t )
+             ( "edit" t )
+             ( "use" t )
+             ( verbose "Hide Optimization" )
+     )
+     (( ?warnIgnoredFlattenedLabel ) 
+             ( "view" t )
+             ( "edit" t )
+             ( "use" nil )
+             ( warnIgnoredFlattenedLabel nil )
+     )
+)
+

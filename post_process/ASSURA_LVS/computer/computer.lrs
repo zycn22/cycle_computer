@@ -1,0 +1,154 @@
+@(#)$CDS: nvn_64 version av4.1:Production:dfII6.1.7-64b:IC6.1.7-64b.500.4 07/10/2017 21:49 (sjfnl321) $
+sub-version 4.1_USR5_HF11, integ signature 2017-07-10-2113
+run on srv02749 at Thu May  4 19:27:38 2023
+
+Schematic                               | Layout                               | Status
+-----------------------------------------------------------------------------------------
+GND3ALLP cmos_sch IOLIB_4M              | GND3ALLP layout IOLIB_4M             | matched
+VDD3ALLP cmos_sch IOLIB_4M              | VDD3ALLP layout IOLIB_4M             | matched
+VDD3IP cmos_sch IOLIB_4M                | VDD3IP layout IOLIB_4M               | matched
+GND3IP cmos_sch IOLIB_4M                | GND3IP layout IOLIB_4M               | matched
+FILL25 cmos_sch CORELIB                 | FILL25 layout CORELIB                | matched
+FILL10 cmos_sch CORELIB                 | FILL10 layout CORELIB                | matched
+FILL2 cmos_sch CORELIB                  | FILL2 layout CORELIB                 | matched
+FILL5 cmos_sch CORELIB                  | FILL5 layout CORELIB                 | matched
+LOGIC1 cmos_sch CORELIB                 | LOGIC1 layout CORELIB                | matched
+BU8P cmos_sch IOLIB_4M                  | BU8P layout IOLIB_4M                 | matched
+ICUP cmos_sch IOLIB_4M                  | ICUP layout IOLIB_4M                 | matched
+IMUX24 cmos_sch CORELIB                 | IMUX24 layout CORELIB                | matched
+DFC1 cmos_sch CORELIB                   | DFC1 layout CORELIB                  | matched
+INV15 cmos_sch CORELIB                  | INV15 layout CORELIB                 | matched
+INV12 cmos_sch CORELIB                  | INV12 layout CORELIB                 | matched
+NAND32 cmos_sch CORELIB                 | NAND32 layout CORELIB                | matched
+MUX24 cmos_sch CORELIB                  | MUX24 layout CORELIB                 | matched
+BUF12 cmos_sch CORELIB                  | BUF12 layout CORELIB                 | matched
+BUF8 cmos_sch CORELIB                   | BUF8 layout CORELIB                  | matched
+CLKBU12 cmos_sch CORELIB                | CLKBU12 layout CORELIB               | matched
+CLKIN8 cmos_sch CORELIB                 | CLKIN8 layout CORELIB                | matched
+CLKIN10 cmos_sch CORELIB                | CLKIN10 layout CORELIB               | matched
+CLKBU15 cmos_sch CORELIB                | CLKBU15 layout CORELIB               | matched
+CLKIN12 cmos_sch CORELIB                | CLKIN12 layout CORELIB               | matched
+JKSC1 cmos_sch CORELIB                  | JKSC1 layout CORELIB                 | matched
+CLKIN15 cmos_sch CORELIB                | CLKIN15 layout CORELIB               | matched
+DFSEP1 cmos_sch CORELIB                 | DFSEP1 layout CORELIB                | matched
+DFSP3 cmos_sch CORELIB                  | DFSP3 layout CORELIB                 | matched
+DFSP1 cmos_sch CORELIB                  | DFSP1 layout CORELIB                 | matched
+DFSEC3 cmos_sch CORELIB                 | DFSEC3 layout CORELIB                | matched
+XNR21 cmos_sch CORELIB                  | XNR21 layout CORELIB                 | matched
+DFSEC1 cmos_sch CORELIB                 | DFSEC1 layout CORELIB                | matched
+XOR20 cmos_sch CORELIB                  | XOR20 layout CORELIB                 | matched
+XOR21 cmos_sch CORELIB                  | XOR21 layout CORELIB                 | matched
+DFSC1 cmos_sch CORELIB                  | DFSC1 layout CORELIB                 | matched
+DFSC3 cmos_sch CORELIB                  | DFSC3 layout CORELIB                 | matched
+IMUX42 cmos_sch CORELIB                 | IMUX42 layout CORELIB                | matched
+INV6 cmos_sch CORELIB                   | INV6 layout CORELIB                  | matched
+CLKBU6 cmos_sch CORELIB                 | CLKBU6 layout CORELIB                | matched
+XNR20 cmos_sch CORELIB                  | XNR20 layout CORELIB                 | matched
+MUX42 cmos_sch CORELIB                  | MUX42 layout CORELIB                 | matched
+INV10 cmos_sch CORELIB                  | INV10 layout CORELIB                 | matched
+MUX41 cmos_sch CORELIB                  | MUX41 layout CORELIB                 | matched
+INV8 cmos_sch CORELIB                   | INV8 layout CORELIB                  | matched
+IMUX22 cmos_sch CORELIB                 | IMUX22 layout CORELIB                | matched
+OAI312 cmos_sch CORELIB                 | OAI312 layout CORELIB                | matched
+CLKBU2 cmos_sch CORELIB                 | CLKBU2 layout CORELIB                | matched
+CLKIN2 cmos_sch CORELIB                 | CLKIN2 layout CORELIB                | matched
+NOR33 cmos_sch CORELIB                  | NOR33 layout CORELIB                 | matched
+AOI222 cmos_sch CORELIB                 | AOI222 layout CORELIB                | matched
+NOR31 cmos_sch CORELIB                  | NOR31 layout CORELIB                 | matched
+OAI2112 cmos_sch CORELIB                | OAI2112 layout CORELIB               | matched
+NAND28 cmos_sch CORELIB                 | NAND28 layout CORELIB                | matched
+AOI2111 cmos_sch CORELIB                | AOI2111 layout CORELIB               | matched
+NAND43 cmos_sch CORELIB                 | NAND43 layout CORELIB                | matched
+IMUX23 cmos_sch CORELIB                 | IMUX23 layout CORELIB                | matched
+IMUX41 cmos_sch CORELIB                 | IMUX41 layout CORELIB                | matched
+IMUX21 cmos_sch CORELIB                 | IMUX21 layout CORELIB                | matched
+AOI312 cmos_sch CORELIB                 | AOI312 layout CORELIB                | matched
+AOI2112 cmos_sch CORELIB                | AOI2112 layout CORELIB               | matched
+NOR42 cmos_sch CORELIB                  | NOR42 layout CORELIB                 | matched
+NAND34 cmos_sch CORELIB                 | NAND34 layout CORELIB                | matched
+IMUX40 cmos_sch CORELIB                 | IMUX40 layout CORELIB                | matched
+MUX21 cmos_sch CORELIB                  | MUX21 layout CORELIB                 | matched
+BUF15 cmos_sch CORELIB                  | BUF15 layout CORELIB                 | matched
+OAI221 cmos_sch CORELIB                 | OAI221 layout CORELIB                | matched
+CLKIN6 cmos_sch CORELIB                 | CLKIN6 layout CORELIB                | matched
+NOR32 cmos_sch CORELIB                  | NOR32 layout CORELIB                 | matched
+NAND33 cmos_sch CORELIB                 | NAND33 layout CORELIB                | matched
+OAI222 cmos_sch CORELIB                 | OAI222 layout CORELIB                | matched
+CLKBU4 cmos_sch CORELIB                 | CLKBU4 layout CORELIB                | matched
+CLKBU8 cmos_sch CORELIB                 | CLKBU8 layout CORELIB                | matched
+OAI211 cmos_sch CORELIB                 | OAI211 layout CORELIB                | matched
+OAI310 cmos_sch CORELIB                 | OAI310 layout CORELIB                | matched
+BUF2 cmos_sch CORELIB                   | BUF2 layout CORELIB                  | matched
+ADD31 cmos_sch CORELIB                  | ADD31 layout CORELIB                 | matched
+NAND24 cmos_sch CORELIB                 | NAND24 layout CORELIB                | matched
+NOR22 cmos_sch CORELIB                  | NOR22 layout CORELIB                 | matched
+NOR24 cmos_sch CORELIB                  | NOR24 layout CORELIB                 | matched
+AOI211 cmos_sch CORELIB                 | AOI211 layout CORELIB                | matched
+AOI212 cmos_sch CORELIB                 | AOI212 layout CORELIB                | matched
+INV3 cmos_sch CORELIB                   | INV3 layout CORELIB                  | matched
+NOR23 cmos_sch CORELIB                  | NOR23 layout CORELIB                 | matched
+CLKIN3 cmos_sch CORELIB                 | CLKIN3 layout CORELIB                | matched
+NAND23 cmos_sch CORELIB                 | NAND23 layout CORELIB                | matched
+BUF6 cmos_sch CORELIB                   | BUF6 layout CORELIB                  | matched
+OAI220 cmos_sch CORELIB                 | OAI220 layout CORELIB                | matched
+OAI311 cmos_sch CORELIB                 | OAI311 layout CORELIB                | matched
+IMAJ30 cmos_sch CORELIB                 | IMAJ30 layout CORELIB                | matched
+AOI310 cmos_sch CORELIB                 | AOI310 layout CORELIB                | matched
+MAJ31 cmos_sch CORELIB                  | MAJ31 layout CORELIB                 | matched
+OAI210 cmos_sch CORELIB                 | OAI210 layout CORELIB                | matched
+CLKIN0 cmos_sch CORELIB                 | CLKIN0 layout CORELIB                | matched
+CLKIN1 cmos_sch CORELIB                 | CLKIN1 layout CORELIB                | matched
+NOR30 cmos_sch CORELIB                  | NOR30 layout CORELIB                 | matched
+NAND42 cmos_sch CORELIB                 | NAND42 layout CORELIB                | matched
+IMUX20 cmos_sch CORELIB                 | IMUX20 layout CORELIB                | matched
+OAI2111 cmos_sch CORELIB                | OAI2111 layout CORELIB               | matched
+AOI220 cmos_sch CORELIB                 | AOI220 layout CORELIB                | matched
+NOR40 cmos_sch CORELIB                  | NOR40 layout CORELIB                 | matched
+NAND40 cmos_sch CORELIB                 | NAND40 layout CORELIB                | matched
+NOR21 cmos_sch CORELIB                  | NOR21 layout CORELIB                 | matched
+NAND31 cmos_sch CORELIB                 | NAND31 layout CORELIB                | matched
+NOR41 cmos_sch CORELIB                  | NOR41 layout CORELIB                 | matched
+AOI311 cmos_sch CORELIB                 | AOI311 layout CORELIB                | matched
+AOI221 cmos_sch CORELIB                 | AOI221 layout CORELIB                | matched
+DFSE1 cmos_sch CORELIB                  | DFSE1 layout CORELIB                 | matched
+NAND30 cmos_sch CORELIB                 | NAND30 layout CORELIB                | matched
+AOI2110 cmos_sch CORELIB                | AOI2110 layout CORELIB               | matched
+NAND21 cmos_sch CORELIB                 | NAND21 layout CORELIB                | matched
+NAND22 cmos_sch CORELIB                 | NAND22 layout CORELIB                | matched
+OAI2110 cmos_sch CORELIB                | OAI2110 layout CORELIB               | matched
+AOI210 cmos_sch CORELIB                 | AOI210 layout CORELIB                | matched
+NOR20 cmos_sch CORELIB                  | NOR20 layout CORELIB                 | matched
+NAND20 cmos_sch CORELIB                 | NAND20 layout CORELIB                | matched
+OAI212 cmos_sch CORELIB                 | OAI212 layout CORELIB                | matched
+NAND41 cmos_sch CORELIB                 | NAND41 layout CORELIB                | matched
+computer schematic computer_post_process| computer layout computer_post_process| errors  *
+
+Mismatch between Schematic and Layout
+   1 cell with errors
+ 117 cells matched
+
+Schematic:
+  Library:computer_post_process
+  Cell   :computer
+  View   :schematic
+
+Layout:
+  Library:computer_post_process
+  Cell   :computer
+  View   :layout
+
+
+
+Extraction  Information
+--------------------
+     0 cells have 0 mal-formed device problems
+     1 cells have 3 label short problems
+     0 cells have 0 label open problems
+
+Mismatch  Information
+--------------------
+     1 cells have 3 Net mismatches
+     0 cells have 0 Device mismatches
+     1 cells have 1 Pin mismatches
+     0 cells have 0 Parameter mismatches
+

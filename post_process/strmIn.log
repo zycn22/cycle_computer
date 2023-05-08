@@ -1,0 +1,141 @@
+********************************************************************************
+Product   : Virtuoso(R) XStream In
+Program   : @(#)$CDS: strmin version 6.1.7-64b 10/06/2017 20:09 (sjfhw317) $
+          : sub-version  IC6.1.7-64b.500.15 
+Started at: 04-May-2023  19:36:09
+User Name : yz17g22
+Host Name : srv02749
+Directory : /home/yz17g22/mydocuments/design/system_on_chip/github/local_chip/post_process
+CADENCE Design Systems, Inc.
+********************************************************************************
+Info: Cellview Rev Num:99,  Tech Rev Num:59
+
+WARNING (XSTRM-75): Target library 'Bondpackage' is attached to the technology library 'TECH_C35B4'. Therefore, the technology file is opened in read-only mode. All the undefined layer-purpose pairs will be dropped.
+WARNING (XSTRM-107): Existing cells in the target library will be overwritten if the cell names in the Stream file and the target library are the same. To prevent this, set the '-writeMode' option to 'noOverwrite'.
+INFO (XSTRM-281): The input file '/home/yz17g22/mydocuments/design/system_on_chip/github/local_chip/post_process/Bondpackage/NEW_ALL_PACK.gds.gz' will be read as a compressed file because the file name has extension .gz
+INFO (XSTRM-217): Reading the layer map file, /home/yz17g22/mydocuments/design/system_on_chip/github/local_chip/post_process/Bondpackage/EP_packages.layertable
+INFO (XSTRM-163): You have not used the viaMap option. If a viaMap file, corresponding techfile or technology library exist, then use the -viaMap option for creating oaVia instances in the Streamed-In library. Using the -viaMap option improves performance and VM usage of applications using the Streamed-In design. For details on the viaMap option, refer to the "Design Data Translator's Reference" guide for XStream.
+
+Summary of Options:
+	library				Bondpackage
+	strmFile			/home/yz17g22/mydocuments/design/system_on_chip/github/local_chip/post_process/Bondpackage/NEW_ALL_PACK.gds.gz
+	logFile				strmIn.log
+	view				layout
+	case				Preserve
+	layerMap			/home/yz17g22/mydocuments/design/system_on_chip/github/local_chip/post_process/Bondpackage/EP_packages.layertable
+	propSeparator			,
+	attachTechFileOfLib				TECH_C35B4
+
+INFO (XSTRM-220): 1. Translating STRUCTURE EXAMPLE_DESIGN as cellView Bondpackage/EXAMPLE_DESIGN/layout.
+INFO (XSTRM-220): 2. Translating STRUCTURE OP_QFN16 as cellView Bondpackage/OP_QFN16/layout.
+INFO (XSTRM-220): 3. Translating STRUCTURE Imec_Logo_Large_10 as cellView Bondpackage/Imec_Logo_Large_10/layout.
+INFO (XSTRM-220): 4. Translating STRUCTURE EP_LOGO_m30 as cellView Bondpackage/EP_LOGO_m30/layout.
+INFO (XSTRM-220): 5. Translating STRUCTURE EP_TEXT as cellView Bondpackage/EP_TEXT/layout.
+INFO (XSTRM-220): 6. Translating STRUCTURE A4 as cellView Bondpackage/A4/layout.
+INFO (XSTRM-220): 7. Translating STRUCTURE PGA100S as cellView Bondpackage/PGA100S/layout.
+INFO (XSTRM-220): 8. Translating STRUCTURE PGA100S_A4 as cellView Bondpackage/PGA100S_A4/layout.
+INFO (XSTRM-220): 9. Translating STRUCTURE PGA256 as cellView Bondpackage/PGA256/layout.
+INFO (XSTRM-220): 10. Translating STRUCTURE DIL18 as cellView Bondpackage/DIL18/layout.
+INFO (XSTRM-220): 11. Translating STRUCTURE DIL28 as cellView Bondpackage/DIL28/layout.
+INFO (XSTRM-220): 12. Translating STRUCTURE OP_SOIC28 as cellView Bondpackage/OP_SOIC28/layout.
+INFO (XSTRM-220): 13. Translating STRUCTURE OP_SOIC16 as cellView Bondpackage/OP_SOIC16/layout.
+INFO (XSTRM-220): 14. Translating STRUCTURE PGA208 as cellView Bondpackage/PGA208/layout.
+INFO (XSTRM-220): 15. Translating STRUCTURE OP_SOIC16_A4 as cellView Bondpackage/OP_SOIC16_A4/layout.
+INFO (XSTRM-220): 16. Translating STRUCTURE DIL40S as cellView Bondpackage/DIL40S/layout.
+INFO (XSTRM-220): 17. Translating STRUCTURE OP_A4_11 as cellView Bondpackage/OP_A4_11/layout.
+INFO (XSTRM-220): 18. Translating STRUCTURE OP_SOIC28_A4 as cellView Bondpackage/OP_SOIC28_A4/layout.
+INFO (XSTRM-220): 19. Translating STRUCTURE Imec_Logo_Large as cellView Bondpackage/Imec_Logo_Large/layout.
+INFO (XSTRM-220): 20. Translating STRUCTURE OP_A4 as cellView Bondpackage/OP_A4/layout.
+INFO (XSTRM-220): 21. Translating STRUCTURE OP_QFN64_9x9mm as cellView Bondpackage/OP_QFN64_9x9mm/layout.
+INFO (XSTRM-220): 22. Translating STRUCTURE OP_QFN64_9x9mm_A4 as cellView Bondpackage/OP_QFN64_9x9mm_A4/layout.
+INFO (XSTRM-220): 23. Translating STRUCTURE DIL48L as cellView Bondpackage/DIL48L/layout.
+INFO (XSTRM-220): 24. Translating STRUCTURE CC44 as cellView Bondpackage/CC44/layout.
+INFO (XSTRM-220): 25. Translating STRUCTURE LCC44_A4 as cellView Bondpackage/LCC44_A4/layout.
+INFO (XSTRM-220): 26. Translating STRUCTURE OP_QFN48 as cellView Bondpackage/OP_QFN48/layout.
+INFO (XSTRM-220): 27. Translating STRUCTURE CSOIC28 as cellView Bondpackage/CSOIC28/layout.
+INFO (XSTRM-220): 28. Translating STRUCTURE CSOIC28_A4 as cellView Bondpackage/CSOIC28_A4/layout.
+INFO (XSTRM-220): 29. Translating STRUCTURE DIL24 as cellView Bondpackage/DIL24/layout.
+INFO (XSTRM-220): 30. Translating STRUCTURE DIL24_A4 as cellView Bondpackage/DIL24_A4/layout.
+INFO (XSTRM-220): 31. Translating STRUCTURE CC68S as cellView Bondpackage/CC68S/layout.
+INFO (XSTRM-220): 32. Translating STRUCTURE CSOIC24 as cellView Bondpackage/CSOIC24/layout.
+INFO (XSTRM-220): 33. Translating STRUCTURE CSOIC24_A4 as cellView Bondpackage/CSOIC24_A4/layout.
+INFO (XSTRM-220): 34. Translating STRUCTURE OP_QFN32 as cellView Bondpackage/OP_QFN32/layout.
+INFO (XSTRM-220): 35. Translating STRUCTURE OP_QFN32_A4 as cellView Bondpackage/OP_QFN32_A4/layout.
+INFO (XSTRM-220): 36. Translating STRUCTURE QFP64 as cellView Bondpackage/QFP64/layout.
+INFO (XSTRM-220): 37. Translating STRUCTURE A4_2 as cellView Bondpackage/A4_2/layout.
+INFO (XSTRM-220): 38. Translating STRUCTURE QFP64_A4 as cellView Bondpackage/QFP64_A4/layout.
+INFO (XSTRM-220): 39. Translating STRUCTURE QFP120 as cellView Bondpackage/QFP120/layout.
+INFO (XSTRM-220): 40. Translating STRUCTURE QFP208 as cellView Bondpackage/QFP208/layout.
+INFO (XSTRM-220): 41. Translating STRUCTURE A3_2 as cellView Bondpackage/A3_2/layout.
+INFO (XSTRM-220): 42. Translating STRUCTURE QFP208_A3 as cellView Bondpackage/QFP208_A3/layout.
+INFO (XSTRM-220): 43. Translating STRUCTURE CSOIC20 as cellView Bondpackage/CSOIC20/layout.
+INFO (XSTRM-220): 44. Translating STRUCTURE CSOIC20_A4 as cellView Bondpackage/CSOIC20_A4/layout.
+INFO (XSTRM-220): 45. Translating STRUCTURE JLCC68S_A4 as cellView Bondpackage/JLCC68S_A4/layout.
+INFO (XSTRM-220): 46. Translating STRUCTURE PGA120 as cellView Bondpackage/PGA120/layout.
+INFO (XSTRM-220): 47. Translating STRUCTURE PGA120_A4 as cellView Bondpackage/PGA120_A4/layout.
+INFO (XSTRM-220): 48. Translating STRUCTURE CC84 as cellView Bondpackage/CC84/layout.
+INFO (XSTRM-220): 49. Translating STRUCTURE LCC84_A4 as cellView Bondpackage/LCC84_A4/layout.
+INFO (XSTRM-220): 50. Translating STRUCTURE LCC68S_A4 as cellView Bondpackage/LCC68S_A4/layout.
+INFO (XSTRM-220): 51. Translating STRUCTURE PGA100L as cellView Bondpackage/PGA100L/layout.
+INFO (XSTRM-220): 52. Translating STRUCTURE DIL48S as cellView Bondpackage/DIL48S/layout.
+INFO (XSTRM-220): 53. Translating STRUCTURE DIL48S_A4 as cellView Bondpackage/DIL48S_A4/layout.
+INFO (XSTRM-220): 54. Translating STRUCTURE OP_QFN80_12x12mm as cellView Bondpackage/OP_QFN80_12x12mm/layout.
+INFO (XSTRM-220): 55. Translating STRUCTURE A4_example as cellView Bondpackage/A4_example/layout.
+INFO (XSTRM-220): 56. Translating STRUCTURE QFP160 as cellView Bondpackage/QFP160/layout.
+INFO (XSTRM-220): 57. Translating STRUCTURE QFP160_A3 as cellView Bondpackage/QFP160_A3/layout.
+INFO (XSTRM-220): 58. Translating STRUCTURE CSOIC16 as cellView Bondpackage/CSOIC16/layout.
+INFO (XSTRM-220): 59. Translating STRUCTURE OP_QFN24 as cellView Bondpackage/OP_QFN24/layout.
+INFO (XSTRM-220): 60. Translating STRUCTURE OP_QFN24_A4 as cellView Bondpackage/OP_QFN24_A4/layout.
+INFO (XSTRM-220): 61. Translating STRUCTURE OP_SOIC20 as cellView Bondpackage/OP_SOIC20/layout.
+INFO (XSTRM-220): 62. Translating STRUCTURE A3 as cellView Bondpackage/A3/layout.
+INFO (XSTRM-220): 63. Translating STRUCTURE PGA256_A3 as cellView Bondpackage/PGA256_A3/layout.
+INFO (XSTRM-220): 64. Translating STRUCTURE DIL40L as cellView Bondpackage/DIL40L/layout.
+INFO (XSTRM-220): 65. Translating STRUCTURE DIL40L_A4 as cellView Bondpackage/DIL40L_A4/layout.
+INFO (XSTRM-220): 66. Translating STRUCTURE OP_SOIC20_A4 as cellView Bondpackage/OP_SOIC20_A4/layout.
+INFO (XSTRM-220): 67. Translating STRUCTURE DIL16 as cellView Bondpackage/DIL16/layout.
+INFO (XSTRM-220): 68. Translating STRUCTURE DIL16_A4 as cellView Bondpackage/DIL16_A4/layout.
+INFO (XSTRM-220): 69. Translating STRUCTURE PGA208_A3 as cellView Bondpackage/PGA208_A3/layout.
+INFO (XSTRM-220): 70. Translating STRUCTURE DIL16_A4_example as cellView Bondpackage/DIL16_A4_example/layout.
+INFO (XSTRM-220): 71. Translating STRUCTURE OP_QFN56 as cellView Bondpackage/OP_QFN56/layout.
+INFO (XSTRM-220): 72. Translating STRUCTURE OP_QFN56_A4 as cellView Bondpackage/OP_QFN56_A4/layout.
+INFO (XSTRM-220): 73. Translating STRUCTURE JLCC84_A4 as cellView Bondpackage/JLCC84_A4/layout.
+INFO (XSTRM-220): 74. Translating STRUCTURE PGA100L_A4 as cellView Bondpackage/PGA100L_A4/layout.
+INFO (XSTRM-220): 75. Translating STRUCTURE PGA84 as cellView Bondpackage/PGA84/layout.
+INFO (XSTRM-220): 76. Translating STRUCTURE PGA84_A4 as cellView Bondpackage/PGA84_A4/layout.
+INFO (XSTRM-220): 77. Translating STRUCTURE PGA144 as cellView Bondpackage/PGA144/layout.
+INFO (XSTRM-220): 78. Translating STRUCTURE PGA144_A4 as cellView Bondpackage/PGA144_A4/layout.
+INFO (XSTRM-220): 79. Translating STRUCTURE OP_QFN16_A4 as cellView Bondpackage/OP_QFN16_A4/layout.
+INFO (XSTRM-220): 80. Translating STRUCTURE Bonding_diagram_example as cellView Bondpackage/Bonding_diagram_example/layout.
+INFO (XSTRM-220): 81. Translating STRUCTURE QFP120_A3 as cellView Bondpackage/QFP120_A3/layout.
+INFO (XSTRM-220): 82. Translating STRUCTURE CSOIC16_A4 as cellView Bondpackage/CSOIC16_A4/layout.
+INFO (XSTRM-220): 83. Translating STRUCTURE OP_QFN48_A4 as cellView Bondpackage/OP_QFN48_A4/layout.
+INFO (XSTRM-220): 84. Translating STRUCTURE OP_SOIC24 as cellView Bondpackage/OP_SOIC24/layout.
+INFO (XSTRM-220): 85. Translating STRUCTURE OP_SOIC24_A4 as cellView Bondpackage/OP_SOIC24_A4/layout.
+INFO (XSTRM-220): 86. Translating STRUCTURE CC68L as cellView Bondpackage/CC68L/layout.
+INFO (XSTRM-220): 87. Translating STRUCTURE JLCC68L_A4 as cellView Bondpackage/JLCC68L_A4/layout.
+INFO (XSTRM-220): 88. Translating STRUCTURE OP_QFN80_12x12mm_A4 as cellView Bondpackage/OP_QFN80_12x12mm_A4/layout.
+INFO (XSTRM-220): 89. Translating STRUCTURE DIL18_A4 as cellView Bondpackage/DIL18_A4/layout.
+INFO (XSTRM-220): 90. Translating STRUCTURE JLCC44_A4 as cellView Bondpackage/JLCC44_A4/layout.
+INFO (XSTRM-220): 91. Translating STRUCTURE DIL40S_A4 as cellView Bondpackage/DIL40S_A4/layout.
+INFO (XSTRM-220): 92. Translating STRUCTURE DIL28_A4 as cellView Bondpackage/DIL28_A4/layout.
+INFO (XSTRM-220): 93. Translating STRUCTURE DIL48L_A4 as cellView Bondpackage/DIL48L_A4/layout.
+INFO (XSTRM-220): 94. Translating STRUCTURE LCC68L_A4 as cellView Bondpackage/LCC68L_A4/layout.
+INFO (XSTRM-220): 95. Translating STRUCTURE ALL_PACK_CUSTOMER as cellView Bondpackage/ALL_PACK_CUSTOMER/layout.
+
+Summary of Objects Translated:
+	Instances:                              153
+	CustomVias:                             0
+	StandardVias:                           0
+	CdsGenVias:                             0
+	Arrays:                                 0
+	Polygons:                               2413
+	Paths:                                  134
+	PathSegs:                               0
+	Rectangles:                             473
+	Text:                                   1608
+	Node:                                   0
+	Line:                                   0
+	Cells:                                  95
+
+Elapsed Time: 4.7s   User Time: 0.4s   CPU Time: 0.5s   Peak VM: 6660KB
+INFO (XSTRM-234): Translation completed. '0' error(s) and '2' warning(s) found.

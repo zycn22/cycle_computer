@@ -1,0 +1,242 @@
+@(#)$CDS: ihdl version 6.1.7-64b 10/06/2017 20:02 (sjfhw303) $  Thu May  4 19:10:50 2023
+
+WARNING (VERILOGIN-19): The library, sample, is not specified in the cds.lib file. Add the library in the
+cds.lib file and run the command again.
+INFO (VERILOGIN-589): Using xmvlog binary for compilation.
+INFO (VERILOGIN-126): Unable to find the Verilog definition for module BUF6. Therefore using library
+CORELIB, cell BUF6, and view symbol as the symbol.
+INFO (VERILOGIN-126): Unable to find the Verilog definition for module CLKBU6. Therefore using library
+CORELIB, cell CLKBU6, and view symbol as the symbol.
+INFO (VERILOGIN-126): Unable to find the Verilog definition for module CLKBU4. Therefore using library
+CORELIB, cell CLKBU4, and view symbol as the symbol.
+INFO (VERILOGIN-126): Unable to find the Verilog definition for module BUF2. Therefore using library
+CORELIB, cell BUF2, and view symbol as the symbol.
+INFO (VERILOGIN-126): Unable to find the Verilog definition for module CLKBU2. Therefore using library
+CORELIB, cell CLKBU2, and view symbol as the symbol.
+INFO (VERILOGIN-126): Unable to find the Verilog definition for module CLKBU8. Therefore using library
+CORELIB, cell CLKBU8, and view symbol as the symbol.
+INFO (VERILOGIN-126): Unable to find the Verilog definition for module CLKIN15. Therefore using library
+CORELIB, cell CLKIN15, and view symbol as the symbol.
+INFO (VERILOGIN-126): Unable to find the Verilog definition for module CLKIN12. Therefore using library
+CORELIB, cell CLKIN12, and view symbol as the symbol.
+INFO (VERILOGIN-126): Unable to find the Verilog definition for module CLKIN10. Therefore using library
+CORELIB, cell CLKIN10, and view symbol as the symbol.
+INFO (VERILOGIN-126): Unable to find the Verilog definition for module CLKIN8. Therefore using library
+CORELIB, cell CLKIN8, and view symbol as the symbol.
+INFO (VERILOGIN-126): Unable to find the Verilog definition for module CLKBU15. Therefore using library
+CORELIB, cell CLKBU15, and view symbol as the symbol.
+INFO (VERILOGIN-126): Unable to find the Verilog definition for module CLKBU12. Therefore using library
+CORELIB, cell CLKBU12, and view symbol as the symbol.
+INFO (VERILOGIN-126): Unable to find the Verilog definition for module BUF8. Therefore using library
+CORELIB, cell BUF8, and view symbol as the symbol.
+INFO (VERILOGIN-126): Unable to find the Verilog definition for module BUF12. Therefore using library
+CORELIB, cell BUF12, and view symbol as the symbol.
+INFO (VERILOGIN-126): Unable to find the Verilog definition for module BUF15. Therefore using library
+CORELIB, cell BUF15, and view symbol as the symbol.
+INFO (VERILOGIN-126): Unable to find the Verilog definition for module INV3. Therefore using library
+CORELIB, cell INV3, and view symbol as the symbol.
+INFO (VERILOGIN-126): Unable to find the Verilog definition for module INV12. Therefore using library
+CORELIB, cell INV12, and view symbol as the symbol.
+INFO (VERILOGIN-126): Unable to find the Verilog definition for module INV8. Therefore using library
+CORELIB, cell INV8, and view symbol as the symbol.
+INFO (VERILOGIN-126): Unable to find the Verilog definition for module CLKIN6. Therefore using library
+CORELIB, cell CLKIN6, and view symbol as the symbol.
+INFO (VERILOGIN-126): Unable to find the Verilog definition for module INV6. Therefore using library
+CORELIB, cell INV6, and view symbol as the symbol.
+INFO (VERILOGIN-126): Unable to find the Verilog definition for module CLKIN3. Therefore using library
+CORELIB, cell CLKIN3, and view symbol as the symbol.
+INFO (VERILOGIN-126): Unable to find the Verilog definition for module INV15. Therefore using library
+CORELIB, cell INV15, and view symbol as the symbol.
+INFO (VERILOGIN-126): Unable to find the Verilog definition for module CLKIN2. Therefore using library
+CORELIB, cell CLKIN2, and view symbol as the symbol.
+INFO (VERILOGIN-126): Unable to find the Verilog definition for module BU8P. Therefore using library
+IOLIB_4M, cell BU8P, and view symbol as the symbol.
+INFO (VERILOGIN-126): Unable to find the Verilog definition for module ICUP. Therefore using library
+IOLIB_4M, cell ICUP, and view symbol as the symbol.
+INFO (VERILOGIN-126): Unable to find the Verilog definition for module DFC1. Therefore using library
+CORELIB, cell DFC1, and view symbol as the symbol.
+INFO (VERILOGIN-126): Unable to find the Verilog definition for module DFSP1. Therefore using library
+CORELIB, cell DFSP1, and view symbol as the symbol.
+INFO (VERILOGIN-126): Unable to find the Verilog definition for module ADD31. Therefore using library
+CORELIB, cell ADD31, and view symbol as the symbol.
+INFO (VERILOGIN-126): Unable to find the Verilog definition for module NOR24. Therefore using library
+CORELIB, cell NOR24, and view symbol as the symbol.
+INFO (VERILOGIN-126): Unable to find the Verilog definition for module NOR20. Therefore using library
+CORELIB, cell NOR20, and view symbol as the symbol.
+INFO (VERILOGIN-126): Unable to find the Verilog definition for module NAND23. Therefore using library
+CORELIB, cell NAND23, and view symbol as the symbol.
+INFO (VERILOGIN-126): Unable to find the Verilog definition for module NAND33. Therefore using library
+CORELIB, cell NAND33, and view symbol as the symbol.
+INFO (VERILOGIN-126): Unable to find the Verilog definition for module NAND41. Therefore using library
+CORELIB, cell NAND41, and view symbol as the symbol.
+INFO (VERILOGIN-126): Unable to find the Verilog definition for module NOR21. Therefore using library
+CORELIB, cell NOR21, and view symbol as the symbol.
+INFO (VERILOGIN-126): Unable to find the Verilog definition for module OAI210. Therefore using library
+CORELIB, cell OAI210, and view symbol as the symbol.
+INFO (VERILOGIN-126): Unable to find the Verilog definition for module MUX24. Therefore using library
+CORELIB, cell MUX24, and view symbol as the symbol.
+INFO (VERILOGIN-126): Unable to find the Verilog definition for module OAI2111. Therefore using library
+CORELIB, cell OAI2111, and view symbol as the symbol.
+INFO (VERILOGIN-126): Unable to find the Verilog definition for module NAND21. Therefore using library
+CORELIB, cell NAND21, and view symbol as the symbol.
+INFO (VERILOGIN-126): Unable to find the Verilog definition for module AOI211. Therefore using library
+CORELIB, cell AOI211, and view symbol as the symbol.
+INFO (VERILOGIN-126): Unable to find the Verilog definition for module AOI2111. Therefore using library
+CORELIB, cell AOI2111, and view symbol as the symbol.
+INFO (VERILOGIN-126): Unable to find the Verilog definition for module NOR40. Therefore using library
+CORELIB, cell NOR40, and view symbol as the symbol.
+INFO (VERILOGIN-126): Unable to find the Verilog definition for module NOR22. Therefore using library
+CORELIB, cell NOR22, and view symbol as the symbol.
+INFO (VERILOGIN-126): Unable to find the Verilog definition for module CLKIN0. Therefore using library
+CORELIB, cell CLKIN0, and view symbol as the symbol.
+INFO (VERILOGIN-126): Unable to find the Verilog definition for module NAND31. Therefore using library
+CORELIB, cell NAND31, and view symbol as the symbol.
+INFO (VERILOGIN-126): Unable to find the Verilog definition for module OAI2112. Therefore using library
+CORELIB, cell OAI2112, and view symbol as the symbol.
+INFO (VERILOGIN-126): Unable to find the Verilog definition for module AOI212. Therefore using library
+CORELIB, cell AOI212, and view symbol as the symbol.
+INFO (VERILOGIN-126): Unable to find the Verilog definition for module AOI222. Therefore using library
+CORELIB, cell AOI222, and view symbol as the symbol.
+INFO (VERILOGIN-126): Unable to find the Verilog definition for module NAND22. Therefore using library
+CORELIB, cell NAND22, and view symbol as the symbol.
+INFO (VERILOGIN-126): Unable to find the Verilog definition for module CLKIN1. Therefore using library
+CORELIB, cell CLKIN1, and view symbol as the symbol.
+INFO (VERILOGIN-126): Unable to find the Verilog definition for module AOI2112. Therefore using library
+CORELIB, cell AOI2112, and view symbol as the symbol.
+INFO (VERILOGIN-126): Unable to find the Verilog definition for module NOR41. Therefore using library
+CORELIB, cell NOR41, and view symbol as the symbol.
+INFO (VERILOGIN-126): Unable to find the Verilog definition for module AOI221. Therefore using library
+CORELIB, cell AOI221, and view symbol as the symbol.
+INFO (VERILOGIN-126): Unable to find the Verilog definition for module NAND30. Therefore using library
+CORELIB, cell NAND30, and view symbol as the symbol.
+INFO (VERILOGIN-126): Unable to find the Verilog definition for module NAND20. Therefore using library
+CORELIB, cell NAND20, and view symbol as the symbol.
+INFO (VERILOGIN-126): Unable to find the Verilog definition for module NAND32. Therefore using library
+CORELIB, cell NAND32, and view symbol as the symbol.
+INFO (VERILOGIN-126): Unable to find the Verilog definition for module IMUX22. Therefore using library
+CORELIB, cell IMUX22, and view symbol as the symbol.
+INFO (VERILOGIN-126): Unable to find the Verilog definition for module IMUX21. Therefore using library
+CORELIB, cell IMUX21, and view symbol as the symbol.
+INFO (VERILOGIN-126): Unable to find the Verilog definition for module OAI212. Therefore using library
+CORELIB, cell OAI212, and view symbol as the symbol.
+INFO (VERILOGIN-126): Unable to find the Verilog definition for module MUX21. Therefore using library
+CORELIB, cell MUX21, and view symbol as the symbol.
+INFO (VERILOGIN-126): Unable to find the Verilog definition for module IMUX23. Therefore using library
+CORELIB, cell IMUX23, and view symbol as the symbol.
+INFO (VERILOGIN-126): Unable to find the Verilog definition for module XNR21. Therefore using library
+CORELIB, cell XNR21, and view symbol as the symbol.
+INFO (VERILOGIN-126): Unable to find the Verilog definition for module AOI311. Therefore using library
+CORELIB, cell AOI311, and view symbol as the symbol.
+INFO (VERILOGIN-126): Unable to find the Verilog definition for module OAI312. Therefore using library
+CORELIB, cell OAI312, and view symbol as the symbol.
+INFO (VERILOGIN-126): Unable to find the Verilog definition for module OAI311. Therefore using library
+CORELIB, cell OAI311, and view symbol as the symbol.
+INFO (VERILOGIN-126): Unable to find the Verilog definition for module NOR42. Therefore using library
+CORELIB, cell NOR42, and view symbol as the symbol.
+INFO (VERILOGIN-126): Unable to find the Verilog definition for module NOR23. Therefore using library
+CORELIB, cell NOR23, and view symbol as the symbol.
+INFO (VERILOGIN-126): Unable to find the Verilog definition for module NAND40. Therefore using library
+CORELIB, cell NAND40, and view symbol as the symbol.
+INFO (VERILOGIN-126): Unable to find the Verilog definition for module NOR30. Therefore using library
+CORELIB, cell NOR30, and view symbol as the symbol.
+INFO (VERILOGIN-126): Unable to find the Verilog definition for module NOR31. Therefore using library
+CORELIB, cell NOR31, and view symbol as the symbol.
+INFO (VERILOGIN-126): Unable to find the Verilog definition for module IMUX20. Therefore using library
+CORELIB, cell IMUX20, and view symbol as the symbol.
+INFO (VERILOGIN-126): Unable to find the Verilog definition for module NAND42. Therefore using library
+CORELIB, cell NAND42, and view symbol as the symbol.
+INFO (VERILOGIN-126): Unable to find the Verilog definition for module OAI211. Therefore using library
+CORELIB, cell OAI211, and view symbol as the symbol.
+INFO (VERILOGIN-126): Unable to find the Verilog definition for module OAI222. Therefore using library
+CORELIB, cell OAI222, and view symbol as the symbol.
+INFO (VERILOGIN-126): Unable to find the Verilog definition for module AOI210. Therefore using library
+CORELIB, cell AOI210, and view symbol as the symbol.
+INFO (VERILOGIN-126): Unable to find the Verilog definition for module AOI2110. Therefore using library
+CORELIB, cell AOI2110, and view symbol as the symbol.
+INFO (VERILOGIN-126): Unable to find the Verilog definition for module AOI220. Therefore using library
+CORELIB, cell AOI220, and view symbol as the symbol.
+INFO (VERILOGIN-126): Unable to find the Verilog definition for module NAND43. Therefore using library
+CORELIB, cell NAND43, and view symbol as the symbol.
+INFO (VERILOGIN-126): Unable to find the Verilog definition for module AOI310. Therefore using library
+CORELIB, cell AOI310, and view symbol as the symbol.
+INFO (VERILOGIN-126): Unable to find the Verilog definition for module OAI220. Therefore using library
+CORELIB, cell OAI220, and view symbol as the symbol.
+INFO (VERILOGIN-126): Unable to find the Verilog definition for module OAI2110. Therefore using library
+CORELIB, cell OAI2110, and view symbol as the symbol.
+INFO (VERILOGIN-126): Unable to find the Verilog definition for module OAI310. Therefore using library
+CORELIB, cell OAI310, and view symbol as the symbol.
+INFO (VERILOGIN-126): Unable to find the Verilog definition for module NAND24. Therefore using library
+CORELIB, cell NAND24, and view symbol as the symbol.
+INFO (VERILOGIN-126): Unable to find the Verilog definition for module IMAJ30. Therefore using library
+CORELIB, cell IMAJ30, and view symbol as the symbol.
+INFO (VERILOGIN-126): Unable to find the Verilog definition for module MAJ31. Therefore using library
+CORELIB, cell MAJ31, and view symbol as the symbol.
+INFO (VERILOGIN-126): Unable to find the Verilog definition for module NOR32. Therefore using library
+CORELIB, cell NOR32, and view symbol as the symbol.
+INFO (VERILOGIN-126): Unable to find the Verilog definition for module MUX41. Therefore using library
+CORELIB, cell MUX41, and view symbol as the symbol.
+INFO (VERILOGIN-126): Unable to find the Verilog definition for module MUX42. Therefore using library
+CORELIB, cell MUX42, and view symbol as the symbol.
+INFO (VERILOGIN-126): Unable to find the Verilog definition for module IMUX41. Therefore using library
+CORELIB, cell IMUX41, and view symbol as the symbol.
+INFO (VERILOGIN-126): Unable to find the Verilog definition for module INV10. Therefore using library
+CORELIB, cell INV10, and view symbol as the symbol.
+INFO (VERILOGIN-126): Unable to find the Verilog definition for module IMUX40. Therefore using library
+CORELIB, cell IMUX40, and view symbol as the symbol.
+INFO (VERILOGIN-126): Unable to find the Verilog definition for module XNR20. Therefore using library
+CORELIB, cell XNR20, and view symbol as the symbol.
+INFO (VERILOGIN-126): Unable to find the Verilog definition for module NAND34. Therefore using library
+CORELIB, cell NAND34, and view symbol as the symbol.
+INFO (VERILOGIN-126): Unable to find the Verilog definition for module AOI312. Therefore using library
+CORELIB, cell AOI312, and view symbol as the symbol.
+INFO (VERILOGIN-126): Unable to find the Verilog definition for module OAI221. Therefore using library
+CORELIB, cell OAI221, and view symbol as the symbol.
+INFO (VERILOGIN-126): Unable to find the Verilog definition for module NOR33. Therefore using library
+CORELIB, cell NOR33, and view symbol as the symbol.
+INFO (VERILOGIN-126): Unable to find the Verilog definition for module XOR20. Therefore using library
+CORELIB, cell XOR20, and view symbol as the symbol.
+INFO (VERILOGIN-126): Unable to find the Verilog definition for module XOR21. Therefore using library
+CORELIB, cell XOR21, and view symbol as the symbol.
+INFO (VERILOGIN-126): Unable to find the Verilog definition for module IMUX42. Therefore using library
+CORELIB, cell IMUX42, and view symbol as the symbol.
+INFO (VERILOGIN-126): Unable to find the Verilog definition for module NAND28. Therefore using library
+CORELIB, cell NAND28, and view symbol as the symbol.
+INFO (VERILOGIN-126): Unable to find the Verilog definition for module DFSEC1. Therefore using library
+CORELIB, cell DFSEC1, and view symbol as the symbol.
+INFO (VERILOGIN-126): Unable to find the Verilog definition for module DFSE1. Therefore using library
+CORELIB, cell DFSE1, and view symbol as the symbol.
+INFO (VERILOGIN-126): Unable to find the Verilog definition for module DFSEP1. Therefore using library
+CORELIB, cell DFSEP1, and view symbol as the symbol.
+INFO (VERILOGIN-126): Unable to find the Verilog definition for module DFSC1. Therefore using library
+CORELIB, cell DFSC1, and view symbol as the symbol.
+INFO (VERILOGIN-126): Unable to find the Verilog definition for module JKSC1. Therefore using library
+CORELIB, cell JKSC1, and view symbol as the symbol.
+INFO (VERILOGIN-126): Unable to find the Verilog definition for module DFSC3. Therefore using library
+CORELIB, cell DFSC3, and view symbol as the symbol.
+INFO (VERILOGIN-126): Unable to find the Verilog definition for module DFSEC3. Therefore using library
+CORELIB, cell DFSEC3, and view symbol as the symbol.
+INFO (VERILOGIN-126): Unable to find the Verilog definition for module DFSP3. Therefore using library
+CORELIB, cell DFSP3, and view symbol as the symbol.
+INFO (VERILOGIN-126): Unable to find the Verilog definition for module LOGIC1. Therefore using library
+CORELIB, cell LOGIC1, and view symbol as the symbol.
+INFO (VERILOGIN-126): Unable to find the Verilog definition for module IMUX24. Therefore using library
+CORELIB, cell IMUX24, and view symbol as the symbol.
+INFO (VERILOGIN-126): Unable to find the Verilog definition for module FILL5. Therefore using library
+CORELIB, cell FILL5, and view symbol as the symbol.
+INFO (VERILOGIN-126): Unable to find the Verilog definition for module FILL2. Therefore using library
+CORELIB, cell FILL2, and view symbol as the symbol.
+INFO (VERILOGIN-126): Unable to find the Verilog definition for module FILL10. Therefore using library
+CORELIB, cell FILL10, and view symbol as the symbol.
+INFO (VERILOGIN-126): Unable to find the Verilog definition for module FILL25. Therefore using library
+CORELIB, cell FILL25, and view symbol as the symbol.
+INFO (VERILOGIN-126): Unable to find the Verilog definition for module GND3IP. Therefore using library
+IOLIB_4M, cell GND3IP, and view symbol as the symbol.
+INFO (VERILOGIN-126): Unable to find the Verilog definition for module VDD3IP. Therefore using library
+IOLIB_4M, cell VDD3IP, and view symbol as the symbol.
+INFO (VERILOGIN-126): Unable to find the Verilog definition for module VDD3ALLP. Therefore using library
+IOLIB_4M, cell VDD3ALLP, and view symbol as the symbol.
+INFO (VERILOGIN-126): Unable to find the Verilog definition for module GND3ALLP. Therefore using library
+IOLIB_4M, cell GND3ALLP, and view symbol as the symbol.
+INFO (VERILOGIN-357): Checked in symbol computer.
+INFO (VERILOGIN-372): Checked-in schematic computer.
+INFO (VERILOGIN-206): End of Logfile.

@@ -1,0 +1,1008 @@
+
+
+  Cadence Quantus QRC Extraction - 64-bit Parasitic Extractor - Version
+18.1.2-s132 Thu May 10 00:43:37 PDT 2018
+-------------------------------------------------------------------------------------------------------------------
+                                    Copyright 2018 Cadence Design Systems,
+Inc.
+
+
+
+INFO (EXTQRCXLOG-103) : The Command File Options for the current Quantus run are as follows:
+
+extract \
+	 -selection "all" \
+	 -type "rc_coupled"
+extraction_setup \
+	 -promote_pin_pad "LOGICAL" \
+	 -technology_layer_map \
+		"CONT  via_m1_p1  " \
+		"POLY1  poly1  " \
+		"MET1  met1  " \
+		"VIA1  via_m2_m1  " \
+		"MET2  met2  " \
+		"VIA2  via_m3_m2  " \
+		"MET3  met3  " \
+		"VIA3  via_m4_m3  " \
+		"MET4  met4  "
+filter_coupling_cap \
+	 -cap_filtering_mode "absolute_and_relative" \
+	 -coupling_cap_threshold_absolute 3.0 \
+	 -coupling_cap_threshold_relative 0.03 \
+	 -total_cap_threshold 5.0
+input_db -type def \
+	 -lef_file_list_file "/tmp/tmp_qrc_OZpdKG/qrc.leflist"
+log_file \
+	 -dump_options true \
+	 -file_name "qrc_69106_20230430_22:41:35.log"
+output_db -type spef \
+	 -short_incomplete_net_pins true \
+	 -subtype "STANDARD"
+output_setup \
+	 -compressed true \
+	 -directory_name "/tmp/tmp_qrc_OZpdKG" \
+	 -file_name "computer" \
+	 -temporary_directory_name "/tmp/tmp_qrc_OZpdKG"
+process_technology \
+	 -technology_corner \
+		"ams_rc_corner_wc" \
+		"ams_rc_corner_typ" \
+		"ams_rc_corner_bc" \
+	 -technology_library_file "/tmp/tmp_qrc_OZpdKG/_qrc_techlib.defs" \
+	 -technology_name "_qrc_tech_" \
+	 -temperature \
+		25 \
+		25 \
+		25
+
+
+
+
+INFO (EXTGRMP-102) : Starting at 2023-Apr-30 22:41:37 (2023-Apr-30 21:41:37 GMT) on host
+srv02749 with pid 35334.
+Running binary as: 
+ /eda/cadence/ext/tools/extraction/bin/64bit/qrc -cmd
+/tmp/tmp_qrc_OZpdKG/qrc.cmd /tmp/tmp_qrc_OZpdKG/qrc.def.gz  
+
+WARNING (EXTGRMP-414) : No GDSII/OASIS file is specified. Setting graybox type as LEF_OBSTRUCTION.
+
+INFO (EXTGRMP-142) : Command line arguments:
+"-cmd"
+"/tmp/tmp_qrc_OZpdKG/qrc.cmd"
+"/tmp/tmp_qrc_OZpdKG/qrc.def.gz"
+
+INFO (EXTGRMP-143) : Option copy_port_to_obs = "true"
+
+INFO (EXTGRMP-143) : Option log_file = "qrc_69106_20230430_22:41:35.log"
+
+INFO (EXTGRMP-143) : Option max_error_messages = "100"
+
+INFO (EXTGRMP-143) : Option message_detail_level = "10"
+
+INFO (EXTGRMP-143) : Option tech_file = ""
+
+INFO (EXTGRMP-143) : Option library_name = ""
+
+INFO (EXTGRMP-143) : Option oa_default_rule_name = ""
+
+INFO (EXTGRMP-143) : Option gray_data = "obs"
+
+INFO (EXTGRMP-143) : Option use_macro_density = "false"
+
+INFO (EXTGRMP-143) : Option comp_prealloc = "0"
+
+INFO (EXTGRMP-143) : Option net_prealloc = "0"
+
+INFO (EXTGRMP-143) : Option output_directory_name = "/tmp/tmp_qrc_OZpdKG"
+
+INFO (EXTGRMP-143) : Option output_coordinate_units = "micron"
+
+INFO (EXTGRMP-143) : Option user_comment = ""
+
+INFO (EXTGRMP-143) : Option output_cache_directory_name = "/tmp/tmp_qrc_OZpdKG/.qrctemp"
+
+INFO (EXTGRMP-143) : Option keep_temporary_files = "false"
+
+INFO (EXTGRMP-143) : Option output_density_tiles = "false"
+
+INFO (EXTGRMP-143) : Option output_file_name = "computer"
+
+INFO (EXTGRMP-143) : Option spef_define_file = ""
+
+INFO (EXTGRMP-143) : Option reduce_output = "false"
+
+INFO (EXTGRMP-143) : Option debug_log = "false"
+
+INFO (EXTGRMP-143) : Option spef_output = "generic"
+
+INFO (EXTGRMP-143) : Option dspf_output = "none"
+
+INFO (EXTGRMP-143) : Option output_sstorm_db_name = ""
+
+INFO (EXTGRMP-143) : Option netlist_output = "none"
+
+INFO (EXTGRMP-143) : Option net_cc_output = "false"
+
+INFO (EXTGRMP-143) : Option rcdb_output = "false"
+
+INFO (EXTGRMP-143) : Option hierarchy_char = "/"
+
+INFO (EXTGRMP-143) : Option bus_chars = "[]"
+
+INFO (EXTGRMP-143) : Option pin_char = ":"
+
+INFO (EXTGRMP-143) : Option output_incomplete_nets_type = "no_pin one_pin disconnected_pin
+multiple_partitions floating_resistors"
+
+INFO (EXTGRMP-143) : Option truncate_regular_wires = "false"
+
+INFO (EXTGRMP-143) : Option layout_scale = "1.0"
+
+INFO (EXTGRMP-143) : Option output_file_max_size = "9223372036854775807"
+
+INFO (EXTGRMP-143) : Option dump_options = "true"
+
+INFO (EXTGRMP-143) : Option short_incomplete_net_pins = "true"
+
+INFO (EXTGRMP-143) : Option promote_incomplete_net_pins = "true"
+
+INFO (EXTGRMP-143) : Option output_incomplete_nets = "true"
+
+INFO (EXTGRMP-143) : Option output_unrouted_nets = "false"
+
+INFO (EXTGRMP-143) : Option treat_special_chars = "true"
+
+INFO (EXTGRMP-143) : Option lumped_cc_threshold = "0.0"
+
+INFO (EXTGRMP-143) : Option reduction_max_frequency = "1.0e+08"
+
+INFO (EXTGRMP-143) : Option compressed_output = "true"
+
+INFO (EXTGRMP-143) : Option max_resistor_length = "100.0"
+
+INFO (EXTGRMP-143) : Option promote_feedthru_ports = "none"
+
+INFO (EXTGRMP-143) : Option promote_instance_ports = "none"
+
+INFO (EXTGRMP-143) : Option output_promoted_feedthrus = "false"
+
+INFO (EXTGRMP-143) : Option output_unconnected_pins = "false"
+
+INFO (EXTGRMP-143) : Option remove_floating_metals = "false"
+
+INFO (EXTGRMP-143) : Option promote_pin_pad = "logical"
+
+INFO (EXTGRMP-143) : Option eco_compatible_mode = "false"
+
+INFO (EXTGRMP-143) : Option cap_mode_2915 = "true"
+
+INFO (EXTGRMP-143) : Option quickcap_file = "false"
+
+INFO (EXTGRMP-143) : Option ict_file = "process.ict"
+
+INFO (EXTGRMP-143) : Option quickcap_netfile = "qapi.net"
+
+INFO (EXTGRMP-143) : Option lefcap_output = "false"
+
+INFO (EXTGRMP-143) : Option lefcap_scale = "1.25"
+
+INFO (EXTGRMP-143) : Option lefres_output = "false"
+
+INFO (EXTGRMP-143) : Option kfactor_file = ""
+
+INFO (EXTGRMP-143) : Option total_c_threshold = "5"
+
+INFO (EXTGRMP-143) : Option relative_c_threshold = "0.03"
+
+INFO (EXTGRMP-143) : Option output_cap_filtering_mode = "relative_and_coupling"
+
+INFO (EXTGRMP-143) : Option cap_mode = "default"
+
+INFO (EXTGRMP-143) : Option parallel_options = ""
+
+INFO (EXTGRMP-143) : Option load_optimized_views = "true"
+
+INFO (EXTGRMP-143) : Option enable_metal_fill_effects = "true"
+
+INFO (EXTGRMP-143) : Option advanced_metal_fill = "false"
+
+INFO (EXTGRMP-143) : Option metal_fill_type = "floating"
+
+INFO (EXTGRMP-143) : Option vmf_metal_scheme_file = ""
+
+INFO (EXTGRMP-143) : Option vmf_rule_file = ""
+
+INFO (EXTGRMP-143) : Option ignore_conn_to_bump = "true"
+
+INFO (EXTGRMP-143) : Option metal_fill_gds_file = ""
+
+INFO (EXTGRMP-143) : Option density_check_method = "none"
+
+INFO (EXTGRMP-143) : Option temperature = "25"
+
+INFO (EXTGRMP-143) : Option promote_gray_data_pins = "false"
+
+INFO (EXTGRMP-143) : Option use_layer_bias_in_cmd_and_process_bias_in_tech = "false"
+
+INFO (EXTGRMP-143) : Option map_eeq_to_master_in_output = "false"
+
+INFO (EXTGRMP-143) : Option match_res_cap_in_output = "false"
+
+INFO (EXTGRMP-143) : Option merge_tile_boundary_data = "true"
+
+INFO (EXTGRMP-143) : Option coupling_c_threshold = "3"
+
+INFO (EXTGRMP-143) : Option use_icecaps_models_only = "false"
+
+INFO (EXTGRMP-143) : Option use_name_map_in_spef = "true"
+
+INFO (EXTGRMP-143) : Option name_map_start_index_in_spef = "0"
+
+INFO (EXTGRMP-143) : Option timeout = "604800"
+
+INFO (EXTGRMP-143) : Option num_of_trials = "0"
+
+INFO (EXTGRMP-143) : Option separate_cc_prefix_in_dspf = "false"
+
+INFO (EXTGRMP-143) : Option output_oa = "false"
+
+INFO (EXTGRMP-143) : Option oa_analysis_point = "default"
+
+INFO (EXTGRMP-143) : Option enable_sensitivity_extraction = "false"
+
+INFO (EXTGRMP-143) : Option report_details = "false"
+
+INFO (EXTGRMP-143) : Option report_shorts = "false"
+
+INFO (EXTGRMP-143) : Option metal_fill_gds_offset_X = "0.0"
+
+INFO (EXTGRMP-143) : Option metal_fill_gds_offset_Y = "0.0"
+
+INFO (EXTGRMP-143) : Option ignore_pushdown_blockages = "false"
+
+INFO (EXTGRMP-143) : Option compress_cache_files = "true"
+
+INFO (EXTGRMP-143) : Option strong_gray_debug = "false"
+
+INFO (EXTGRMP-143) : Option disable_instances = "true"
+
+INFO (EXTGRMP-143) : Option disable_subnodes = "true"
+
+INFO (EXTGRMP-143) : Option dump_erosion_info = ""
+
+INFO (EXTGRMP-143) : Option silicon_width_printing = "true"
+
+INFO (EXTGRMP-143) : Option unscaled_res_params_printing = "false"
+
+INFO (EXTGRMP-143) : Option enable_active_fill_via_processing = "false"
+
+INFO (EXTGRMP-143) : Option add_explicit_vias = "false"
+
+INFO (EXTGRMP-143) : Option cap_ground_net = "0"
+
+INFO (EXTGRMP-143) : Option output_res_temp_coeff = "false"
+
+INFO (EXTGRMP-143) : Option write_coupled_decoupled_files = "false"
+
+INFO (EXTGRMP-143) : Option capacitance_coupling = "default"
+
+INFO (EXTGRMP-143) : Option top_cell = ""
+
+INFO (EXTGRMP-143) : Option input_directory_name = ""
+
+INFO (EXTGRMP-143) : Option binary_input = "false"
+
+INFO (EXTGRMP-143) : Option binary_output = "false"
+
+INFO (EXTGRMP-143) : Option enable_ieee_sensitivity = "false"
+
+INFO (EXTGRMP-143) : Option bump_map_file = ""
+
+INFO (EXTGRMP-143) : Option enable_bump_instance = "false"
+
+INFO (EXTGRMP-143) : Option enable_tsv_instance = "false"
+
+INFO (EXTGRMP-143) : Option enable_TSV_STA_Cc_model = "false"
+
+INFO (EXTGRMP-143) : Option stitch_bump_model = "false"
+
+INFO (EXTGRMP-143) : Option stitch_tsv_model = "none"
+
+INFO (EXTGRMP-143) : Option enable_eco_mode = "false"
+
+INFO (EXTGRMP-143) : Option eco_file = ""
+
+INFO (EXTGRMP-143) : Option override_eco_reference = "true"
+
+INFO (EXTGRMP-143) : Option analysis_mode = "timing"
+
+INFO (EXTGRMP-143) : Option use_lef_for_hierarchical_def = "false"
+
+INFO (EXTGRMP-143) : Option include_gate_forming_layers = "false"
+
+INFO (EXTGRMP-143) : Option strict_error_reporting = "false"
+
+INFO (EXTGRMP-143) : Option LEF files = "/tmp/tmp_qrc_OZpdKG/tmp.lef"
+
+INFO (EXTGRMP-143) : Option GDSII files = ""
+
+INFO (EXTGRMP-143) : Option GDSII/RDL files = ""
+
+INFO (EXTGRMP-143) : Option SPICE files = ""
+
+INFO (EXTGRMP-143) : Option DENSITY cells = ""
+
+INFO (EXTGRMP-143) : Option stitch bump cells = ""
+
+INFO (EXTGRMP-143) : Option ignored macros = ""
+
+INFO (EXTGRMP-143) : Option black macros = ""
+
+INFO (EXTGRMP-156) : Layer mappings from the command file.
+CONT --> via_m1_p1
+POLY1 --> poly1
+MET1 --> met1
+VIA1 --> via_m2_m1
+MET2 --> met2
+VIA2 --> via_m3_m2
+MET3 --> met3
+VIA3 --> via_m4_m3
+MET4 --> met4
+
+INFO (EXTGRMP-276) : Gds/Oasis Layer Map settings were not specified.
+
+INFO (EXTGRMP-548) : Gds/Oasis Fill layer Map settings were not specified.
+
+INFO (EXTGRMP-550) : Gds/Oasis Active Fill layer Map settings were not specified.
+
+INFO (EXTGRMP-562) : HPB layer settings were not specified.
+
+INFO (EXTGRMP-623) : Background density layer mappings were not specified.
+
+INFO (EXTGRMP-144) : There were no layer bias commands for R values.
+
+INFO (EXTGRMP-147) : Layer bias settings for C values were not specified.
+
+INFO (EXTGRMP-149) : Lefcap area scale settings were not specified.
+
+INFO (EXTGRMP-153) : Lefcap edge scale settings were not specified.
+
+INFO (EXTGRMP-151) : Parameter name settings were not specified.
+
+INFO (EXTGRMP-260) : Layer cluster settings were not specified.
+
+INFO (EXTHPY-232) : Preprocessing stage started at Sun Apr 30 22:41:37 2023.
+
+WARNING (EXTGRMP-414) : No GDSII/OASIS file is specified. Setting graybox type as LEF_OBSTRUCTION.
+
+WARNING (EXTGRMP-330) : LEF layer "NTUB" is not mapped with any tech file layer. Ignoring its definition. 
+An error will be issued if its definition is required.
+
+WARNING (EXTGRMP-605) : Layer "NTUB" will not be extracted and will be ignored. 
+
+
+WARNING (EXTGRMP-330) : LEF layer "BNTUB" is not mapped with any tech file layer. Ignoring its definition. 
+An error will be issued if its definition is required.
+
+WARNING (EXTGRMP-605) : Layer "BNTUB" will not be extracted and will be ignored. 
+
+
+WARNING (EXTGRMP-330) : LEF layer "DIFF" is not mapped with any tech file layer. Ignoring its definition. 
+An error will be issued if its definition is required.
+
+WARNING (EXTGRMP-605) : Layer "DIFF" will not be extracted and will be ignored. 
+
+
+WARNING (EXTGRMP-605) : Layer "POLY1" will not be extracted and will be ignored. 
+
+
+WARNING (EXTGRMP-605) : Layer "POLY2" will not be extracted and will be ignored. 
+
+
+WARNING (EXTGRMP-330) : LEF layer "PAD" is not mapped with any tech file layer. Ignoring its definition. 
+An error will be issued if its definition is required.
+
+WARNING (EXTGRMP-184) : Gray-box mode -type lef_obstruction was selected for extraction, but 16 macro definitions did not include any obstruction data. The first 10 were:
+ ENDCAP FILL1 FILLANT1 FILLANT10 FILLANT2 FILLANT25 FILLANT5 FILLRT1 FILLRT10 FILLRT2
+Check the library inputs and log files from library setup to determine whether there is a problem.
+
+INFO (EXTGRMP-195) : Line 306: reading VIAS section. Expecting 33.
+
+INFO (EXTGRMP-195) : Line 528: reading COMPONENTS section. Expecting 28180.
+
+INFO (EXTGRMP-195) : Line 56891: reading PINS section. Expecting 22.
+
+INFO (EXTGRMP-195) : Line 56938: reading SPECIALNETS section. Expecting 7.
+
+INFO (EXTGRMP-195) : Line 58181: reading NETS section. Expecting 17487.
+
+
+INFO (EXTGRMP-573) : Using layout scale factor specified in the tech
+file(s): 1 
+
+INFO (EXTGRMP-336) : Reading technology data and cell definitions from LEF
+file:
+
+INFO (EXTGRMP-338) : /tmp/tmp_qrc_OZpdKG/tmp.lef
+
+INFO (EXTGRMP-205) : Reading DEF file: /tmp/tmp_qrc_OZpdKG/qrc.def.gz
+
+INFO (EXTGRMP-195) : Line 306: reading VIAS section. Expecting 33.
+
+INFO (EXTGRMP-195) : Line 528: reading COMPONENTS section. Expecting 28180.
+
+INFO (EXTGRMP-195) : Line 56891: reading PINS section. Expecting 22.
+
+INFO (EXTGRMP-195) : Line 56938: reading SPECIALNETS section. Expecting 7.
+
+INFO (EXTGRMP-195) : Line 58181: reading NETS section. Expecting 17487.
+
+INFO (EXTGRMP-248) : METAL FILL data is not available in DEF file.
+
+INFO (EXTGRMP-207) : Reading DEF file completed successfully.
+
+INFO (EXTGRMP-516) : Logical pin(s) is/are detected. Please see
+/tmp/tmp_qrc_OZpdKG/computer.logicalpins for the list of logical pin(s)
+found.
+
+INFO (EXTGRMP-292) : Checking Command/Tech/License Files. 
+
+INFO (EXTGRMP-281) : Manufacturing Data Information :- 
+  DEF/GDS/OASIS/LEF file 
+    does NOT contain MetalFill data. 
+  Techfile  
+    does     contain WEE data.     
+    does NOT contain Erosion data t=f( density ) 
+    does NOT contain R(w) data.    
+    does NOT contain R(w, s) data.  
+    does NOT contain TC(w) data.    
+    does NOT contain T/B enlargement data. 
+    does     contain Floating Metal Fill models. 
+    does NOT contain WBE data. 
+
+INFO (EXTGRMP-613) : Turbo Reduction is now turned on by default.
+
+INFO (EXTGRMP-294) : RCs effects computed for this session include :- 
+ MetalFill        : OFF 
+ WEE Effects      : rc 
+ Erosion Effects  : n/a t=f(density) 
+ T/B Enlargements : n/a 
+ R(w) Effects     : n/a 
+ R(w,s) Effects   : n/a 
+ TC(w) Effects    : n/a 
+Some effects indicate n/a because of non-availability of relevant input
+data (or) requested to be off.
+
+
+INFO (EXTSNZ-133) : 1%
+
+INFO (EXTSNZ-133) : 2%
+
+INFO (EXTSNZ-133) : 3%
+
+INFO (EXTSNZ-133) : 4%
+
+INFO (EXTSNZ-133) : 5%
+
+INFO (EXTSNZ-133) : 6%
+
+INFO (EXTSNZ-133) : 7%
+
+INFO (EXTSNZ-133) : 8%
+
+INFO (EXTSNZ-133) : 9%
+
+INFO (EXTSNZ-133) : 10%
+
+INFO (EXTSNZ-133) : 11%
+
+INFO (EXTSNZ-133) : 12%
+
+INFO (EXTSNZ-133) : 13%
+
+INFO (EXTSNZ-133) : 14%
+
+INFO (EXTSNZ-133) : 15%
+
+INFO (EXTSNZ-133) : 16%
+
+INFO (EXTSNZ-133) : 17%
+
+INFO (EXTSNZ-133) : 18%
+
+INFO (EXTSNZ-133) : 19%
+
+INFO (EXTSNZ-133) : 20%
+
+INFO (EXTSNZ-133) : 21%
+
+INFO (EXTSNZ-133) : 22%
+
+INFO (EXTSNZ-133) : 23%
+
+INFO (EXTSNZ-133) : 24%
+
+INFO (EXTSNZ-133) : 25%
+
+INFO (EXTSNZ-133) : 26%
+
+INFO (EXTSNZ-133) : 27%
+
+INFO (EXTSNZ-133) : 28%
+
+INFO (EXTSNZ-133) : 29%
+
+INFO (EXTSNZ-133) : 30%
+
+INFO (EXTSNZ-133) : 31%
+
+INFO (EXTSNZ-133) : 32%
+
+INFO (EXTSNZ-133) : 33%
+
+INFO (EXTSNZ-133) : 34%
+
+INFO (EXTSNZ-133) : 35%
+
+INFO (EXTSNZ-133) : 36%
+
+INFO (EXTSNZ-133) : 37%
+
+INFO (EXTSNZ-133) : 38%
+
+INFO (EXTSNZ-133) : 39%
+
+INFO (EXTSNZ-133) : 40%
+
+INFO (EXTSNZ-133) : 41%
+
+INFO (EXTSNZ-133) : 42%
+
+INFO (EXTSNZ-133) : 43%
+
+INFO (EXTSNZ-133) : 44%
+
+INFO (EXTSNZ-133) : 45%
+
+INFO (EXTSNZ-133) : 46%
+
+INFO (EXTSNZ-133) : 47%
+
+INFO (EXTSNZ-133) : 48%
+
+INFO (EXTSNZ-133) : 49%
+
+INFO (EXTSNZ-133) : 50%
+
+INFO (EXTSNZ-133) : 51%
+
+INFO (EXTSNZ-133) : 52%
+
+INFO (EXTSNZ-133) : 53%
+
+INFO (EXTSNZ-133) : 54%
+
+INFO (EXTSNZ-133) : 55%
+
+INFO (EXTSNZ-133) : 56%
+
+INFO (EXTSNZ-133) : 57%
+
+INFO (EXTSNZ-133) : 58%
+
+INFO (EXTSNZ-133) : 59%
+
+INFO (EXTSNZ-133) : 60%
+
+INFO (EXTSNZ-133) : 61%
+
+INFO (EXTSNZ-133) : 62%
+
+INFO (EXTSNZ-133) : 63%
+
+INFO (EXTSNZ-133) : 64%
+
+INFO (EXTSNZ-133) : 65%
+
+INFO (EXTSNZ-133) : 66%
+
+INFO (EXTSNZ-133) : 67%
+
+INFO (EXTSNZ-133) : 68%
+
+INFO (EXTSNZ-133) : 69%
+
+INFO (EXTSNZ-133) : 70%
+
+INFO (EXTSNZ-133) : 71%
+
+INFO (EXTSNZ-133) : 72%
+
+INFO (EXTSNZ-133) : 73%
+
+INFO (EXTSNZ-133) : 74%
+
+INFO (EXTSNZ-133) : 75%
+
+INFO (EXTSNZ-133) : 76%
+
+INFO (EXTSNZ-133) : 77%
+
+INFO (EXTSNZ-133) : 78%
+
+INFO (EXTSNZ-133) : 79%
+
+INFO (EXTSNZ-133) : 80%
+
+INFO (EXTSNZ-133) : 81%
+
+INFO (EXTSNZ-133) : 82%
+
+INFO (EXTSNZ-133) : 83%
+
+INFO (EXTSNZ-133) : 84%
+
+INFO (EXTSNZ-133) : 85%
+
+INFO (EXTSNZ-133) : 86%
+
+INFO (EXTSNZ-133) : 87%
+
+INFO (EXTSNZ-133) : 88%
+
+INFO (EXTSNZ-133) : 89%
+
+INFO (EXTSNZ-133) : 90%
+
+INFO (EXTSNZ-133) : 91%
+
+INFO (EXTSNZ-133) : 92%
+
+INFO (EXTSNZ-133) : 93%
+
+INFO (EXTSNZ-133) : 94%
+
+INFO (EXTSNZ-133) : 95%
+
+INFO (EXTSNZ-133) : 96%
+
+INFO (EXTSNZ-133) : 97%
+
+INFO (EXTSNZ-133) : 98%
+
+INFO (EXTSNZ-133) : 99%
+
+
+INFO (EXTGRMP-368) : The extracted temperature is 25, the reference
+temperature is 27 for the
+process ams_rc_corner_wc!
+
+INFO (EXTGRMP-368) : The extracted temperature is 25, the reference
+temperature is 27 for the
+process ams_rc_corner_typ!
+
+INFO (EXTGRMP-368) : The extracted temperature is 25, the reference
+temperature is 27 for the
+process ams_rc_corner_bc!
+
+
+INFO (EXTGRMP-211) : Reading geometric data from DEF file:
+/tmp/tmp_qrc_OZpdKG/qrc.def.gz
+
+INFO (EXTGRMP-213) : Reading geometric data from DEF completed
+successfully.
+
+
+
+
+INFO (EXTHPY-101) : Initializing gray data from all cell instances for
+capacitance extraction.
+
+INFO (EXTHPY-102) : Processing of gray data completed successfully.
+
+INFO (EXTHPY-156) : Gray pins that are touching or overlapping extracted
+nets will be treated
+as gray data during extraction.
+
+
+INFO (EXTHPY-101) : Initializing gray data from all cell instances for
+capacitance extraction.
+
+INFO (EXTHPY-102) : Processing of gray data completed successfully.
+
+INFO (EXTHPY-156) : Gray pins that are touching or overlapping extracted
+nets will be treated
+as gray data during extraction.
+
+
+INFO (EXTHPY-233) : Preprocessing stage completed successfully at Sun Apr 30 22:41:51 2023.
+
+INFO (EXTHPY-247) : Preprocessing stage duration: 00:00:14.
+
+INFO (EXTHPY-173) : Capacitance extraction started at Sun Apr 30 22:41:51 2023.
+
+INFO (EXTHPY-104) :    0%
+
+INFO (EXTHPY-104) :    1%
+
+INFO (EXTHPY-104) :    2%
+
+INFO (EXTHPY-104) :    3%
+
+INFO (EXTHPY-104) :    4%
+
+INFO (EXTHPY-104) :    5%
+
+INFO (EXTHPY-104) :    6%
+
+INFO (EXTHPY-104) :    7%
+
+INFO (EXTHPY-104) :    8%
+
+INFO (EXTHPY-104) :    9%
+
+INFO (EXTHPY-104) :    10%
+
+INFO (EXTHPY-104) :    11%
+
+INFO (EXTHPY-104) :    12%
+
+INFO (EXTHPY-104) :    13%
+
+INFO (EXTHPY-104) :    14%
+
+INFO (EXTHPY-104) :    15%
+
+INFO (EXTHPY-104) :    16%
+
+INFO (EXTHPY-104) :    17%
+
+INFO (EXTHPY-104) :    18%
+
+INFO (EXTHPY-104) :    19%
+
+INFO (EXTHPY-104) :    20%
+
+INFO (EXTHPY-104) :    21%
+
+INFO (EXTHPY-104) :    22%
+
+INFO (EXTHPY-104) :    23%
+
+INFO (EXTHPY-104) :    24%
+
+INFO (EXTHPY-104) :    25%
+
+INFO (EXTHPY-104) :    26%
+
+INFO (EXTHPY-104) :    27%
+
+INFO (EXTHPY-104) :    28%
+
+INFO (EXTHPY-104) :    29%
+
+INFO (EXTHPY-104) :    30%
+
+INFO (EXTHPY-104) :    31%
+
+INFO (EXTHPY-104) :    32%
+
+INFO (EXTHPY-104) :    33%
+
+INFO (EXTHPY-104) :    34%
+
+INFO (EXTHPY-104) :    35%
+
+INFO (EXTHPY-104) :    36%
+
+INFO (EXTHPY-104) :    37%
+
+INFO (EXTHPY-104) :    38%
+
+INFO (EXTHPY-104) :    39%
+
+INFO (EXTHPY-104) :    40%
+
+INFO (EXTHPY-104) :    41%
+
+INFO (EXTHPY-104) :    42%
+
+INFO (EXTHPY-104) :    43%
+
+INFO (EXTHPY-104) :    44%
+
+INFO (EXTHPY-104) :    45%
+
+INFO (EXTHPY-104) :    46%
+
+INFO (EXTHPY-104) :    47%
+
+INFO (EXTHPY-104) :    48%
+
+INFO (EXTHPY-104) :    49%
+
+INFO (EXTHPY-104) :    50%
+
+INFO (EXTHPY-104) :    51%
+
+INFO (EXTHPY-104) :    52%
+
+INFO (EXTHPY-104) :    53%
+
+INFO (EXTHPY-104) :    54%
+
+INFO (EXTHPY-104) :    55%
+
+INFO (EXTHPY-104) :    56%
+
+INFO (EXTHPY-104) :    57%
+
+INFO (EXTHPY-104) :    58%
+
+INFO (EXTHPY-104) :    59%
+
+INFO (EXTHPY-104) :    60%
+
+INFO (EXTHPY-104) :    61%
+
+INFO (EXTHPY-104) :    62%
+
+INFO (EXTHPY-104) :    63%
+
+INFO (EXTHPY-104) :    64%
+
+INFO (EXTHPY-104) :    65%
+
+INFO (EXTHPY-104) :    66%
+
+INFO (EXTHPY-104) :    67%
+
+INFO (EXTHPY-104) :    68%
+
+INFO (EXTHPY-104) :    69%
+
+INFO (EXTHPY-104) :    70%
+
+INFO (EXTHPY-104) :    71%
+
+INFO (EXTHPY-104) :    72%
+
+INFO (EXTHPY-104) :    73%
+
+INFO (EXTHPY-104) :    74%
+
+INFO (EXTHPY-104) :    75%
+
+INFO (EXTHPY-104) :    76%
+
+INFO (EXTHPY-104) :    77%
+
+INFO (EXTHPY-104) :    78%
+
+INFO (EXTHPY-104) :    79%
+
+INFO (EXTHPY-104) :    80%
+
+INFO (EXTHPY-104) :    81%
+
+INFO (EXTHPY-104) :    82%
+
+INFO (EXTHPY-104) :    83%
+
+INFO (EXTHPY-104) :    84%
+
+INFO (EXTHPY-104) :    85%
+
+INFO (EXTHPY-104) :    86%
+
+INFO (EXTHPY-104) :    87%
+
+INFO (EXTHPY-104) :    88%
+
+INFO (EXTHPY-104) :    89%
+
+INFO (EXTHPY-104) :    90%
+
+INFO (EXTHPY-104) :    91%
+
+INFO (EXTHPY-104) :    92%
+
+INFO (EXTHPY-104) :    93%
+
+INFO (EXTHPY-104) :    94%
+
+INFO (EXTHPY-104) :    95%
+
+INFO (EXTHPY-104) :    96%
+
+INFO (EXTHPY-104) :    97%
+
+INFO (EXTHPY-104) :    98%
+
+INFO (EXTHPY-104) :    99%
+
+INFO (EXTHPY-104) :    100%
+
+
+INFO (EXTHPY-103) : Extracting capacitance values.
+
+
+INFO (EXTHPY-174) : Capacitance extraction completed successfully at Sun Apr 30 22:42:56 2023.
+
+INFO (EXTHPY-248) : Capacitance extraction duration: 00:01:05.
+
+INFO (EXTHPY-175) : Output generation started at Sun Apr 30 22:42:56 2023.
+
+INFO (EXTSNZ-156) :    0%
+
+INFO (EXTSNZ-156) :    10%
+
+INFO (EXTSNZ-156) :    20%
+
+INFO (EXTSNZ-156) :    30%
+
+INFO (EXTSNZ-156) :    40%
+
+INFO (EXTSNZ-156) :    50%
+
+INFO (EXTSNZ-156) :    60%
+
+INFO (EXTSNZ-156) :    70%
+
+INFO (EXTSNZ-156) :    80%
+
+INFO (EXTSNZ-156) :    90%
+
+
+INFO (EXTGRMP-103) : Output Driver started at: Sun Apr 30 22:42:57 2023
+
+INFO (EXTGRMP-103) : Output Driver ended at: Sun Apr 30 22:43:00 2023
+
+
+
+INFO (EXTHPY-176) : Output generation completed successfully at Sun Apr 30 22:43:05 2023.
+
+INFO (EXTHPY-249) : Output generation duration: 00:00:09.
+
+INFO (EXTHPY-143) : ---Summary of Stage Duration
+ Preprocessing stage duration: 00:00:14.
+ Capacitance extraction duration: 00:01:05.
+ Output generation duration: 00:00:09.
+
+Ending at 2023-Apr-30 22:43:06 (2023-Apr-30 21:43:06 GMT).
+
+ Tool:                    Cadence Quantus QRC Extraction 64-bit
+ Version:                 18.1.2-s132 Thu May 10 00:43:37 PDT 2018
+ IR Build No:             132 
+ Techfile:                
+    ams_rc_corner_wc
+/tmp/tmp_qrc_OZpdKG/_qrc_techdir/ams_rc_corner_wc/qrcTechFile ; version:
+12.1.0-s488
+    ams_rc_corner_typ
+/tmp/tmp_qrc_OZpdKG/_qrc_techdir/ams_rc_corner_typ/qrcTechFile ; version:
+12.1.0-s488
+    ams_rc_corner_bc
+/tmp/tmp_qrc_OZpdKG/_qrc_techdir/ams_rc_corner_bc/qrcTechFile ; version:
+12.1.0-s488 
+ License(s) used:         1 of Virtuoso_QRC_Extraction_XL, 1 of
+QRC_Advanced_Analysis 
+ User Name:               yz17g22
+ Host Name:               srv02749
+ Host OS Release:         Linux 3.10.0-1160.88.1.el7.x86_64
+ Host OS Version:         #1 SMP Sat Feb 18 13:27:00 UTC 2023
+ Run duration:            00:01:06 CPU time, 00:01:29 clock time
+ Max (Total) memory used: 481 MB
+ Max (CPU) memory used:   438 MB
+ Max Temp-Directory used: 114 MB
+ Nets/hour:               953K nets/CPU-hr, 707K nets/clock-hr
+ Design data:
+    Components:           28180
+    Phy components:       13853
+    Nets:                 17487
+    Unconnected pins:     0
+ Warning messages:        24
+ Error messages:          0
+
+Exit code 0.
+Cadence Quantus QRC Extraction completed successfully at 2023-Apr-30
+22:43:06 (2023-Apr-30 21:43:06 GMT).

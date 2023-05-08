@@ -1,0 +1,8 @@
+vuiLVSdebugRunInfo = list( nil
+   'layoutLibrary "computer_post_process"
+   'layoutCell "computer"
+   'layoutView "layout"
+   'schematicLibrary "computer_post_process"
+   'schematicCell "computer"
+   'schematicView "schematic"
+)

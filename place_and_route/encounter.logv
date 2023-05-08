@@ -1,0 +1,858 @@
+[04/30 22:20:29     0s] Checking out Encounter license ...
+[04/30 22:20:29     0s] 	edsxl		DENIED:		"Encounter_Digital_Impl_Sys_XL"
+[04/30 22:20:29     0s] 	edsl		DENIED:		"Encounter_Digital_Impl_Sys_L"
+[04/30 22:20:29     0s] 	encblk		DENIED:		"Encounter_Block"
+[04/30 22:20:29     0s] 	fegxl		DENIED:		"First_Encounter_GXL"
+[04/30 22:20:29     0s] 	fexl		DENIED:		"FE_GPS"
+[04/30 22:20:30     0s] 	nru		DENIED:		"NanoRoute_Ultra"
+[04/30 22:20:30     0s] 	vdixl		DENIED:		"Virtuoso_Digital_Implem_XL"
+[04/30 22:20:30     0s] 	vdi		DENIED:		"Virtuoso_Digital_Implem"
+[04/30 22:20:30     0s] 	fel		DENIED:		"First_Encounter_VIP"
+[04/30 22:20:30     0s] 	invsb		DENIED:		"Innovus_Impl_System_Basic"
+[04/30 22:20:30     0s] 	invs		CHECKED OUT:	"Innovus_Impl_System"
+[04/30 22:20:30     0s] Innovus_Impl_System 15.1 license checkout succeeded.
+[04/30 22:20:30     0s] You can run 8 CPU jobs with the base license that is currently checked out.
+[04/30 22:20:30     0s] If required, use the setMultiCpuUsage command to enable multi-CPU processing.
+[04/30 22:20:35     4s] *******************************************************************
+*   Copyright (c)  Cadence Design Systems, Inc.  1996 - 2014.     *
+*                     All rights reserved.                        *
+*                                                                 *
+*                                                                 *
+*                                                                 *
+* This program contains confidential and trade secret information *
+* of Cadence Design Systems, Inc. and is protected by copyright   *
+* law and international treaties.  Any reproduction, use,         *
+* distribution or disclosure of this program or any portion of it,*
+* or any attempt to obtain a human-readable version of this       *
+* program, without the express, prior written consent of          *
+* Cadence Design Systems, Inc., is strictly prohibited.           *
+*                                                                 *
+*                 Cadence Design Systems, Inc.                    *
+*                    2655 Seely Avenue                            *
+*                   San Jose, CA 95134,  USA                      *
+*                                                                 *
+*                                                                 *
+*******************************************************************
+
+[04/30 22:20:35     4s] @(#)CDS: Encounter v14.26-s039_1 (64bit) 07/15/2015 11:34 (Linux 2.6.18-194.el5)
+[04/30 22:20:35     4s] @(#)CDS: NanoRoute v14.26-s022 NR150713-1956/14_26-UB (database version 2.30, 267.6.1) {superthreading v1.25}
+[04/30 22:20:35     4s] @(#)CDS: CeltIC v14.26-s013_1 (64bit) 07/14/2015 03:32:40 (Linux 2.6.18-194.el5)
+[04/30 22:20:35     4s] @(#)CDS: AAE 14.26-s007 (64bit) 07/15/2015 (Linux 2.6.18-194.el5)
+[04/30 22:20:35     4s] @(#)CDS: CTE 14.26-s010_1 (64bit) Jul 15 2015 01:38:12 (Linux 2.6.18-194.el5)
+[04/30 22:20:35     4s] @(#)CDS: CPE v14.26-s026
+[04/30 22:20:35     4s] @(#)CDS: IQRC/TQRC 14.2.2-s217 (64bit) Wed Apr 15 23:10:24 PDT 2015 (Linux 2.6.18-194.el5)
+[04/30 22:20:35     4s] @(#)CDS: OA 22.50-p011 Tue Nov 11 03:24:55 2014
+[04/30 22:20:35     4s] @(#)CDS: SGN 10.10-p124 (19-Aug-2014) (64 bit executable)
+[04/30 22:20:35     4s] @(#)CDS: RCDB 11.5
+[04/30 22:20:35     4s] --- Starting "Encounter v14.26-s039_1" on Sun Apr 30 22:20:35 2023 (mem=94.3M) ---
+[04/30 22:20:35     4s] --- Running on srv02749 (x86_64 w/Linux 3.10.0-1160.88.1.el7.x86_64) ---
+[04/30 22:20:35     4s] This version was compiled on Wed Jul 15 11:34:51 PDT 2015.
+[04/30 22:20:35     4s] Set DBUPerIGU to 1000.
+[04/30 22:20:35     4s] Set net toggle Scale Factor to 1.00
+[04/30 22:20:35     4s] Set Shrink Factor to 1.00000
+[04/30 22:20:36     5s] Sourcing /eda/cadence/edi/etc/fe/enc.tcl
+[04/30 22:20:36     5s] Sourcing tcl/tk file "/eda/cadence/edi/etc/fe/enc.tcl" ...
+[04/30 22:20:36     5s] Sourcing ./enc.tcl
+[04/30 22:20:36     5s] Sourcing tcl/tk file "./enc.tcl" ...
+[04/30 22:20:36     5s] <CMD> setCheckMode -tapeOut true
+[04/30 22:20:36     5s] <CMD> set defHierChar /
+[04/30 22:20:36     5s] <CMD> set init_oa_ref_lib {TECH_C35B4  CORELIB  IOLIB_4M  }
+[04/30 22:20:36     5s] <CMD> set init_verilog VERILOG/computer.v
+[04/30 22:20:36     5s] <CMD> set init_top_cell computer
+[04/30 22:20:36     5s] <CMD> set init_pwr_net {vdd!  vdd3r1! vdd3r2! vdd3o!  }
+[04/30 22:20:36     5s] <CMD> set init_gnd_net {gnd!  gnd3r! gnd3o!  }
+[04/30 22:20:36     5s] <CMD> set init_mmmc_file c35_computer_mmmc.view
+[04/30 22:20:36     5s] <CMD> set conf_gen_footprint 1
+[04/30 22:20:36     5s] <CMD> set fp_core_to_left 50.000000
+[04/30 22:20:36     5s] <CMD> set fp_core_to_right 50.000000
+[04/30 22:20:36     5s] <CMD> set fp_core_to_top 50.000000
+[04/30 22:20:36     5s] <CMD> set fp_core_to_bottom 50.000000
+[04/30 22:20:36     5s] <CMD> set lsgOCPGainMult 1.000000
+[04/30 22:20:36     5s] <CMD> set conf_ioOri R0
+[04/30 22:20:36     5s] <CMD> set fp_core_util 0.850
+[04/30 22:20:36     5s] <CMD> set init_assign_buffer 0
+[04/30 22:20:36     5s] <CMD> set conf_in_tran_delay 0.1ps
+[04/30 22:20:36     5s] <CMD> set init_import_mode { -keepEmptyModule 1 -treatUndefinedCellAsBbox 0}
+[04/30 22:20:36     5s] <CMD> set init_layout_view layout
+[04/30 22:20:36     5s] <CMD> set init_abstract_view abstract
+[04/30 22:20:36     5s] <CMD_INTERNAL> print {---# TCL Script amsSetup.tcl loaded}
+[04/30 22:20:36     5s] ---# TCL Script amsSetup.tcl loaded
+[04/30 22:20:36     5s] <CMD_INTERNAL> print {---# Additional ams TCL Procedures loaded}
+[04/30 22:20:36     5s] ---# Additional ams TCL Procedures loaded
+[04/30 22:20:36     5s] <CMD> getVersion
+[04/30 22:20:36     5s] <CMD> getVersion
+[04/30 22:20:36     5s] <CMD_INTERNAL> print {### austriamicrosystems HitKit-Utilities Menu added}
+[04/30 22:20:36     5s] ### austriamicrosystems HitKit-Utilities Menu added
+[04/30 22:20:36     5s] 
+[04/30 22:20:36     5s] **INFO:  MMMC transition support version v31-84 
+[04/30 22:20:36     5s] 
+[04/30 22:20:36     5s] <CMD> set_global _enable_mmmc_by_default_flow      $CTE::mmmc_default
+[04/30 22:20:36     5s] <CMD> suppressMessage ENCEXT-2799
+[04/30 22:20:36     5s] <CMD> win
+[04/30 22:21:03    10s] <CMD> init_design
+[04/30 22:21:03    10s] ---# Setup MMMC
+---#
+[04/30 22:21:03    10s] ---#   rc_corner        : ams_rc_corner_typ
+[04/30 22:21:03    10s] ---#   rc_corner        : ams_rc_corner_wc
+[04/30 22:21:03    10s] ---#   rc_corner        : ams_rc_corner_bc
+[04/30 22:21:03    10s] ---#   lib-sets         : libs_min, libs_max, libs_typ
+[04/30 22:21:03    10s] ---#   constraint-modes : func test
+[04/30 22:21:03    10s] ---#   delay-corners    : corner_min, corner_max, corner_typ
+[04/30 22:21:03    10s] ---#   analysis-views   : 
+[04/30 22:21:03    10s] ---#          #  Name: func_min  # Constraint-Mode: func # Corner: corner_min
+[04/30 22:21:03    10s] ---#          #  Name: func_max  # Constraint-Mode: func # Corner: corner_max
+[04/30 22:21:03    10s] ---#          #  Name: func_typ  # Constraint-Mode: func # Corner: corner_typ
+[04/30 22:21:03    10s] ---#          #  Name: test_min  # Constraint-Mode: test # Corner: corner_min
+[04/30 22:21:03    10s] ---#          #  Name: test_max  # Constraint-Mode: test # Corner: corner_max
+[04/30 22:21:03    10s] ---#          #  Name: test_typ  # Constraint-Mode: test # Corner: corner_typ
+[04/30 22:21:03    10s] ---#
+---# use following command to show analysis view definitions
+         report_analysis_view 
+
+[04/30 22:21:03    10s] Reading tech data from OA library 'TECH_C35B4' ...
+[04/30 22:21:03    10s] FE units: 0.001 microns/dbu, OA units: 0.001 microns/dbu, Conversion factor: 1
+[04/30 22:21:04    10s] Set DBUPerIGU to M2 pitch 1400.
+[04/30 22:21:04    10s] Base constraint group name for reading all the rules is: 'LEFDefaultRouteSpec' and it has been read from the library 'TECH_C35B4'. 
+[04/30 22:21:04    10s] Reading OA reference library 'CORELIB' ...
+[04/30 22:21:05    10s] **WARN: (ENCOAX-738):	Non-Default Rule 'VSRDefaultSetup' has already been defined in Encounter. Its contents will be skipped.
+[04/30 22:21:05    10s] **WARN: (ENCOAX-741):	Site 'standard' has already been defined in Encounter, the contents will be skipped.
+[04/30 22:21:05    10s] **WARN: (ENCOAX-741):	Site 'standard_3b' has already been defined in Encounter, the contents will be skipped.
+[04/30 22:21:05    10s] **WARN: (ENCOAX-741):	Site 'standardv5_3b' has already been defined in Encounter, the contents will be skipped.
+[04/30 22:21:05    10s] **WARN: (ENCOAX-741):	Site 'standard_v5_3b' has already been defined in Encounter, the contents will be skipped.
+[04/30 22:21:05    10s] **WARN: (ENCOAX-741):	Site 'standard_v5' has already been defined in Encounter, the contents will be skipped.
+[04/30 22:21:05    10s] **WARN: (ENCOAX-741):	Site 'corelibD' has already been defined in Encounter, the contents will be skipped.
+[04/30 22:21:05    10s] **WARN: (ENCOAX-741):	Site 'corelibD_3b' has already been defined in Encounter, the contents will be skipped.
+[04/30 22:21:05    10s] **WARN: (ENCOAX-741):	Site 'portCellSite' has already been defined in Encounter, the contents will be skipped.
+[04/30 22:21:05    10s] **WARN: (ENCOAX-741):	Site 'blockSite' has already been defined in Encounter, the contents will be skipped.
+[04/30 22:21:05    10s] **WARN: (ENCOAX-741):	Site 'ioSite_P' has already been defined in Encounter, the contents will be skipped.
+[04/30 22:21:05    10s] **WARN: (ENCOAX-741):	Site 'corner_P' has already been defined in Encounter, the contents will be skipped.
+[04/30 22:21:05    10s] **WARN: (ENCOAX-741):	Site 'ioSite_P_3B' has already been defined in Encounter, the contents will be skipped.
+[04/30 22:21:05    10s] **WARN: (ENCOAX-741):	Site 'corner_P_3B' has already been defined in Encounter, the contents will be skipped.
+[04/30 22:21:05    10s] **WARN: (ENCOAX-741):	Site 'ioSite_C_3B' has already been defined in Encounter, the contents will be skipped.
+[04/30 22:21:05    10s] **WARN: (ENCOAX-741):	Site 'corner_C_3B' has already been defined in Encounter, the contents will be skipped.
+[04/30 22:21:05    10s] **WARN: (ENCOAX-741):	Site 'ioSiteV5_C_3B' has already been defined in Encounter, the contents will be skipped.
+[04/30 22:21:05    10s] **WARN: (ENCOAX-741):	Site 'cornerV5_C_3B' has already been defined in Encounter, the contents will be skipped.
+[04/30 22:21:06    10s] Reading OA reference library 'IOLIB_4M' ...
+[04/30 22:21:07    11s] 
+[04/30 22:21:07    11s] viaInitial starts at Sun Apr 30 22:21:07 2023
+viaInitial ends at Sun Apr 30 22:21:07 2023
+*** Begin netlist parsing (mem=422.4M) ***
+[04/30 22:21:07    11s] Reading netlist ...
+[04/30 22:21:07    11s] Backslashed names will retain backslash and a trailing blank character.
+[04/30 22:21:07    11s] Reading verilog netlist 'VERILOG/computer.v'
+[04/30 22:21:07    11s] 
+[04/30 22:21:07    11s] *** Memory Usage v#1 (Current mem = 422.406M, initial mem = 94.332M) ***
+[04/30 22:21:07    11s] *** End netlist parsing (cpu=0:00:00.1, real=0:00:00.0, mem=422.4M) ***
+[04/30 22:21:07    11s] Set top cell to computer.
+[04/30 22:21:07    11s] Loading view definition file from c35_computer_mmmc.view
+[04/30 22:21:07    11s] Reading libs_max timing library '/srv/cad/designkits/ams/v410/liberty/c35_3.3V/c35_CORELIB_WC.lib' ...
+[04/30 22:21:07    11s] **WARN: (TECHLIB-436):	Attribute 'max_fanout' on 'output/inout' pin 'CO' of cell 'ADD21' is not defined in the library.
+[04/30 22:21:07    11s] **WARN: (TECHLIB-436):	Attribute 'max_fanout' on 'output/inout' pin 'S' of cell 'ADD21' is not defined in the library.
+[04/30 22:21:07    11s] **WARN: (TECHLIB-436):	Attribute 'max_fanout' on 'output/inout' pin 'CO' of cell 'ADD22' is not defined in the library.
+[04/30 22:21:07    11s] **WARN: (TECHLIB-436):	Attribute 'max_fanout' on 'output/inout' pin 'S' of cell 'ADD22' is not defined in the library.
+[04/30 22:21:07    11s] **WARN: (TECHLIB-436):	Attribute 'max_fanout' on 'output/inout' pin 'CO' of cell 'ADD31' is not defined in the library.
+[04/30 22:21:07    11s] **WARN: (TECHLIB-436):	Attribute 'max_fanout' on 'output/inout' pin 'S' of cell 'ADD31' is not defined in the library.
+[04/30 22:21:07    11s] **WARN: (TECHLIB-436):	Attribute 'max_fanout' on 'output/inout' pin 'CO' of cell 'ADD32' is not defined in the library.
+[04/30 22:21:07    11s] **WARN: (TECHLIB-436):	Attribute 'max_fanout' on 'output/inout' pin 'S' of cell 'ADD32' is not defined in the library.
+[04/30 22:21:07    11s] **WARN: (TECHLIB-436):	Attribute 'max_fanout' on 'output/inout' pin 'Q' of cell 'AOI210' is not defined in the library.
+[04/30 22:21:07    11s] **WARN: (TECHLIB-436):	Attribute 'max_fanout' on 'output/inout' pin 'Q' of cell 'AOI211' is not defined in the library.
+[04/30 22:21:07    11s] **WARN: (TECHLIB-436):	Attribute 'max_fanout' on 'output/inout' pin 'Q' of cell 'AOI2110' is not defined in the library.
+[04/30 22:21:07    11s] **WARN: (TECHLIB-436):	Attribute 'max_fanout' on 'output/inout' pin 'Q' of cell 'AOI2111' is not defined in the library.
+[04/30 22:21:07    11s] **WARN: (TECHLIB-436):	Attribute 'max_fanout' on 'output/inout' pin 'Q' of cell 'AOI2112' is not defined in the library.
+[04/30 22:21:07    11s] **WARN: (TECHLIB-436):	Attribute 'max_fanout' on 'output/inout' pin 'Q' of cell 'AOI212' is not defined in the library.
+[04/30 22:21:07    11s] **WARN: (TECHLIB-436):	Attribute 'max_fanout' on 'output/inout' pin 'Q' of cell 'AOI220' is not defined in the library.
+[04/30 22:21:07    11s] **WARN: (TECHLIB-436):	Attribute 'max_fanout' on 'output/inout' pin 'Q' of cell 'AOI221' is not defined in the library.
+[04/30 22:21:07    11s] **WARN: (TECHLIB-436):	Attribute 'max_fanout' on 'output/inout' pin 'Q' of cell 'AOI222' is not defined in the library.
+[04/30 22:21:07    11s] **WARN: (TECHLIB-436):	Attribute 'max_fanout' on 'output/inout' pin 'Q' of cell 'AOI310' is not defined in the library.
+[04/30 22:21:07    11s] **WARN: (TECHLIB-436):	Attribute 'max_fanout' on 'output/inout' pin 'Q' of cell 'AOI311' is not defined in the library.
+[04/30 22:21:07    11s] **WARN: (TECHLIB-436):	Attribute 'max_fanout' on 'output/inout' pin 'Q' of cell 'AOI312' is not defined in the library.
+[04/30 22:21:07    11s] Message <TECHLIB-436> has exceeded the message display limit of '20'. setMessageLimit/set_message_limit sets the limit. unsetMessageLimit/unset_message_limit can be used to reset this.
+[04/30 22:21:08    12s] Read 248 cells in library 'c35_CORELIB_WC' 
+[04/30 22:21:08    12s] Reading libs_max timing library '/srv/cad/designkits/ams/v410/liberty/c35_3.3V/c35_IOLIB_WC.lib' ...
+[04/30 22:21:08    12s] Read 181 cells in library 'c35_IOLIB_WC' 
+[04/30 22:21:08    12s] Reading libs_min timing library '/srv/cad/designkits/ams/v410/liberty/c35_3.3V/c35_CORELIB_BC.lib' ...
+[04/30 22:21:08    12s] Read 248 cells in library 'c35_CORELIB_BC' 
+[04/30 22:21:08    12s] Reading libs_min timing library '/srv/cad/designkits/ams/v410/liberty/c35_3.3V/c35_IOLIB_BC.lib' ...
+[04/30 22:21:08    12s] Read 181 cells in library 'c35_IOLIB_BC' 
+[04/30 22:21:08    12s] *** End library_loading (cpu=0.00min, mem=0.0M, fe_cpu=0.21min, fe_real=0.65min, fe_mem=423.9M) ***
+[04/30 22:21:08    12s] Starting recursive module instantiation check.
+[04/30 22:21:08    12s] No recursion found.
+[04/30 22:21:08    12s] Building hierarchical netlist for Cell computer ...
+[04/30 22:21:08    12s] *** Netlist is unique.
+[04/30 22:21:08    12s] ** info: there are 888 modules.
+[04/30 22:21:08    12s] ** info: there are 13790 stdCell insts.
+[04/30 22:21:08    12s] ** info: there are 22 Pad insts.
+[04/30 22:21:08    12s] 
+[04/30 22:21:08    12s] *** Memory Usage v#1 (Current mem = 436.152M, initial mem = 94.332M) ***
+[04/30 22:21:08    12s] *info: set bottom ioPad orient R0
+[04/30 22:21:08    12s] Initializing I/O assignment ...
+[04/30 22:21:08    12s] Adjusting Core to Left to: 50.2000. Core to Bottom to: 50.9000.
+[04/30 22:21:08    12s] **WARN: (ENCFP-3961):	The techSite 'CoreSite' has no related cells in LEF library. Cannot make calculations for this site type unless cell models of this type exist in the LEF library. If the SITE is not used by the library you can ignore this warning or remove the SITE definition from the LEF to avoid this message.
+[04/30 22:21:08    12s] Type 'man ENCFP-3961' for more detail.
+[04/30 22:21:08    12s] **WARN: (ENCFP-3961):	The techSite 'cornerV5_C_3B' has no related cells in LEF library. Cannot make calculations for this site type unless cell models of this type exist in the LEF library. If the SITE is not used by the library you can ignore this warning or remove the SITE definition from the LEF to avoid this message.
+[04/30 22:21:08    12s] Type 'man ENCFP-3961' for more detail.
+[04/30 22:21:08    12s] **WARN: (ENCFP-3961):	The techSite 'ioSiteV5_C_3B' has no related cells in LEF library. Cannot make calculations for this site type unless cell models of this type exist in the LEF library. If the SITE is not used by the library you can ignore this warning or remove the SITE definition from the LEF to avoid this message.
+[04/30 22:21:08    12s] Type 'man ENCFP-3961' for more detail.
+[04/30 22:21:08    12s] **WARN: (ENCFP-3961):	The techSite 'corner_C_3B' has no related cells in LEF library. Cannot make calculations for this site type unless cell models of this type exist in the LEF library. If the SITE is not used by the library you can ignore this warning or remove the SITE definition from the LEF to avoid this message.
+[04/30 22:21:08    12s] Type 'man ENCFP-3961' for more detail.
+[04/30 22:21:08    12s] **WARN: (ENCFP-3961):	The techSite 'ioSite_C_3B' has no related cells in LEF library. Cannot make calculations for this site type unless cell models of this type exist in the LEF library. If the SITE is not used by the library you can ignore this warning or remove the SITE definition from the LEF to avoid this message.
+[04/30 22:21:08    12s] Type 'man ENCFP-3961' for more detail.
+[04/30 22:21:08    12s] **WARN: (ENCFP-3961):	The techSite 'corner_P_3B' has no related cells in LEF library. Cannot make calculations for this site type unless cell models of this type exist in the LEF library. If the SITE is not used by the library you can ignore this warning or remove the SITE definition from the LEF to avoid this message.
+[04/30 22:21:08    12s] Type 'man ENCFP-3961' for more detail.
+[04/30 22:21:08    12s] **WARN: (ENCFP-3961):	The techSite 'ioSite_P_3B' has no related cells in LEF library. Cannot make calculations for this site type unless cell models of this type exist in the LEF library. If the SITE is not used by the library you can ignore this warning or remove the SITE definition from the LEF to avoid this message.
+[04/30 22:21:08    12s] Type 'man ENCFP-3961' for more detail.
+[04/30 22:21:08    12s] **WARN: (ENCFP-3961):	The techSite 'corner_P' has no related cells in LEF library. Cannot make calculations for this site type unless cell models of this type exist in the LEF library. If the SITE is not used by the library you can ignore this warning or remove the SITE definition from the LEF to avoid this message.
+[04/30 22:21:08    12s] Type 'man ENCFP-3961' for more detail.
+[04/30 22:21:08    12s] **WARN: (ENCFP-3961):	The techSite 'ioSite_P' has no related cells in LEF library. Cannot make calculations for this site type unless cell models of this type exist in the LEF library. If the SITE is not used by the library you can ignore this warning or remove the SITE definition from the LEF to avoid this message.
+[04/30 22:21:08    12s] Type 'man ENCFP-3961' for more detail.
+[04/30 22:21:08    12s] **WARN: (ENCFP-3961):	The techSite 'blockSite' has no related cells in LEF library. Cannot make calculations for this site type unless cell models of this type exist in the LEF library. If the SITE is not used by the library you can ignore this warning or remove the SITE definition from the LEF to avoid this message.
+[04/30 22:21:08    12s] Type 'man ENCFP-3961' for more detail.
+[04/30 22:21:08    12s] **WARN: (ENCFP-3961):	The techSite 'portCellSite' has no related cells in LEF library. Cannot make calculations for this site type unless cell models of this type exist in the LEF library. If the SITE is not used by the library you can ignore this warning or remove the SITE definition from the LEF to avoid this message.
+[04/30 22:21:08    12s] Type 'man ENCFP-3961' for more detail.
+[04/30 22:21:08    12s] **WARN: (ENCFP-3961):	The techSite 'corelibD_3b' has no related cells in LEF library. Cannot make calculations for this site type unless cell models of this type exist in the LEF library. If the SITE is not used by the library you can ignore this warning or remove the SITE definition from the LEF to avoid this message.
+[04/30 22:21:08    12s] Type 'man ENCFP-3961' for more detail.
+[04/30 22:21:08    12s] **WARN: (ENCFP-3961):	The techSite 'corelibD' has no related cells in LEF library. Cannot make calculations for this site type unless cell models of this type exist in the LEF library. If the SITE is not used by the library you can ignore this warning or remove the SITE definition from the LEF to avoid this message.
+[04/30 22:21:08    12s] Type 'man ENCFP-3961' for more detail.
+[04/30 22:21:08    12s] **WARN: (ENCFP-3961):	The techSite 'standard_v5' has no related cells in LEF library. Cannot make calculations for this site type unless cell models of this type exist in the LEF library. If the SITE is not used by the library you can ignore this warning or remove the SITE definition from the LEF to avoid this message.
+[04/30 22:21:08    12s] Type 'man ENCFP-3961' for more detail.
+[04/30 22:21:08    12s] **WARN: (ENCFP-3961):	The techSite 'standard_v5_3b' has no related cells in LEF library. Cannot make calculations for this site type unless cell models of this type exist in the LEF library. If the SITE is not used by the library you can ignore this warning or remove the SITE definition from the LEF to avoid this message.
+[04/30 22:21:08    12s] Type 'man ENCFP-3961' for more detail.
+[04/30 22:21:08    12s] **WARN: (ENCFP-3961):	The techSite 'standardv5_3b' has no related cells in LEF library. Cannot make calculations for this site type unless cell models of this type exist in the LEF library. If the SITE is not used by the library you can ignore this warning or remove the SITE definition from the LEF to avoid this message.
+[04/30 22:21:08    12s] Type 'man ENCFP-3961' for more detail.
+[04/30 22:21:08    12s] **WARN: (ENCFP-3961):	The techSite 'standard_3b' has no related cells in LEF library. Cannot make calculations for this site type unless cell models of this type exist in the LEF library. If the SITE is not used by the library you can ignore this warning or remove the SITE definition from the LEF to avoid this message.
+[04/30 22:21:08    12s] Type 'man ENCFP-3961' for more detail.
+[04/30 22:21:09    12s] Set Default Net Delay as 1000 ps.
+[04/30 22:21:09    12s] Set Default Net Load as 0.5 pF. 
+[04/30 22:21:09    12s] Set Input Pin Transition Delay as 0.1 ps.
+[04/30 22:21:09    13s] Initializing multi-corner RC extraction with 2 active RC Corners ...
+[04/30 22:21:09    13s] **WARN: (ENCEXT-6202):	In addition to the technology file, capacitance table file is specified for all RC corners. If the technology file for all RC corners is already specified, the capacitance table file is not required for preRoute and postRoute extraction. In a new session, the capacitance table files can be removed from the create_rc_corner command. In this case, the technology file will be used for preRoute extraction and effort level medium/high/signoff of postRoute extraction.
+[04/30 22:21:09    13s] Type 'man ENCEXT-6202' for more detail.
+[04/30 22:21:09    13s] Reading Capacitance Table File /opt/cad/designkits/ams/v410/cds/HK_C35/LEF/encounter/c35b4-worst.capTable ...
+[04/30 22:21:09    13s] Cap table was created using Encounter 09.12-s159_1.
+[04/30 22:21:09    13s] Process name: c35b4-worst.
+[04/30 22:21:09    13s] Allocated an empty WireEdgeEnlargement table in ams_rc_corner_wc [1].
+[04/30 22:21:09    13s] Allocated an empty WireEdgeEnlargement table in ams_rc_corner_wc [1].
+[04/30 22:21:09    13s] Allocated an empty WireEdgeEnlargement table in ams_rc_corner_wc [2].
+[04/30 22:21:09    13s] Allocated an empty WireEdgeEnlargement table in ams_rc_corner_wc [3].
+[04/30 22:21:09    13s] Allocated an empty WireEdgeEnlargement table in ams_rc_corner_wc [4].
+[04/30 22:21:09    13s] Allocated an empty WireEdgeEnlargement table in ams_rc_corner_wc [4].
+[04/30 22:21:09    13s] Reading Capacitance Table File /opt/cad/designkits/ams/v410/cds/HK_C35/LEF/encounter/c35b4-best.capTable ...
+[04/30 22:21:09    13s] Cap table was created using Encounter 09.12-s159_1.
+[04/30 22:21:09    13s] Process name: c35b4-best.
+[04/30 22:21:09    13s] **WARN: (ENCEXT-2773):	The via resistance between layers M0 and M1 could not be determined from the LEF technology file because the via resistance specification is missing. A default of 4 Ohms will be used as via resistance between these layers.
+[04/30 22:21:09    13s] Type 'man ENCEXT-2773' for more detail.
+[04/30 22:21:09    13s] Allocated an empty WireEdgeEnlargement table in ams_rc_corner_bc [1].
+[04/30 22:21:09    13s] Allocated an empty WireEdgeEnlargement table in ams_rc_corner_bc [1].
+[04/30 22:21:09    13s] Allocated an empty WireEdgeEnlargement table in ams_rc_corner_bc [2].
+[04/30 22:21:09    13s] Allocated an empty WireEdgeEnlargement table in ams_rc_corner_bc [3].
+[04/30 22:21:09    13s] Allocated an empty WireEdgeEnlargement table in ams_rc_corner_bc [4].
+[04/30 22:21:09    13s] Allocated an empty WireEdgeEnlargement table in ams_rc_corner_bc [4].
+[04/30 22:21:09    13s] Importing multi-corner RC tables ... 
+[04/30 22:21:09    13s] Summary of Active RC-Corners : 
+[04/30 22:21:09    13s]  
+[04/30 22:21:09    13s]  Analysis View: func_max
+[04/30 22:21:09    13s]     RC-Corner Name        : ams_rc_corner_wc
+[04/30 22:21:09    13s]     RC-Corner Index       : 0
+[04/30 22:21:09    13s]     RC-Corner Temperature : 25 Celsius
+[04/30 22:21:09    13s]     RC-Corner Cap Table   : '/opt/cad/designkits/ams/v410/cds/HK_C35/LEF/encounter/c35b4-worst.capTable'
+[04/30 22:21:09    13s]     RC-Corner PreRoute Res Factor         : 1
+[04/30 22:21:09    13s]     RC-Corner PreRoute Cap Factor         : 1
+[04/30 22:21:09    13s]     RC-Corner PostRoute Res Factor        : 1
+[04/30 22:21:09    13s]     RC-Corner PostRoute Cap Factor        : 1
+[04/30 22:21:09    13s]     RC-Corner PostRoute XCap Factor       : 1
+[04/30 22:21:09    13s]     RC-Corner PreRoute Clock Res Factor   : 1	[Derived from postRoute_res (effortLevel low)]
+[04/30 22:21:09    13s]     RC-Corner PreRoute Clock Cap Factor   : 1	[Derived from postRoute_cap (effortLevel low)]
+[04/30 22:21:09    13s]     RC-Corner PostRoute Clock Cap Factor  : 1   	[Derived from postRoute_cap (effortLevel low)]
+[04/30 22:21:09    13s]     RC-Corner PostRoute Clock Res Factor  : 1   	[Derived from postRoute_res (effortLevel low)]
+[04/30 22:21:09    13s]     RC-Corner Technology file: '/opt/cad/designkits/ams/v410/assura/c35b4/c35b4thinall/RCX-worst/qrcTechFile'
+[04/30 22:21:09    13s]  
+[04/30 22:21:09    13s]  Analysis View: test_max
+[04/30 22:21:09    13s]     RC-Corner Name        : ams_rc_corner_wc
+[04/30 22:21:09    13s]     RC-Corner Index       : 0
+[04/30 22:21:09    13s]     RC-Corner Temperature : 25 Celsius
+[04/30 22:21:09    13s]     RC-Corner Cap Table   : '/opt/cad/designkits/ams/v410/cds/HK_C35/LEF/encounter/c35b4-worst.capTable'
+[04/30 22:21:09    13s]     RC-Corner PreRoute Res Factor         : 1
+[04/30 22:21:09    13s]     RC-Corner PreRoute Cap Factor         : 1
+[04/30 22:21:09    13s]     RC-Corner PostRoute Res Factor        : 1
+[04/30 22:21:09    13s]     RC-Corner PostRoute Cap Factor        : 1
+[04/30 22:21:09    13s]     RC-Corner PostRoute XCap Factor       : 1
+[04/30 22:21:09    13s]     RC-Corner PreRoute Clock Res Factor   : 1	[Derived from postRoute_res (effortLevel low)]
+[04/30 22:21:09    13s]     RC-Corner PreRoute Clock Cap Factor   : 1	[Derived from postRoute_cap (effortLevel low)]
+[04/30 22:21:09    13s]     RC-Corner PostRoute Clock Cap Factor  : 1   	[Derived from postRoute_cap (effortLevel low)]
+[04/30 22:21:09    13s]     RC-Corner PostRoute Clock Res Factor  : 1   	[Derived from postRoute_res (effortLevel low)]
+[04/30 22:21:09    13s]     RC-Corner Technology file: '/opt/cad/designkits/ams/v410/assura/c35b4/c35b4thinall/RCX-worst/qrcTechFile'
+[04/30 22:21:09    13s]  
+[04/30 22:21:09    13s]  Analysis View: func_min
+[04/30 22:21:09    13s]     RC-Corner Name        : ams_rc_corner_bc
+[04/30 22:21:09    13s]     RC-Corner Index       : 1
+[04/30 22:21:09    13s]     RC-Corner Temperature : 25 Celsius
+[04/30 22:21:09    13s]     RC-Corner Cap Table   : '/opt/cad/designkits/ams/v410/cds/HK_C35/LEF/encounter/c35b4-best.capTable'
+[04/30 22:21:09    13s]     RC-Corner PreRoute Res Factor         : 1
+[04/30 22:21:09    13s]     RC-Corner PreRoute Cap Factor         : 1
+[04/30 22:21:09    13s]     RC-Corner PostRoute Res Factor        : 1
+[04/30 22:21:09    13s]     RC-Corner PostRoute Cap Factor        : 1
+[04/30 22:21:09    13s]     RC-Corner PostRoute XCap Factor       : 1
+[04/30 22:21:09    13s]     RC-Corner PreRoute Clock Res Factor   : 1	[Derived from postRoute_res (effortLevel low)]
+[04/30 22:21:09    13s]     RC-Corner PreRoute Clock Cap Factor   : 1	[Derived from postRoute_cap (effortLevel low)]
+[04/30 22:21:09    13s]     RC-Corner PostRoute Clock Cap Factor  : 1   	[Derived from postRoute_cap (effortLevel low)]
+[04/30 22:21:09    13s]     RC-Corner PostRoute Clock Res Factor  : 1   	[Derived from postRoute_res (effortLevel low)]
+[04/30 22:21:09    13s]     RC-Corner Technology file: '/opt/cad/designkits/ams/v410/assura/c35b4/c35b4thinall/RCX-best/qrcTechFile'
+[04/30 22:21:09    13s]  
+[04/30 22:21:09    13s]  Analysis View: test_min
+[04/30 22:21:09    13s]     RC-Corner Name        : ams_rc_corner_bc
+[04/30 22:21:09    13s]     RC-Corner Index       : 1
+[04/30 22:21:09    13s]     RC-Corner Temperature : 25 Celsius
+[04/30 22:21:09    13s]     RC-Corner Cap Table   : '/opt/cad/designkits/ams/v410/cds/HK_C35/LEF/encounter/c35b4-best.capTable'
+[04/30 22:21:09    13s]     RC-Corner PreRoute Res Factor         : 1
+[04/30 22:21:09    13s]     RC-Corner PreRoute Cap Factor         : 1
+[04/30 22:21:09    13s]     RC-Corner PostRoute Res Factor        : 1
+[04/30 22:21:09    13s]     RC-Corner PostRoute Cap Factor        : 1
+[04/30 22:21:09    13s]     RC-Corner PostRoute XCap Factor       : 1
+[04/30 22:21:09    13s]     RC-Corner PreRoute Clock Res Factor   : 1	[Derived from postRoute_res (effortLevel low)]
+[04/30 22:21:09    13s]     RC-Corner PreRoute Clock Cap Factor   : 1	[Derived from postRoute_cap (effortLevel low)]
+[04/30 22:21:09    13s]     RC-Corner PostRoute Clock Cap Factor  : 1   	[Derived from postRoute_cap (effortLevel low)]
+[04/30 22:21:09    13s]     RC-Corner PostRoute Clock Res Factor  : 1   	[Derived from postRoute_res (effortLevel low)]
+[04/30 22:21:09    13s]     RC-Corner Technology file: '/opt/cad/designkits/ams/v410/assura/c35b4/c35b4thinall/RCX-best/qrcTechFile'
+[04/30 22:21:09    13s] Technology file '/opt/cad/designkits/ams/v410/assura/c35b4/c35b4thinall/RCX-worst/qrcTechFile' associated with first view 'func_max' specified to command 'set_analysis_view' will be used as the primary corner for the multi-corner extraction. TQRC/IQRC extraction leverages a single primary corner extraction, then derives the other corners based on their technology files and operating conditions from the primary corner.
+[04/30 22:21:09    13s] *Info: initialize multi-corner CTS.
+[04/30 22:21:09    13s] CTE reading timing constraint file 'CONSTRAINTS/computer_test.sdc' ...
+[04/30 22:21:09    13s] Current (total cpu=0:00:13.0, real=0:00:40.0, peak res=463.8M, current mem=541.0M)
+[04/30 22:21:09    13s] Number of path exceptions in the constraint file = 1
+[04/30 22:21:09    13s] Number of paths exceptions after getting compressed = 1
+[04/30 22:21:09    13s] INFO (CTE): Constraints read successfully.
+[04/30 22:21:09    13s] WARNING (CTE-25): Line: 9 of File CONSTRAINTS/computer_test.sdc : Skipped unsupported command: set_max_area
+[04/30 22:21:09    13s] 
+[04/30 22:21:09    13s] 
+[04/30 22:21:09    13s] WARNING (CTE-25): Line: 8 of File CONSTRAINTS/computer_test.sdc : Skipped unsupported command: set_units
+[04/30 22:21:09    13s] 
+[04/30 22:21:09    13s] 
+[04/30 22:21:09    13s] Ending "Constraint file reading stats" (total cpu=0:00:00.1, real=0:00:00.0, peak res=478.5M, current mem=555.6M)
+[04/30 22:21:09    13s] Current (total cpu=0:00:13.1, real=0:00:40.0, peak res=478.5M, current mem=555.6M)
+[04/30 22:21:09    13s] CTE reading timing constraint file 'CONSTRAINTS/computer_func.sdc' ...
+[04/30 22:21:09    13s] Current (total cpu=0:00:13.1, real=0:00:40.0, peak res=478.5M, current mem=555.6M)
+[04/30 22:21:09    13s] Number of path exceptions in the constraint file = 1
+[04/30 22:21:09    13s] Number of paths exceptions after getting compressed = 1
+[04/30 22:21:09    13s] INFO (CTE): Constraints read successfully.
+[04/30 22:21:09    13s] WARNING (CTE-25): Line: 9 of File CONSTRAINTS/computer_func.sdc : Skipped unsupported command: set_max_area
+[04/30 22:21:09    13s] 
+[04/30 22:21:09    13s] 
+[04/30 22:21:09    13s] WARNING (CTE-25): Line: 8 of File CONSTRAINTS/computer_func.sdc : Skipped unsupported command: set_units
+[04/30 22:21:09    13s] 
+[04/30 22:21:09    13s] 
+[04/30 22:21:09    13s] Ending "Constraint file reading stats" (total cpu=0:00:00.0, real=0:00:00.0, peak res=478.9M, current mem=557.0M)
+[04/30 22:21:09    13s] Current (total cpu=0:00:13.1, real=0:00:40.0, peak res=478.9M, current mem=557.0M)
+[04/30 22:21:09    13s] Total number of combinational cells: 144
+[04/30 22:21:09    13s] Total number of sequential cells: 89
+[04/30 22:21:09    13s] Total number of tristate cells: 14
+[04/30 22:21:09    13s] Total number of level shifter cells: 0
+[04/30 22:21:09    13s] Total number of power gating cells: 0
+[04/30 22:21:09    13s] Total number of isolation cells: 0
+[04/30 22:21:09    13s] Total number of power switch cells: 0
+[04/30 22:21:09    13s] Total number of pulse generator cells: 0
+[04/30 22:21:09    13s] Total number of always on buffers: 0
+[04/30 22:21:09    13s] Total number of retention cells: 0
+[04/30 22:21:09    13s] List of usable buffers: BUF12 BUF15 BUF2 BUF6 BUF4 BUF8 CLKBU12 CLKBU15 CLKBU2 CLKBU6 CLKBU4 CLKBU8
+[04/30 22:21:09    13s] Total number of usable buffers: 12
+[04/30 22:21:09    13s] List of unusable buffers:
+[04/30 22:21:09    13s] Total number of unusable buffers: 0
+[04/30 22:21:09    13s] List of usable inverters: CLKIN1 CLKIN0 CLKIN12 CLKIN10 CLKIN15 CLKIN3 CLKIN2 CLKIN6 CLKIN4 CLKIN8 INV1 INV0 INV12 INV10 INV15 INV3 INV2 INV6 INV4 INV8
+[04/30 22:21:09    13s] Total number of usable inverters: 20
+[04/30 22:21:09    13s] List of unusable inverters:
+[04/30 22:21:09    13s] Total number of unusable inverters: 0
+[04/30 22:21:09    13s] List of identified usable delay cells: DLY12 DLY22 DLY32 DLY42
+[04/30 22:21:09    13s] Total number of identified usable delay cells: 4
+[04/30 22:21:09    13s] List of identified unusable delay cells:
+[04/30 22:21:09    13s] Total number of identified unusable delay cells: 0
+[04/30 22:21:09    13s] 
+[04/30 22:21:09    13s] *** Summary of all messages that are not suppressed in this session:
+[04/30 22:21:09    13s] Severity  ID               Count  Summary                                  
+[04/30 22:21:09    13s] WARNING   ENCFP-3961          17  The techSite '%s' has no related cells i...
+[04/30 22:21:09    13s] WARNING   ENCEXT-6202          1  In addition to the technology file, capa...
+[04/30 22:21:09    13s] WARNING   ENCEXT-2773          1  The via resistance between layers %s and...
+[04/30 22:21:09    13s] WARNING   ENCOAX-738           1  Non-Default Rule '%s' has already been d...
+[04/30 22:21:09    13s] WARNING   ENCOAX-741          17  Site '%s' has already been defined in %s...
+[04/30 22:21:09    13s] *** Message Summary: 37 warning(s), 0 error(s)
+[04/30 22:21:09    13s] 
+[04/30 22:21:09    13s] <CMD> setCTSMode -bottomPreferredLayer 1
+[04/30 22:21:09    13s] <CMD> setMaxRouteLayer 4
+[04/30 22:21:09    13s] <CMD> setExtractRCMode -lefTechFileMap /opt/cad/designkits/ams/v410/cds/HK_C35/LEF/c35b4/qrclaymap.ccl
+[04/30 22:21:09    13s] <CMD> checkDesign -all -outDir checkDesignDbSetup
+[04/30 22:21:09    13s] Creating directory checkDesignDbSetup.
+[04/30 22:21:09    13s] Core basic site is standard
+[04/30 22:21:09    13s] Layer info - lib-1st H=1, V=2.  Cell-FPin=1. Top-pin=2
+[04/30 22:21:09    13s] Detected Followpin layer is 0, but was earlier assumed to be 1
+[04/30 22:21:09    13s] Begin checking placement ... (start mem=565.0M, init mem=565.0M)
+[04/30 22:21:09    13s] *info: Placed = 0             
+[04/30 22:21:09    13s] *info: Unplaced = 13790       
+[04/30 22:21:09    13s] Placement Density:85.00%(2088432/2457000)
+[04/30 22:21:09    13s] Finished checkPlace (cpu: total=0:00:00.2, vio checks=0:00:00.0; mem=565.0M)
+[04/30 22:21:09    13s] ############################################################################
+[04/30 22:21:09    13s] # Encounter Netlist Design Rule Check
+[04/30 22:21:09    13s] # Sun Apr 30 22:21:09 2023
+
+[04/30 22:21:09    13s] ############################################################################
+[04/30 22:21:09    13s] Design: computer
+[04/30 22:21:09    13s] 
+[04/30 22:21:09    13s] ------ Design Summary:
+[04/30 22:21:09    13s] Total Standard Cell Number   (cells) : 13790
+[04/30 22:21:09    13s] Total Block Cell Number      (cells) : 0
+[04/30 22:21:09    13s] Total I/O Pad Cell Number    (cells) : 22
+[04/30 22:21:09    13s] Total Standard Cell Area     ( um^2) : 2088431.80
+[04/30 22:21:09    13s] Total Block Cell Area        ( um^2) : 0.00
+[04/30 22:21:09    13s] Total I/O Pad Cell Area      ( um^2) : 748880.00
+[04/30 22:21:09    13s] 
+[04/30 22:21:09    13s] ------ Design Statistics:
+[04/30 22:21:09    13s] 
+[04/30 22:21:09    13s] Number of Instances            : 13812
+[04/30 22:21:09    13s] Number of Nets                 : 17027
+[04/30 22:21:09    13s] Average number of Pins per Net : 3.75
+[04/30 22:21:09    13s] Maximum number of Pins in Net  : 3123
+[04/30 22:21:09    13s] 
+[04/30 22:21:09    13s] ------ I/O Port summary
+[04/30 22:21:09    13s] 
+[04/30 22:21:09    13s] Number of Primary I/O Ports    : 22
+[04/30 22:21:09    13s] Number of Input Ports          : 9
+[04/30 22:21:09    13s] Number of Output Ports         : 13
+[04/30 22:21:09    13s] Number of Bidirectional Ports  : 0
+[04/30 22:21:09    13s] Number of Power/Ground Ports   : 0
+[04/30 22:21:09    13s] Number of Floating Ports                     *: 0
+[04/30 22:21:09    13s] Number of Ports Connected to Multiple Pads   *: 0
+[04/30 22:21:09    13s] Number of Ports Connected to Core Instances   : 0
+[04/30 22:21:09    13s] 
+[04/30 22:21:09    13s] ------ Design Rule Checking:
+[04/30 22:21:09    13s] 
+[04/30 22:21:09    13s] Number of Output Pins connect to Power/Ground *: 0
+[04/30 22:21:09    13s] Number of Insts with Input Pins tied together ?: 1
+[04/30 22:21:09    13s] Number of TieHi/Lo term nets not connected to instance's PG terms ?: 0
+[04/30 22:21:09    13s] Number of Input/InOut Floating Pins            : 0
+[04/30 22:21:09    13s] Number of Output Floating Pins                 : 0
+[04/30 22:21:09    13s] Number of Output Term Marked TieHi/Lo         *: 0
+[04/30 22:21:09    13s] 
+[04/30 22:21:09    13s] Number of nets with tri-state drivers          : 0
+[04/30 22:21:09    13s] Number of nets with parallel drivers           : 0
+[04/30 22:21:09    13s] Number of nets with multiple drivers           : 0
+[04/30 22:21:09    13s] Number of nets with no driver (No FanIn)       : 0
+[04/30 22:21:09    13s] Number of Output Floating nets (No FanOut)     : 48
+[04/30 22:21:09    13s] Number of High Fanout nets (>50)               : 43
+[04/30 22:21:09    13s] Checking routing tracks.....
+[04/30 22:21:09    13s] Checking other grids.....
+[04/30 22:21:09    13s] Checking routing blockage.....
+[04/30 22:21:09    13s] Checking components.....
+[04/30 22:21:09    13s] Checking IO Pins.....
+[04/30 22:21:09    13s] Checking constraints (guide/region/fence).....
+[04/30 22:21:09    13s] Checking groups.....
+[04/30 22:21:09    13s] 
+[04/30 22:21:09    13s] Checking Ptn Pins .....
+[04/30 22:21:09    13s] Checking Ptn Core Box.....
+[04/30 22:21:09    13s] 
+[04/30 22:21:09    13s] Checking Preroutes.....
+[04/30 22:21:09    13s] No. of regular pre-routes not on tracks : 0 
+[04/30 22:21:09    13s]  Design check done.
+[04/30 22:21:09    13s] Report saved in file checkDesignDbSetup/computer.main.htm.ascii.
+[04/30 22:21:09    13s] *** Message Summary: 0 warning(s), 0 error(s)
+[04/30 22:21:09    13s] 
+[04/30 22:21:09    13s] <CMD> check_timing -verbose  > $filename2
+[04/30 22:21:09    13s] #################################################################################
+[04/30 22:21:09    13s] # Design Stage: PreRoute
+[04/30 22:21:09    13s] # Design Mode: 90nm
+[04/30 22:21:09    13s] # Analysis Mode: MMMC non-OCV
+[04/30 22:21:09    13s] # Extraction Mode: default
+[04/30 22:21:09    13s] # Delay Calculation Options: engine=aae SIAware=false(opt_signoff)
+[04/30 22:21:09    13s] # Switching Delay Calculation Engine to AAE
+[04/30 22:21:09    13s] #################################################################################
+[04/30 22:21:10    14s] Calculate delays in BcWc mode...
+[04/30 22:21:10    14s] Calculate delays in BcWc mode...
+[04/30 22:21:10    14s] Topological Sorting (CPU = 0:00:00.0, MEM = 612.6M, InitMEM = 609.4M)
+[04/30 22:21:10    14s] **WARN: (ENCTS-403):	Delay calculation was forced to extrapolate table data outside of the characterized range. In some cases, extrapolation can reduce the accuracy of the delay calculation. You can enable more detailed reporting of these cases by enabling the command 'setDelayCalMode -reportOutBound true'.
+[04/30 22:21:10    14s] Type 'man ENCTS-403' for more detail.
+[04/30 22:21:11    15s] AAE_MTTC: End Timing Check Calculation. (CPU Time=0:00:00.1, Real Time=0:00:00.0)
+[04/30 22:21:11    15s] AAE_THRD: End delay calculation. (MEM=733.633 CPU=0:00:01.3 REAL=0:00:01.0)
+[04/30 22:21:11    15s] *** CDM Built up (cpu=0:00:02.1  real=0:00:02.0  mem= 733.6M) ***
+[04/30 22:21:12    16s] <CMD_INTERNAL> print {#### }
+[04/30 22:21:12    16s] #### 
+[04/30 22:21:12    16s] <CMD_INTERNAL> print {---# CheckDesign Result: checkDesignDbSetup/computer.main.htm}
+[04/30 22:21:12    16s] ---# CheckDesign Result: checkDesignDbSetup/computer.main.htm
+[04/30 22:21:12    16s] <CMD_INTERNAL> print {---# CheckTiming Result: checkDesignDbSetup/computer.checkTiming}
+[04/30 22:21:12    16s] ---# CheckTiming Result: checkDesignDbSetup/computer.checkTiming
+[04/30 22:21:12    16s] <CMD_INTERNAL> print {#### }
+[04/30 22:21:12    16s] #### 
+[04/30 22:21:12    16s] <CMD> specifyScanChain ScanChain0 -start SDI -stop SDO
+[04/30 22:21:12    16s] <CMD_INTERNAL> print {---# Setup MMMC
+---#}
+[04/30 22:21:12    16s] ---# Setup MMMC
+---#
+[04/30 22:21:12    16s] <CMD> create_rc_corner -name ams_rc_corner_typ  -cap_table {/opt/cad/designkits/ams/v410/cds/HK_C35/LEF/encounter/c35b4-typical.capTable}  -preRoute_res {1.0}  -postRoute_res {1.0}  -preRoute_cap {1.0}  -postRoute_cap {1.0}  -postRoute_xcap {1.0}  -qx_tech_file {/opt/cad/designkits/ams/v410/assura/c35b4/c35b4thinall/RCX-typical/qrcTechFile}
+[04/30 22:21:12    16s] Initializing multi-corner RC extraction with 2 active RC Corners ...
+[04/30 22:21:12    16s] **WARN: (ENCEXT-6202):	In addition to the technology file, capacitance table file is specified for all RC corners. If the technology file for all RC corners is already specified, the capacitance table file is not required for preRoute and postRoute extraction. In a new session, the capacitance table files can be removed from the create_rc_corner command. In this case, the technology file will be used for preRoute extraction and effort level medium/high/signoff of postRoute extraction.
+[04/30 22:21:12    16s] Type 'man ENCEXT-6202' for more detail.
+[04/30 22:21:12    16s] Reading Capacitance Table File /opt/cad/designkits/ams/v410/cds/HK_C35/LEF/encounter/c35b4-worst.capTable ...
+[04/30 22:21:12    16s] Cap table was created using Encounter 09.12-s159_1.
+[04/30 22:21:12    16s] Process name: c35b4-worst.
+[04/30 22:21:12    16s] Allocated an empty WireEdgeEnlargement table in ams_rc_corner_wc [1].
+[04/30 22:21:12    16s] Allocated an empty WireEdgeEnlargement table in ams_rc_corner_wc [1].
+[04/30 22:21:12    16s] Allocated an empty WireEdgeEnlargement table in ams_rc_corner_wc [2].
+[04/30 22:21:12    16s] Allocated an empty WireEdgeEnlargement table in ams_rc_corner_wc [3].
+[04/30 22:21:12    16s] Allocated an empty WireEdgeEnlargement table in ams_rc_corner_wc [4].
+[04/30 22:21:12    16s] Allocated an empty WireEdgeEnlargement table in ams_rc_corner_wc [4].
+[04/30 22:21:12    16s] Reading Capacitance Table File /opt/cad/designkits/ams/v410/cds/HK_C35/LEF/encounter/c35b4-best.capTable ...
+[04/30 22:21:12    16s] Cap table was created using Encounter 09.12-s159_1.
+[04/30 22:21:12    16s] Process name: c35b4-best.
+[04/30 22:21:12    16s] **WARN: (ENCEXT-2773):	The via resistance between layers M0 and M1 could not be determined from the LEF technology file because the via resistance specification is missing. A default of 4 Ohms will be used as via resistance between these layers.
+[04/30 22:21:12    16s] Type 'man ENCEXT-2773' for more detail.
+[04/30 22:21:12    16s] Allocated an empty WireEdgeEnlargement table in ams_rc_corner_bc [1].
+[04/30 22:21:12    16s] Allocated an empty WireEdgeEnlargement table in ams_rc_corner_bc [1].
+[04/30 22:21:12    16s] Allocated an empty WireEdgeEnlargement table in ams_rc_corner_bc [2].
+[04/30 22:21:12    16s] Allocated an empty WireEdgeEnlargement table in ams_rc_corner_bc [3].
+[04/30 22:21:12    16s] Allocated an empty WireEdgeEnlargement table in ams_rc_corner_bc [4].
+[04/30 22:21:12    16s] Allocated an empty WireEdgeEnlargement table in ams_rc_corner_bc [4].
+[04/30 22:21:12    16s] Importing multi-corner RC tables ... 
+[04/30 22:21:12    16s] Summary of Active RC-Corners : 
+[04/30 22:21:12    16s]  
+[04/30 22:21:12    16s]  Analysis View: func_max
+[04/30 22:21:12    16s]     RC-Corner Name        : ams_rc_corner_wc
+[04/30 22:21:12    16s]     RC-Corner Index       : 0
+[04/30 22:21:12    16s]     RC-Corner Temperature : 25 Celsius
+[04/30 22:21:12    16s]     RC-Corner Cap Table   : '/opt/cad/designkits/ams/v410/cds/HK_C35/LEF/encounter/c35b4-worst.capTable'
+[04/30 22:21:12    16s]     RC-Corner PreRoute Res Factor         : 1
+[04/30 22:21:12    16s]     RC-Corner PreRoute Cap Factor         : 1
+[04/30 22:21:12    16s]     RC-Corner PostRoute Res Factor        : 1
+[04/30 22:21:12    16s]     RC-Corner PostRoute Cap Factor        : 1
+[04/30 22:21:12    16s]     RC-Corner PostRoute XCap Factor       : 1
+[04/30 22:21:12    16s]     RC-Corner PreRoute Clock Res Factor   : 1	[Derived from postRoute_res (effortLevel low)]
+[04/30 22:21:12    16s]     RC-Corner PreRoute Clock Cap Factor   : 1	[Derived from postRoute_cap (effortLevel low)]
+[04/30 22:21:12    16s]     RC-Corner PostRoute Clock Cap Factor  : 1   	[Derived from postRoute_cap (effortLevel low)]
+[04/30 22:21:12    16s]     RC-Corner PostRoute Clock Res Factor  : 1   	[Derived from postRoute_res (effortLevel low)]
+[04/30 22:21:12    16s]     RC-Corner Technology file: '/opt/cad/designkits/ams/v410/assura/c35b4/c35b4thinall/RCX-worst/qrcTechFile'
+[04/30 22:21:12    16s]  
+[04/30 22:21:12    16s]  Analysis View: test_max
+[04/30 22:21:12    16s]     RC-Corner Name        : ams_rc_corner_wc
+[04/30 22:21:12    16s]     RC-Corner Index       : 0
+[04/30 22:21:12    16s]     RC-Corner Temperature : 25 Celsius
+[04/30 22:21:12    16s]     RC-Corner Cap Table   : '/opt/cad/designkits/ams/v410/cds/HK_C35/LEF/encounter/c35b4-worst.capTable'
+[04/30 22:21:12    16s]     RC-Corner PreRoute Res Factor         : 1
+[04/30 22:21:12    16s]     RC-Corner PreRoute Cap Factor         : 1
+[04/30 22:21:12    16s]     RC-Corner PostRoute Res Factor        : 1
+[04/30 22:21:12    16s]     RC-Corner PostRoute Cap Factor        : 1
+[04/30 22:21:12    16s]     RC-Corner PostRoute XCap Factor       : 1
+[04/30 22:21:12    16s]     RC-Corner PreRoute Clock Res Factor   : 1	[Derived from postRoute_res (effortLevel low)]
+[04/30 22:21:12    16s]     RC-Corner PreRoute Clock Cap Factor   : 1	[Derived from postRoute_cap (effortLevel low)]
+[04/30 22:21:12    16s]     RC-Corner PostRoute Clock Cap Factor  : 1   	[Derived from postRoute_cap (effortLevel low)]
+[04/30 22:21:12    16s]     RC-Corner PostRoute Clock Res Factor  : 1   	[Derived from postRoute_res (effortLevel low)]
+[04/30 22:21:12    16s]     RC-Corner Technology file: '/opt/cad/designkits/ams/v410/assura/c35b4/c35b4thinall/RCX-worst/qrcTechFile'
+[04/30 22:21:12    16s]  
+[04/30 22:21:12    16s]  Analysis View: func_min
+[04/30 22:21:12    16s]     RC-Corner Name        : ams_rc_corner_bc
+[04/30 22:21:12    16s]     RC-Corner Index       : 1
+[04/30 22:21:12    16s]     RC-Corner Temperature : 25 Celsius
+[04/30 22:21:12    16s]     RC-Corner Cap Table   : '/opt/cad/designkits/ams/v410/cds/HK_C35/LEF/encounter/c35b4-best.capTable'
+[04/30 22:21:12    16s]     RC-Corner PreRoute Res Factor         : 1
+[04/30 22:21:12    16s]     RC-Corner PreRoute Cap Factor         : 1
+[04/30 22:21:12    16s]     RC-Corner PostRoute Res Factor        : 1
+[04/30 22:21:12    16s]     RC-Corner PostRoute Cap Factor        : 1
+[04/30 22:21:12    16s]     RC-Corner PostRoute XCap Factor       : 1
+[04/30 22:21:12    16s]     RC-Corner PreRoute Clock Res Factor   : 1	[Derived from postRoute_res (effortLevel low)]
+[04/30 22:21:12    16s]     RC-Corner PreRoute Clock Cap Factor   : 1	[Derived from postRoute_cap (effortLevel low)]
+[04/30 22:21:12    16s]     RC-Corner PostRoute Clock Cap Factor  : 1   	[Derived from postRoute_cap (effortLevel low)]
+[04/30 22:21:12    16s]     RC-Corner PostRoute Clock Res Factor  : 1   	[Derived from postRoute_res (effortLevel low)]
+[04/30 22:21:12    16s]     RC-Corner Technology file: '/opt/cad/designkits/ams/v410/assura/c35b4/c35b4thinall/RCX-best/qrcTechFile'
+[04/30 22:21:12    16s]  
+[04/30 22:21:12    16s]  Analysis View: test_min
+[04/30 22:21:12    16s]     RC-Corner Name        : ams_rc_corner_bc
+[04/30 22:21:12    16s]     RC-Corner Index       : 1
+[04/30 22:21:12    16s]     RC-Corner Temperature : 25 Celsius
+[04/30 22:21:12    16s]     RC-Corner Cap Table   : '/opt/cad/designkits/ams/v410/cds/HK_C35/LEF/encounter/c35b4-best.capTable'
+[04/30 22:21:12    16s]     RC-Corner PreRoute Res Factor         : 1
+[04/30 22:21:12    16s]     RC-Corner PreRoute Cap Factor         : 1
+[04/30 22:21:12    16s]     RC-Corner PostRoute Res Factor        : 1
+[04/30 22:21:12    16s]     RC-Corner PostRoute Cap Factor        : 1
+[04/30 22:21:12    16s]     RC-Corner PostRoute XCap Factor       : 1
+[04/30 22:21:12    16s]     RC-Corner PreRoute Clock Res Factor   : 1	[Derived from postRoute_res (effortLevel low)]
+[04/30 22:21:12    16s]     RC-Corner PreRoute Clock Cap Factor   : 1	[Derived from postRoute_cap (effortLevel low)]
+[04/30 22:21:12    16s]     RC-Corner PostRoute Clock Cap Factor  : 1   	[Derived from postRoute_cap (effortLevel low)]
+[04/30 22:21:12    16s]     RC-Corner PostRoute Clock Res Factor  : 1   	[Derived from postRoute_res (effortLevel low)]
+[04/30 22:21:12    16s]     RC-Corner Technology file: '/opt/cad/designkits/ams/v410/assura/c35b4/c35b4thinall/RCX-best/qrcTechFile'
+[04/30 22:21:12    16s] Technology file '/opt/cad/designkits/ams/v410/assura/c35b4/c35b4thinall/RCX-worst/qrcTechFile' associated with first view 'func_max' specified to command 'set_analysis_view' will be used as the primary corner for the multi-corner extraction. TQRC/IQRC extraction leverages a single primary corner extraction, then derives the other corners based on their technology files and operating conditions from the primary corner.
+[04/30 22:21:12    16s] <CMD_INTERNAL> print {---#   rc_corner        : ams_rc_corner_typ}
+[04/30 22:21:12    16s] ---#   rc_corner        : ams_rc_corner_typ
+[04/30 22:21:12    16s] <CMD> create_rc_corner -name ams_rc_corner_wc  -cap_table {/opt/cad/designkits/ams/v410/cds/HK_C35/LEF/encounter/c35b4-worst.capTable}  -preRoute_res {1.0} -postRoute_res {1.0} -preRoute_cap {1.0} -postRoute_cap {1.0} -postRoute_xcap {1.0}  -qx_tech_file {/opt/cad/designkits/ams/v410/assura/c35b4/c35b4thinall/RCX-worst/qrcTechFile}
+[04/30 22:21:12    16s] Initializing multi-corner RC extraction with 2 active RC Corners ...
+[04/30 22:21:12    16s] **WARN: (ENCEXT-6202):	In addition to the technology file, capacitance table file is specified for all RC corners. If the technology file for all RC corners is already specified, the capacitance table file is not required for preRoute and postRoute extraction. In a new session, the capacitance table files can be removed from the create_rc_corner command. In this case, the technology file will be used for preRoute extraction and effort level medium/high/signoff of postRoute extraction.
+[04/30 22:21:12    16s] Type 'man ENCEXT-6202' for more detail.
+[04/30 22:21:12    16s] Reading Capacitance Table File /opt/cad/designkits/ams/v410/cds/HK_C35/LEF/encounter/c35b4-worst.capTable ...
+[04/30 22:21:12    16s] Cap table was created using Encounter 09.12-s159_1.
+[04/30 22:21:12    16s] Process name: c35b4-worst.
+[04/30 22:21:12    16s] Allocated an empty WireEdgeEnlargement table in ams_rc_corner_wc [1].
+[04/30 22:21:12    16s] Allocated an empty WireEdgeEnlargement table in ams_rc_corner_wc [1].
+[04/30 22:21:12    16s] Allocated an empty WireEdgeEnlargement table in ams_rc_corner_wc [2].
+[04/30 22:21:12    16s] Allocated an empty WireEdgeEnlargement table in ams_rc_corner_wc [3].
+[04/30 22:21:12    16s] Allocated an empty WireEdgeEnlargement table in ams_rc_corner_wc [4].
+[04/30 22:21:12    16s] Allocated an empty WireEdgeEnlargement table in ams_rc_corner_wc [4].
+[04/30 22:21:12    16s] Reading Capacitance Table File /opt/cad/designkits/ams/v410/cds/HK_C35/LEF/encounter/c35b4-best.capTable ...
+[04/30 22:21:12    16s] Cap table was created using Encounter 09.12-s159_1.
+[04/30 22:21:12    16s] Process name: c35b4-best.
+[04/30 22:21:12    16s] **WARN: (ENCEXT-2773):	The via resistance between layers M0 and M1 could not be determined from the LEF technology file because the via resistance specification is missing. A default of 4 Ohms will be used as via resistance between these layers.
+[04/30 22:21:12    16s] Type 'man ENCEXT-2773' for more detail.
+[04/30 22:21:12    16s] Allocated an empty WireEdgeEnlargement table in ams_rc_corner_bc [1].
+[04/30 22:21:12    16s] Allocated an empty WireEdgeEnlargement table in ams_rc_corner_bc [1].
+[04/30 22:21:12    16s] Allocated an empty WireEdgeEnlargement table in ams_rc_corner_bc [2].
+[04/30 22:21:12    16s] Allocated an empty WireEdgeEnlargement table in ams_rc_corner_bc [3].
+[04/30 22:21:12    16s] Allocated an empty WireEdgeEnlargement table in ams_rc_corner_bc [4].
+[04/30 22:21:12    16s] Allocated an empty WireEdgeEnlargement table in ams_rc_corner_bc [4].
+[04/30 22:21:12    16s] Importing multi-corner RC tables ... 
+[04/30 22:21:12    16s] Summary of Active RC-Corners : 
+[04/30 22:21:12    16s]  
+[04/30 22:21:12    16s]  Analysis View: func_max
+[04/30 22:21:12    16s]     RC-Corner Name        : ams_rc_corner_wc
+[04/30 22:21:12    16s]     RC-Corner Index       : 0
+[04/30 22:21:12    16s]     RC-Corner Temperature : 25 Celsius
+[04/30 22:21:12    16s]     RC-Corner Cap Table   : '/opt/cad/designkits/ams/v410/cds/HK_C35/LEF/encounter/c35b4-worst.capTable'
+[04/30 22:21:12    16s]     RC-Corner PreRoute Res Factor         : 1
+[04/30 22:21:12    16s]     RC-Corner PreRoute Cap Factor         : 1
+[04/30 22:21:12    16s]     RC-Corner PostRoute Res Factor        : 1
+[04/30 22:21:12    16s]     RC-Corner PostRoute Cap Factor        : 1
+[04/30 22:21:12    16s]     RC-Corner PostRoute XCap Factor       : 1
+[04/30 22:21:12    16s]     RC-Corner PreRoute Clock Res Factor   : 1	[Derived from postRoute_res (effortLevel low)]
+[04/30 22:21:12    16s]     RC-Corner PreRoute Clock Cap Factor   : 1	[Derived from postRoute_cap (effortLevel low)]
+[04/30 22:21:12    16s]     RC-Corner PostRoute Clock Cap Factor  : 1   	[Derived from postRoute_cap (effortLevel low)]
+[04/30 22:21:12    16s]     RC-Corner PostRoute Clock Res Factor  : 1   	[Derived from postRoute_res (effortLevel low)]
+[04/30 22:21:12    16s]     RC-Corner Technology file: '/opt/cad/designkits/ams/v410/assura/c35b4/c35b4thinall/RCX-worst/qrcTechFile'
+[04/30 22:21:12    16s]  
+[04/30 22:21:12    16s]  Analysis View: test_max
+[04/30 22:21:12    16s]     RC-Corner Name        : ams_rc_corner_wc
+[04/30 22:21:12    16s]     RC-Corner Index       : 0
+[04/30 22:21:12    16s]     RC-Corner Temperature : 25 Celsius
+[04/30 22:21:12    16s]     RC-Corner Cap Table   : '/opt/cad/designkits/ams/v410/cds/HK_C35/LEF/encounter/c35b4-worst.capTable'
+[04/30 22:21:12    16s]     RC-Corner PreRoute Res Factor         : 1
+[04/30 22:21:12    16s]     RC-Corner PreRoute Cap Factor         : 1
+[04/30 22:21:12    16s]     RC-Corner PostRoute Res Factor        : 1
+[04/30 22:21:12    16s]     RC-Corner PostRoute Cap Factor        : 1
+[04/30 22:21:12    16s]     RC-Corner PostRoute XCap Factor       : 1
+[04/30 22:21:12    16s]     RC-Corner PreRoute Clock Res Factor   : 1	[Derived from postRoute_res (effortLevel low)]
+[04/30 22:21:12    16s]     RC-Corner PreRoute Clock Cap Factor   : 1	[Derived from postRoute_cap (effortLevel low)]
+[04/30 22:21:12    16s]     RC-Corner PostRoute Clock Cap Factor  : 1   	[Derived from postRoute_cap (effortLevel low)]
+[04/30 22:21:12    16s]     RC-Corner PostRoute Clock Res Factor  : 1   	[Derived from postRoute_res (effortLevel low)]
+[04/30 22:21:12    16s]     RC-Corner Technology file: '/opt/cad/designkits/ams/v410/assura/c35b4/c35b4thinall/RCX-worst/qrcTechFile'
+[04/30 22:21:12    16s]  
+[04/30 22:21:12    16s]  Analysis View: func_min
+[04/30 22:21:12    16s]     RC-Corner Name        : ams_rc_corner_bc
+[04/30 22:21:12    16s]     RC-Corner Index       : 1
+[04/30 22:21:12    16s]     RC-Corner Temperature : 25 Celsius
+[04/30 22:21:12    16s]     RC-Corner Cap Table   : '/opt/cad/designkits/ams/v410/cds/HK_C35/LEF/encounter/c35b4-best.capTable'
+[04/30 22:21:12    16s]     RC-Corner PreRoute Res Factor         : 1
+[04/30 22:21:12    16s]     RC-Corner PreRoute Cap Factor         : 1
+[04/30 22:21:12    16s]     RC-Corner PostRoute Res Factor        : 1
+[04/30 22:21:12    16s]     RC-Corner PostRoute Cap Factor        : 1
+[04/30 22:21:12    16s]     RC-Corner PostRoute XCap Factor       : 1
+[04/30 22:21:12    16s]     RC-Corner PreRoute Clock Res Factor   : 1	[Derived from postRoute_res (effortLevel low)]
+[04/30 22:21:12    16s]     RC-Corner PreRoute Clock Cap Factor   : 1	[Derived from postRoute_cap (effortLevel low)]
+[04/30 22:21:12    16s]     RC-Corner PostRoute Clock Cap Factor  : 1   	[Derived from postRoute_cap (effortLevel low)]
+[04/30 22:21:12    16s]     RC-Corner PostRoute Clock Res Factor  : 1   	[Derived from postRoute_res (effortLevel low)]
+[04/30 22:21:12    16s]     RC-Corner Technology file: '/opt/cad/designkits/ams/v410/assura/c35b4/c35b4thinall/RCX-best/qrcTechFile'
+[04/30 22:21:12    16s]  
+[04/30 22:21:12    16s]  Analysis View: test_min
+[04/30 22:21:12    16s]     RC-Corner Name        : ams_rc_corner_bc
+[04/30 22:21:12    16s]     RC-Corner Index       : 1
+[04/30 22:21:12    16s]     RC-Corner Temperature : 25 Celsius
+[04/30 22:21:12    16s]     RC-Corner Cap Table   : '/opt/cad/designkits/ams/v410/cds/HK_C35/LEF/encounter/c35b4-best.capTable'
+[04/30 22:21:12    16s]     RC-Corner PreRoute Res Factor         : 1
+[04/30 22:21:12    16s]     RC-Corner PreRoute Cap Factor         : 1
+[04/30 22:21:12    16s]     RC-Corner PostRoute Res Factor        : 1
+[04/30 22:21:12    16s]     RC-Corner PostRoute Cap Factor        : 1
+[04/30 22:21:12    16s]     RC-Corner PostRoute XCap Factor       : 1
+[04/30 22:21:12    16s]     RC-Corner PreRoute Clock Res Factor   : 1	[Derived from postRoute_res (effortLevel low)]
+[04/30 22:21:12    16s]     RC-Corner PreRoute Clock Cap Factor   : 1	[Derived from postRoute_cap (effortLevel low)]
+[04/30 22:21:12    16s]     RC-Corner PostRoute Clock Cap Factor  : 1   	[Derived from postRoute_cap (effortLevel low)]
+[04/30 22:21:12    16s]     RC-Corner PostRoute Clock Res Factor  : 1   	[Derived from postRoute_res (effortLevel low)]
+[04/30 22:21:12    16s]     RC-Corner Technology file: '/opt/cad/designkits/ams/v410/assura/c35b4/c35b4thinall/RCX-best/qrcTechFile'
+[04/30 22:21:12    16s] Technology file '/opt/cad/designkits/ams/v410/assura/c35b4/c35b4thinall/RCX-worst/qrcTechFile' associated with first view 'func_max' specified to command 'set_analysis_view' will be used as the primary corner for the multi-corner extraction. TQRC/IQRC extraction leverages a single primary corner extraction, then derives the other corners based on their technology files and operating conditions from the primary corner.
+[04/30 22:21:12    16s] <CMD_INTERNAL> print {---#   rc_corner        : ams_rc_corner_wc}
+[04/30 22:21:12    16s] ---#   rc_corner        : ams_rc_corner_wc
+[04/30 22:21:12    16s] <CMD> create_rc_corner -name ams_rc_corner_bc  -cap_table {/opt/cad/designkits/ams/v410/cds/HK_C35/LEF/encounter/c35b4-best.capTable}  -preRoute_res {1.0} -postRoute_res {1.0} -preRoute_cap {1.0} -postRoute_cap {1.0} -postRoute_xcap {1.0}  -qx_tech_file {/opt/cad/designkits/ams/v410/assura/c35b4/c35b4thinall/RCX-best/qrcTechFile}
+[04/30 22:21:12    16s] Initializing multi-corner RC extraction with 2 active RC Corners ...
+[04/30 22:21:12    16s] **WARN: (ENCEXT-6202):	In addition to the technology file, capacitance table file is specified for all RC corners. If the technology file for all RC corners is already specified, the capacitance table file is not required for preRoute and postRoute extraction. In a new session, the capacitance table files can be removed from the create_rc_corner command. In this case, the technology file will be used for preRoute extraction and effort level medium/high/signoff of postRoute extraction.
+[04/30 22:21:12    16s] Type 'man ENCEXT-6202' for more detail.
+[04/30 22:21:12    16s] Reading Capacitance Table File /opt/cad/designkits/ams/v410/cds/HK_C35/LEF/encounter/c35b4-worst.capTable ...
+[04/30 22:21:12    16s] Cap table was created using Encounter 09.12-s159_1.
+[04/30 22:21:12    16s] Process name: c35b4-worst.
+[04/30 22:21:12    16s] Allocated an empty WireEdgeEnlargement table in ams_rc_corner_wc [1].
+[04/30 22:21:12    16s] Allocated an empty WireEdgeEnlargement table in ams_rc_corner_wc [1].
+[04/30 22:21:12    16s] Allocated an empty WireEdgeEnlargement table in ams_rc_corner_wc [2].
+[04/30 22:21:12    16s] Allocated an empty WireEdgeEnlargement table in ams_rc_corner_wc [3].
+[04/30 22:21:12    16s] Allocated an empty WireEdgeEnlargement table in ams_rc_corner_wc [4].
+[04/30 22:21:12    16s] Allocated an empty WireEdgeEnlargement table in ams_rc_corner_wc [4].
+[04/30 22:21:12    16s] Reading Capacitance Table File /opt/cad/designkits/ams/v410/cds/HK_C35/LEF/encounter/c35b4-best.capTable ...
+[04/30 22:21:12    16s] Cap table was created using Encounter 09.12-s159_1.
+[04/30 22:21:12    16s] Process name: c35b4-best.
+[04/30 22:21:12    16s] **WARN: (ENCEXT-2773):	The via resistance between layers M0 and M1 could not be determined from the LEF technology file because the via resistance specification is missing. A default of 4 Ohms will be used as via resistance between these layers.
+[04/30 22:21:12    16s] Type 'man ENCEXT-2773' for more detail.
+[04/30 22:21:12    16s] Allocated an empty WireEdgeEnlargement table in ams_rc_corner_bc [1].
+[04/30 22:21:12    16s] Allocated an empty WireEdgeEnlargement table in ams_rc_corner_bc [1].
+[04/30 22:21:12    16s] Allocated an empty WireEdgeEnlargement table in ams_rc_corner_bc [2].
+[04/30 22:21:12    16s] Allocated an empty WireEdgeEnlargement table in ams_rc_corner_bc [3].
+[04/30 22:21:12    16s] Allocated an empty WireEdgeEnlargement table in ams_rc_corner_bc [4].
+[04/30 22:21:12    16s] Allocated an empty WireEdgeEnlargement table in ams_rc_corner_bc [4].
+[04/30 22:21:12    16s] Importing multi-corner RC tables ... 
+[04/30 22:21:12    16s] Summary of Active RC-Corners : 
+[04/30 22:21:12    16s]  
+[04/30 22:21:12    16s]  Analysis View: func_max
+[04/30 22:21:12    16s]     RC-Corner Name        : ams_rc_corner_wc
+[04/30 22:21:12    16s]     RC-Corner Index       : 0
+[04/30 22:21:12    16s]     RC-Corner Temperature : 25 Celsius
+[04/30 22:21:12    16s]     RC-Corner Cap Table   : '/opt/cad/designkits/ams/v410/cds/HK_C35/LEF/encounter/c35b4-worst.capTable'
+[04/30 22:21:12    16s]     RC-Corner PreRoute Res Factor         : 1
+[04/30 22:21:12    16s]     RC-Corner PreRoute Cap Factor         : 1
+[04/30 22:21:12    16s]     RC-Corner PostRoute Res Factor        : 1
+[04/30 22:21:12    16s]     RC-Corner PostRoute Cap Factor        : 1
+[04/30 22:21:12    16s]     RC-Corner PostRoute XCap Factor       : 1
+[04/30 22:21:12    16s]     RC-Corner PreRoute Clock Res Factor   : 1	[Derived from postRoute_res (effortLevel low)]
+[04/30 22:21:12    16s]     RC-Corner PreRoute Clock Cap Factor   : 1	[Derived from postRoute_cap (effortLevel low)]
+[04/30 22:21:12    16s]     RC-Corner PostRoute Clock Cap Factor  : 1   	[Derived from postRoute_cap (effortLevel low)]
+[04/30 22:21:12    16s]     RC-Corner PostRoute Clock Res Factor  : 1   	[Derived from postRoute_res (effortLevel low)]
+[04/30 22:21:12    16s]     RC-Corner Technology file: '/opt/cad/designkits/ams/v410/assura/c35b4/c35b4thinall/RCX-worst/qrcTechFile'
+[04/30 22:21:12    16s]  
+[04/30 22:21:12    16s]  Analysis View: test_max
+[04/30 22:21:12    16s]     RC-Corner Name        : ams_rc_corner_wc
+[04/30 22:21:12    16s]     RC-Corner Index       : 0
+[04/30 22:21:12    16s]     RC-Corner Temperature : 25 Celsius
+[04/30 22:21:12    16s]     RC-Corner Cap Table   : '/opt/cad/designkits/ams/v410/cds/HK_C35/LEF/encounter/c35b4-worst.capTable'
+[04/30 22:21:12    16s]     RC-Corner PreRoute Res Factor         : 1
+[04/30 22:21:12    16s]     RC-Corner PreRoute Cap Factor         : 1
+[04/30 22:21:12    16s]     RC-Corner PostRoute Res Factor        : 1
+[04/30 22:21:12    16s]     RC-Corner PostRoute Cap Factor        : 1
+[04/30 22:21:12    16s]     RC-Corner PostRoute XCap Factor       : 1
+[04/30 22:21:12    16s]     RC-Corner PreRoute Clock Res Factor   : 1	[Derived from postRoute_res (effortLevel low)]
+[04/30 22:21:12    16s]     RC-Corner PreRoute Clock Cap Factor   : 1	[Derived from postRoute_cap (effortLevel low)]
+[04/30 22:21:12    16s]     RC-Corner PostRoute Clock Cap Factor  : 1   	[Derived from postRoute_cap (effortLevel low)]
+[04/30 22:21:12    16s]     RC-Corner PostRoute Clock Res Factor  : 1   	[Derived from postRoute_res (effortLevel low)]
+[04/30 22:21:12    16s]     RC-Corner Technology file: '/opt/cad/designkits/ams/v410/assura/c35b4/c35b4thinall/RCX-worst/qrcTechFile'
+[04/30 22:21:12    16s]  
+[04/30 22:21:12    16s]  Analysis View: func_min
+[04/30 22:21:12    16s]     RC-Corner Name        : ams_rc_corner_bc
+[04/30 22:21:12    16s]     RC-Corner Index       : 1
+[04/30 22:21:12    16s]     RC-Corner Temperature : 25 Celsius
+[04/30 22:21:12    16s]     RC-Corner Cap Table   : '/opt/cad/designkits/ams/v410/cds/HK_C35/LEF/encounter/c35b4-best.capTable'
+[04/30 22:21:12    16s]     RC-Corner PreRoute Res Factor         : 1
+[04/30 22:21:12    16s]     RC-Corner PreRoute Cap Factor         : 1
+[04/30 22:21:12    16s]     RC-Corner PostRoute Res Factor        : 1
+[04/30 22:21:12    16s]     RC-Corner PostRoute Cap Factor        : 1
+[04/30 22:21:12    16s]     RC-Corner PostRoute XCap Factor       : 1
+[04/30 22:21:12    16s]     RC-Corner PreRoute Clock Res Factor   : 1	[Derived from postRoute_res (effortLevel low)]
+[04/30 22:21:12    16s]     RC-Corner PreRoute Clock Cap Factor   : 1	[Derived from postRoute_cap (effortLevel low)]
+[04/30 22:21:12    16s]     RC-Corner PostRoute Clock Cap Factor  : 1   	[Derived from postRoute_cap (effortLevel low)]
+[04/30 22:21:12    16s]     RC-Corner PostRoute Clock Res Factor  : 1   	[Derived from postRoute_res (effortLevel low)]
+[04/30 22:21:12    16s]     RC-Corner Technology file: '/opt/cad/designkits/ams/v410/assura/c35b4/c35b4thinall/RCX-best/qrcTechFile'
+[04/30 22:21:12    16s]  
+[04/30 22:21:12    16s]  Analysis View: test_min
+[04/30 22:21:12    16s]     RC-Corner Name        : ams_rc_corner_bc
+[04/30 22:21:12    16s]     RC-Corner Index       : 1
+[04/30 22:21:12    16s]     RC-Corner Temperature : 25 Celsius
+[04/30 22:21:12    16s]     RC-Corner Cap Table   : '/opt/cad/designkits/ams/v410/cds/HK_C35/LEF/encounter/c35b4-best.capTable'
+[04/30 22:21:12    16s]     RC-Corner PreRoute Res Factor         : 1
+[04/30 22:21:12    16s]     RC-Corner PreRoute Cap Factor         : 1
+[04/30 22:21:12    16s]     RC-Corner PostRoute Res Factor        : 1
+[04/30 22:21:12    16s]     RC-Corner PostRoute Cap Factor        : 1
+[04/30 22:21:12    16s]     RC-Corner PostRoute XCap Factor       : 1
+[04/30 22:21:12    16s]     RC-Corner PreRoute Clock Res Factor   : 1	[Derived from postRoute_res (effortLevel low)]
+[04/30 22:21:12    16s]     RC-Corner PreRoute Clock Cap Factor   : 1	[Derived from postRoute_cap (effortLevel low)]
+[04/30 22:21:12    16s]     RC-Corner PostRoute Clock Cap Factor  : 1   	[Derived from postRoute_cap (effortLevel low)]
+[04/30 22:21:12    16s]     RC-Corner PostRoute Clock Res Factor  : 1   	[Derived from postRoute_res (effortLevel low)]
+[04/30 22:21:12    16s]     RC-Corner Technology file: '/opt/cad/designkits/ams/v410/assura/c35b4/c35b4thinall/RCX-best/qrcTechFile'
+[04/30 22:21:12    16s] Technology file '/opt/cad/designkits/ams/v410/assura/c35b4/c35b4thinall/RCX-worst/qrcTechFile' associated with first view 'func_max' specified to command 'set_analysis_view' will be used as the primary corner for the multi-corner extraction. TQRC/IQRC extraction leverages a single primary corner extraction, then derives the other corners based on their technology files and operating conditions from the primary corner.
+[04/30 22:21:12    16s] <CMD_INTERNAL> print {---#   rc_corner        : ams_rc_corner_bc}
+[04/30 22:21:12    16s] ---#   rc_corner        : ams_rc_corner_bc
+[04/30 22:21:12    16s] <CMD> create_library_set -name libs_min -timing {  /opt/cad/designkits/ams/v410/liberty/c35_3.3V/c35_CORELIB_BC.lib  /opt/cad/designkits/ams/v410/liberty/c35_3.3V/c35_IOLIB_BC.lib  }
+[04/30 22:21:12    16s] <CMD> create_library_set -name libs_max -timing {  /opt/cad/designkits/ams/v410/liberty/c35_3.3V/c35_CORELIB_WC.lib  /opt/cad/designkits/ams/v410/liberty/c35_3.3V/c35_IOLIB_WC.lib  }
+[04/30 22:21:12    16s] <CMD> create_library_set -name libs_typ -timing {  /opt/cad/designkits/ams/v410/liberty/c35_3.3V/c35_CORELIB_TYP.lib  /opt/cad/designkits/ams/v410/liberty/c35_3.3V/c35_IOLIB_TYP.lib  }
+[04/30 22:21:12    16s] <CMD_INTERNAL> print {---#   lib-sets         : libs_min, libs_max, libs_typ}
+[04/30 22:21:12    16s] ---#   lib-sets         : libs_min, libs_max, libs_typ
+[04/30 22:21:12    16s] <CMD> create_constraint_mode -name $cons -sdc_files $filename
+[04/30 22:21:12    16s] CTE reading timing constraint file 'CONSTRAINTS/computer_test.sdc' ...
+[04/30 22:21:12    16s] Current (total cpu=0:00:16.2, real=0:00:43.0, peak res=494.4M, current mem=648.3M)
+[04/30 22:21:12    16s] Number of path exceptions in the constraint file = 1
+[04/30 22:21:12    16s] Number of paths exceptions after getting compressed = 1
+[04/30 22:21:12    16s] INFO (CTE): Constraints read successfully.
+[04/30 22:21:12    16s] WARNING (CTE-25): Line: 9 of File CONSTRAINTS/computer_test.sdc : Skipped unsupported command: set_max_area
+[04/30 22:21:12    16s] 
+[04/30 22:21:12    16s] 
+[04/30 22:21:12    16s] WARNING (CTE-25): Line: 8 of File CONSTRAINTS/computer_test.sdc : Skipped unsupported command: set_units
+[04/30 22:21:12    16s] 
+[04/30 22:21:12    16s] 
+[04/30 22:21:12    16s] Ending "Constraint file reading stats" (total cpu=0:00:00.1, real=0:00:00.0, peak res=502.5M, current mem=656.8M)
+[04/30 22:21:12    16s] Current (total cpu=0:00:16.2, real=0:00:43.0, peak res=502.5M, current mem=656.8M)
+[04/30 22:21:12    16s] CTE reading timing constraint file 'CONSTRAINTS/computer_func.sdc' ...
+[04/30 22:21:12    16s] Current (total cpu=0:00:16.2, real=0:00:43.0, peak res=502.5M, current mem=656.8M)
+[04/30 22:21:12    16s] Number of path exceptions in the constraint file = 1
+[04/30 22:21:12    16s] Number of paths exceptions after getting compressed = 1
+[04/30 22:21:12    16s] INFO (CTE): Constraints read successfully.
+[04/30 22:21:12    16s] WARNING (CTE-25): Line: 9 of File CONSTRAINTS/computer_func.sdc : Skipped unsupported command: set_max_area
+[04/30 22:21:12    16s] 
+[04/30 22:21:12    16s] 
+[04/30 22:21:12    16s] WARNING (CTE-25): Line: 8 of File CONSTRAINTS/computer_func.sdc : Skipped unsupported command: set_units
+[04/30 22:21:12    16s] 
+[04/30 22:21:12    16s] 
+[04/30 22:21:12    16s] Ending "Constraint file reading stats" (total cpu=0:00:00.0, real=0:00:00.0, peak res=502.8M, current mem=656.8M)
+[04/30 22:21:12    16s] Current (total cpu=0:00:16.3, real=0:00:43.0, peak res=502.8M, current mem=656.8M)
+[04/30 22:21:12    16s] <CMD> create_constraint_mode -name $cons -sdc_files $filename
+[04/30 22:21:12    16s] CTE reading timing constraint file 'CONSTRAINTS/computer_test.sdc' ...
+[04/30 22:21:12    16s] Current (total cpu=0:00:16.4, real=0:00:43.0, peak res=502.8M, current mem=649.5M)
+[04/30 22:21:12    16s] Number of path exceptions in the constraint file = 1
+[04/30 22:21:12    16s] Number of paths exceptions after getting compressed = 1
+[04/30 22:21:12    16s] INFO (CTE): Constraints read successfully.
+[04/30 22:21:12    16s] WARNING (CTE-25): Line: 9 of File CONSTRAINTS/computer_test.sdc : Skipped unsupported command: set_max_area
+[04/30 22:21:12    16s] 
+[04/30 22:21:12    16s] 
+[04/30 22:21:12    16s] WARNING (CTE-25): Line: 8 of File CONSTRAINTS/computer_test.sdc : Skipped unsupported command: set_units
+[04/30 22:21:12    16s] 
+[04/30 22:21:12    16s] 
+[04/30 22:21:12    16s] Ending "Constraint file reading stats" (total cpu=0:00:00.0, real=0:00:00.0, peak res=503.2M, current mem=658.0M)
+[04/30 22:21:12    16s] Current (total cpu=0:00:16.5, real=0:00:43.0, peak res=503.2M, current mem=658.0M)
+[04/30 22:21:12    16s] CTE reading timing constraint file 'CONSTRAINTS/computer_func.sdc' ...
+[04/30 22:21:12    16s] Current (total cpu=0:00:16.5, real=0:00:43.0, peak res=503.2M, current mem=658.0M)
+[04/30 22:21:12    16s] Number of path exceptions in the constraint file = 1
+[04/30 22:21:12    16s] Number of paths exceptions after getting compressed = 1
+[04/30 22:21:12    16s] INFO (CTE): Constraints read successfully.
+[04/30 22:21:12    16s] WARNING (CTE-25): Line: 9 of File CONSTRAINTS/computer_func.sdc : Skipped unsupported command: set_max_area
+[04/30 22:21:12    16s] 
+[04/30 22:21:12    16s] 
+[04/30 22:21:12    16s] WARNING (CTE-25): Line: 8 of File CONSTRAINTS/computer_func.sdc : Skipped unsupported command: set_units
+[04/30 22:21:12    16s] 
+[04/30 22:21:12    16s] 
+[04/30 22:21:12    16s] Ending "Constraint file reading stats" (total cpu=0:00:00.0, real=0:00:00.0, peak res=503.5M, current mem=658.0M)
+[04/30 22:21:12    16s] Current (total cpu=0:00:16.5, real=0:00:43.0, peak res=503.5M, current mem=658.0M)
+[04/30 22:21:12    16s] <CMD_INTERNAL> print {---#   constraint-modes : func test}
+[04/30 22:21:12    16s] ---#   constraint-modes : func test
+[04/30 22:21:12    16s] <CMD> create_delay_corner -name corner_min -library_set {libs_min} -opcond_library {c35_CORELIB_BC} -opcond {BEST-MIL} -rc_corner {ams_rc_corner_bc}
+[04/30 22:21:13    16s] <CMD> create_delay_corner -name corner_max -library_set {libs_max} -opcond_library {c35_CORELIB_WC} -opcond {WORST-MIL} -rc_corner {ams_rc_corner_wc}
+[04/30 22:21:13    16s] <CMD> create_delay_corner -name corner_typ -library_set {libs_typ} -opcond_library {c35_CORELIB_TYP} -opcond {TYPICAL} -rc_corner {ams_rc_corner_typ}
+[04/30 22:21:13    16s] <CMD_INTERNAL> print {---#   delay-corners    : corner_min, corner_max, corner_typ}
+[04/30 22:21:13    16s] ---#   delay-corners    : corner_min, corner_max, corner_typ
+[04/30 22:21:13    16s] <CMD_INTERNAL> print {---#   analysis-views   : }
+[04/30 22:21:13    16s] ---#   analysis-views   : 
+[04/30 22:21:13    16s] ---#          #  Name: func_min  # Constraint-Mode: func # Corner: corner_min
+[04/30 22:21:13    16s] ---#          #  Name: func_max  # Constraint-Mode: func # Corner: corner_max
+[04/30 22:21:13    16s] ---#          #  Name: func_typ  # Constraint-Mode: func # Corner: corner_typ
+[04/30 22:21:13    16s] ---#          #  Name: test_min  # Constraint-Mode: test # Corner: corner_min
+[04/30 22:21:13    16s] ---#          #  Name: test_max  # Constraint-Mode: test # Corner: corner_max
+[04/30 22:21:13    16s] ---#          #  Name: test_typ  # Constraint-Mode: test # Corner: corner_typ
+[04/30 22:21:13    16s] <CMD_INTERNAL> print {---#
+---# use following command to show analysis view definitions
+         report_analysis_view 
+}
+[04/30 22:21:13    16s] ---#
+---# use following command to show analysis view definitions
+         report_analysis_view 
+
+[04/30 22:21:21    18s] 
+[04/30 22:21:21    18s] *** Memory Usage v#1 (Current mem = 658.008M, initial mem = 94.332M) ***
+[04/30 22:21:21    18s] 
+[04/30 22:21:21    18s] *** Summary of all messages that are not suppressed in this session:
+[04/30 22:21:21    18s] Severity  ID               Count  Summary                                  
+[04/30 22:21:21    18s] WARNING   ENCFP-3961          17  The techSite '%s' has no related cells i...
+[04/30 22:21:21    18s] WARNING   ENCTS-403            1  Delay calculation was forced to extrapol...
+[04/30 22:21:21    18s] WARNING   ENCEXT-6202          4  In addition to the technology file, capa...
+[04/30 22:21:21    18s] WARNING   ENCEXT-2773          4  The via resistance between layers %s and...
+[04/30 22:21:21    18s] WARNING   ENCOAX-738           1  Non-Default Rule '%s' has already been d...
+[04/30 22:21:21    18s] WARNING   ENCOAX-741          17  Site '%s' has already been defined in %s...
+[04/30 22:21:21    18s] *** Message Summary: 44 warning(s), 0 error(s)
+[04/30 22:21:21    18s] 
+[04/30 22:21:21    18s] --- Ending "Encounter" (totcpu=0:00:18.3, real=0:00:52.0, mem=658.0M) ---

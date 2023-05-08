@@ -1,0 +1,6 @@
+*WARNING* Multiple label discarded: "vdd3r1!" at (1.450, 322.900) and "vdd3r2!" on net C4.
+*WARNING* Net C4: multiple Labels on a single Net, 
+therefore, "vdd3r2!" at (99.350, 267.100) is discarded.
+*WARNING* Net C4: multiple Labels on a single Net, 
+therefore, "vdd3r1!" at (99.450, 322.900) is discarded.
+*WARNING* 3 net(s) with multi-label warnings found in cell 'VDD3ALLP layout IOLIB_4M'.

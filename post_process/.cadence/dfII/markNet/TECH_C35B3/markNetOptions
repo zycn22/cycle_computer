@@ -1,0 +1,19 @@
+# Do not remove or change these header lines.
+# markNetOptions file version 1.0
+viaLayers(
+DIFF CONT MET1 nil
+POLY2 CONT MET1 t
+POLY1 CONT MET1 t
+MET2 VIA2 MET3 t
+MET1 VIA1 MET2 t
+)
+stopLayers(
+("POLY1" "drawing") ("POLY2" "drawing") t
+("POLY1" "drawing") ("DEVDEF" "pfuse") t
+("POLY1" "drawing") ("RESDEF" "drawing") t
+("POLY2" "drawing") ("RESDEF" "drawing") t
+("MET1" "drawing") ("METRES" "metal1") t
+("MET2" "drawing") ("METRES" "metal2") t
+("MET2" "drawing") ("METCAP" "drawing") t
+("MET3" "drawing") ("METRES" "metal3") t
+)

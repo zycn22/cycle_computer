@@ -1,0 +1,25 @@
+#! /bin/sh
+case $1 in
+  ow) rm -rf ../local_chip
+      cp -rf . ../local_chip
+      ;;
+  bu) backup_dir=$(date +'%m%d') 
+      cp -rf . ../local_chip_${backup_dir}
+      ;;
+  mg) cp -rf . ../local_chip
+      ;;
+  *)  echo
+      echo "================================================================="
+      echo "Now this script needs you to choose your option"
+      echo "Options are shown below"
+      echo "================================================================="
+      echo "copy {option}"
+      echo "      mg        this will merge your folers,"
+      echo "                it is the same with the older verision ./copy"
+      echo "      ow        this will completely overwrite your local_chip folder"
+      echo "      bu        this will create a backup copy folder"
+      echo "================================================================="
+      echo
+     ;;
+      
+esac

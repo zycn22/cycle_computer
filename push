@@ -1,0 +1,6 @@
+#! /bin/sh
+    git add --all
+    git commit -m "This is an auto-generated comment"
+    git push origin main
+  
+

@@ -1,0 +1,70 @@
+# Version:1.0 MMMC View Definition File
+# Do Not Remove Above Line
+#  Version:           03-Oct-2013
+#  Generated on:      Sun 30 Apr 22:17:06 BST 2023
+
+proc amsSetMMMC {} {
+    global topcellname
+    global consList
+
+    print "---# Setup MMMC\n---#"
+    create_rc_corner -name ams_rc_corner_typ \
+            -cap_table {/opt/cad/designkits/ams/v410/cds/HK_C35/LEF/encounter/c35b4-typical.capTable} \
+            -preRoute_res {1.0} \
+            -postRoute_res {1.0} \
+            -preRoute_cap {1.0} \
+            -postRoute_cap {1.0} \
+            -postRoute_xcap {1.0} \
+            -qx_tech_file {/opt/cad/designkits/ams/v410/assura/c35b4/c35b4thinall/RCX-typical/qrcTechFile}
+    print "---#   rc_corner        : ams_rc_corner_typ"
+    create_rc_corner -name ams_rc_corner_wc \
+            -cap_table {/opt/cad/designkits/ams/v410/cds/HK_C35/LEF/encounter/c35b4-worst.capTable} \
+            -preRoute_res {1.0} -postRoute_res {1.0} -preRoute_cap {1.0} -postRoute_cap {1.0} -postRoute_xcap {1.0} \
+            -qx_tech_file {/opt/cad/designkits/ams/v410/assura/c35b4/c35b4thinall/RCX-worst/qrcTechFile}
+    print "---#   rc_corner        : ams_rc_corner_wc"
+    create_rc_corner -name ams_rc_corner_bc \
+            -cap_table {/opt/cad/designkits/ams/v410/cds/HK_C35/LEF/encounter/c35b4-best.capTable} \
+            -preRoute_res {1.0} -postRoute_res {1.0} -preRoute_cap {1.0} -postRoute_cap {1.0} -postRoute_xcap {1.0} \
+            -qx_tech_file {/opt/cad/designkits/ams/v410/assura/c35b4/c35b4thinall/RCX-best/qrcTechFile}
+    print "---#   rc_corner        : ams_rc_corner_bc"
+
+    create_library_set -name libs_min -timing { \
+               /opt/cad/designkits/ams/v410/liberty/c35_3.3V/c35_CORELIB_BC.lib \
+               /opt/cad/designkits/ams/v410/liberty/c35_3.3V/c35_IOLIB_BC.lib \
+    }
+    create_library_set -name libs_max -timing { \
+               /opt/cad/designkits/ams/v410/liberty/c35_3.3V/c35_CORELIB_WC.lib \
+               /opt/cad/designkits/ams/v410/liberty/c35_3.3V/c35_IOLIB_WC.lib \
+    }
+    create_library_set -name libs_typ -timing { \
+               /opt/cad/designkits/ams/v410/liberty/c35_3.3V/c35_CORELIB_TYP.lib \
+               /opt/cad/designkits/ams/v410/liberty/c35_3.3V/c35_IOLIB_TYP.lib \
+   }
+   print "---#   lib-sets         : libs_min, libs_max, libs_typ"
+
+   foreach cons $consList {
+      set filename [format "CONSTRAINTS/%s_%s.sdc" $topcellname $cons]
+      create_constraint_mode -name $cons -sdc_files $filename
+   }
+   print "---#   constraint-modes : $consList"
+
+   create_delay_corner -name corner_min -library_set {libs_min} -opcond_library {c35_CORELIB_BC} -opcond {BEST-MIL} -rc_corner {ams_rc_corner_bc}
+   create_delay_corner -name corner_max -library_set {libs_max} -opcond_library {c35_CORELIB_WC} -opcond {WORST-MIL} -rc_corner {ams_rc_corner_wc}
+   create_delay_corner -name corner_typ -library_set {libs_typ} -opcond_library {c35_CORELIB_TYP} -opcond {TYPICAL} -rc_corner {ams_rc_corner_typ}
+    print "---#   delay-corners    : corner_min, corner_max, corner_typ"
+
+    print "---#   analysis-views   : "
+    foreach cons $consList {
+      foreach corner {"min" "max" "typ"} {
+        set avname [format "%s_%s" $cons $corner]
+        set cname [format "corner_%s" $corner]
+        create_analysis_view -name $avname -constraint_mode $cons -delay_corner $cname 
+	print "---#          #  Name: $avname  # Constraint-Mode: $cons # Corner: $cname"
+      }
+    }
+
+    print "---#\n---# use following command to show analysis view definitions\n         report_analysis_view \n"
+}
+
+amsSetMMMC
+amsSetAnalysisView minmax $consList

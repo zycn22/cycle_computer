@@ -1,0 +1,1379 @@
+
+***** Begin Label Report *****
+
+ Label in cell 'avPart51':
+  info: Assign net label "gnd!_AOI220_avC_117" at (7.100, 1.100) to layer `net_met1'.
+  info: Assign net label "B_AOI220_avC_117" at (6.300, 3.900) to layer `net_met1'.
+  info: Assign net label "C_AOI220_avC_117" at (9.100, 3.900) to layer `net_met1'.
+  info: Assign net label "A_AOI220_avC_117" at (7.700, 6.500) to layer `net_met1'.
+  info: Assign net label "D_AOI220_avC_117" at (11.900, 5.200) to layer `net_met1'.
+  info: Assign net label "Q_AOI220_avC_117" at (10.500, 7.800) to layer `net_met1'.
+  info: Assign net label "vdd!_AOI220_avC_117" at (7.125, 11.900) to layer `net_met1'.
+
+ Label in cell 'avPart50':
+  info: Assign net label "gnd!_AOI220_avC_114" at (2.900, 1.100) to layer `net_met1'.
+  info: Assign net label "B_AOI220_avC_114" at (2.100, 3.900) to layer `net_met1'.
+  info: Assign net label "C_AOI220_avC_114" at (4.900, 3.900) to layer `net_met1'.
+  info: Assign net label "A_AOI220_avC_114" at (3.500, 6.500) to layer `net_met1'.
+  info: Assign net label "D_AOI220_avC_114" at (7.700, 5.200) to layer `net_met1'.
+  info: Assign net label "Q_AOI220_avC_114" at (6.300, 7.800) to layer `net_met1'.
+  info: Assign net label "vdd!_AOI220_avC_114" at (2.925, 11.900) to layer `net_met1'.
+
+ Label in cell 'avPart49':
+  info: Assign net label "gnd!_DFSE1_avC_111" at (-30.700, 1.100) to layer `net_met1'.
+  info: Assign net label "C_DFSE1_avC_111" at (-31.500, 7.800) to layer `net_met1'.
+  info: Assign net label "vdd!_DFSE1_avC_111" at (-30.675, 11.900) to layer `net_met1'.
+  info: Assign net label "SD_DFSE1_avC_111" at (-13.300, 3.900) to layer `net_met1'.
+  info: Assign net label "SE_DFSE1_avC_111" at (-11.900, 9.100) to layer `net_met1'.
+  info: Assign net label "E_DFSE1_avC_111" at (-6.300, 6.500) to layer `net_met1'.
+  info: Assign net label "D_DFSE1_avC_111" at (-3.500, 3.900) to layer `net_met1'.
+  info: Assign net label "QN_DFSE1_avC_111" at (-0.700, 3.900) to layer `net_met1'.
+  info: Assign net label "Q_DFSE1_avC_111" at (-2.100, 7.800) to layer `net_met1'.
+  info: Assign net label "C_DFSE1_avC_112" at (0.700, 7.800) to layer `net_met1'.
+  info: Assign net label "SD_DFSE1_avC_112" at (18.900, 3.900) to layer `net_met1'.
+  info: Assign net label "SE_DFSE1_avC_112" at (20.300, 9.100) to layer `net_met1'.
+  info: Assign net label "E_DFSE1_avC_112" at (25.900, 6.500) to layer `net_met1'.
+  info: Assign net label "D_DFSE1_avC_112" at (28.700, 3.900) to layer `net_met1'.
+  info: Assign net label "QN_DFSE1_avC_112" at (31.500, 3.900) to layer `net_met1'.
+  info: Assign net label "Q_DFSE1_avC_112" at (30.100, 7.800) to layer `net_met1'.
+  info: Assign net label "C_DFSE1_avC_113" at (32.900, 7.800) to layer `net_met1'.
+  info: Assign net label "SD_DFSE1_avC_113" at (51.100, 3.900) to layer `net_met1'.
+  info: Assign net label "SE_DFSE1_avC_113" at (52.500, 9.100) to layer `net_met1'.
+  info: Assign net label "E_DFSE1_avC_113" at (58.100, 6.500) to layer `net_met1'.
+  info: Assign net label "D_DFSE1_avC_113" at (60.900, 3.900) to layer `net_met1'.
+  info: Assign net label "QN_DFSE1_avC_113" at (63.700, 3.900) to layer `net_met1'.
+  info: Assign net label "Q_DFSE1_avC_113" at (62.300, 7.800) to layer `net_met1'.
+
+ Label in cell 'avPart48':
+  info: Assign net label "gnd!_FILL2_avC_108" at (1.500, 1.100) to layer `net_met1'.
+  info: Assign net label "vdd!_FILL2_avC_108" at (1.525, 11.900) to layer `net_met1'.
+
+ Label in cell 'avPart47':
+  info: Assign net label "gnd!_FILLRT1_avC_105" at (0.900, 1.100) to layer `net_met1'.
+  info: Assign net label "vdd!_FILLRT1_avC_105" at (0.825, 11.900) to layer `net_met1'.
+
+ Label in cell 'avPart46':
+  info: Assign net label "gnd!_FILLRT10_avC_102" at (-19.500, 1.100) to layer `net_met1'.
+  info: Assign net label "vdd!_FILLRT10_avC_102" at (-19.475, 11.900) to layer `net_met1'.
+
+ Label in cell 'avPart45':
+  info: Assign net label "gnd!_FILLRT10_avC_99" at (-12.500, 1.100) to layer `net_met1'.
+  info: Assign net label "vdd!_FILLRT10_avC_99" at (-12.475, 11.900) to layer `net_met1'.
+
+ Label in cell 'avPart44':
+  info: Assign net label "gnd!_FILLRT1_avC_96" at (0.900, 1.100) to layer `net_met1'.
+  info: Assign net label "vdd!_FILLRT1_avC_96" at (0.825, 11.900) to layer `net_met1'.
+
+ Label in cell 'avPart43':
+  info: Assign net label "gnd!_FILLRT2_avC_93" at (1.500, 1.100) to layer `net_met1'.
+  info: Assign net label "vdd!_FILLRT2_avC_93" at (1.525, 11.900) to layer `net_met1'.
+
+ Label in cell 'avPart42':
+  info: Assign net label "gnd!_FILLRT1_avC_90" at (3.700, 1.100) to layer `net_met1'.
+  info: Assign net label "vdd!_FILLRT1_avC_90" at (3.625, 11.900) to layer `net_met1'.
+
+ Label in cell 'avPart41':
+  info: Assign net label "gnd!_ENDCAPR_avC_88" at (1.300, 1.100) to layer `net_met1'.
+  info: Assign net label "vdd!_ENDCAPR_avC_88" at (1.275, 11.900) to layer `net_met1'.
+
+ Label in cell 'avPart40':
+  info: Assign net label "gnd!_CLKIN0_avC_86" at (0.200, 0.900) to layer `net_met1'.
+  info: Assign net label "A_CLKIN0_avC_86" at (0.700, 6.500) to layer `net_met1'.
+  info: Assign net label "Q_CLKIN0_avC_86" at (0.700, 9.100) to layer `net_met1'.
+  info: Assign net label "vdd!_CLKIN0_avC_86" at (0.200, 12.000) to layer `net_met1'.
+
+ Label in cell 'avPart39':
+  info: Assign net label "gnd!_FILLRT2_avC_84" at (1.500, 1.100) to layer `net_met1'.
+  info: Assign net label "vdd!_FILLRT2_avC_84" at (1.525, 11.900) to layer `net_met1'.
+  info: Assign net label "A_NOR20_avC_85" at (3.500, 5.200) to layer `net_met1'.
+  info: Assign net label "Q_NOR20_avC_85" at (6.300, 5.200) to layer `net_met1'.
+  info: Assign net label "B_NOR20_avC_85" at (4.900, 7.800) to layer `net_met1'.
+
+ Label in cell 'avPart38':
+  info: Assign net label "gnd!_AOI210_avC_82" at (1.500, 1.100) to layer `net_met1'.
+  info: Assign net label "B_AOI210_avC_82" at (0.700, 3.900) to layer `net_met1'.
+  info: Assign net label "C_AOI210_avC_82" at (3.500, 3.900) to layer `net_met1'.
+  info: Assign net label "A_AOI210_avC_82" at (2.100, 6.500) to layer `net_met1'.
+  info: Assign net label "Q_AOI210_avC_82" at (4.900, 7.800) to layer `net_met1'.
+  info: Assign net label "vdd!_AOI210_avC_82" at (1.525, 11.900) to layer `net_met1'.
+
+ Label in cell 'avPart37':
+  info: Assign net label "gnd!_DFSEC1_avC_80" at (1.500, 1.100) to layer `net_met1'.
+  info: Assign net label "C_DFSEC1_avC_80" at (0.700, 5.200) to layer `net_met1'.
+  info: Assign net label "vdd!_DFSEC1_avC_80" at (1.525, 11.900) to layer `net_met1'.
+  info: Assign net label "RN_DFSEC1_avC_80" at (7.700, 6.500) to layer `net_met1'.
+  info: Assign net label "SD_DFSEC1_avC_80" at (20.300, 3.900) to layer `net_met1'.
+  info: Assign net label "SE_DFSEC1_avC_80" at (21.700, 9.100) to layer `net_met1'.
+  info: Assign net label "E_DFSEC1_avC_80" at (27.300, 6.500) to layer `net_met1'.
+  info: Assign net label "D_DFSEC1_avC_80" at (30.100, 3.900) to layer `net_met1'.
+  info: Assign net label "QN_DFSEC1_avC_80" at (32.900, 3.900) to layer `net_met1'.
+  info: Assign net label "Q_DFSEC1_avC_80" at (31.500, 7.800) to layer `net_met1'.
+
+ Label in cell 'avPart36':
+  info: Assign net label "gnd!_DFSE1_avC_78" at (1.500, 1.100) to layer `net_met1'.
+  info: Assign net label "C_DFSE1_avC_78" at (0.700, 7.800) to layer `net_met1'.
+  info: Assign net label "vdd!_DFSE1_avC_78" at (1.525, 11.900) to layer `net_met1'.
+  info: Assign net label "SD_DFSE1_avC_78" at (18.900, 3.900) to layer `net_met1'.
+  info: Assign net label "SE_DFSE1_avC_78" at (20.300, 9.100) to layer `net_met1'.
+  info: Assign net label "E_DFSE1_avC_78" at (25.900, 6.500) to layer `net_met1'.
+  info: Assign net label "D_DFSE1_avC_78" at (28.700, 3.900) to layer `net_met1'.
+  info: Assign net label "QN_DFSE1_avC_78" at (31.500, 3.900) to layer `net_met1'.
+  info: Assign net label "Q_DFSE1_avC_78" at (30.100, 7.800) to layer `net_met1'.
+
+ Label in cell 'avPart35':
+  info: Assign net label "gnd!_AOI220_avC_76" at (1.500, 1.100) to layer `net_met1'.
+  info: Assign net label "B_AOI220_avC_76" at (0.700, 3.900) to layer `net_met1'.
+  info: Assign net label "C_AOI220_avC_76" at (3.500, 3.900) to layer `net_met1'.
+  info: Assign net label "A_AOI220_avC_76" at (2.100, 6.500) to layer `net_met1'.
+  info: Assign net label "D_AOI220_avC_76" at (6.300, 5.200) to layer `net_met1'.
+  info: Assign net label "Q_AOI220_avC_76" at (4.900, 7.800) to layer `net_met1'.
+  info: Assign net label "vdd!_AOI220_avC_76" at (1.525, 11.900) to layer `net_met1'.
+
+ Label in cell 'avPart34':
+  info: Assign net label "gnd!_FILLRT1_avC_74" at (0.900, 1.100) to layer `net_met1'.
+  info: Assign net label "vdd!_FILLRT1_avC_74" at (0.825, 11.900) to layer `net_met1'.
+  info: Assign net label "A_NOR20_avC_75" at (4.900, 5.200) to layer `net_met1'.
+  info: Assign net label "Q_NOR20_avC_75" at (2.100, 5.200) to layer `net_met1'.
+  info: Assign net label "B_NOR20_avC_75" at (3.500, 7.800) to layer `net_met1'.
+
+ Label in cell 'avPart33':
+  info: Assign net label "gnd!_FILLRT1_avC_72" at (0.900, 1.100) to layer `net_met1'.
+  info: Assign net label "vdd!_FILLRT1_avC_72" at (0.825, 11.900) to layer `net_met1'.
+  info: Assign net label "A_NOR20_avC_73" at (2.100, 5.200) to layer `net_met1'.
+  info: Assign net label "Q_NOR20_avC_73" at (4.900, 5.200) to layer `net_met1'.
+  info: Assign net label "B_NOR20_avC_73" at (3.500, 7.800) to layer `net_met1'.
+
+ Label in cell 'avPart32':
+  info: Assign net label "gnd!_AOI220_avC_70" at (1.500, 1.100) to layer `net_met1'.
+  info: Assign net label "B_AOI220_avC_70" at (0.700, 3.900) to layer `net_met1'.
+  info: Assign net label "C_AOI220_avC_70" at (3.500, 3.900) to layer `net_met1'.
+  info: Assign net label "A_AOI220_avC_70" at (2.100, 6.500) to layer `net_met1'.
+  info: Assign net label "D_AOI220_avC_70" at (6.300, 5.200) to layer `net_met1'.
+  info: Assign net label "Q_AOI220_avC_70" at (4.900, 7.800) to layer `net_met1'.
+  info: Assign net label "vdd!_AOI220_avC_70" at (1.525, 11.900) to layer `net_met1'.
+  info: Assign net label "B_AOI220_avC_71" at (-0.700, 3.900) to layer `net_met1'.
+  info: Assign net label "C_AOI220_avC_71" at (-3.500, 3.900) to layer `net_met1'.
+  info: Assign net label "A_AOI220_avC_71" at (-2.100, 6.500) to layer `net_met1'.
+  info: Assign net label "D_AOI220_avC_71" at (-6.300, 5.200) to layer `net_met1'.
+  info: Assign net label "Q_AOI220_avC_71" at (-4.900, 7.800) to layer `net_met1'.
+
+ Label in cell 'avPart31':
+  info: Assign net label "gnd!_AOI220_avC_68" at (1.500, 1.100) to layer `net_met1'.
+  info: Assign net label "B_AOI220_avC_68" at (0.700, 3.900) to layer `net_met1'.
+  info: Assign net label "C_AOI220_avC_68" at (3.500, 3.900) to layer `net_met1'.
+  info: Assign net label "A_AOI220_avC_68" at (2.100, 6.500) to layer `net_met1'.
+  info: Assign net label "D_AOI220_avC_68" at (6.300, 5.200) to layer `net_met1'.
+  info: Assign net label "Q_AOI220_avC_68" at (4.900, 7.800) to layer `net_met1'.
+  info: Assign net label "vdd!_AOI220_avC_68" at (1.525, 11.900) to layer `net_met1'.
+  info: Assign net label "C_DFSE1_avC_69" at (7.700, 7.800) to layer `net_met1'.
+  info: Assign net label "SD_DFSE1_avC_69" at (25.900, 3.900) to layer `net_met1'.
+  info: Assign net label "SE_DFSE1_avC_69" at (27.300, 9.100) to layer `net_met1'.
+  info: Assign net label "E_DFSE1_avC_69" at (32.900, 6.500) to layer `net_met1'.
+  info: Assign net label "D_DFSE1_avC_69" at (35.700, 3.900) to layer `net_met1'.
+  info: Assign net label "QN_DFSE1_avC_69" at (38.500, 3.900) to layer `net_met1'.
+  info: Assign net label "Q_DFSE1_avC_69" at (37.100, 7.800) to layer `net_met1'.
+
+ Label in cell 'avPart30':
+  info: Assign net label "gnd!_AOI210_avC_66" at (1.500, 1.100) to layer `net_met1'.
+  info: Assign net label "B_AOI210_avC_66" at (0.700, 3.900) to layer `net_met1'.
+  info: Assign net label "C_AOI210_avC_66" at (3.500, 3.900) to layer `net_met1'.
+  info: Assign net label "A_AOI210_avC_66" at (2.100, 6.500) to layer `net_met1'.
+  info: Assign net label "Q_AOI210_avC_66" at (4.900, 7.800) to layer `net_met1'.
+  info: Assign net label "vdd!_AOI210_avC_66" at (1.525, 11.900) to layer `net_met1'.
+
+ Label in cell 'avPart29':
+  info: Assign net label "gnd!_AOI220_avC_64" at (1.500, 1.100) to layer `net_met1'.
+  info: Assign net label "B_AOI220_avC_64" at (0.700, 3.900) to layer `net_met1'.
+  info: Assign net label "C_AOI220_avC_64" at (3.500, 3.900) to layer `net_met1'.
+  info: Assign net label "A_AOI220_avC_64" at (2.100, 6.500) to layer `net_met1'.
+  info: Assign net label "D_AOI220_avC_64" at (6.300, 5.200) to layer `net_met1'.
+  info: Assign net label "Q_AOI220_avC_64" at (4.900, 7.800) to layer `net_met1'.
+  info: Assign net label "vdd!_AOI220_avC_64" at (1.525, 11.900) to layer `net_met1'.
+
+ Label in cell 'avPart28':
+  info: Assign net label "gnd!_FILLRT2_avC_62" at (1.500, 1.100) to layer `net_met1'.
+  info: Assign net label "vdd!_FILLRT2_avC_62" at (1.525, 11.900) to layer `net_met1'.
+  info: Assign net label "B_NAND20_avC_63" at (3.500, 5.200) to layer `net_met1'.
+  info: Assign net label "Q_NAND20_avC_63" at (6.300, 5.200) to layer `net_met1'.
+  info: Assign net label "A_NAND20_avC_63" at (4.900, 7.800) to layer `net_met1'.
+
+ Label in cell 'avPart27':
+  info: Assign net label "gnd!_CLKIN15_avC_60" at (0.300, 0.900) to layer `net_met1'.
+  info: Assign net label "A_CLKIN15_avC_60" at (0.700, 5.200) to layer `net_met1'.
+  info: Assign net label "vdd!_CLKIN15_avC_60" at (0.400, 12.000) to layer `net_met1'.
+  info: Assign net label "Q_CLKIN15_avC_60" at (7.700, 9.100) to layer `net_met1'.
+  info: Assign net label "C_DFSE1_avC_61" at (-31.500, 7.800) to layer `net_met1'.
+  info: Assign net label "SD_DFSE1_avC_61" at (-13.300, 3.900) to layer `net_met1'.
+  info: Assign net label "SE_DFSE1_avC_61" at (-11.900, 9.100) to layer `net_met1'.
+  info: Assign net label "E_DFSE1_avC_61" at (-6.300, 6.500) to layer `net_met1'.
+  info: Assign net label "D_DFSE1_avC_61" at (-3.500, 3.900) to layer `net_met1'.
+  info: Assign net label "QN_DFSE1_avC_61" at (-0.700, 3.900) to layer `net_met1'.
+  info: Assign net label "Q_DFSE1_avC_61" at (-2.100, 7.800) to layer `net_met1'.
+
+ Label in cell 'avPart26':
+  info: Assign net label "gnd!_FILLRT1_avC_58" at (0.900, 1.100) to layer `net_met1'.
+  info: Assign net label "vdd!_FILLRT1_avC_58" at (0.825, 11.900) to layer `net_met1'.
+  info: Assign net label "B_NAND20_avC_59" at (2.100, 5.200) to layer `net_met1'.
+  info: Assign net label "Q_NAND20_avC_59" at (4.900, 5.200) to layer `net_met1'.
+  info: Assign net label "A_NAND20_avC_59" at (3.500, 7.800) to layer `net_met1'.
+
+ Label in cell 'avPart25':
+  info: Assign net label "gnd!_DFSE1_avC_56" at (-30.700, 1.100) to layer `net_met1'.
+  info: Assign net label "C_DFSE1_avC_56" at (-31.500, 7.800) to layer `net_met1'.
+  info: Assign net label "vdd!_DFSE1_avC_56" at (-30.675, 11.900) to layer `net_met1'.
+  info: Assign net label "SD_DFSE1_avC_56" at (-13.300, 3.900) to layer `net_met1'.
+  info: Assign net label "SE_DFSE1_avC_56" at (-11.900, 9.100) to layer `net_met1'.
+  info: Assign net label "E_DFSE1_avC_56" at (-6.300, 6.500) to layer `net_met1'.
+  info: Assign net label "D_DFSE1_avC_56" at (-3.500, 3.900) to layer `net_met1'.
+  info: Assign net label "QN_DFSE1_avC_56" at (-0.700, 3.900) to layer `net_met1'.
+  info: Assign net label "Q_DFSE1_avC_56" at (-2.100, 7.800) to layer `net_met1'.
+  info: Assign net label "C_DFSE1_avC_57" at (0.700, 7.800) to layer `net_met1'.
+  info: Assign net label "SD_DFSE1_avC_57" at (18.900, 3.900) to layer `net_met1'.
+  info: Assign net label "SE_DFSE1_avC_57" at (20.300, 9.100) to layer `net_met1'.
+  info: Assign net label "E_DFSE1_avC_57" at (25.900, 6.500) to layer `net_met1'.
+  info: Assign net label "D_DFSE1_avC_57" at (28.700, 3.900) to layer `net_met1'.
+  info: Assign net label "QN_DFSE1_avC_57" at (31.500, 3.900) to layer `net_met1'.
+  info: Assign net label "Q_DFSE1_avC_57" at (30.100, 7.800) to layer `net_met1'.
+
+ Label in cell 'avPart24':
+  info: Assign net label "gnd!_FILLRT10_avC_54" at (1.500, 1.100) to layer `net_met1'.
+  info: Assign net label "vdd!_FILLRT10_avC_54" at (1.525, 11.900) to layer `net_met1'.
+
+ Label in cell 'avPart23':
+  info: Assign net label "gnd!_FILLRT10_avC_52" at (1.500, 1.100) to layer `net_met1'.
+  info: Assign net label "vdd!_FILLRT10_avC_52" at (1.525, 11.900) to layer `net_met1'.
+
+ Label in cell 'avPart22':
+  info: Assign net label "gnd!_DFSE1_avC_50" at (1.500, 1.100) to layer `net_met1'.
+  info: Assign net label "C_DFSE1_avC_50" at (0.700, 7.800) to layer `net_met1'.
+  info: Assign net label "vdd!_DFSE1_avC_50" at (1.525, 11.900) to layer `net_met1'.
+  info: Assign net label "SD_DFSE1_avC_50" at (18.900, 3.900) to layer `net_met1'.
+  info: Assign net label "SE_DFSE1_avC_50" at (20.300, 9.100) to layer `net_met1'.
+  info: Assign net label "E_DFSE1_avC_50" at (25.900, 6.500) to layer `net_met1'.
+  info: Assign net label "D_DFSE1_avC_50" at (28.700, 3.900) to layer `net_met1'.
+  info: Assign net label "QN_DFSE1_avC_50" at (31.500, 3.900) to layer `net_met1'.
+  info: Assign net label "Q_DFSE1_avC_50" at (30.100, 7.800) to layer `net_met1'.
+
+ Label in cell 'avPart21':
+  info: Assign net label "gnd!_FILL2_avC_48" at (1.500, 1.100) to layer `net_met1'.
+  info: Assign net label "vdd!_FILL2_avC_48" at (1.525, 11.900) to layer `net_met1'.
+
+ Label in cell 'avPart20':
+  info: Assign net label "gnd!_FILL2_avC_46" at (1.500, 1.100) to layer `net_met1'.
+  info: Assign net label "vdd!_FILL2_avC_46" at (1.525, 11.900) to layer `net_met1'.
+
+ Label in cell 'avPart19':
+  info: Assign net label "gnd!_FILL5_avC_44" at (1.500, 1.100) to layer `net_met1'.
+  info: Assign net label "vdd!_FILL5_avC_44" at (1.525, 11.900) to layer `net_met1'.
+
+ Label in cell 'avPart18':
+  info: Assign net label "gnd!_AOI220_avC_42" at (1.500, 1.100) to layer `net_met1'.
+  info: Assign net label "B_AOI220_avC_42" at (0.700, 3.900) to layer `net_met1'.
+  info: Assign net label "C_AOI220_avC_42" at (3.500, 3.900) to layer `net_met1'.
+  info: Assign net label "A_AOI220_avC_42" at (2.100, 6.500) to layer `net_met1'.
+  info: Assign net label "D_AOI220_avC_42" at (6.300, 5.200) to layer `net_met1'.
+  info: Assign net label "Q_AOI220_avC_42" at (4.900, 7.800) to layer `net_met1'.
+  info: Assign net label "vdd!_AOI220_avC_42" at (1.525, 11.900) to layer `net_met1'.
+  info: Assign net label "B_AOI220_avC_43" at (7.700, 3.900) to layer `net_met1'.
+  info: Assign net label "C_AOI220_avC_43" at (10.500, 3.900) to layer `net_met1'.
+  info: Assign net label "A_AOI220_avC_43" at (9.100, 6.500) to layer `net_met1'.
+  info: Assign net label "D_AOI220_avC_43" at (13.300, 5.200) to layer `net_met1'.
+  info: Assign net label "Q_AOI220_avC_43" at (11.900, 7.800) to layer `net_met1'.
+
+ Label in cell 'avPart17':
+  info: Assign net label "gnd!_AOI220_avC_40" at (1.500, 1.100) to layer `net_met1'.
+  info: Assign net label "B_AOI220_avC_40" at (0.700, 3.900) to layer `net_met1'.
+  info: Assign net label "C_AOI220_avC_40" at (3.500, 3.900) to layer `net_met1'.
+  info: Assign net label "A_AOI220_avC_40" at (2.100, 6.500) to layer `net_met1'.
+  info: Assign net label "D_AOI220_avC_40" at (6.300, 5.200) to layer `net_met1'.
+  info: Assign net label "Q_AOI220_avC_40" at (4.900, 7.800) to layer `net_met1'.
+  info: Assign net label "vdd!_AOI220_avC_40" at (1.525, 11.900) to layer `net_met1'.
+
+ Label in cell 'avPart16':
+  info: Assign net label "gnd!_AOI220_avC_38" at (1.500, 1.100) to layer `net_met1'.
+  info: Assign net label "B_AOI220_avC_38" at (0.700, 3.900) to layer `net_met1'.
+  info: Assign net label "C_AOI220_avC_38" at (3.500, 3.900) to layer `net_met1'.
+  info: Assign net label "A_AOI220_avC_38" at (2.100, 6.500) to layer `net_met1'.
+  info: Assign net label "D_AOI220_avC_38" at (6.300, 5.200) to layer `net_met1'.
+  info: Assign net label "Q_AOI220_avC_38" at (4.900, 7.800) to layer `net_met1'.
+  info: Assign net label "vdd!_AOI220_avC_38" at (1.525, 11.900) to layer `net_met1'.
+
+ Label in cell 'avPart15':
+  info: Assign net label "gnd!_AOI220_avC_36" at (1.500, 1.100) to layer `net_met1'.
+  info: Assign net label "B_AOI220_avC_36" at (0.700, 3.900) to layer `net_met1'.
+  info: Assign net label "C_AOI220_avC_36" at (3.500, 3.900) to layer `net_met1'.
+  info: Assign net label "A_AOI220_avC_36" at (2.100, 6.500) to layer `net_met1'.
+  info: Assign net label "D_AOI220_avC_36" at (6.300, 5.200) to layer `net_met1'.
+  info: Assign net label "Q_AOI220_avC_36" at (4.900, 7.800) to layer `net_met1'.
+  info: Assign net label "vdd!_AOI220_avC_36" at (1.525, 11.900) to layer `net_met1'.
+
+ Label in cell 'avPart14':
+  info: Assign net label "gnd!_DFSE1_avC_34" at (1.500, 1.100) to layer `net_met1'.
+  info: Assign net label "C_DFSE1_avC_34" at (0.700, 7.800) to layer `net_met1'.
+  info: Assign net label "vdd!_DFSE1_avC_34" at (1.525, 11.900) to layer `net_met1'.
+  info: Assign net label "SD_DFSE1_avC_34" at (18.900, 3.900) to layer `net_met1'.
+  info: Assign net label "SE_DFSE1_avC_34" at (20.300, 9.100) to layer `net_met1'.
+  info: Assign net label "E_DFSE1_avC_34" at (25.900, 6.500) to layer `net_met1'.
+  info: Assign net label "D_DFSE1_avC_34" at (28.700, 3.900) to layer `net_met1'.
+  info: Assign net label "QN_DFSE1_avC_34" at (31.500, 3.900) to layer `net_met1'.
+  info: Assign net label "Q_DFSE1_avC_34" at (30.100, 7.800) to layer `net_met1'.
+  info: Assign net label "C_DFSE1_avC_35" at (63.700, 7.800) to layer `net_met1'.
+  info: Assign net label "SD_DFSE1_avC_35" at (45.500, 3.900) to layer `net_met1'.
+  info: Assign net label "SE_DFSE1_avC_35" at (44.100, 9.100) to layer `net_met1'.
+  info: Assign net label "E_DFSE1_avC_35" at (38.500, 6.500) to layer `net_met1'.
+  info: Assign net label "D_DFSE1_avC_35" at (35.700, 3.900) to layer `net_met1'.
+  info: Assign net label "QN_DFSE1_avC_35" at (32.900, 3.900) to layer `net_met1'.
+  info: Assign net label "Q_DFSE1_avC_35" at (34.300, 7.800) to layer `net_met1'.
+
+ Label in cell 'avPart13':
+  info: Assign net label "gnd!_AOI220_avC_32" at (1.500, 1.100) to layer `net_met1'.
+  info: Assign net label "B_AOI220_avC_32" at (0.700, 3.900) to layer `net_met1'.
+  info: Assign net label "C_AOI220_avC_32" at (3.500, 3.900) to layer `net_met1'.
+  info: Assign net label "A_AOI220_avC_32" at (2.100, 6.500) to layer `net_met1'.
+  info: Assign net label "D_AOI220_avC_32" at (6.300, 5.200) to layer `net_met1'.
+  info: Assign net label "Q_AOI220_avC_32" at (4.900, 7.800) to layer `net_met1'.
+  info: Assign net label "vdd!_AOI220_avC_32" at (1.525, 11.900) to layer `net_met1'.
+  info: Assign net label "C_DFSE1_avC_33" at (38.500, 7.800) to layer `net_met1'.
+  info: Assign net label "SD_DFSE1_avC_33" at (20.300, 3.900) to layer `net_met1'.
+  info: Assign net label "SE_DFSE1_avC_33" at (18.900, 9.100) to layer `net_met1'.
+  info: Assign net label "E_DFSE1_avC_33" at (13.300, 6.500) to layer `net_met1'.
+  info: Assign net label "D_DFSE1_avC_33" at (10.500, 3.900) to layer `net_met1'.
+  info: Assign net label "QN_DFSE1_avC_33" at (7.700, 3.900) to layer `net_met1'.
+  info: Assign net label "Q_DFSE1_avC_33" at (9.100, 7.800) to layer `net_met1'.
+
+ Label in cell 'avPart12':
+  info: Assign net label "gnd!_FILLRT10_avC_30" at (1.500, 1.100) to layer `net_met1'.
+  info: Assign net label "vdd!_FILLRT10_avC_30" at (1.525, 11.900) to layer `net_met1'.
+
+ Label in cell 'avPart11':
+  info: Assign net label "gnd!_DFSE1_avC_28" at (1.500, 1.100) to layer `net_met1'.
+  info: Assign net label "C_DFSE1_avC_28" at (0.700, 7.800) to layer `net_met1'.
+  info: Assign net label "vdd!_DFSE1_avC_28" at (1.525, 11.900) to layer `net_met1'.
+  info: Assign net label "SD_DFSE1_avC_28" at (18.900, 3.900) to layer `net_met1'.
+  info: Assign net label "SE_DFSE1_avC_28" at (20.300, 9.100) to layer `net_met1'.
+  info: Assign net label "E_DFSE1_avC_28" at (25.900, 6.500) to layer `net_met1'.
+  info: Assign net label "D_DFSE1_avC_28" at (28.700, 3.900) to layer `net_met1'.
+  info: Assign net label "QN_DFSE1_avC_28" at (31.500, 3.900) to layer `net_met1'.
+  info: Assign net label "Q_DFSE1_avC_28" at (30.100, 7.800) to layer `net_met1'.
+
+ Label in cell 'avPart10':
+  info: Assign net label "gnd!_FILLRT1_avC_26" at (0.900, 1.100) to layer `net_met1'.
+  info: Assign net label "vdd!_FILLRT1_avC_26" at (0.825, 11.900) to layer `net_met1'.
+
+ Label in cell 'avPart9':
+  info: Assign net label "gnd!_FILL2_avC_24" at (1.500, 1.100) to layer `net_met1'.
+  info: Assign net label "vdd!_FILL2_avC_24" at (1.525, 11.900) to layer `net_met1'.
+
+ Label in cell 'avPart8':
+  info: Assign net label "gnd!_FILL2_avC_22" at (1.500, 1.100) to layer `net_met1'.
+  info: Assign net label "vdd!_FILL2_avC_22" at (1.525, 11.900) to layer `net_met1'.
+
+ Label in cell 'avPart7':
+  info: Assign net label "gnd!_DFSE1_avC_20" at (1.500, 1.100) to layer `net_met1'.
+  info: Assign net label "C_DFSE1_avC_20" at (0.700, 7.800) to layer `net_met1'.
+  info: Assign net label "vdd!_DFSE1_avC_20" at (1.525, 11.900) to layer `net_met1'.
+  info: Assign net label "SD_DFSE1_avC_20" at (18.900, 3.900) to layer `net_met1'.
+  info: Assign net label "SE_DFSE1_avC_20" at (20.300, 9.100) to layer `net_met1'.
+  info: Assign net label "E_DFSE1_avC_20" at (25.900, 6.500) to layer `net_met1'.
+  info: Assign net label "D_DFSE1_avC_20" at (28.700, 3.900) to layer `net_met1'.
+  info: Assign net label "QN_DFSE1_avC_20" at (31.500, 3.900) to layer `net_met1'.
+  info: Assign net label "Q_DFSE1_avC_20" at (30.100, 7.800) to layer `net_met1'.
+  info: Assign net label "C_DFSE1_avC_21" at (32.900, 7.800) to layer `net_met1'.
+  info: Assign net label "SD_DFSE1_avC_21" at (51.100, 3.900) to layer `net_met1'.
+  info: Assign net label "SE_DFSE1_avC_21" at (52.500, 9.100) to layer `net_met1'.
+  info: Assign net label "E_DFSE1_avC_21" at (58.100, 6.500) to layer `net_met1'.
+  info: Assign net label "D_DFSE1_avC_21" at (60.900, 3.900) to layer `net_met1'.
+  info: Assign net label "QN_DFSE1_avC_21" at (63.700, 3.900) to layer `net_met1'.
+  info: Assign net label "Q_DFSE1_avC_21" at (62.300, 7.800) to layer `net_met1'.
+
+ Label in cell 'avPart6':
+  info: Assign net label "gnd!_AOI220_avC_18" at (1.500, 1.100) to layer `net_met1'.
+  info: Assign net label "B_AOI220_avC_18" at (0.700, 3.900) to layer `net_met1'.
+  info: Assign net label "C_AOI220_avC_18" at (3.500, 3.900) to layer `net_met1'.
+  info: Assign net label "A_AOI220_avC_18" at (2.100, 6.500) to layer `net_met1'.
+  info: Assign net label "D_AOI220_avC_18" at (6.300, 5.200) to layer `net_met1'.
+  info: Assign net label "Q_AOI220_avC_18" at (4.900, 7.800) to layer `net_met1'.
+  info: Assign net label "vdd!_AOI220_avC_18" at (1.525, 11.900) to layer `net_met1'.
+  info: Assign net label "C_DFSE1_avC_19" at (-31.500, 7.800) to layer `net_met1'.
+  info: Assign net label "SD_DFSE1_avC_19" at (-13.300, 3.900) to layer `net_met1'.
+  info: Assign net label "SE_DFSE1_avC_19" at (-11.900, 9.100) to layer `net_met1'.
+  info: Assign net label "E_DFSE1_avC_19" at (-6.300, 6.500) to layer `net_met1'.
+  info: Assign net label "D_DFSE1_avC_19" at (-3.500, 3.900) to layer `net_met1'.
+  info: Assign net label "QN_DFSE1_avC_19" at (-0.700, 3.900) to layer `net_met1'.
+  info: Assign net label "Q_DFSE1_avC_19" at (-2.100, 7.800) to layer `net_met1'.
+
+ Label in cell 'avPart5':
+  info: Assign net label "gnd!_FILL2_avC_16" at (1.500, 1.100) to layer `net_met1'.
+  info: Assign net label "vdd!_FILL2_avC_16" at (1.525, 11.900) to layer `net_met1'.
+
+ Label in cell 'avPart4':
+  info: Assign net label "gnd!_FILLRT1_avC_14" at (0.900, 1.100) to layer `net_met1'.
+  info: Assign net label "vdd!_FILLRT1_avC_14" at (0.825, 11.900) to layer `net_met1'.
+
+ Label in cell 'avPart3':
+  info: Assign net label "gnd!_FILLRT2_avC_12" at (1.500, 1.100) to layer `net_met1'.
+  info: Assign net label "vdd!_FILLRT2_avC_12" at (1.525, 11.900) to layer `net_met1'.
+
+ Label in cell 'avPart2':
+  info: Assign net label "gnd!_FILLRT2_avC_10" at (1.500, 1.100) to layer `net_met1'.
+  info: Assign net label "vdd!_FILLRT2_avC_10" at (1.525, 11.900) to layer `net_met1'.
+
+ Label in cell 'avPart1':
+  info: Assign net label "gnd!_FILLRT1_avC_8" at (0.900, 1.100) to layer `net_met1'.
+  info: Assign net label "vdd!_FILLRT1_avC_8" at (0.825, 11.900) to layer `net_met1'.
+
+ Label in cell 'XOR21 layout CORELIB':
+  info: Assign pin label "gnd!" at (0.300, 0.900) to layer `net_met1'.
+  info: Assign pin label "A" at (0.700, 5.200) to layer `net_met1'.
+  info: Assign pin label "Q" at (4.900, 5.200) to layer `net_met1'.
+  info: Assign pin label "vdd!" at (0.400, 12.100) to layer `net_met1'.
+  info: Assign pin label "B" at (7.700, 5.200) to layer `net_met1'.
+
+ Label in cell 'XNR21 layout CORELIB':
+  info: Assign pin label "gnd!" at (0.400, 0.900) to layer `net_met1'.
+  info: Assign pin label "A" at (0.700, 5.200) to layer `net_met1'.
+  info: Assign pin label "B" at (2.100, 6.500) to layer `net_met1'.
+  info: Assign pin label "Q" at (4.900, 5.200) to layer `net_met1'.
+  info: Assign pin label "vdd!" at (0.500, 12.100) to layer `net_met1'.
+
+ Label in cell 'XNR20 layout CORELIB':
+  info: Assign pin label "gnd!" at (0.400, 0.900) to layer `net_met1'.
+  info: Assign pin label "B" at (0.700, 5.200) to layer `net_met1'.
+  info: Assign pin label "A" at (2.100, 5.200) to layer `net_met1'.
+  info: Assign pin label "Q" at (4.900, 5.200) to layer `net_met1'.
+  info: Assign pin label "vdd!" at (0.400, 12.100) to layer `net_met1'.
+
+ Label in cell 'VDD3ALLP layout IOLIB_4M':
+  info: Assign pin label "gnd3o!" at (1.350, 147.450) to layer `net_met3'.
+  info: Assign pin label "vdd3o!" at (0.950, 214.800) to layer `net_met3'.
+  info: Assign pin label "gnd3o!" at (99.150, 147.450) to layer `net_met3'.
+  info: Assign pin label "vdd3r2!" at (1.450, 267.100) to layer `net_met3'.
+  WARN: Because of the label priority, discard label "vdd3r2!" at (1.450, 267.100),
+but keep original label "vdd3o!" on net C1.
+  info: Assign pin label "gnd3r!" at (1.450, 297.150) to layer `net_met3'.
+  info: Assign pin label "vdd3o!" at (99.650, 214.800) to layer `net_met3'.
+  info: Assign pin label "vdd3r1!" at (1.450, 322.900) to layer `net_met3'.
+  WARN: Because of the label priority, discard label "vdd3r1!" at (1.450, 322.900),
+but keep original label "vdd3o!" on net C1.
+  info: Assign pin label "vdd3r2!" at (99.350, 267.100) to layer `net_met3'.
+  WARN: Because of the label priority, discard label "vdd3r2!" at (99.350, 267.100),
+but keep original label "vdd3o!" on net C1.
+  info: Assign pin label "gnd3r!" at (99.250, 297.150) to layer `net_met3'.
+  info: Assign pin label "vdd3r1!" at (99.450, 322.900) to layer `net_met3'.
+  WARN: Because of the label priority, discard label "vdd3r1!" at (99.450, 322.900),
+but keep original label "vdd3o!" on net C1.
+  info: Assign pin label "A" at (49.350, 334.100) to layer `net_met2'.
+  WARN: Because of the label priority, discard label "A" at (49.350, 334.100),
+but keep original label "vdd3o!" on net C1.
+
+ Label in cell 'OAI312 layout CORELIB':
+  info: Assign pin label "gnd!" at (1.500, 1.100) to layer `net_met1'.
+  info: Assign pin label "A" at (0.700, 5.200) to layer `net_met1'.
+  info: Assign pin label "B" at (2.100, 7.800) to layer `net_met1'.
+  info: Assign pin label "Q" at (3.500, 9.100) to layer `net_met1'.
+  info: Assign pin label "C" at (4.900, 7.800) to layer `net_met1'.
+  info: Assign pin label "vdd!" at (1.525, 11.900) to layer `net_met1'.
+  info: Assign pin label "D" at (7.700, 6.500) to layer `net_met1'.
+
+ Label in cell 'OAI311 layout CORELIB':
+  info: Assign pin label "gnd!" at (1.500, 1.100) to layer `net_met1'.
+  info: Assign pin label "A" at (0.700, 3.900) to layer `net_met1'.
+  info: Assign pin label "C" at (3.500, 5.200) to layer `net_met1'.
+  info: Assign pin label "B" at (2.100, 7.800) to layer `net_met1'.
+  info: Assign pin label "D" at (4.900, 7.800) to layer `net_met1'.
+  info: Assign pin label "vdd!" at (1.525, 11.900) to layer `net_met1'.
+  info: Assign pin label "Q" at (6.300, 9.100) to layer `net_met1'.
+
+ Label in cell 'OAI310 layout CORELIB':
+  info: Assign pin label "gnd!" at (1.500, 1.100) to layer `net_met1'.
+  info: Assign pin label "A" at (0.700, 3.900) to layer `net_met1'.
+  info: Assign pin label "C" at (3.500, 5.200) to layer `net_met1'.
+  info: Assign pin label "B" at (2.100, 7.800) to layer `net_met1'.
+  info: Assign pin label "D" at (4.900, 7.800) to layer `net_met1'.
+  info: Assign pin label "vdd!" at (1.525, 11.900) to layer `net_met1'.
+  info: Assign pin label "Q" at (6.300, 9.100) to layer `net_met1'.
+
+ Label in cell 'OAI222 layout CORELIB':
+  info: Assign pin label "gnd!" at (1.500, 1.100) to layer `net_met1'.
+  info: Assign pin label "D" at (0.700, 5.200) to layer `net_met1'.
+  info: Assign pin label "C" at (2.100, 7.800) to layer `net_met1'.
+  info: Assign pin label "A" at (3.500, 6.500) to layer `net_met1'.
+  info: Assign pin label "B" at (6.300, 6.500) to layer `net_met1'.
+  info: Assign pin label "vdd!" at (1.525, 11.900) to layer `net_met1'.
+  info: Assign pin label "Q" at (4.900, 9.100) to layer `net_met1'.
+
+ Label in cell 'OAI221 layout CORELIB':
+  info: Assign pin label "gnd!" at (1.500, 1.100) to layer `net_met1'.
+  info: Assign pin label "D" at (0.700, 6.500) to layer `net_met1'.
+  info: Assign pin label "A" at (3.500, 5.200) to layer `net_met1'.
+  info: Assign pin label "Q" at (4.900, 3.900) to layer `net_met1'.
+  info: Assign pin label "C" at (2.100, 7.800) to layer `net_met1'.
+  info: Assign pin label "vdd!" at (1.525, 11.900) to layer `net_met1'.
+  info: Assign pin label "B" at (6.300, 7.800) to layer `net_met1'.
+
+ Label in cell 'OAI220 layout CORELIB':
+  info: Assign pin label "gnd!" at (1.500, 1.100) to layer `net_met1'.
+  info: Assign pin label "D" at (0.700, 6.500) to layer `net_met1'.
+  info: Assign pin label "Q" at (4.900, 3.900) to layer `net_met1'.
+  info: Assign pin label "C" at (2.100, 7.800) to layer `net_met1'.
+  info: Assign pin label "A" at (3.500, 6.500) to layer `net_met1'.
+  info: Assign pin label "vdd!" at (1.525, 11.900) to layer `net_met1'.
+  info: Assign pin label "B" at (6.300, 7.800) to layer `net_met1'.
+
+ Label in cell 'OAI212 layout CORELIB':
+  info: Assign pin label "gnd!" at (1.500, 1.100) to layer `net_met1'.
+  info: Assign pin label "B" at (0.700, 6.500) to layer `net_met1'.
+  info: Assign pin label "A" at (3.500, 6.500) to layer `net_met1'.
+  info: Assign pin label "C" at (4.900, 5.200) to layer `net_met1'.
+  info: Assign pin label "Q" at (2.100, 9.100) to layer `net_met1'.
+  info: Assign pin label "vdd!" at (1.525, 12.100) to layer `net_met1'.
+
+ Label in cell 'OAI2112 layout CORELIB':
+  info: Assign pin label "gnd!" at (1.500, 1.100) to layer `net_met1'.
+  info: Assign pin label "A" at (0.700, 6.500) to layer `net_met1'.
+  info: Assign pin label "B" at (3.500, 5.200) to layer `net_met1'.
+  info: Assign pin label "Q" at (2.100, 9.100) to layer `net_met1'.
+  info: Assign pin label "C" at (7.325, 5.625) to layer `net_met1'.
+  info: Assign pin label "vdd!" at (1.525, 11.900) to layer `net_met1'.
+  info: Assign pin label "D" at (6.300, 7.800) to layer `net_met1'.
+  info: Assign pin label "C" at (10.500, 7.800) to layer `net_met1'.
+
+ Label in cell 'OAI2111 layout CORELIB':
+  info: Assign pin label "gnd!" at (1.500, 1.100) to layer `net_met1'.
+  info: Assign pin label "A" at (0.700, 5.200) to layer `net_met1'.
+  info: Assign pin label "C" at (4.900, 3.900) to layer `net_met1'.
+  info: Assign pin label "B" at (2.100, 7.800) to layer `net_met1'.
+  info: Assign pin label "Q" at (3.500, 9.100) to layer `net_met1'.
+  info: Assign pin label "vdd!" at (1.525, 11.900) to layer `net_met1'.
+  info: Assign pin label "D" at (6.300, 7.800) to layer `net_met1'.
+
+ Label in cell 'OAI2110 layout CORELIB':
+  info: Assign pin label "gnd!" at (1.500, 1.100) to layer `net_met1'.
+  info: Assign pin label "Q" at (2.100, 3.900) to layer `net_met1'.
+  info: Assign pin label "C" at (4.900, 3.900) to layer `net_met1'.
+  info: Assign pin label "A" at (0.700, 9.100) to layer `net_met1'.
+  info: Assign pin label "B" at (3.500, 6.500) to layer `net_met1'.
+  info: Assign pin label "vdd!" at (1.525, 11.900) to layer `net_met1'.
+  info: Assign pin label "D" at (6.300, 7.800) to layer `net_met1'.
+
+ Label in cell 'OAI211 layout CORELIB':
+  info: Assign pin label "gnd!" at (1.500, 1.100) to layer `net_met1'.
+  info: Assign pin label "B" at (2.100, 5.200) to layer `net_met1'.
+  info: Assign pin label "Q" at (4.900, 3.900) to layer `net_met1'.
+  info: Assign pin label "A" at (0.700, 9.100) to layer `net_met1'.
+  info: Assign pin label "C" at (3.500, 6.500) to layer `net_met1'.
+  info: Assign pin label "vdd!" at (1.525, 11.900) to layer `net_met1'.
+
+ Label in cell 'OAI210 layout CORELIB':
+  info: Assign pin label "gnd!" at (1.500, 1.100) to layer `net_met1'.
+  info: Assign pin label "Q" at (3.500, 3.900) to layer `net_met1'.
+  info: Assign pin label "B" at (2.100, 6.500) to layer `net_met1'.
+  info: Assign pin label "A" at (0.700, 9.100) to layer `net_met1'.
+  info: Assign pin label "C" at (4.900, 7.800) to layer `net_met1'.
+  info: Assign pin label "vdd!" at (1.525, 11.900) to layer `net_met1'.
+
+ Label in cell 'NOR42 layout CORELIB':
+  info: Assign pin label "gnd!" at (0.400, 0.900) to layer `net_met1'.
+  info: Assign pin label "A" at (0.700, 5.200) to layer `net_met1'.
+  info: Assign pin label "B" at (4.900, 5.200) to layer `net_met1'.
+  info: Assign pin label "vdd!" at (0.300, 12.100) to layer `net_met1'.
+  info: Assign pin label "C" at (7.700, 5.200) to layer `net_met1'.
+  info: Assign pin label "D" at (10.500, 5.200) to layer `net_met1'.
+  info: Assign pin label "Q" at (11.900, 5.200) to layer `net_met1'.
+
+ Label in cell 'NOR41 layout CORELIB':
+  info: Assign pin label "gnd!" at (0.400, 0.900) to layer `net_met1'.
+  info: Assign pin label "B" at (2.100, 5.200) to layer `net_met1'.
+  info: Assign pin label "A" at (0.700, 9.100) to layer `net_met1'.
+  info: Assign pin label "D" at (4.900, 5.200) to layer `net_met1'.
+  info: Assign pin label "C" at (3.500, 7.800) to layer `net_met1'.
+  info: Assign pin label "vdd!" at (0.400, 12.100) to layer `net_met1'.
+  info: Assign pin label "Q" at (6.300, 7.800) to layer `net_met1'.
+
+ Label in cell 'NOR40 layout CORELIB':
+  info: Assign pin label "gnd!" at (0.400, 0.900) to layer `net_met1'.
+  info: Assign pin label "A" at (0.700, 7.800) to layer `net_met1'.
+  info: Assign pin label "D" at (4.900, 5.200) to layer `net_met1'.
+  info: Assign pin label "B" at (2.100, 9.100) to layer `net_met1'.
+  info: Assign pin label "vdd!" at (0.400, 12.100) to layer `net_met1'.
+  info: Assign pin label "C" at (3.500, 9.100) to layer `net_met1'.
+  info: Assign pin label "Q" at (4.900, 9.125) to layer `net_met1'.
+
+ Label in cell 'NOR33 layout CORELIB':
+  info: Assign pin label "gnd!" at (0.300, 0.900) to layer `net_met1'.
+  info: Assign pin label "C" at (0.700, 5.200) to layer `net_met1'.
+  info: Assign pin label "B" at (3.500, 3.900) to layer `net_met1'.
+  info: Assign pin label "Q" at (2.100, 7.800) to layer `net_met1'.
+  info: Assign pin label "A" at (4.900, 6.500) to layer `net_met1'.
+  info: Assign pin label "vdd!" at (0.300, 12.100) to layer `net_met1'.
+
+ Label in cell 'NOR32 layout CORELIB':
+  info: Assign pin label "gnd!" at (0.300, 0.900) to layer `net_met1'.
+  info: Assign pin label "C" at (0.700, 3.900) to layer `net_met1'.
+  info: Assign pin label "Q" at (0.700, 7.800) to layer `net_met1'.
+  info: Assign pin label "B" at (3.500, 6.500) to layer `net_met1'.
+  info: Assign pin label "A" at (6.300, 3.900) to layer `net_met1'.
+  info: Assign pin label "vdd!" at (0.400, 12.100) to layer `net_met1'.
+
+ Label in cell 'NOR31 layout CORELIB':
+  info: Assign pin label "gnd!" at (0.400, 0.900) to layer `net_met1'.
+  info: Assign pin label "A" at (0.700, 3.900) to layer `net_met1'.
+  info: Assign pin label "B" at (2.100, 6.500) to layer `net_met1'.
+  info: Assign pin label "C" at (3.500, 5.200) to layer `net_met1'.
+  info: Assign pin label "vdd!" at (0.300, 12.100) to layer `net_met1'.
+  info: Assign pin label "Q" at (4.900, 7.800) to layer `net_met1'.
+
+ Label in cell 'NOR30 layout CORELIB':
+  info: Assign pin label "gnd!" at (0.400, 0.900) to layer `net_met1'.
+  info: Assign pin label "C" at (0.700, 6.500) to layer `net_met1'.
+  info: Assign pin label "B" at (2.100, 6.500) to layer `net_met1'.
+  info: Assign pin label "A" at (3.500, 5.200) to layer `net_met1'.
+  info: Assign pin label "Q" at (4.900, 3.900) to layer `net_met1'.
+  info: Assign pin label "vdd!" at (0.300, 12.100) to layer `net_met1'.
+
+ Label in cell 'NOR24 layout CORELIB':
+  info: Assign pin label "gnd!" at (0.400, 0.900) to layer `net_met1'.
+  info: Assign pin label "A" at (0.700, 5.200) to layer `net_met1'.
+  info: Assign pin label "B" at (3.500, 5.200) to layer `net_met1'.
+  info: Assign pin label "vdd!" at (0.400, 12.100) to layer `net_met1'.
+  info: Assign pin label "Q" at (7.700, 5.200) to layer `net_met1'.
+
+ Label in cell 'NOR23 layout CORELIB':
+  info: Assign pin label "gnd!" at (0.500, 0.900) to layer `net_met1'.
+  info: Assign pin label "A" at (2.100, 5.200) to layer `net_met1'.
+  info: Assign pin label "B" at (3.500, 5.200) to layer `net_met1'.
+  info: Assign pin label "Q" at (4.900, 5.200) to layer `net_met1'.
+  info: Assign pin label "vdd!" at (0.400, 12.100) to layer `net_met1'.
+
+ Label in cell 'NOR22 layout CORELIB':
+  info: Assign pin label "gnd!" at (0.500, 0.900) to layer `net_met1'.
+  info: Assign pin label "A" at (0.700, 5.200) to layer `net_met1'.
+  info: Assign pin label "Q" at (2.100, 5.200) to layer `net_met1'.
+  info: Assign pin label "B" at (4.900, 5.200) to layer `net_met1'.
+  info: Assign pin label "vdd!" at (0.400, 12.100) to layer `net_met1'.
+
+ Label in cell 'NOR21 layout CORELIB':
+  info: Assign pin label "gnd!" at (0.400, 0.900) to layer `net_met1'.
+  info: Assign pin label "A" at (0.700, 5.200) to layer `net_met1'.
+  info: Assign pin label "B" at (2.100, 5.200) to layer `net_met1'.
+  info: Assign pin label "Q" at (3.500, 5.200) to layer `net_met1'.
+  info: Assign pin label "vdd!" at (0.300, 12.100) to layer `net_met1'.
+
+ Label in cell 'NOR20 layout CORELIB':
+  info: Assign pin label "gnd!" at (0.300, 0.900) to layer `net_met1'.
+  info: Assign pin label "A" at (0.700, 5.200) to layer `net_met1'.
+  info: Assign pin label "Q" at (3.500, 5.200) to layer `net_met1'.
+  info: Assign pin label "B" at (2.100, 7.800) to layer `net_met1'.
+  info: Assign pin label "vdd!" at (0.400, 12.100) to layer `net_met1'.
+
+ Label in cell 'NAND43 layout CORELIB':
+  info: Assign pin label "gnd!" at (0.300, 0.900) to layer `net_met1'.
+  info: Assign pin label "Q" at (0.700, 3.900) to layer `net_met1'.
+  info: Assign pin label "vdd!" at (0.300, 12.100) to layer `net_met1'.
+  info: Assign pin label "D" at (9.100, 3.900) to layer `net_met1'.
+  info: Assign pin label "C" at (10.500, 6.500) to layer `net_met1'.
+  info: Assign pin label "B" at (13.300, 5.200) to layer `net_met1'.
+  info: Assign pin label "A" at (14.700, 7.800) to layer `net_met1'.
+
+ Label in cell 'NAND42 layout CORELIB':
+  info: Assign pin label "gnd!" at (0.300, 0.900) to layer `net_met1'.
+  info: Assign pin label "Q" at (0.700, 3.900) to layer `net_met1'.
+  info: Assign pin label "D" at (2.100, 7.800) to layer `net_met1'.
+  info: Assign pin label "vdd!" at (0.300, 12.100) to layer `net_met1'.
+  info: Assign pin label "C" at (4.900, 7.800) to layer `net_met1'.
+  info: Assign pin label "B" at (7.700, 7.800) to layer `net_met1'.
+  info: Assign pin label "A" at (10.500, 7.800) to layer `net_met1'.
+
+ Label in cell 'NAND41 layout CORELIB':
+  info: Assign pin label "gnd!" at (0.300, 0.900) to layer `net_met1'.
+  info: Assign pin label "D" at (0.700, 7.800) to layer `net_met1'.
+  info: Assign pin label "C" at (2.100, 7.800) to layer `net_met1'.
+  info: Assign pin label "B" at (3.500, 7.800) to layer `net_met1'.
+  info: Assign pin label "Q" at (6.300, 5.200) to layer `net_met1'.
+  info: Assign pin label "vdd!" at (0.300, 12.100) to layer `net_met1'.
+  info: Assign pin label "A" at (4.900, 7.800) to layer `net_met1'.
+
+ Label in cell 'NAND40 layout CORELIB':
+  info: Assign pin label "gnd!" at (0.300, 0.900) to layer `net_met1'.
+  info: Assign pin label "D" at (0.700, 5.200) to layer `net_met1'.
+  info: Assign pin label "B" at (3.500, 5.200) to layer `net_met1'.
+  info: Assign pin label "C" at (2.100, 7.800) to layer `net_met1'.
+  info: Assign pin label "Q" at (6.300, 5.200) to layer `net_met1'.
+  info: Assign pin label "vdd!" at (0.300, 12.100) to layer `net_met1'.
+  info: Assign pin label "A" at (4.900, 7.800) to layer `net_met1'.
+
+ Label in cell 'NAND33 layout CORELIB':
+  info: Assign pin label "gnd!" at (0.300, 0.900) to layer `net_met1'.
+  info: Assign pin label "C" at (0.700, 5.200) to layer `net_met1'.
+  info: Assign pin label "B" at (2.100, 6.500) to layer `net_met1'.
+  info: Assign pin label "A" at (3.500, 5.200) to layer `net_met1'.
+  info: Assign pin label "Q" at (4.900, 3.900) to layer `net_met1'.
+  info: Assign pin label "vdd!" at (0.400, 12.100) to layer `net_met1'.
+
+ Label in cell 'NAND32 layout CORELIB':
+  info: Assign pin label "gnd!" at (0.300, 0.900) to layer `net_met1'.
+  info: Assign pin label "C" at (0.700, 5.200) to layer `net_met1'.
+  info: Assign pin label "A" at (3.500, 5.200) to layer `net_met1'.
+  info: Assign pin label "B" at (2.100, 7.800) to layer `net_met1'.
+  info: Assign pin label "vdd!" at (0.400, 12.100) to layer `net_met1'.
+  info: Assign pin label "Q" at (4.900, 7.800) to layer `net_met1'.
+
+ Label in cell 'NAND31 layout CORELIB':
+  info: Assign pin label "gnd!" at (0.400, 0.900) to layer `net_met1'.
+  info: Assign pin label "C" at (0.700, 5.200) to layer `net_met1'.
+  info: Assign pin label "A" at (3.500, 5.200) to layer `net_met1'.
+  info: Assign pin label "B" at (2.100, 7.800) to layer `net_met1'.
+  info: Assign pin label "vdd!" at (0.300, 12.100) to layer `net_met1'.
+  info: Assign pin label "Q" at (4.900, 7.800) to layer `net_met1'.
+
+ Label in cell 'NAND30 layout CORELIB':
+  info: Assign pin label "gnd!" at (0.400, 0.900) to layer `net_met1'.
+  info: Assign pin label "C" at (0.700, 5.200) to layer `net_met1'.
+  info: Assign pin label "A" at (3.500, 5.200) to layer `net_met1'.
+  info: Assign pin label "B" at (2.100, 7.800) to layer `net_met1'.
+  info: Assign pin label "vdd!" at (0.300, 12.100) to layer `net_met1'.
+  info: Assign pin label "Q" at (4.900, 7.800) to layer `net_met1'.
+
+ Label in cell 'NAND24 layout CORELIB':
+  info: Assign pin label "gnd!" at (0.400, 0.900) to layer `net_met1'.
+  info: Assign pin label "B" at (0.700, 5.200) to layer `net_met1'.
+  info: Assign pin label "A" at (2.100, 6.500) to layer `net_met1'.
+  info: Assign pin label "Q" at (4.900, 6.500) to layer `net_met1'.
+  info: Assign pin label "vdd!" at (0.400, 12.100) to layer `net_met1'.
+
+ Label in cell 'NAND23 layout CORELIB':
+  info: Assign pin label "gnd!" at (0.500, 0.900) to layer `net_met1'.
+  info: Assign pin label "B" at (0.700, 5.200) to layer `net_met1'.
+  info: Assign pin label "A" at (3.500, 5.200) to layer `net_met1'.
+  info: Assign pin label "vdd!" at (0.500, 12.100) to layer `net_met1'.
+  info: Assign pin label "Q" at (4.900, 7.800) to layer `net_met1'.
+
+ Label in cell 'NAND22 layout CORELIB':
+  info: Assign pin label "gnd!" at (0.400, 0.900) to layer `net_met1'.
+  info: Assign pin label "B" at (0.700, 5.200) to layer `net_met1'.
+  info: Assign pin label "Q" at (3.500, 5.200) to layer `net_met1'.
+  info: Assign pin label "A" at (2.100, 7.800) to layer `net_met1'.
+  info: Assign pin label "vdd!" at (0.400, 12.100) to layer `net_met1'.
+
+ Label in cell 'NAND21 layout CORELIB':
+  info: Assign pin label "gnd!" at (0.400, 0.900) to layer `net_met1'.
+  info: Assign pin label "A" at (2.100, 5.200) to layer `net_met1'.
+  info: Assign pin label "B" at (0.700, 7.800) to layer `net_met1'.
+  info: Assign pin label "Q" at (3.500, 7.800) to layer `net_met1'.
+  info: Assign pin label "vdd!" at (0.400, 12.100) to layer `net_met1'.
+
+ Label in cell 'NAND20 layout CORELIB':
+  info: Assign pin label "gnd!" at (0.500, 0.900) to layer `net_met1'.
+  info: Assign pin label "B" at (0.700, 5.200) to layer `net_met1'.
+  info: Assign pin label "Q" at (3.500, 5.200) to layer `net_met1'.
+  info: Assign pin label "A" at (2.100, 7.800) to layer `net_met1'.
+  info: Assign pin label "vdd!" at (0.400, 12.100) to layer `net_met1'.
+
+ Label in cell 'MUX42 layout CORELIB':
+  info: Assign pin label "gnd!" at (1.650, 1.400) to layer `net_met1'.
+  info: Assign pin label "C" at (0.700, 5.200) to layer `net_met1'.
+  info: Assign pin label "S0" at (2.100, 9.100) to layer `net_met1'.
+  info: Assign pin label "D" at (6.300, 6.500) to layer `net_met1'.
+  info: Assign pin label "vdd!" at (1.675, 12.200) to layer `net_met1'.
+  info: Assign pin label "Q" at (7.700, 7.800) to layer `net_met1'.
+  info: Assign pin label "S1" at (14.700, 5.200) to layer `net_met1'.
+  info: Assign pin label "B" at (17.500, 6.500) to layer `net_met1'.
+  info: Assign pin label "A" at (20.300, 5.200) to layer `net_met1'.
+
+ Label in cell 'MUX41 layout CORELIB':
+  info: Assign pin label "gnd!" at (1.650, 1.400) to layer `net_met1'.
+  info: Assign pin label "S0" at (2.100, 5.200) to layer `net_met1'.
+  info: Assign pin label "S1" at (6.300, 3.900) to layer `net_met1'.
+  info: Assign pin label "A" at (3.500, 7.800) to layer `net_met1'.
+  info: Assign pin label "B" at (4.900, 6.500) to layer `net_met1'.
+  info: Assign pin label "vdd!" at (1.675, 12.200) to layer `net_met1'.
+  info: Assign pin label "Q" at (11.900, 7.800) to layer `net_met1'.
+  info: Assign pin label "D" at (14.700, 6.500) to layer `net_met1'.
+  info: Assign pin label "C" at (17.500, 7.800) to layer `net_met1'.
+
+ Label in cell 'MUX21 layout CORELIB':
+  info: Assign pin label "gnd!" at (1.500, 1.100) to layer `net_met1'.
+  info: Assign pin label "A" at (3.500, 5.200) to layer `net_met1'.
+  info: Assign pin label "S" at (2.100, 7.800) to layer `net_met1'.
+  info: Assign pin label "B" at (6.300, 6.500) to layer `net_met1'.
+  info: Assign pin label "vdd!" at (1.525, 11.900) to layer `net_met1'.
+  info: Assign pin label "Q" at (7.700, 9.100) to layer `net_met1'.
+
+ Label in cell 'MAJ31 layout CORELIB':
+  info: Assign pin label "gnd!" at (1.500, 1.100) to layer `net_met1'.
+  info: Assign pin label "B" at (0.700, 5.200) to layer `net_met1'.
+  info: Assign pin label "C" at (3.500, 6.500) to layer `net_met1'.
+  info: Assign pin label "A" at (6.300, 5.200) to layer `net_met1'.
+  info: Assign pin label "vdd!" at (1.525, 11.900) to layer `net_met1'.
+  info: Assign pin label "Q" at (7.700, 7.800) to layer `net_met1'.
+
+ Label in cell 'JKSC1 layout CORELIB':
+  info: Assign pin label "gnd!" at (1.500, 1.100) to layer `net_met1'.
+  info: Assign pin label "C" at (0.700, 7.800) to layer `net_met1'.
+  info: Assign pin label "SE" at (6.300, 6.500) to layer `net_met1'.
+  info: Assign pin label "SD" at (9.100, 3.900) to layer `net_met1'.
+  info: Assign pin label "vdd!" at (1.525, 11.900) to layer `net_met1'.
+  info: Assign pin label "RN" at (14.700, 6.500) to layer `net_met1'.
+  info: Assign pin label "J" at (27.300, 5.200) to layer `net_met1'.
+  info: Assign pin label "K" at (28.700, 9.100) to layer `net_met1'.
+  info: Assign pin label "QN" at (34.300, 3.900) to layer `net_met1'.
+  info: Assign pin label "Q" at (31.500, 9.100) to layer `net_met1'.
+
+ Label in cell 'INV8 layout CORELIB':
+  info: Assign pin label "gnd!" at (0.300, 0.900) to layer `net_met1'.
+  info: Assign pin label "A" at (0.700, 5.200) to layer `net_met1'.
+  info: Assign pin label "vdd!" at (0.300, 12.000) to layer `net_met1'.
+  info: Assign pin label "Q" at (4.900, 7.800) to layer `net_met1'.
+
+ Label in cell 'INV6 layout CORELIB':
+  info: Assign pin label "gnd!" at (0.300, 0.900) to layer `net_met1'.
+  info: Assign pin label "A" at (0.700, 5.200) to layer `net_met1'.
+  info: Assign pin label "Q" at (2.100, 9.100) to layer `net_met1'.
+  info: Assign pin label "vdd!" at (0.300, 12.100) to layer `net_met1'.
+
+ Label in cell 'INV3 layout CORELIB':
+  info: Assign pin label "gnd!" at (0.300, 0.900) to layer `net_met1'.
+  info: Assign pin label "A" at (0.700, 5.200) to layer `net_met1'.
+  info: Assign pin label "Q" at (2.100, 9.100) to layer `net_met1'.
+  info: Assign pin label "vdd!" at (0.400, 12.000) to layer `net_met1'.
+
+ Label in cell 'INV15 layout CORELIB':
+  info: Assign pin label "gnd!" at (0.400, 0.900) to layer `net_met1'.
+  info: Assign pin label "A" at (0.700, 5.200) to layer `net_met1'.
+  info: Assign pin label "vdd!" at (0.400, 12.000) to layer `net_met1'.
+  info: Assign pin label "Q" at (7.700, 9.100) to layer `net_met1'.
+
+ Label in cell 'INV12 layout CORELIB':
+  info: Assign pin label "gnd!" at (0.300, 0.900) to layer `net_met1'.
+  info: Assign pin label "A" at (0.700, 5.200) to layer `net_met1'.
+  info: Assign pin label "vdd!" at (0.300, 12.000) to layer `net_met1'.
+  info: Assign pin label "Q" at (4.900, 9.100) to layer `net_met1'.
+
+ Label in cell 'IMUX42 layout CORELIB':
+  info: Assign pin label "gnd!" at (1.500, 1.100) to layer `net_met1'.
+  info: Assign pin label "S0" at (0.700, 6.500) to layer `net_met1'.
+  info: Assign pin label "C" at (3.500, 6.500) to layer `net_met1'.
+  info: Assign pin label "vdd!" at (1.525, 11.900) to layer `net_met1'.
+  info: Assign pin label "D" at (9.100, 5.200) to layer `net_met1'.
+  info: Assign pin label "Q" at (14.700, 7.800) to layer `net_met1'.
+  info: Assign pin label "S1" at (18.900, 6.500) to layer `net_met1'.
+  info: Assign pin label "B" at (20.300, 5.200) to layer `net_met1'.
+  info: Assign pin label "A" at (25.900, 6.500) to layer `net_met1'.
+
+ Label in cell 'IMUX41 layout CORELIB':
+  info: Assign pin label "gnd!" at (1.650, 1.400) to layer `net_met1'.
+  info: Assign pin label "C" at (0.700, 5.200) to layer `net_met1'.
+  info: Assign pin label "D" at (4.900, 5.200) to layer `net_met1'.
+  info: Assign pin label "S0" at (2.100, 9.100) to layer `net_met1'.
+  info: Assign pin label "vdd!" at (1.675, 12.200) to layer `net_met1'.
+  info: Assign pin label "Q" at (9.100, 5.200) to layer `net_met1'.
+  info: Assign pin label "S1" at (13.300, 5.200) to layer `net_met1'.
+  info: Assign pin label "B" at (16.100, 6.500) to layer `net_met1'.
+  info: Assign pin label "A" at (18.900, 5.200) to layer `net_met1'.
+
+ Label in cell 'IMUX40 layout CORELIB':
+  info: Assign pin label "gnd!" at (1.650, 1.400) to layer `net_met1'.
+  info: Assign pin label "S0" at (2.100, 5.200) to layer `net_met1'.
+  info: Assign pin label "A" at (3.500, 7.800) to layer `net_met1'.
+  info: Assign pin label "vdd!" at (1.675, 12.200) to layer `net_met1'.
+  info: Assign pin label "B" at (6.300, 7.800) to layer `net_met1'.
+  info: Assign pin label "Q" at (9.100, 6.500) to layer `net_met1'.
+  info: Assign pin label "S1" at (11.900, 5.200) to layer `net_met1'.
+  info: Assign pin label "D" at (13.300, 6.500) to layer `net_met1'.
+  info: Assign pin label "C" at (16.100, 7.800) to layer `net_met1'.
+
+ Label in cell 'IMUX23 layout CORELIB':
+  info: Assign pin label "gnd!" at (1.500, 1.100) to layer `net_met1'.
+  info: Assign pin label "S" at (0.700, 6.500) to layer `net_met1'.
+  info: Assign pin label "A" at (3.500, 6.500) to layer `net_met1'.
+  info: Assign pin label "vdd!" at (1.525, 11.900) to layer `net_met1'.
+  info: Assign pin label "Q" at (6.300, 7.800) to layer `net_met1'.
+  info: Assign pin label "B" at (10.500, 5.200) to layer `net_met1'.
+
+ Label in cell 'IMUX22 layout CORELIB':
+  info: Assign pin label "gnd!" at (1.500, 1.100) to layer `net_met1'.
+  info: Assign pin label "S" at (2.100, 6.500) to layer `net_met1'.
+  info: Assign pin label "A" at (4.900, 6.500) to layer `net_met1'.
+  info: Assign pin label "vdd!" at (1.525, 11.900) to layer `net_met1'.
+  info: Assign pin label "Q" at (6.300, 7.800) to layer `net_met1'.
+  info: Assign pin label "B" at (10.500, 5.200) to layer `net_met1'.
+
+ Label in cell 'IMUX21 layout CORELIB':
+  info: Assign pin label "gnd!" at (1.500, 1.100) to layer `net_met1'.
+  info: Assign pin label "A" at (3.500, 5.200) to layer `net_met1'.
+  info: Assign pin label "S" at (2.100, 7.800) to layer `net_met1'.
+  info: Assign pin label "B" at (6.300, 5.200) to layer `net_met1'.
+  info: Assign pin label "vdd!" at (1.525, 11.900) to layer `net_met1'.
+  info: Assign pin label "Q" at (4.900, 9.100) to layer `net_met1'.
+
+ Label in cell 'IMUX20 layout CORELIB':
+  info: Assign pin label "gnd!" at (1.500, 1.100) to layer `net_met1'.
+  info: Assign pin label "A" at (3.500, 5.200) to layer `net_met1'.
+  info: Assign pin label "S" at (2.100, 7.800) to layer `net_met1'.
+  info: Assign pin label "B" at (6.300, 3.900) to layer `net_met1'.
+  info: Assign pin label "vdd!" at (1.525, 11.900) to layer `net_met1'.
+  info: Assign pin label "Q" at (4.900, 9.100) to layer `net_met1'.
+
+ Label in cell 'IMAJ30 layout CORELIB':
+  info: Assign pin label "gnd!" at (1.500, 1.100) to layer `net_met1'.
+  info: Assign pin label "B" at (0.700, 6.500) to layer `net_met1'.
+  info: Assign pin label "C" at (3.500, 5.200) to layer `net_met1'.
+  info: Assign pin label "A" at (7.700, 3.900) to layer `net_met1'.
+  info: Assign pin label "Q" at (6.300, 6.500) to layer `net_met1'.
+  info: Assign pin label "vdd!" at (1.525, 11.900) to layer `net_met1'.
+
+ Label in cell 'ICUP layout IOLIB_4M':
+  info: Assign pin label "PAD" at (51.300, 59.400) to layer `net_met4'.
+  info: Assign pin label "gnd3o!" at (1.150, 147.450) to layer `net_met3'.
+  info: Assign pin label "vdd3o!" at (2.100, 232.800) to layer `net_met3'.
+  info: Assign pin label "gnd3o!" at (98.550, 147.450) to layer `net_met3'.
+  info: Assign pin label "vdd3r2!" at (0.850, 267.100) to layer `net_met3'.
+  info: Assign pin label "gnd3r!" at (0.750, 297.150) to layer `net_met3'.
+  info: Assign pin label "vdd3r1!" at (1.000, 325.750) to layer `net_met3'.
+  info: Assign pin label "vdd3o!" at (98.550, 232.800) to layer `net_met3'.
+  info: Assign pin label "vdd3r2!" at (98.550, 267.100) to layer `net_met3'.
+  info: Assign pin label "gnd3r!" at (98.550, 297.150) to layer `net_met3'.
+  info: Assign pin label "vdd3r1!" at (98.550, 322.900) to layer `net_met3'.
+  info: Assign pin label "Y" at (75.700, 334.600) to layer `net_met2'.
+
+ Label in cell 'GND3IP layout IOLIB_4M':
+  info: Assign pin label "A" at (48.000, 59.400) to layer `net_met4'.
+  info: Assign pin label "gnd3o!" at (1.350, 147.450) to layer `net_met3'.
+  info: Assign pin label "vdd3o!" at (0.950, 214.800) to layer `net_met3'.
+  info: Assign pin label "gnd3o!" at (99.150, 147.450) to layer `net_met3'.
+  info: Assign pin label "vdd3r2!" at (1.450, 267.100) to layer `net_met3'.
+  info: Assign pin label "gnd3r!" at (1.450, 297.150) to layer `net_met3'.
+  info: Assign pin label "vdd3o!" at (99.650, 214.800) to layer `net_met3'.
+  info: Assign pin label "vdd3r1!" at (1.450, 322.900) to layer `net_met3'.
+  info: Assign pin label "vdd3r2!" at (99.350, 267.100) to layer `net_met3'.
+  info: Assign pin label "gnd3r!" at (99.250, 297.150) to layer `net_met3'.
+  info: Assign pin label "vdd3r1!" at (99.450, 322.900) to layer `net_met3'.
+  info: Assign pin label "A" at (60.100, 334.850) to layer `net_met2'.
+
+ Label in cell 'GND3ALLP layout IOLIB_4M':
+  info: Assign pin label "gnd3o!" at (0.200, 147.450) to layer `net_met3'.
+  info: Assign pin label "vdd3o!" at (0.950, 214.800) to layer `net_met3'.
+  info: Assign pin label "gnd3o!" at (99.700, 147.450) to layer `net_met3'.
+  info: Assign pin label "vdd3r2!" at (1.450, 267.100) to layer `net_met3'.
+  info: Assign pin label "gnd3r!" at (1.450, 297.150) to layer `net_met3'.
+  WARN: Because of the label priority, discard label "gnd3r!" at (1.450, 297.150),
+but keep original label "gnd3o!" on net C1.
+  info: Assign pin label "vdd3o!" at (99.650, 214.800) to layer `net_met3'.
+  info: Assign pin label "vdd3r1!" at (1.450, 322.900) to layer `net_met3'.
+  info: Assign pin label "vdd3r2!" at (99.350, 267.100) to layer `net_met3'.
+  info: Assign pin label "gnd3r!" at (99.250, 297.150) to layer `net_met3'.
+  WARN: Because of the label priority, discard label "gnd3r!" at (99.250, 297.150),
+but keep original label "gnd3o!" on net C1.
+  info: Assign pin label "vdd3r1!" at (99.450, 322.900) to layer `net_met3'.
+  info: Assign pin label "A" at (60.100, 334.850) to layer `net_met2'.
+  WARN: Because of the label priority, discard label "A" at (60.100, 334.850),
+but keep original label "gnd3o!" on net C1.
+
+ Label in cell 'FILLRT5 layout CORELIB':
+  info: Assign pin label "gnd!" at (1.500, 1.100) to layer `net_met1'.
+  info: Assign pin label "vdd!" at (1.525, 11.900) to layer `net_met1'.
+
+ Label in cell 'FILLRT25 layout CORELIB':
+  info: Assign pin label "gnd!" at (1.500, 1.100) to layer `net_met1'.
+  info: Assign pin label "vdd!" at (1.525, 11.900) to layer `net_met1'.
+
+ Label in cell 'FILLRT2 layout CORELIB':
+  info: Assign pin label "gnd!" at (1.500, 1.100) to layer `net_met1'.
+  info: Assign pin label "vdd!" at (1.525, 11.900) to layer `net_met1'.
+
+ Label in cell 'FILLRT10 layout CORELIB':
+  info: Assign pin label "gnd!" at (1.500, 1.100) to layer `net_met1'.
+  info: Assign pin label "vdd!" at (1.525, 11.900) to layer `net_met1'.
+
+ Label in cell 'FILLRT1 layout CORELIB':
+  info: Assign pin label "gnd!" at (0.900, 1.100) to layer `net_met1'.
+  info: Assign pin label "vdd!" at (0.825, 11.900) to layer `net_met1'.
+
+ Label in cell 'FILL5 layout CORELIB':
+  info: Assign pin label "gnd!" at (1.500, 1.100) to layer `net_met1'.
+  info: Assign pin label "vdd!" at (1.525, 11.900) to layer `net_met1'.
+
+ Label in cell 'FILL25 layout CORELIB':
+  info: Assign pin label "gnd!" at (1.500, 1.100) to layer `net_met1'.
+  info: Assign pin label "vdd!" at (1.525, 11.900) to layer `net_met1'.
+
+ Label in cell 'FILL2 layout CORELIB':
+  info: Assign pin label "gnd!" at (1.500, 1.100) to layer `net_met1'.
+  info: Assign pin label "vdd!" at (1.525, 11.900) to layer `net_met1'.
+
+ Label in cell 'FILL10 layout CORELIB':
+  info: Assign pin label "gnd!" at (1.500, 1.100) to layer `net_met1'.
+  info: Assign pin label "vdd!" at (1.525, 11.900) to layer `net_met1'.
+
+ Label in cell 'ENDCAPR layout CORELIB':
+  info: Assign pin label "gnd!" at (1.300, 1.100) to layer `net_met1'.
+  info: Assign pin label "vdd!" at (1.275, 11.900) to layer `net_met1'.
+
+ Label in cell 'ENDCAPL layout CORELIB':
+  info: Assign pin label "gnd!" at (1.500, 1.100) to layer `net_met1'.
+  info: Assign pin label "vdd!" at (1.525, 11.900) to layer `net_met1'.
+
+ Label in cell 'DFSP3 layout CORELIB':
+  info: Assign pin label "gnd!" at (1.500, 1.100) to layer `net_met1'.
+  info: Assign pin label "C" at (0.700, 7.800) to layer `net_met1'.
+  info: Assign pin label "vdd!" at (1.525, 11.900) to layer `net_met1'.
+  info: Assign pin label "SN" at (10.500, 5.200) to layer `net_met1'.
+  info: Assign pin label "D" at (20.300, 5.200) to layer `net_met1'.
+  info: Assign pin label "SE" at (23.100, 6.500) to layer `net_met1'.
+  info: Assign pin label "SD" at (25.900, 3.900) to layer `net_met1'.
+  info: Assign pin label "QN" at (30.100, 3.900) to layer `net_met1'.
+  info: Assign pin label "Q" at (27.300, 9.100) to layer `net_met1'.
+
+ Label in cell 'DFSP1 layout CORELIB':
+  info: Assign pin label "gnd!" at (1.500, 1.100) to layer `net_met1'.
+  info: Assign pin label "C" at (0.700, 7.800) to layer `net_met1'.
+  info: Assign pin label "vdd!" at (1.525, 11.900) to layer `net_met1'.
+  info: Assign pin label "SN" at (10.500, 5.200) to layer `net_met1'.
+  info: Assign pin label "D" at (20.300, 5.200) to layer `net_met1'.
+  info: Assign pin label "SE" at (23.100, 6.500) to layer `net_met1'.
+  info: Assign pin label "SD" at (25.900, 3.900) to layer `net_met1'.
+  info: Assign pin label "QN" at (28.700, 3.900) to layer `net_met1'.
+  info: Assign pin label "Q" at (27.300, 7.800) to layer `net_met1'.
+
+ Label in cell 'DFSEP1 layout CORELIB':
+  info: Assign pin label "gnd!" at (1.500, 1.100) to layer `net_met1'.
+  info: Assign pin label "C" at (0.700, 7.800) to layer `net_met1'.
+  info: Assign pin label "vdd!" at (1.525, 11.900) to layer `net_met1'.
+  info: Assign pin label "SN" at (10.500, 5.200) to layer `net_met1'.
+  info: Assign pin label "SD" at (20.300, 3.900) to layer `net_met1'.
+  info: Assign pin label "SE" at (21.700, 9.100) to layer `net_met1'.
+  info: Assign pin label "E" at (27.300, 6.500) to layer `net_met1'.
+  info: Assign pin label "D" at (30.100, 3.900) to layer `net_met1'.
+  info: Assign pin label "QN" at (32.900, 3.900) to layer `net_met1'.
+  info: Assign pin label "Q" at (31.500, 7.800) to layer `net_met1'.
+
+ Label in cell 'DFSEC3 layout CORELIB':
+  info: Assign pin label "gnd!" at (1.500, 1.100) to layer `net_met1'.
+  info: Assign pin label "C" at (0.700, 5.200) to layer `net_met1'.
+  info: Assign pin label "vdd!" at (1.525, 11.900) to layer `net_met1'.
+  info: Assign pin label "RN" at (7.700, 6.500) to layer `net_met1'.
+  info: Assign pin label "SD" at (20.300, 3.900) to layer `net_met1'.
+  info: Assign pin label "SE" at (21.700, 9.100) to layer `net_met1'.
+  info: Assign pin label "E" at (27.300, 6.500) to layer `net_met1'.
+  info: Assign pin label "D" at (30.100, 3.900) to layer `net_met1'.
+  info: Assign pin label "QN" at (34.300, 3.900) to layer `net_met1'.
+  info: Assign pin label "Q" at (31.500, 9.100) to layer `net_met1'.
+
+ Label in cell 'DFSEC1 layout CORELIB':
+  info: Assign pin label "gnd!" at (1.500, 1.100) to layer `net_met1'.
+  info: Assign pin label "C" at (0.700, 5.200) to layer `net_met1'.
+  info: Assign pin label "vdd!" at (1.525, 11.900) to layer `net_met1'.
+  info: Assign pin label "RN" at (7.700, 6.500) to layer `net_met1'.
+  info: Assign pin label "SD" at (20.300, 3.900) to layer `net_met1'.
+  info: Assign pin label "SE" at (21.700, 9.100) to layer `net_met1'.
+  info: Assign pin label "E" at (27.300, 6.500) to layer `net_met1'.
+  info: Assign pin label "D" at (30.100, 3.900) to layer `net_met1'.
+  info: Assign pin label "QN" at (32.900, 3.900) to layer `net_met1'.
+  info: Assign pin label "Q" at (31.500, 7.800) to layer `net_met1'.
+
+ Label in cell 'DFSE1 layout CORELIB':
+  info: Assign pin label "gnd!" at (1.500, 1.100) to layer `net_met1'.
+  info: Assign pin label "C" at (0.700, 7.800) to layer `net_met1'.
+  info: Assign pin label "vdd!" at (1.525, 11.900) to layer `net_met1'.
+  info: Assign pin label "SD" at (18.900, 3.900) to layer `net_met1'.
+  info: Assign pin label "SE" at (20.300, 9.100) to layer `net_met1'.
+  info: Assign pin label "E" at (25.900, 6.500) to layer `net_met1'.
+  info: Assign pin label "D" at (28.700, 3.900) to layer `net_met1'.
+  info: Assign pin label "QN" at (31.500, 3.900) to layer `net_met1'.
+  info: Assign pin label "Q" at (30.100, 7.800) to layer `net_met1'.
+
+ Label in cell 'DFSC3 layout CORELIB':
+  info: Assign pin label "gnd!" at (1.500, 1.100) to layer `net_met1'.
+  info: Assign pin label "C" at (0.700, 5.200) to layer `net_met1'.
+  info: Assign pin label "vdd!" at (1.525, 11.900) to layer `net_met1'.
+  info: Assign pin label "RN" at (7.700, 6.500) to layer `net_met1'.
+  info: Assign pin label "D" at (20.300, 5.200) to layer `net_met1'.
+  info: Assign pin label "SE" at (23.100, 6.500) to layer `net_met1'.
+  info: Assign pin label "SD" at (25.900, 3.900) to layer `net_met1'.
+  info: Assign pin label "QN" at (30.100, 3.900) to layer `net_met1'.
+  info: Assign pin label "Q" at (27.300, 9.100) to layer `net_met1'.
+
+ Label in cell 'DFSC1 layout CORELIB':
+  info: Assign pin label "gnd!" at (1.500, 1.100) to layer `net_met1'.
+  info: Assign pin label "C" at (0.700, 5.200) to layer `net_met1'.
+  info: Assign pin label "vdd!" at (1.525, 11.900) to layer `net_met1'.
+  info: Assign pin label "RN" at (7.700, 6.500) to layer `net_met1'.
+  info: Assign pin label "D" at (20.300, 5.200) to layer `net_met1'.
+  info: Assign pin label "SE" at (23.100, 6.500) to layer `net_met1'.
+  info: Assign pin label "SD" at (25.900, 3.900) to layer `net_met1'.
+  info: Assign pin label "QN" at (28.700, 3.900) to layer `net_met1'.
+  info: Assign pin label "Q" at (27.300, 7.800) to layer `net_met1'.
+
+ Label in cell 'DFC1 layout CORELIB':
+  info: Assign pin label "gnd!" at (1.600, 1.100) to layer `net_met1'.
+  info: Assign pin label "C" at (0.700, 6.500) to layer `net_met1'.
+  info: Assign pin label "D" at (4.900, 6.500) to layer `net_met1'.
+  info: Assign pin label "vdd!" at (1.475, 11.900) to layer `net_met1'.
+  info: Assign pin label "RN" at (9.100, 6.500) to layer `net_met1'.
+  info: Assign pin label "Q" at (20.300, 6.500) to layer `net_met1'.
+  info: Assign pin label "QN" at (23.100, 3.900) to layer `net_met1'.
+
+ Label in cell 'CORNERP layout IOLIB_4M':
+  info: Assign pin label "gnd3o!" at (141.950, 333.800) to layer `net_met3'.
+  info: Assign pin label "gnd3o!" at (333.600, 146.800) to layer `net_met3'.
+  info: Assign pin label "vdd3o!" at (211.050, 334.400) to layer `net_met3'.
+  info: Assign pin label "vdd3o!" at (333.550, 214.550) to layer `net_met3'.
+  info: Assign pin label "vdd3r2!" at (261.750, 334.400) to layer `net_met3'.
+  info: Assign pin label "vdd3r2!" at (334.050, 268.250) to layer `net_met3'.
+  info: Assign pin label "gnd3r!" at (292.500, 334.200) to layer `net_met3'.
+  info: Assign pin label "gnd3r!" at (333.600, 297.450) to layer `net_met3'.
+  info: Assign pin label "vdd3r1!" at (333.600, 320.950) to layer `net_met3'.
+  info: Assign pin label "vdd3r1!" at (327.100, 334.350) to layer `net_met3'.
+
+ Label in cell 'CLKIN8 layout CORELIB':
+  info: Assign pin label "gnd!" at (0.300, 0.900) to layer `net_met1'.
+  info: Assign pin label "A" at (0.700, 5.200) to layer `net_met1'.
+  info: Assign pin label "vdd!" at (0.300, 12.000) to layer `net_met1'.
+  info: Assign pin label "Q" at (4.900, 7.800) to layer `net_met1'.
+
+ Label in cell 'CLKIN6 layout CORELIB':
+  info: Assign pin label "gnd!" at (0.400, 0.900) to layer `net_met1'.
+  info: Assign pin label "A" at (0.700, 5.200) to layer `net_met1'.
+  info: Assign pin label "Q" at (2.100, 9.100) to layer `net_met1'.
+  info: Assign pin label "vdd!" at (0.400, 12.100) to layer `net_met1'.
+
+ Label in cell 'CLKIN3 layout CORELIB':
+  info: Assign pin label "gnd!" at (0.300, 0.900) to layer `net_met1'.
+  info: Assign pin label "A" at (0.700, 5.200) to layer `net_met1'.
+  info: Assign pin label "Q" at (2.100, 9.100) to layer `net_met1'.
+  info: Assign pin label "vdd!" at (0.400, 12.000) to layer `net_met1'.
+
+ Label in cell 'CLKIN2 layout CORELIB':
+  info: Assign pin label "gnd!" at (0.200, 0.900) to layer `net_met1'.
+  info: Assign pin label "A" at (0.700, 6.500) to layer `net_met1'.
+  info: Assign pin label "Q" at (2.100, 9.100) to layer `net_met1'.
+  info: Assign pin label "vdd!" at (0.300, 12.000) to layer `net_met1'.
+
+ Label in cell 'CLKIN15 layout CORELIB':
+  info: Assign pin label "gnd!" at (0.300, 0.900) to layer `net_met1'.
+  info: Assign pin label "A" at (0.700, 5.200) to layer `net_met1'.
+  info: Assign pin label "vdd!" at (0.400, 12.000) to layer `net_met1'.
+  info: Assign pin label "Q" at (7.700, 9.100) to layer `net_met1'.
+
+ Label in cell 'CLKIN12 layout CORELIB':
+  info: Assign pin label "gnd!" at (0.400, 0.900) to layer `net_met1'.
+  info: Assign pin label "A" at (0.700, 5.200) to layer `net_met1'.
+  info: Assign pin label "vdd!" at (0.400, 12.000) to layer `net_met1'.
+  info: Assign pin label "Q" at (4.900, 9.100) to layer `net_met1'.
+
+ Label in cell 'CLKIN10 layout CORELIB':
+  info: Assign pin label "gnd!" at (0.300, 0.900) to layer `net_met1'.
+  info: Assign pin label "A" at (0.700, 5.200) to layer `net_met1'.
+  info: Assign pin label "vdd!" at (0.400, 12.000) to layer `net_met1'.
+  info: Assign pin label "Q" at (4.900, 7.800) to layer `net_met1'.
+
+ Label in cell 'CLKIN1 layout CORELIB':
+  info: Assign pin label "gnd!" at (0.400, 0.900) to layer `net_met1'.
+  info: Assign pin label "A" at (0.700, 6.500) to layer `net_met1'.
+  info: Assign pin label "Q" at (2.100, 9.100) to layer `net_met1'.
+  info: Assign pin label "vdd!" at (0.300, 12.100) to layer `net_met1'.
+
+ Label in cell 'CLKIN0 layout CORELIB':
+  info: Assign pin label "gnd!" at (0.200, 0.900) to layer `net_met1'.
+  info: Assign pin label "A" at (0.700, 6.500) to layer `net_met1'.
+  info: Assign pin label "Q" at (0.700, 9.100) to layer `net_met1'.
+  info: Assign pin label "vdd!" at (0.200, 12.000) to layer `net_met1'.
+
+ Label in cell 'CLKBU8 layout CORELIB':
+  info: Assign pin label "gnd!" at (0.400, 0.900) to layer `net_met1'.
+  info: Assign pin label "A" at (2.100, 5.200) to layer `net_met1'.
+  info: Assign pin label "vdd!" at (0.400, 12.000) to layer `net_met1'.
+  info: Assign pin label "Q" at (6.300, 9.100) to layer `net_met1'.
+
+ Label in cell 'CLKBU6 layout CORELIB':
+  info: Assign pin label "gnd!" at (0.400, 0.900) to layer `net_met1'.
+  info: Assign pin label "A" at (0.700, 5.200) to layer `net_met1'.
+  info: Assign pin label "vdd!" at (0.400, 12.100) to layer `net_met1'.
+  info: Assign pin label "Q" at (3.500, 9.100) to layer `net_met1'.
+
+ Label in cell 'CLKBU4 layout CORELIB':
+  info: Assign pin label "gnd!" at (0.400, 0.900) to layer `net_met1'.
+  info: Assign pin label "A" at (2.100, 5.200) to layer `net_met1'.
+  info: Assign pin label "vdd!" at (0.400, 12.100) to layer `net_met1'.
+  info: Assign pin label "Q" at (3.500, 9.100) to layer `net_met1'.
+
+ Label in cell 'CLKBU2 layout CORELIB':
+  info: Assign pin label "gnd!" at (0.300, 0.900) to layer `net_met1'.
+  info: Assign pin label "A" at (2.100, 5.200) to layer `net_met1'.
+  info: Assign pin label "vdd!" at (0.400, 12.000) to layer `net_met1'.
+  info: Assign pin label "Q" at (3.500, 9.100) to layer `net_met1'.
+
+ Label in cell 'CLKBU15 layout CORELIB':
+  info: Assign pin label "gnd!" at (0.500, 0.900) to layer `net_met1'.
+  info: Assign pin label "A" at (0.700, 6.500) to layer `net_met1'.
+  info: Assign pin label "vdd!" at (0.400, 12.000) to layer `net_met1'.
+  info: Assign pin label "Q" at (10.500, 9.100) to layer `net_met1'.
+
+ Label in cell 'CLKBU12 layout CORELIB':
+  info: Assign pin label "gnd!" at (0.400, 0.900) to layer `net_met1'.
+  info: Assign pin label "A" at (0.700, 5.200) to layer `net_met1'.
+  info: Assign pin label "vdd!" at (0.400, 12.000) to layer `net_met1'.
+  info: Assign pin label "Q" at (6.300, 9.100) to layer `net_met1'.
+
+ Label in cell 'BUF8 layout CORELIB':
+  info: Assign pin label "gnd!" at (0.500, 0.900) to layer `net_met1'.
+  info: Assign pin label "A" at (2.100, 5.200) to layer `net_met1'.
+  info: Assign pin label "vdd!" at (0.400, 12.000) to layer `net_met1'.
+  info: Assign pin label "Q" at (6.300, 9.100) to layer `net_met1'.
+
+ Label in cell 'BUF6 layout CORELIB':
+  info: Assign pin label "gnd!" at (0.400, 0.900) to layer `net_met1'.
+  info: Assign pin label "A" at (0.700, 5.200) to layer `net_met1'.
+  info: Assign pin label "vdd!" at (0.400, 12.100) to layer `net_met1'.
+  info: Assign pin label "Q" at (3.500, 9.100) to layer `net_met1'.
+
+ Label in cell 'BUF2 layout CORELIB':
+  info: Assign pin label "gnd!" at (1.500, 1.100) to layer `net_met1'.
+  info: Assign pin label "A" at (2.100, 5.200) to layer `net_met1'.
+  info: Assign pin label "Q" at (0.700, 9.100) to layer `net_met1'.
+  info: Assign pin label "vdd!" at (1.525, 11.900) to layer `net_met1'.
+
+ Label in cell 'BUF15 layout CORELIB':
+  info: Assign pin label "gnd!" at (0.600, 0.900) to layer `net_met1'.
+  info: Assign pin label "A" at (0.700, 6.500) to layer `net_met1'.
+  info: Assign pin label "vdd!" at (0.600, 12.000) to layer `net_met1'.
+  info: Assign pin label "Q" at (10.500, 9.100) to layer `net_met1'.
+
+ Label in cell 'BUF12 layout CORELIB':
+  info: Assign pin label "gnd!" at (0.600, 0.900) to layer `net_met1'.
+  info: Assign pin label "A" at (0.700, 5.200) to layer `net_met1'.
+  info: Assign pin label "vdd!" at (1.400, 12.000) to layer `net_met1'.
+  info: Assign pin label "Q" at (6.300, 9.100) to layer `net_met1'.
+
+ Label in cell 'BU8P layout IOLIB_4M':
+  info: Assign pin label "PAD" at (51.300, 59.400) to layer `net_met4'.
+  info: Assign pin label "gnd3o!" at (1.150, 147.450) to layer `net_met3'.
+  info: Assign pin label "vdd3o!" at (2.100, 232.800) to layer `net_met3'.
+  info: Assign pin label "gnd3o!" at (98.550, 147.450) to layer `net_met3'.
+  info: Assign pin label "vdd3r2!" at (0.850, 267.100) to layer `net_met3'.
+  info: Assign pin label "gnd3r!" at (0.750, 297.150) to layer `net_met3'.
+  info: Assign pin label "vdd3r1!" at (1.000, 325.750) to layer `net_met3'.
+  info: Assign pin label "vdd3o!" at (98.550, 232.800) to layer `net_met3'.
+  info: Assign pin label "vdd3r2!" at (98.550, 267.100) to layer `net_met3'.
+  info: Assign pin label "gnd3r!" at (98.550, 297.150) to layer `net_met3'.
+  info: Assign pin label "vdd3r1!" at (98.550, 322.900) to layer `net_met3'.
+  info: Assign pin label "A" at (3.000, 334.700) to layer `net_met2'.
+
+ Label in cell 'AOI312 layout CORELIB':
+  info: Assign pin label "gnd!" at (1.500, 1.100) to layer `net_met1'.
+  info: Assign pin label "B" at (2.100, 3.900) to layer `net_met1'.
+  info: Assign pin label "A" at (0.700, 7.800) to layer `net_met1'.
+  info: Assign pin label "C" at (3.500, 6.500) to layer `net_met1'.
+  info: Assign pin label "D" at (6.300, 5.200) to layer `net_met1'.
+  info: Assign pin label "vdd!" at (1.525, 11.900) to layer `net_met1'.
+  info: Assign pin label "Q" at (7.700, 9.100) to layer `net_met1'.
+
+ Label in cell 'AOI311 layout CORELIB':
+  info: Assign pin label "gnd!" at (1.500, 1.100) to layer `net_met1'.
+  info: Assign pin label "B" at (2.100, 3.900) to layer `net_met1'.
+  info: Assign pin label "A" at (0.700, 9.100) to layer `net_met1'.
+  info: Assign pin label "D" at (4.900, 5.200) to layer `net_met1'.
+  info: Assign pin label "C" at (3.500, 7.800) to layer `net_met1'.
+  info: Assign pin label "Q" at (6.300, 6.500) to layer `net_met1'.
+  info: Assign pin label "vdd!" at (1.525, 11.900) to layer `net_met1'.
+
+ Label in cell 'AOI310 layout CORELIB':
+  info: Assign pin label "gnd!" at (1.500, 1.100) to layer `net_met1'.
+  info: Assign pin label "B" at (2.100, 3.900) to layer `net_met1'.
+  info: Assign pin label "A" at (0.700, 9.100) to layer `net_met1'.
+  info: Assign pin label "D" at (4.900, 5.200) to layer `net_met1'.
+  info: Assign pin label "C" at (3.500, 7.800) to layer `net_met1'.
+  info: Assign pin label "Q" at (6.300, 6.500) to layer `net_met1'.
+  info: Assign pin label "vdd!" at (1.525, 11.900) to layer `net_met1'.
+
+ Label in cell 'AOI222 layout CORELIB':
+  info: Assign pin label "gnd!" at (1.525, 1.125) to layer `net_met1'.
+  info: Assign pin label "B" at (0.700, 6.500) to layer `net_met1'.
+  info: Assign pin label "A" at (2.100, 5.200) to layer `net_met1'.
+  info: Assign pin label "C" at (3.500, 6.500) to layer `net_met1'.
+  info: Assign pin label "D" at (7.700, 5.200) to layer `net_met1'.
+  info: Assign pin label "vdd!" at (1.525, 11.900) to layer `net_met1'.
+  info: Assign pin label "Q" at (6.300, 7.800) to layer `net_met1'.
+
+ Label in cell 'AOI221 layout CORELIB':
+  info: Assign pin label "gnd!" at (1.500, 1.100) to layer `net_met1'.
+  info: Assign pin label "B" at (0.700, 5.200) to layer `net_met1'.
+  info: Assign pin label "C" at (3.500, 3.900) to layer `net_met1'.
+  info: Assign pin label "A" at (2.100, 6.500) to layer `net_met1'.
+  info: Assign pin label "D" at (6.300, 5.200) to layer `net_met1'.
+  info: Assign pin label "Q" at (4.900, 7.800) to layer `net_met1'.
+  info: Assign pin label "vdd!" at (1.525, 11.900) to layer `net_met1'.
+
+ Label in cell 'AOI220 layout CORELIB':
+  info: Assign pin label "gnd!" at (1.500, 1.100) to layer `net_met1'.
+  info: Assign pin label "B" at (0.700, 3.900) to layer `net_met1'.
+  info: Assign pin label "C" at (3.500, 3.900) to layer `net_met1'.
+  info: Assign pin label "A" at (2.100, 6.500) to layer `net_met1'.
+  info: Assign pin label "D" at (6.300, 5.200) to layer `net_met1'.
+  info: Assign pin label "Q" at (4.900, 7.800) to layer `net_met1'.
+  info: Assign pin label "vdd!" at (1.525, 11.900) to layer `net_met1'.
+
+ Label in cell 'AOI212 layout CORELIB':
+  info: Assign pin label "gnd!" at (1.500, 1.100) to layer `net_met1'.
+  info: Assign pin label "B" at (0.700, 3.900) to layer `net_met1'.
+  info: Assign pin label "A" at (2.100, 6.500) to layer `net_met1'.
+  info: Assign pin label "Q" at (4.900, 5.200) to layer `net_met1'.
+  info: Assign pin label "C" at (6.300, 6.500) to layer `net_met1'.
+  info: Assign pin label "vdd!" at (1.525, 11.900) to layer `net_met1'.
+
+ Label in cell 'AOI2112 layout CORELIB':
+  info: Assign pin label "gnd!" at (1.500, 1.100) to layer `net_met1'.
+  info: Assign pin label "A" at (0.700, 3.900) to layer `net_met1'.
+  info: Assign pin label "B" at (3.500, 5.200) to layer `net_met1'.
+  info: Assign pin label "C" at (6.300, 5.200) to layer `net_met1'.
+  info: Assign pin label "vdd!" at (1.525, 11.900) to layer `net_met1'.
+  info: Assign pin label "D" at (9.100, 5.200) to layer `net_met1'.
+  info: Assign pin label "Q" at (7.700, 7.800) to layer `net_met1'.
+
+ Label in cell 'AOI2111 layout CORELIB':
+  info: Assign pin label "gnd!" at (1.500, 1.100) to layer `net_met1'.
+  info: Assign pin label "A" at (0.700, 5.200) to layer `net_met1'.
+  info: Assign pin label "C" at (3.500, 5.200) to layer `net_met1'.
+  info: Assign pin label "B" at (2.100, 7.800) to layer `net_met1'.
+  info: Assign pin label "D" at (6.300, 3.900) to layer `net_met1'.
+  info: Assign pin label "vdd!" at (1.525, 11.900) to layer `net_met1'.
+  info: Assign pin label "Q" at (4.900, 9.100) to layer `net_met1'.
+
+ Label in cell 'AOI2110 layout CORELIB':
+  info: Assign pin label "gnd!" at (1.500, 1.100) to layer `net_met1'.
+  info: Assign pin label "B" at (2.100, 5.200) to layer `net_met1'.
+  info: Assign pin label "A" at (0.700, 7.800) to layer `net_met1'.
+  info: Assign pin label "D" at (4.900, 5.200) to layer `net_met1'.
+  info: Assign pin label "C" at (3.500, 7.800) to layer `net_met1'.
+  info: Assign pin label "vdd!" at (1.525, 11.900) to layer `net_met1'.
+  info: Assign pin label "Q" at (6.300, 9.100) to layer `net_met1'.
+
+ Label in cell 'AOI211 layout CORELIB':
+  info: Assign pin label "gnd!" at (1.500, 1.100) to layer `net_met1'.
+  info: Assign pin label "B" at (0.700, 3.900) to layer `net_met1'.
+  info: Assign pin label "C" at (3.500, 3.900) to layer `net_met1'.
+  info: Assign pin label "A" at (2.100, 6.500) to layer `net_met1'.
+  info: Assign pin label "vdd!" at (1.525, 11.900) to layer `net_met1'.
+  info: Assign pin label "Q" at (4.900, 9.100) to layer `net_met1'.
+
+ Label in cell 'AOI210 layout CORELIB':
+  info: Assign pin label "gnd!" at (1.500, 1.100) to layer `net_met1'.
+  info: Assign pin label "B" at (0.700, 3.900) to layer `net_met1'.
+  info: Assign pin label "C" at (3.500, 3.900) to layer `net_met1'.
+  info: Assign pin label "A" at (2.100, 6.500) to layer `net_met1'.
+  info: Assign pin label "Q" at (4.900, 7.800) to layer `net_met1'.
+  info: Assign pin label "vdd!" at (1.525, 11.900) to layer `net_met1'.
+
+ Label in cell 'ADD31 layout CORELIB':
+  info: Assign pin label "gnd!" at (1.500, 1.100) to layer `net_met1'.
+  info: Assign pin label "A" at (2.100, 3.900) to layer `net_met1'.
+  info: Assign pin label "S" at (0.700, 9.100) to layer `net_met1'.
+  info: Assign pin label "vdd!" at (1.525, 11.900) to layer `net_met1'.
+  info: Assign pin label "B" at (13.300, 5.200) to layer `net_met1'.
+  info: Assign pin label "CI" at (16.100, 6.500) to layer `net_met1'.
+  info: Assign pin label "CO" at (20.300, 9.100) to layer `net_met1'.
+
+ Label in cell 'computer layout computer_post_process':
+
+***** End of Label Report *****
+
