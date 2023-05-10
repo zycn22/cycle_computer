@@ -6,6 +6,7 @@
 **[Architecture](#architecture)**<br>
 **[Padring and Bonding Diagram](#padring-and-bonding-diagram)**<br>
 
+
 ## OverView:
 This is the ARM SoC Cycle Computer Group Project at University of Southampton in 2023.
 
