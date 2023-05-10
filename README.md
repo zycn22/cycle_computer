@@ -39,6 +39,8 @@ Display                                                                         
 <img src="https://github.com/zycn22/cycle_computer/blob/main/pic/modes/Slide5.png" width="50%" height="50%">  |  **Odometer**<br />Rnage: 00.0~99.9km<br />Resolution: 0.1km<br />Accuracy: >2%
 <img src="https://github.com/zycn22/cycle_computer/blob/main/pic/modes/Slide6.png" width="50%" height="50%">  |  **Odometer**<br />Rnage: 00.0~99.9km<br />Resolution: 0.1km<br />Accuracy: >2%
 <img src="https://github.com/zycn22/cycle_computer/blob/main/pic/modes/Slide7.png" width="50%" height="50%">  |  **Odometer**<br />Rnage: 00.0~99.9km<br />Resolution: 0.1km<br />Accuracy: >2%
+<img src="https://github.com/zycn22/cycle_computer/blob/main/pic/modes/Slide8.png" width="50%" height="50%">  |  **Odometer**<br />Rnage: 00.0~99.9km<br />Resolution: 0.1km<br />Accuracy: >2%
+<img src="https://github.com/zycn22/cycle_computer/blob/main/pic/modes/Slide9.png" width="50%" height="50%">  |  **Odometer**<br />Rnage: 00.0~99.9km<br />Resolution: 0.1km<br />Accuracy: >2%
 
 ## Architecture
 ![Architecture](https://github.com/zycn22/cycle_computer/blob/main/pic/architecture.png)
