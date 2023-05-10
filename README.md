@@ -32,15 +32,15 @@ The cycle computer supports the following 7 functions:
 
 Display                                                                              |  Comment
 :--------------:                                                                     |    :----------:
-<img src="https://github.com/zycn22/cycle_computer/blob/main/pic/displays/Slide1.png" width="60%" height="40%">  |  **Odometer**<br />Rnage: 00.0 ~ 99.9km<br />Resolution: 0.1km<br />Accuracy: <2%
-<img src="https://github.com/zycn22/cycle_computer/blob/main/pic/displays/Slide2.png" width="60%" height="40%">  |  **Trip Timer**<br />Rnage: 0:00 ~ 9:59<br />Resolution: 1 minute<br />Accuracy: <1%
-<img src="https://github.com/zycn22/cycle_computer/blob/main/pic/displays/Slide3.png" width="60%" height="40%">  |  **Speedometer**<br />Rnage: 00.0 ~ 99.9km/h<br />Resolution: 0.1km/h<br />Accuracy: <1%
-<img src="https://github.com/zycn22/cycle_computer/blob/main/pic/displays/Slide4.png" width="60%" height="40%">  |  **Cadence Meter**<br />Rnage: 000 ~ 999rpm<br />Resolution: 5rpm<br />Accuracy: <5rpm
-<img src="https://github.com/zycn22/cycle_computer/blob/main/pic/displays/Slide5.png" width="60%" height="40%">  |  **Average Speed**<br />Rnage: 00.0 ~ 99.9 km/h<br />Resolution: 0.1km/h<br />Accuracy: <2%
-<img src="https://github.com/zycn22/cycle_computer/blob/main/pic/displays/Slide6.png" width="60%" height="40%">  |  **Max Speed**<br />Rnage: 00.0 ~ 99.9km/h<br />Resolution: 0.1km/h<br />Accuracy: <1%
-<img src="https://github.com/zycn22/cycle_computer/blob/main/pic/displays/Slide7.png" width="60%" height="40%">  |  **Calorie**<br />Rnage: 000 ~ 999cal<br />Resolution: 1cal<br />Accuracy: <25%%
-<img src="https://github.com/zycn22/cycle_computer/blob/main/pic/displays/Slide8.png" width="60%" height="40%">  |  **Set Wheel Size**<br /> Press the **Mode** and **Trip** buttons together to enter this mode.<br />Press **Trip** to increase the digit.<br />Press **Mode** to proceed to next digit.
-<img src="https://github.com/zycn22/cycle_computer/blob/main/pic/displays/Slide9.png" width="60%" height="40%">  |  **Set User Weight**<br /> Press the **Mode** and **Trip** buttons together in **Calorie** mode to enter this mode.<br />Press **Trip** to increase the digit.<br />Press **Mode** to proceed to next digit.
+<img src="https://github.com/zycn22/cycle_computer/blob/main/pic/displays/Slide1.png" width="60%" height="45%">  |  **Odometer**<br />Rnage: 00.0 ~ 99.9km<br />Resolution: 0.1km<br />Accuracy: <2%
+<img src="https://github.com/zycn22/cycle_computer/blob/main/pic/displays/Slide2.png" width="60%" height="45%">  |  **Trip Timer**<br />Rnage: 0:00 ~ 9:59<br />Resolution: 1 minute<br />Accuracy: <1%
+<img src="https://github.com/zycn22/cycle_computer/blob/main/pic/displays/Slide3.png" width="60%" height="45%">  |  **Speedometer**<br />Rnage: 00.0 ~ 99.9km/h<br />Resolution: 0.1km/h<br />Accuracy: <1%
+<img src="https://github.com/zycn22/cycle_computer/blob/main/pic/displays/Slide4.png" width="60%" height="45%">  |  **Cadence Meter**<br />Rnage: 000 ~ 999rpm<br />Resolution: 5rpm<br />Accuracy: <5rpm
+<img src="https://github.com/zycn22/cycle_computer/blob/main/pic/displays/Slide5.png" width="60%" height="45%">  |  **Average Speed**<br />Rnage: 00.0 ~ 99.9 km/h<br />Resolution: 0.1km/h<br />Accuracy: <2%
+<img src="https://github.com/zycn22/cycle_computer/blob/main/pic/displays/Slide6.png" width="60%" height="45%">  |  **Max Speed**<br />Rnage: 00.0 ~ 99.9km/h<br />Resolution: 0.1km/h<br />Accuracy: <1%
+<img src="https://github.com/zycn22/cycle_computer/blob/main/pic/displays/Slide7.png" width="60%" height="45%">  |  **Calorie**<br />Rnage: 000 ~ 999cal<br />Resolution: 1cal<br />Accuracy: <25%%
+<img src="https://github.com/zycn22/cycle_computer/blob/main/pic/displays/Slide8.png" width="60%" height="45%">  |  **Set Wheel Size**<br /> Press the **Mode** and **Trip** buttons together to enter this mode.<br />Press **Trip** to increase the digit.<br />Press **Mode** to proceed to next digit.
+<img src="https://github.com/zycn22/cycle_computer/blob/main/pic/displays/Slide9.png" width="60%" height="45%">  |  **Set User Weight**<br /> Press the **Mode** and **Trip** buttons together in **Calorie** mode to enter this mode.<br />Press **Trip** to increase the digit.<br />Press **Mode** to proceed to next digit.
 
 
 ## Architecture
