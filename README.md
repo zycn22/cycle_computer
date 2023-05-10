@@ -32,15 +32,15 @@ The cycle computer supports the following 7 functions:
 
 Display                                                                              |  Comment
 :--------------:                                                                     |    :----------:
-<img src="https://github.com/zycn22/cycle_computer/blob/main/pic/displays/Slide1.png" width="70%" height="50%">  |  **Odometer**(default mode)<br />Rnage: 00.0 ~ 99.9km<br />Resolution: 0.1km<br />Accuracy: <2%
-<img src="https://github.com/zycn22/cycle_computer/blob/main/pic/displays/Slide2.png" width="70%" height="50%">  |  **Trip Timer**<br />Rnage: 0:00 ~ 9:59<br />Resolution: 1 minute<br />Accuracy: <1%
-<img src="https://github.com/zycn22/cycle_computer/blob/main/pic/displays/Slide3.png" width="70%" height="50%">  |  **Speedometer**<br />Rnage: 00.0 ~ 99.9km/h<br />Resolution: 0.1km/h<br />Accuracy: <1%
-<img src="https://github.com/zycn22/cycle_computer/blob/main/pic/displays/Slide4.png" width="70%" height="50%">  |  **Cadence Meter**<br />Rnage: 000 ~ 999rpm<br />Resolution: 5rpm<br />Accuracy: <5rpm
-<img src="https://github.com/zycn22/cycle_computer/blob/main/pic/displays/Slide5.png" width="70%" height="50%">  |  **Average Speed**<br />Rnage: 00.0 ~ 99.9 km/h<br />Resolution: 0.1km/h<br />Accuracy: <2%
-<img src="https://github.com/zycn22/cycle_computer/blob/main/pic/displays/Slide6.png" width="70%" height="50%">  |  **Max Speed**<br />Rnage: 00.0 ~ 99.9km/h<br />Resolution: 0.1km/h<br />Accuracy: <1%
-<img src="https://github.com/zycn22/cycle_computer/blob/main/pic/displays/Slide7.png" width="70%" height="50%">  |  **Calorie**<br />Rnage: 000 ~ 999cal<br />Resolution: 1cal<br />Accuracy: <25%%
-<img src="https://github.com/zycn22/cycle_computer/blob/main/pic/displays/Slide8.png" width="70%" height="50%">  |  **Set Wheel Size**<br />Unit: cm<br />Press the **Mode** and **Trip** buttons together to enter this mode.<br />Press **Trip** to increase the digit.<br />Press **Mode** to proceed to next digit.<br />The default wheel size is 214cm.
-<img src="https://github.com/zycn22/cycle_computer/blob/main/pic/displays/Slide9.png" width="70%" height="50%">  |  **Set User Weight**<br />Unit: kg<br />Press the **Mode** and **Trip** buttons together in **Calorie** mode to enter this mode.<br />Press **Trip** to increase the digit.<br />Press **Mode** to proceed to next digit.<br />The default weight is 70kg.
+<img src="https://github.com/zycn22/cycle_computer/blob/main/pic/displays/Slide1.png" width="75%" height="50%">  |  **Odometer**(default mode)<br />Rnage: 00.0 ~ 99.9km<br />Resolution: 0.1km<br />Accuracy: <2%
+<img src="https://github.com/zycn22/cycle_computer/blob/main/pic/displays/Slide2.png" width="75%" height="50%">  |  **Trip Timer**<br />Rnage: 0:00 ~ 9:59<br />Resolution: 1 minute<br />Accuracy: <1%
+<img src="https://github.com/zycn22/cycle_computer/blob/main/pic/displays/Slide3.png" width="75%" height="50%">  |  **Speedometer**<br />Rnage: 00.0 ~ 99.9km/h<br />Resolution: 0.1km/h<br />Accuracy: <1%
+<img src="https://github.com/zycn22/cycle_computer/blob/main/pic/displays/Slide4.png" width="75%" height="50%">  |  **Cadence Meter**<br />Rnage: 000 ~ 999rpm<br />Resolution: 5rpm<br />Accuracy: <5rpm
+<img src="https://github.com/zycn22/cycle_computer/blob/main/pic/displays/Slide5.png" width="75%" height="50%">  |  **Average Speed**<br />Rnage: 00.0 ~ 99.9 km/h<br />Resolution: 0.1km/h<br />Accuracy: <2%
+<img src="https://github.com/zycn22/cycle_computer/blob/main/pic/displays/Slide6.png" width="75%" height="50%">  |  **Max Speed**<br />Rnage: 00.0 ~ 99.9km/h<br />Resolution: 0.1km/h<br />Accuracy: <1%
+<img src="https://github.com/zycn22/cycle_computer/blob/main/pic/displays/Slide7.png" width="75%" height="50%">  |  **Calorie**<br />Rnage: 000 ~ 999cal<br />Resolution: 1cal<br />Accuracy: <25%%
+<img src="https://github.com/zycn22/cycle_computer/blob/main/pic/displays/Slide8.png" width="75%" height="50%">  |  **Set Wheel Size**<br />Unit: cm<br />Press the **Mode** and **Trip** buttons together to enter this mode.<br />Press **Trip** to increase the digit.<br />Press **Mode** to proceed to next digit.<br />The default wheel size is 214cm.
+<img src="https://github.com/zycn22/cycle_computer/blob/main/pic/displays/Slide9.png" width="75%" height="50%">  |  **Set User Weight**<br />Unit: kg<br />Press the **Mode** and **Trip** buttons together in **Calorie** mode to enter this mode.<br />Press **Trip** to increase the digit.<br />Press **Mode** to proceed to next digit.<br />The default weight is 70kg.
 
 
 ## Architecture
