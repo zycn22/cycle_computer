@@ -35,7 +35,7 @@ fork_cnt and crank_cnt records the clock period elapsed for one revolution of th
 ### LED Display Interface
 The LED Display Interface has only one write-only register seven_seg. The form of the bit partten in this register is:
 
-<img src="https://github.com/zycn22/cycle_computer/blob/main/bit_pattern.png" width="600" height="30">
+<img src="https://github.com/zycn22/cycle_computer/blob/main/bit_pattern.png" width="600" height="50">
 
 When the data is written into this register, it will output digits from 0 to 3 with decimal point in turn.
 
