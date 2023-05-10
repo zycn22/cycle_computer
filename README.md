@@ -32,7 +32,7 @@ The cycle computer supports the following 7 functions:
 
 Display                                                                              |  Comment
 :--------------:                                                                     |    :----------:
-<img src="https://github.com/zycn22/cycle_computer/blob/main/pic/displays/Slide1.png" width="75%" height="50%">  |  **Odometer**(default mode)<br />Rnage: 00.0 ~ 99.9km<br />Resolution: 0.1km<br />Accuracy: <2%
+<img src="https://github.com/zycn22/cycle_computer/blob/main/pic/displays/Slide1.png" width="400" height="240">  |  **Odometer**(default mode)<br />Rnage: 00.0 ~ 99.9km<br />Resolution: 0.1km<br />Accuracy: <2%
 <img src="https://github.com/zycn22/cycle_computer/blob/main/pic/displays/Slide2.png" width="75%" height="50%">  |  **Trip Timer**<br />Rnage: 0:00 ~ 9:59<br />Resolution: 1 minute<br />Accuracy: <1%
 <img src="https://github.com/zycn22/cycle_computer/blob/main/pic/displays/Slide3.png" width="75%" height="50%">  |  **Speedometer**<br />Rnage: 00.0 ~ 99.9km/h<br />Resolution: 0.1km/h<br />Accuracy: <1%
 <img src="https://github.com/zycn22/cycle_computer/blob/main/pic/displays/Slide4.png" width="75%" height="50%">  |  **Cadence Meter**<br />Rnage: 000 ~ 999rpm<br />Resolution: 5rpm<br />Accuracy: <5rpm
