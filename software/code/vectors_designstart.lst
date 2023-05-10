@@ -1,4 +1,4 @@
-ARM GAS  /tmp/cct7EQvu.s 			page 1
+ARM GAS  /tmp/cc6QfqEd.s 			page 1
 
 
    1              		.syntax unified
@@ -58,7 +58,7 @@ ARM GAS  /tmp/cct7EQvu.s 			page 1
   55              		.align	2
   56              		.type	gVectors, %object
   57              		.size	gVectors, 192
-ARM GAS  /tmp/cct7EQvu.s 			page 2
+ARM GAS  /tmp/cc6QfqEd.s 			page 2
 
 
   58              	gVectors:
@@ -118,7 +118,7 @@ ARM GAS  /tmp/cct7EQvu.s 			page 1
  112              		.type	NMI_Handler, %function
  113              	NMI_Handler:
  114              	.LFB0:
-ARM GAS  /tmp/cct7EQvu.s 			page 3
+ARM GAS  /tmp/cc6QfqEd.s 			page 3
 
 
  115              		.file 1 "code/vectors_designstart.c"
@@ -178,7 +178,7 @@ ARM GAS  /tmp/cct7EQvu.s 			page 1
   54:code/vectors_designstart.c **** void PendSV_Handler (void) __attribute__((weak));
   55:code/vectors_designstart.c **** void SysTick_Handler (void) __attribute__((weak));
   56:code/vectors_designstart.c **** 
-ARM GAS  /tmp/cct7EQvu.s 			page 4
+ARM GAS  /tmp/cc6QfqEd.s 			page 4
 
 
   57:code/vectors_designstart.c **** void WAKEUP_IRQHandler (void) __attribute__((weak));
@@ -238,7 +238,7 @@ ARM GAS  /tmp/cct7EQvu.s 			page 1
  111:code/vectors_designstart.c ****    C_CAN_IRQHandler,
  112:code/vectors_designstart.c ****    SSP1_IRQHandler,
  113:code/vectors_designstart.c ****    I2C_IRQHandler,
-ARM GAS  /tmp/cct7EQvu.s 			page 5
+ARM GAS  /tmp/cc6QfqEd.s 			page 5
 
 
  114:code/vectors_designstart.c ****    CT16B0_IRQHandler,
@@ -298,7 +298,7 @@ ARM GAS  /tmp/cct7EQvu.s 			page 1
  148              		.thumb_func
  149              		.type	MemManage_Handler, %function
  150              	MemManage_Handler:
-ARM GAS  /tmp/cct7EQvu.s 			page 6
+ARM GAS  /tmp/cc6QfqEd.s 			page 6
 
 
  151              	.LFB2:
@@ -358,7 +358,7 @@ ARM GAS  /tmp/cct7EQvu.s 			page 1
  202              		.thumb_func
  203              		.type	SVC_Handler, %function
  204              	SVC_Handler:
-ARM GAS  /tmp/cct7EQvu.s 			page 7
+ARM GAS  /tmp/cc6QfqEd.s 			page 7
 
 
  205              	.LFB5:
@@ -418,7 +418,7 @@ ARM GAS  /tmp/cct7EQvu.s 			page 1
  256              		.thumb_func
  257              		.type	SysTick_Handler, %function
  258              	SysTick_Handler:
-ARM GAS  /tmp/cct7EQvu.s 			page 8
+ARM GAS  /tmp/cc6QfqEd.s 			page 8
 
 
  259              	.LFB8:
@@ -478,7 +478,7 @@ ARM GAS  /tmp/cct7EQvu.s 			page 1
  309              		.code	16
  310              		.thumb_func
  311              		.type	SSP1_IRQHandler, %function
-ARM GAS  /tmp/cct7EQvu.s 			page 9
+ARM GAS  /tmp/cc6QfqEd.s 			page 9
 
 
  312              	SSP1_IRQHandler:
@@ -538,7 +538,7 @@ ARM GAS  /tmp/cct7EQvu.s 			page 1
  363              		.code	16
  364              		.thumb_func
  365              		.type	CT16B1_IRQHandler, %function
-ARM GAS  /tmp/cct7EQvu.s 			page 10
+ARM GAS  /tmp/cc6QfqEd.s 			page 10
 
 
  366              	CT16B1_IRQHandler:
@@ -598,7 +598,7 @@ ARM GAS  /tmp/cct7EQvu.s 			page 1
  417              		.code	16
  418              		.thumb_func
  419              		.type	SSP0_IRQHandler, %function
-ARM GAS  /tmp/cct7EQvu.s 			page 11
+ARM GAS  /tmp/cc6QfqEd.s 			page 11
 
 
  420              	SSP0_IRQHandler:
@@ -658,7 +658,7 @@ ARM GAS  /tmp/cct7EQvu.s 			page 1
  471              		.code	16
  472              		.thumb_func
  473              		.type	WDT_IRQHandler, %function
-ARM GAS  /tmp/cct7EQvu.s 			page 12
+ARM GAS  /tmp/cc6QfqEd.s 			page 12
 
 
  474              	WDT_IRQHandler:
@@ -718,7 +718,7 @@ ARM GAS  /tmp/cct7EQvu.s 			page 1
  525              		.code	16
  526              		.thumb_func
  527              		.type	PIO_2_IRQHandler, %function
-ARM GAS  /tmp/cct7EQvu.s 			page 13
+ARM GAS  /tmp/cc6QfqEd.s 			page 13
 
 
  528              	PIO_2_IRQHandler:
@@ -778,7 +778,7 @@ ARM GAS  /tmp/cct7EQvu.s 			page 1
  579              	.Ldebug_info0:
  580 0000 93020000 		.4byte	0x293
  581 0004 0200     		.2byte	0x2
-ARM GAS  /tmp/cct7EQvu.s 			page 14
+ARM GAS  /tmp/cc6QfqEd.s 			page 14
 
 
  582 0006 00000000 		.4byte	.Ldebug_abbrev0
@@ -838,7 +838,7 @@ ARM GAS  /tmp/cct7EQvu.s 			page 1
  636 0075 02       		.byte	0x2
  637 0076 7D       		.byte	0x7d
  638 0077 00       		.sleb128 0
-ARM GAS  /tmp/cct7EQvu.s 			page 15
+ARM GAS  /tmp/cc6QfqEd.s 			page 15
 
 
  639 0078 01       		.byte	0x1
@@ -898,7 +898,7 @@ ARM GAS  /tmp/cct7EQvu.s 			page 1
  693 00d5 01       		.byte	0x1
  694 00d6 20000000 		.4byte	.LFB8
  695 00da 22000000 		.4byte	.LFE8
-ARM GAS  /tmp/cct7EQvu.s 			page 16
+ARM GAS  /tmp/cc6QfqEd.s 			page 16
 
 
  696 00de 02       		.byte	0x2
@@ -958,7 +958,7 @@ ARM GAS  /tmp/cct7EQvu.s 			page 1
  750 0138 63010000 		.4byte	.LASF13
  751 013c 01       		.byte	0x1
  752 013d 94       		.byte	0x94
-ARM GAS  /tmp/cct7EQvu.s 			page 17
+ARM GAS  /tmp/cc6QfqEd.s 			page 17
 
 
  753 013e 01       		.byte	0x1
@@ -1018,7 +1018,7 @@ ARM GAS  /tmp/cct7EQvu.s 			page 1
  807 019e 01       		.byte	0x1
  808 019f 02       		.uleb128 0x2
  809 01a0 01       		.byte	0x1
-ARM GAS  /tmp/cct7EQvu.s 			page 18
+ARM GAS  /tmp/cc6QfqEd.s 			page 18
 
 
  810 01a1 8F020000 		.4byte	.LASF18
@@ -1078,7 +1078,7 @@ ARM GAS  /tmp/cct7EQvu.s 			page 1
  864 0204 02       		.byte	0x2
  865 0205 7D       		.byte	0x7d
  866 0206 00       		.sleb128 0
-ARM GAS  /tmp/cct7EQvu.s 			page 19
+ARM GAS  /tmp/cc6QfqEd.s 			page 19
 
 
  867 0207 01       		.byte	0x1
@@ -1138,7 +1138,7 @@ ARM GAS  /tmp/cct7EQvu.s 			page 1
  921 026a 00       		.byte	0
  922 026b 04       		.uleb128 0x4
  923 026c 04       		.byte	0x4
-ARM GAS  /tmp/cct7EQvu.s 			page 20
+ARM GAS  /tmp/cc6QfqEd.s 			page 20
 
 
  924 026d 07       		.byte	0x7
@@ -1198,7 +1198,7 @@ ARM GAS  /tmp/cct7EQvu.s 			page 1
  978 001f 0C       		.uleb128 0xc
  979 0020 11       		.uleb128 0x11
  980 0021 01       		.uleb128 0x1
-ARM GAS  /tmp/cct7EQvu.s 			page 21
+ARM GAS  /tmp/cc6QfqEd.s 			page 21
 
 
  981 0022 12       		.uleb128 0x12
@@ -1258,7 +1258,7 @@ ARM GAS  /tmp/cct7EQvu.s 			page 1
  1035 0059 07       		.uleb128 0x7
  1036 005a 0F       		.uleb128 0xf
  1037 005b 00       		.byte	0
-ARM GAS  /tmp/cct7EQvu.s 			page 22
+ARM GAS  /tmp/cc6QfqEd.s 			page 22
 
 
  1038 005c 0B       		.uleb128 0xb
@@ -1318,7 +1318,7 @@ ARM GAS  /tmp/cct7EQvu.s 			page 1
  1090      00000201 
  1090      FB0E0D00 
  1090      01010101 
-ARM GAS  /tmp/cct7EQvu.s 			page 23
+ARM GAS  /tmp/cc6QfqEd.s 			page 23
 
 
  1091              	.LASF30:
@@ -1378,7 +1378,7 @@ ARM GAS  /tmp/cct7EQvu.s 			page 1
  1108      657200
  1109              	.LASF3:
  1110 00f7 42757346 		.ascii	"BusFault_Handler\000"
-ARM GAS  /tmp/cct7EQvu.s 			page 24
+ARM GAS  /tmp/cc6QfqEd.s 			page 24
 
 
  1110      61756C74 
@@ -1438,7 +1438,7 @@ ARM GAS  /tmp/cct7EQvu.s 			page 1
  1130      69636B5F 
  1130      48616E64 
  1130      6C657200 
-ARM GAS  /tmp/cct7EQvu.s 			page 25
+ARM GAS  /tmp/cc6QfqEd.s 			page 25
 
 
  1131              	.LASF27:
@@ -1498,7 +1498,7 @@ ARM GAS  /tmp/cct7EQvu.s 			page 1
  1151      5F48616E 
  1151      646C6572 
  1151      00
-ARM GAS  /tmp/cct7EQvu.s 			page 26
+ARM GAS  /tmp/cc6QfqEd.s 			page 26
 
 
  1152              	.LASF20:
@@ -1524,40 +1524,40 @@ ARM GAS  /tmp/cct7EQvu.s 			page 1
  1159      646C6572 
  1159      00
  1160              		.ident	"GCC: (GNU Tools for ARM Embedded Processors) 5.4.1 20160919 (release) [ARM/embedded-5-bran
-ARM GAS  /tmp/cct7EQvu.s 			page 27
+ARM GAS  /tmp/cc6QfqEd.s 			page 27
 
 
 DEFINED SYMBOLS
                             *ABS*:00000000 vectors_designstart.c
-     /tmp/cct7EQvu.s:58     .vectors:00000000 gVectors
-     /tmp/cct7EQvu.s:55     .vectors:00000000 $d
-     /tmp/cct7EQvu.s:113    .text:00000000 NMI_Handler
-     /tmp/cct7EQvu.s:132    .text:00000004 HardFault_Handler
-     /tmp/cct7EQvu.s:150    .text:00000008 MemManage_Handler
-     /tmp/cct7EQvu.s:168    .text:0000000c BusFault_Handler
-     /tmp/cct7EQvu.s:186    .text:00000010 UsageFault_Handler
-     /tmp/cct7EQvu.s:204    .text:00000014 SVC_Handler
-     /tmp/cct7EQvu.s:222    .text:00000018 DebugMon_Handler
-     /tmp/cct7EQvu.s:240    .text:0000001c PendSV_Handler
-     /tmp/cct7EQvu.s:258    .text:00000020 SysTick_Handler
-     /tmp/cct7EQvu.s:276    .text:00000024 WAKEUP_IRQHandler
-     /tmp/cct7EQvu.s:294    .text:00000028 C_CAN_IRQHandler
-     /tmp/cct7EQvu.s:312    .text:0000002c SSP1_IRQHandler
-     /tmp/cct7EQvu.s:330    .text:00000030 I2C_IRQHandler
-     /tmp/cct7EQvu.s:348    .text:00000034 CT16B0_IRQHandler
-     /tmp/cct7EQvu.s:366    .text:00000038 CT16B1_IRQHandler
-     /tmp/cct7EQvu.s:384    .text:0000003c CT32B0_IRQHandler
-     /tmp/cct7EQvu.s:402    .text:00000040 CT32B1_IRQHandler
-     /tmp/cct7EQvu.s:420    .text:00000044 SSP0_IRQHandler
-     /tmp/cct7EQvu.s:438    .text:00000048 UART_IRQHandler
-     /tmp/cct7EQvu.s:456    .text:0000004c ADC_IRQHandler
-     /tmp/cct7EQvu.s:474    .text:00000050 WDT_IRQHandler
-     /tmp/cct7EQvu.s:492    .text:00000054 BOD_IRQHandler
-     /tmp/cct7EQvu.s:510    .text:00000058 PIO_3_IRQHandler
-     /tmp/cct7EQvu.s:528    .text:0000005c PIO_2_IRQHandler
-     /tmp/cct7EQvu.s:546    .text:00000060 PIO_1_IRQHandler
-     /tmp/cct7EQvu.s:564    .text:00000064 PIO_0_IRQHandler
-     /tmp/cct7EQvu.s:108    .text:00000000 $t
+     /tmp/cc6QfqEd.s:58     .vectors:00000000 gVectors
+     /tmp/cc6QfqEd.s:55     .vectors:00000000 $d
+     /tmp/cc6QfqEd.s:113    .text:00000000 NMI_Handler
+     /tmp/cc6QfqEd.s:132    .text:00000004 HardFault_Handler
+     /tmp/cc6QfqEd.s:150    .text:00000008 MemManage_Handler
+     /tmp/cc6QfqEd.s:168    .text:0000000c BusFault_Handler
+     /tmp/cc6QfqEd.s:186    .text:00000010 UsageFault_Handler
+     /tmp/cc6QfqEd.s:204    .text:00000014 SVC_Handler
+     /tmp/cc6QfqEd.s:222    .text:00000018 DebugMon_Handler
+     /tmp/cc6QfqEd.s:240    .text:0000001c PendSV_Handler
+     /tmp/cc6QfqEd.s:258    .text:00000020 SysTick_Handler
+     /tmp/cc6QfqEd.s:276    .text:00000024 WAKEUP_IRQHandler
+     /tmp/cc6QfqEd.s:294    .text:00000028 C_CAN_IRQHandler
+     /tmp/cc6QfqEd.s:312    .text:0000002c SSP1_IRQHandler
+     /tmp/cc6QfqEd.s:330    .text:00000030 I2C_IRQHandler
+     /tmp/cc6QfqEd.s:348    .text:00000034 CT16B0_IRQHandler
+     /tmp/cc6QfqEd.s:366    .text:00000038 CT16B1_IRQHandler
+     /tmp/cc6QfqEd.s:384    .text:0000003c CT32B0_IRQHandler
+     /tmp/cc6QfqEd.s:402    .text:00000040 CT32B1_IRQHandler
+     /tmp/cc6QfqEd.s:420    .text:00000044 SSP0_IRQHandler
+     /tmp/cc6QfqEd.s:438    .text:00000048 UART_IRQHandler
+     /tmp/cc6QfqEd.s:456    .text:0000004c ADC_IRQHandler
+     /tmp/cc6QfqEd.s:474    .text:00000050 WDT_IRQHandler
+     /tmp/cc6QfqEd.s:492    .text:00000054 BOD_IRQHandler
+     /tmp/cc6QfqEd.s:510    .text:00000058 PIO_3_IRQHandler
+     /tmp/cc6QfqEd.s:528    .text:0000005c PIO_2_IRQHandler
+     /tmp/cc6QfqEd.s:546    .text:00000060 PIO_1_IRQHandler
+     /tmp/cc6QfqEd.s:564    .text:00000064 PIO_0_IRQHandler
+     /tmp/cc6QfqEd.s:108    .text:00000000 $t
                      .debug_frame:00000010 $d
 
 UNDEFINED SYMBOLS

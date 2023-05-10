@@ -1,3 +1,7 @@
+// Example code for an M0 AHBLite System
+//  Iain McNally
+//  ECS, University of Soutampton
+//
 // This module is an AHB-Lite Slave containing a ROM
 //
 // Number of addressable locations : 2**MEMWIDTH
@@ -53,7 +57,7 @@ timeprecision 100ps;
 
 // BEGIN CUSTOM
 // include program instructions from file
-`include "code.vmem"
+`include `STRINGIFY(`prog_file_vmem)
 // END CUSTOM
  
 //Generate the control signals in the address phase

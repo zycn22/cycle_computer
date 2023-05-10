@@ -1,0 +1,42 @@
+`timescale 1ns / 1ps
+module nCrankgen (
+  input [7:0] SW,
+  input core_CLK,
+  input core_nReset,
+  output logic nCrank
+);
+  parameter n = 32768;
+  logic [23:0] count;
+  logic [6:0] ncrank_timer; // Added a 7-bit counter for 65 time cycle duration
+  logic [7:0] SW_prev; // Added to store previous SW value
+
+  always_ff @(posedge core_CLK, negedge core_nReset) begin
+    if (!core_nReset) begin
+      count <= 0;
+      ncrank_timer <= 0; // Reset ncrank_timer
+      SW_prev <= 0; // Reset SW_prev
+    end
+    else if (count == (1967213/(SW*10)) && (SW != 0)) begin
+        ncrank <= 0;
+        count <= 0;
+        ncrank_timer <= 65; // Start ncrank_timer when ncrank goes low
+      end
+    else if (SW == 0) begin
+        ncrank <= 1;
+        count <= 0;
+        ncrank_timer <= 0; // Reset ncrank_timer
+      end
+    else if (ncrank_timer > 0) begin // Added condition to control ncrank duration
+        ncrank <= 0;
+        ncrank_timer <= ncrank_timer - 1;
+      end
+    else if (SW != SW_prev) begin
+      count <= 0;
+    end
+    else begin
+        ncrank <= 1;
+        count <= count + 1;
+      end
+    SW_prev <= SW; // Update SW_prev at every clock cycle
+  end
+endmodule

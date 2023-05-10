@@ -22,7 +22,7 @@ LOAD /srv/gcc-arm-none-eabi-5_4-2016q3/bin/../lib/gcc/arm-none-eabi/5.4.1/armv6-
 LOAD /srv/gcc-arm-none-eabi-5_4-2016q3/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m/libc.a
 END GROUP
 
-.text           0x00000000      0xc4c
+.text           0x00000000      0xc48
                 0x00000000                _stext = .
  CREATE_OBJECT_SYMBOLS
  *(.vectors)
@@ -58,7 +58,7 @@ END GROUP
                 0x00000148                PIO_2_IRQHandler
                 0x0000014c                PIO_1_IRQHandler
                 0x00000150                PIO_0_IRQHandler
- .text          0x00000154      0x9bc ./code/main.o
+ .text          0x00000154      0x9b8 ./code/main.o
                 0x00000154                write_led
                 0x0000016c                read_nFork
                 0x0000017c                read_nCrank
@@ -69,60 +69,60 @@ END GROUP
                 0x000001cc                read_together_button
                 0x000001dc                connect_digits
                 0x00000254                main
- .text          0x00000b10      0x114 /srv/gcc-arm-none-eabi-5_4-2016q3/bin/../lib/gcc/arm-none-eabi/5.4.1/armv6-m/libgcc.a(_udivsi3.o)
-                0x00000b10                __udivsi3
-                0x00000b10                __aeabi_uidiv
-                0x00000c1c                __aeabi_uidivmod
- .text          0x00000c24        0x4 /srv/gcc-arm-none-eabi-5_4-2016q3/bin/../lib/gcc/arm-none-eabi/5.4.1/armv6-m/libgcc.a(_dvmd_tls.o)
-                0x00000c24                __aeabi_ldiv0
-                0x00000c24                __aeabi_idiv0
+ .text          0x00000b0c      0x114 /srv/gcc-arm-none-eabi-5_4-2016q3/bin/../lib/gcc/arm-none-eabi/5.4.1/armv6-m/libgcc.a(_udivsi3.o)
+                0x00000b0c                __udivsi3
+                0x00000b0c                __aeabi_uidiv
+                0x00000c18                __aeabi_uidivmod
+ .text          0x00000c20        0x4 /srv/gcc-arm-none-eabi-5_4-2016q3/bin/../lib/gcc/arm-none-eabi/5.4.1/armv6-m/libgcc.a(_dvmd_tls.o)
+                0x00000c20                __aeabi_ldiv0
+                0x00000c20                __aeabi_idiv0
  *(.text.*)
-                0x00000c28                . = ALIGN (0x4)
+                0x00000c24                . = ALIGN (0x4)
  *(.rodata)
- .rodata        0x00000c28       0x24 ./code/main.o
+ .rodata        0x00000c24       0x24 ./code/main.o
  *(.rodata.*)
-                0x00000c4c                . = ALIGN (0x4)
-                0x00000c4c                _etext = .
+                0x00000c48                . = ALIGN (0x4)
+                0x00000c48                _etext = .
 
-.glue_7         0x00000c4c        0x0
- .glue_7        0x00000c4c        0x0 linker stubs
+.glue_7         0x00000c48        0x0
+ .glue_7        0x00000c48        0x0 linker stubs
 
-.glue_7t        0x00000c4c        0x0
- .glue_7t       0x00000c4c        0x0 linker stubs
+.glue_7t        0x00000c48        0x0
+ .glue_7t       0x00000c48        0x0 linker stubs
 
-.vfp11_veneer   0x00000c4c        0x0
- .vfp11_veneer  0x00000c4c        0x0 linker stubs
+.vfp11_veneer   0x00000c48        0x0
+ .vfp11_veneer  0x00000c48        0x0 linker stubs
 
-.v4_bx          0x00000c4c        0x0
- .v4_bx         0x00000c4c        0x0 linker stubs
+.v4_bx          0x00000c48        0x0
+ .v4_bx         0x00000c48        0x0 linker stubs
 
-.iplt           0x00000c4c        0x0
- .iplt          0x00000c4c        0x0 ./code/crt.o
+.iplt           0x00000c48        0x0
+ .iplt          0x00000c48        0x0 ./code/crt.o
 
-.rel.dyn        0x00000c4c        0x0
- .rel.iplt      0x00000c4c        0x0 ./code/crt.o
+.rel.dyn        0x00000c48        0x0
+ .rel.iplt      0x00000c48        0x0 ./code/crt.o
 
-.data           0x00000c4c        0xc
-                0x00000c4c                . = ALIGN (0x4)
-                0x00000c4c                _sdata = .
+.data           0x00000c48        0xc
+                0x00000c48                . = ALIGN (0x4)
+                0x00000c48                _sdata = .
  *(.data)
- .data          0x00000c4c        0x0 ./code/crt.o
- .data          0x00000c4c        0x0 ./code/vectors_designstart.o
- .data          0x00000c4c        0xc ./code/main.o
-                0x00000c4c                BUTTONS_REGS
-                0x00000c50                SENSORS_REGS
-                0x00000c54                LED_REGS
- .data          0x00000c58        0x0 /srv/gcc-arm-none-eabi-5_4-2016q3/bin/../lib/gcc/arm-none-eabi/5.4.1/armv6-m/libgcc.a(_udivsi3.o)
- .data          0x00000c58        0x0 /srv/gcc-arm-none-eabi-5_4-2016q3/bin/../lib/gcc/arm-none-eabi/5.4.1/armv6-m/libgcc.a(_dvmd_tls.o)
+ .data          0x00000c48        0x0 ./code/crt.o
+ .data          0x00000c48        0x0 ./code/vectors_designstart.o
+ .data          0x00000c48        0xc ./code/main.o
+                0x00000c48                BUTTONS_REGS
+                0x00000c4c                SENSORS_REGS
+                0x00000c50                LED_REGS
+ .data          0x00000c54        0x0 /srv/gcc-arm-none-eabi-5_4-2016q3/bin/../lib/gcc/arm-none-eabi/5.4.1/armv6-m/libgcc.a(_udivsi3.o)
+ .data          0x00000c54        0x0 /srv/gcc-arm-none-eabi-5_4-2016q3/bin/../lib/gcc/arm-none-eabi/5.4.1/armv6-m/libgcc.a(_dvmd_tls.o)
  *(.data.*)
-                0x00000c58                . = ALIGN (0x4)
+                0x00000c54                . = ALIGN (0x4)
  *(.fastrun)
  *(.fastrun.*)
-                0x00000c58                . = ALIGN (0x4)
-                0x00000c58                _edata = .
+                0x00000c54                . = ALIGN (0x4)
+                0x00000c54                _edata = .
 
-.igot.plt       0x00000c58        0x0
- .igot.plt      0x00000c58        0x0 ./code/crt.o
+.igot.plt       0x00000c54        0x0
+ .igot.plt      0x00000c54        0x0 ./code/crt.o
 
 .bss            0x20000000        0x0
                 0x20000000                . = ALIGN (0x4)
@@ -164,10 +164,10 @@ OUTPUT(test_designstart.elf elf32-littlearm)
  .debug_aranges
                 0x00000040       0x20 ./code/main.o
 
-.debug_line     0x00000000      0x381
+.debug_line     0x00000000      0x387
  .debug_line    0x00000000       0xe1 ./code/crt.o
  .debug_line    0x000000e1       0xe6 ./code/vectors_designstart.o
- .debug_line    0x000001c7      0x1ba ./code/main.o
+ .debug_line    0x000001c7      0x1c0 ./code/main.o
 
 .debug_str      0x00000000      0x4c6
  .debug_str     0x00000000      0x154 ./code/crt.o

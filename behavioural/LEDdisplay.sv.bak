@@ -1,0 +1,18 @@
+module LEDdisplay(
+  input logic SegA, SegB, SegC, SegD, SegE, SegF, SegG, DP,
+  input logic [3:0] nDigit,
+  output logic [6:0] HEX0,
+  output logic [6:0] HEX1,
+  output logic [6:0] HEX2,
+  output logic [6:0] HEX3,
+  output logic LED3, LED4, LED5, LED6
+);
+
+  always_comb begin
+    HEX0 = 7'b1;
+	 HEX1 = 7'b1;
+	 HEX2 = 7'b1;
+	 HEX3 = 7'b1;
+  end
+
+endmodule

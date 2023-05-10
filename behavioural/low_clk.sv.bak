@@ -1,0 +1,8 @@
+module low_clk(
+  input logic CLK,
+  output logic core_clk
+);
+  
+  
+  
+endmodule

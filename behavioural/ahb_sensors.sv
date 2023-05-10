@@ -1,5 +1,3 @@
-// This module is an AHB-Lite Slave containing three read-only locations
-//
 // Number of addressable locations : 5
 // Size of each addressable location : 32 bits
 // Supported transfer sizes : Word

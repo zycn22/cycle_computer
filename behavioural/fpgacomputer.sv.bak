@@ -1,0 +1,20 @@
+module fpgacomputer(
+  input logic       KEY0, //reset
+  input logic       KEY1, //Mode
+  input logic       KEY2, //Trip
+  input logic [7:0] SW,   //Switches
+  input logic [6:0] HEX0, //digit[0]
+  input logic [6:0] HEX1, //digit[1]
+  input logic [6:0] HEX2, //digit[2]
+  input logic [6:0] HEX3, //digit[3]
+  input logic [6:0] HEX4, //speed_digit[0]
+  input logic [6:0] HEX5, //speed_digit[1]
+  input logic       LED3, //DP[0]
+  input logic       LED4, //DP[1]
+  input logic       LED5, //DP[2]
+  input logic       LED6  //DP[3]
+);
+  
+  
+  
+endmodule

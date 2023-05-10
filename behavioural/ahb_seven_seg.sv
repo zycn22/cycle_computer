@@ -1,4 +1,3 @@
-
 // This module is an AHB-Lite 7-segment display Slave
 //
 // Number of addressable locations : 3

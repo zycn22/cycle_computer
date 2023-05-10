@@ -215,7 +215,6 @@ int main(void) {
               }
               if(!read_nMode()){
                 Mode = 0x02;
-                display = true;
               }
 
               DP = 0x04;
@@ -233,14 +232,12 @@ int main(void) {
                 Mode = 0x03;
               }
               
-              if (display) {
               DP = 0x02;
               digits[3] = 0x02;
-              digits[2] = (speedometer%1000)/100;
+              digits[2] = (speedometer%1000)/100;  
               digits[1] = (speedometer%100)/10; 
               digits[0] = (speedometer%100)%10;
-              }
-
+              
               write_led(connect_digits(DP, digits[3], digits[2], digits[1], digits[0]));
 
         break;
@@ -388,6 +385,8 @@ int main(void) {
         display = true; 
       }
     }
+  
+    if(read_fork_cnt() == 0){speedometer = 0;}
 
 // calculate the distance
     odometer = fork_counter * wheel_size / 10000;
