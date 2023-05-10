@@ -1,10 +1,10 @@
 # Cycle Computer
 ## Table of Contents
 
-**[Overview](#overview)**<br>
-**[Modes and Functions](#modes-and-functions)**<br>
-**[Architecture](#architecture)**<br>
-**[Padring and Bonding Diagram](#padring-and-bonding-diagram)**<br>
+- **[Overview](#overview)**<br>
+- **[Modes and Functions](#modes-and-functions)**<br>
+- **[Architecture](#architecture)**<br>
+- **[Padring and Bonding Diagram](#padring-and-bonding-diagram)**<br>
 
 
 ## OverView:
