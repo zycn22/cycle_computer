@@ -21,4 +21,4 @@ The cycle computer supports the following 7 functions:
 - Calorie cost                             Mode code: j
 
 ## Architecture of the SoC
-![Architecture]([https://myoctocat.com/assets/images/base-octocat.svg](https://github.com/zycn22/cycle_computer/blob/main/cycle_copmuter_architecture_diagram.drawio.png))
+![Architecture](https://github.com/zycn22/cycle_computer/blob/main/cycle_copmuter_architecture_diagram.drawio.png)
