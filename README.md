@@ -12,15 +12,15 @@ Our group members are: Yechengnuo Zhang, Yueran Wei, Jiashu Hu and Zhipeng Zhao.
 ## Modes & Functions of the computer
 
 The cycle computer supports the following 7 functions:
-<pre>
-- Distance travelled (Odometer).           Mode code: d 
+
+- Distance travelled (Odometer).&nbsp;&nbsp;&nbsp;Mode code: d 
 - Duration of the ride (Trip Timer).       Mode code: t
 - Current speed (Speedometer).             Mode code: v 
 - Pedal cadence (Cadence meter).           Mode code: c 
 - Average speed                            Mode code: a 
 - Maximum speed                            Mode code: s 
 - Calorie cost                             Mode code: j
-</pre>
+
 ## Architecture of the SoC
 ![Architecture](https://github.com/zycn22/cycle_computer/blob/main/cycle_copmuter_architecture_diagram.drawio.png)
 ### Buttons Interface
