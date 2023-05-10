@@ -40,5 +40,7 @@ The LED Display Interface has only one write-only register seven_seg. The form o
 When the data is written into this register, it will output digits from 0 to 3 with decimal point in turn.
 
 ## Padring Arrangements & Bonding Diagram
-<img src="https://github.com/zycn22/cycle_computer/blob/main/padring.png" width="400" height="400" align="center">
-<img src="https://github.com/zycn22/cycle_computer/blob/main/BondingDiagram.png" width="400" height="400">
+<p align="center">
+<img src="https://github.com/zycn22/cycle_computer/blob/main/padring.png" width="400" height="400">
+<\p>
+<img src="https://github.com/zycn22/cycle_computer/blob/main/BondingDiagram.png" width="300" height="300">
