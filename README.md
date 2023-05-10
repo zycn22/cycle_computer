@@ -29,6 +29,12 @@ The cycle computer supports the following 7 functions:
 - Maximum speed.                               Mode code: s 
 - Calorie cost.                                Mode code: j
 </pre>
+
+#### Odometer
+Display             |  Comment
+:------------------------------:|:------------------------------:
+<img src="https://github.com/zycn22/cycle_computer/blob/main/padring.png" width="450" height="400">  | 
+
 ## Architecture
 ![Architecture](https://github.com/zycn22/cycle_computer/blob/main/cycle_copmuter_architecture_diagram.drawio.png)
 #### Buttons Interface
