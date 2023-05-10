@@ -1,4 +1,4 @@
-# cycle_computer
+# Cycle Computer
 ## OverView:
 This is the ARM SoC Cycle Computer Group Project at University of Southampton in 2023.
 
@@ -7,3 +7,14 @@ and real-time information on their cycling performance. The SoC is equipped with
 
 Our group members are: Yechengnuo Zhang, Yueran Wei, Jiashu Hu and Zhipeng Zhao.
 
+## Modes & Functions of the computer
+
+The cycle computer supports the following 7 functions:
+• Distance travelled (Odometer).
+• Duration of the ride (Trip Timer).
+• Current speed (Speedometer).
+• Pedal cadence (Cadence meter).
+• Average speed
+• Maximum speed
+• Calorie cost
+Mode code: d Mode code: t Mode code: v Mode code: c Mode code: a Mode code: s Mode code: j
