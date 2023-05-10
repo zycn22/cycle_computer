@@ -32,9 +32,7 @@ The cycle computer supports the following 7 functions:
 
 Display                                                                              |  Comment
 :-----------------------------------------------------------------------------------:|:------------------------------:
-<img src="https://github.com/zycn22/cycle_computer/blob/main/pic/modes/Slide1.png">  |  Odometer Display
-                                                                                     |  Range:
-:-----------------------------------------------------------------------------------:|:------------------------------:
+<img src="https://github.com/zycn22/cycle_computer/blob/main/pic/modes/Slide1.png">  |  Odometer Display <br /> Range:s 
 
 ## Architecture
 ![Architecture](https://github.com/zycn22/cycle_computer/blob/main/pic/architecture.png)
