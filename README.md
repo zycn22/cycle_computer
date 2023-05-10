@@ -31,8 +31,8 @@ The cycle computer supports the following 7 functions:
 </pre>
 
 Display                                                                              |  Comment
-:-----------------------------------------------------------------------------------:|:------------------------------:
-<img src="https://github.com/zycn22/cycle_computer/blob/main/pic/modes/Slide1.png">  |  Odometer Display <br /> Rnage: <br />Resolution: <br />Accuracy:
+:--------------:                                                                     |    :----------:
+<img src="https://github.com/zycn22/cycle_computer/blob/main/pic/modes/Slide1.png">  |  **Odometer**<br />Rnage: 00.0~99.9km<br />Resolution: 0.1km<br />Accuracy: >2%
 
 ## Architecture
 ![Architecture](https://github.com/zycn22/cycle_computer/blob/main/pic/architecture.png)
