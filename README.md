@@ -38,7 +38,7 @@ Display                                                                         
 <img src="https://github.com/zycn22/cycle_computer/blob/main/pic/displays/Slide4.png" width="75%" height="45%">  |  **Cadence Meter**<br />Rnage: 000 ~ 999rpm<br />Resolution: 5rpm<br />Accuracy: <5rpm
 <img src="https://github.com/zycn22/cycle_computer/blob/main/pic/displays/Slide5.png" width="75%" height="45%">  |  **Average Speed**<br />Rnage: 00.0 ~ 99.9 km/h<br />Resolution: 0.1km/h<br />Accuracy: <2%
 <img src="https://github.com/zycn22/cycle_computer/blob/main/pic/displays/Slide6.png" width="75%" height="45%">  |  **Max Speed**<br />Rnage: 00.0 ~ 99.9km/h<br />Resolution: 0.1km/h<br />Accuracy: <1%
-<img src="https://github.com/zycn22/cycle_computer/blob/main/pic/displays/Slide7.png" width="75%" height="45%">  |  **Calorie**<br />Rnage: 000 ~ 999cal<br />Resolution: 1cal<br />Accuracy: <25%%
+<img src="https://github.com/zycn22/cycle_computer/blob/main/pic/displays/Slide7.png" width="75%" height="45%">  |  **Calorie**<br />Rnage: 000 ~ 999cal<br />Resolution: 1cal<br />Accuracy: <25%
 <img src="https://github.com/zycn22/cycle_computer/blob/main/pic/displays/Slide8.png" width="75%" height="45%">  |  **Set Wheel Size**<br />Unit: cm<br />Press the **Mode** and **Trip** buttons together to enter this mode.<br />Press **Trip** to increase the digit.<br />Press **Mode** to proceed to next digit.<br />The default wheel size is 214cm.
 <img src="https://github.com/zycn22/cycle_computer/blob/main/pic/displays/Slide9.png" width="75%" height="45%">  |  **Set User Weight**<br />Unit: kg<br />Press the **Mode** and **Trip** buttons together in **Calorie** mode to enter this mode.<br />Press **Trip** to increase the digit.<br />Press **Mode** to proceed to next digit.<br />The default weight is 70kg.
 
@@ -78,4 +78,4 @@ When the data is written into this register, it will output digits from 0 to 3 w
 
 Padring Arrangement             |  Bonding Diagram
 :------------------------------:|:------------------------------:
-<img src="https://github.com/zycn22/cycle_computer/blob/main/pic/padring.png" width="450" height="400">  |  <img src="https://github.com/zycn22/cycle_computer/blob/main/pic/bonding.png" width="300" height="300">
+<img src="https://github.com/zycn22/cycle_computer/blob/main/pic/padring.png" width="70%" height="62%">  |  <img src="https://github.com/zycn22/cycle_computer/blob/main/pic/bonding.png" width="300" height="300">
