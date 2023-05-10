@@ -22,3 +22,17 @@ The cycle computer supports the following 7 functions:
 
 ## Architecture of the SoC
 ![Architecture](https://github.com/zycn22/cycle_computer/blob/main/cycle_copmuter_architecture_diagram.drawio.png)
+### Buttons Interface
+Buttons interface contains 3 registers which are Button[0] (nMode), Button[1] (nTrip) and together_button.
+Button[0] and Button[1] store the data of nMode and nTrip buttons respectively. When nMode/nTrip is active, it will be 0, and when the ARM core reads the data in it, it will return to 1. together_button is generated inside the interface, which represents whether the two buttons are pressed together. When two buttons are pressed together, the Button[0] and Button[1] will not be active anymore, and the computer will be aware that the two buttons are pressed together.
+In the process of determining whether two buttons are pressed at the same time, we set a time constant (30ms). Even if there is an difference in time between the two button presses, as long as the error time is within this time constant, they will be judged as simultaneous presses.
+
+###  Hall-effect Sensors Interface
+Sensors Interface contains 4 registers which are Sensor[0], Sensor[1], fork_cnt and crank_cnt.
+Sensor[0] and Sensor[1] store the data of nFrok and nCrank respectively. When nFork/nCrank is active, it will be 0, and when the ARM core reads the data in it, it will return to 1.
+fork_cnt and crank_cnt records the clock period elapsed for one revolution of the bicycle tire/pedal. The algorithm for fork_cnt is more complex than that of crank_cnt, after a certain period of time (2 seconds) if no signal is received from the next Hall sensor on the tire, the system will determine that the tire has stopped rotating.
+
+### LED Display Interface
+The LED Display Interface has only one write-only register seven_seg. The form of the bit partten in this register is:
+![bitpattern](https://github.com/zycn22/cycle_computer/blob/main/bit_pattern.png)
+When the data is written into this register, it will output digits from 0 to 3 with decimal point in turn.
