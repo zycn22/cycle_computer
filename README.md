@@ -36,7 +36,7 @@ Display             |  Comment
 <img src="https://github.com/zycn22/cycle_computer/blob/main/padring.png" width="450" height="400">  | 
 
 ## Architecture
-![Architecture](https://github.com/zycn22/cycle_computer/blob/main/cycle_copmuter_architecture_diagram.drawio.png)
+![Architecture](https://github.com/zycn22/cycle_computer/blob/main/pic/architecture.png)
 #### Buttons Interface
 
 Buttons interface contains 3 addressable registers: 
@@ -62,7 +62,7 @@ fork_cnt and crank_cnt records the clock period elapsed for one revolution of th
 #### LED Display Interface
 The LED Display Interface has only one write-only register seven_seg. The form of the bit partten in this register is:
 
-<img src="https://github.com/zycn22/cycle_computer/blob/main/bit_pattern.png" width="600" height="40">
+<img src="https://github.com/zycn22/cycle_computer/blob/main/pic/bit_pattern.png" width="600" height="40">
 
 When the data is written into this register, it will output digits from 0 to 3 with decimal point in turn.
 
@@ -70,4 +70,4 @@ When the data is written into this register, it will output digits from 0 to 3 w
 
 Padring Arrangement             |  Bonding Diagram
 :------------------------------:|:------------------------------:
-<img src="https://github.com/zycn22/cycle_computer/blob/main/padring.png" width="450" height="400">  |  <img src="https://github.com/zycn22/cycle_computer/blob/main/BondingDiagram.png" width="300" height="300">
+<img src="https://github.com/zycn22/cycle_computer/blob/main/pic/padring.png" width="450" height="400">  |  <img src="https://github.com/zycn22/cycle_computer/blob/main/pic/bonding.png" width="300" height="300">
