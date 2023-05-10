@@ -1,14 +1,10 @@
-// Example code for an M0 AHBLite System
-//  Iain McNally
-//  ECS, University of Soutampton
-//
 // This module is an AHB-Lite Slave containing a RAM
 //
 // Number of addressable locations : 2**MEMWIDTH
 // Size of each addressable location : 8 bits
 // Supported transfer sizes : Word, Halfword, Byte
 // Alignment of base address : Word aligned
-//
+
 
 
 module ahb_ram #(
