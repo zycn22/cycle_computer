@@ -5,8 +5,6 @@
 // Supported transfer sizes : Word, Halfword, Byte
 // Alignment of base address : Word aligned
 
-
-
 module ahb_ram #(
   parameter MEMWIDTH = 8
 )(
