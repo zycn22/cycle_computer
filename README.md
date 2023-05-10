@@ -4,6 +4,7 @@
 **[Overview](#overview)**<br>
 **[Modes and Functions](#modes-and-functions)**<br>
 **[Architecture](#architecture)**<br>
+**[Padring and Bonding Diagram](#padring-and-bonding-diagram)**<br>
 
 ## OverView:
 This is the ARM SoC Cycle Computer Group Project at University of Southampton in 2023.
@@ -58,7 +59,7 @@ The LED Display Interface has only one write-only register seven_seg. The form o
 
 When the data is written into this register, it will output digits from 0 to 3 with decimal point in turn.
 
-## Padring Arrangements & Bonding Diagram
+## Padring and Bonding Diagram
 
 Padring Arrangement             |  Bonding Diagram
 :------------------------------:|:------------------------------:
