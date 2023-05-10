@@ -1,6 +1,6 @@
 # Cycle Computer
 ## Table of Contents
-[Overview](#overview)
+- [Overview](#overview)
 ## OverView:
 This is the ARM SoC Cycle Computer Group Project at University of Southampton in 2023.
 
