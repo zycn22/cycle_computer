@@ -1,7 +1,7 @@
 # Cycle Computer
 ## Table of Contents
 **[Overview](#overview)**<br>
-**[Modes & Functions of the computer](#modes-&-functions-of-the-computer)**<br>
+**[Modes and Functions of the computer](#modes-and-functions-of-the-computer)**<br>
 ## OverView:
 This is the ARM SoC Cycle Computer Group Project at University of Southampton in 2023.
 
@@ -12,7 +12,7 @@ The product is based on the AMS 0.35μm CMOS technology and employs SoC (hardwar
 
 Our group members are: Yechengnuo Zhang, Yueran Wei, Jiashu Hu and Zhipeng Zhao.
 
-## Modes & Functions of the computer
+## Modes and Functions of the computer
 
 The cycle computer supports the following 7 functions:
 <pre>
