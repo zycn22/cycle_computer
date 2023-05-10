@@ -78,4 +78,4 @@ When the data is written into this register, it will output digits from 0 to 3 w
 
 Padring Arrangement             |  Bonding Diagram
 :------------------------------:|:------------------------------:
-<img src="https://github.com/zycn22/cycle_computer/blob/main/pic/padring.png" width="70%" height="62%">  |  <img src="https://github.com/zycn22/cycle_computer/blob/main/pic/bonding.png" width="300" height="300">
+<img src="https://github.com/zycn22/cycle_computer/blob/main/pic/padring.png" width="70%" height="62%">  |  <img src="https://github.com/zycn22/cycle_computer/blob/main/pic/bonding.png" width="70%" height="70%">
