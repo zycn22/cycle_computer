@@ -33,6 +33,12 @@ The cycle computer supports the following 7 functions:
 Display                                                                              |  Comment
 :--------------:                                                                     |    :----------:
 <img src="https://github.com/zycn22/cycle_computer/blob/main/pic/modes/Slide1.png" width="50%" height="50%">  |  **Odometer**<br />Rnage: 00.0~99.9km<br />Resolution: 0.1km<br />Accuracy: >2%
+<img src="https://github.com/zycn22/cycle_computer/blob/main/pic/modes/Slide2.png" width="50%" height="50%">  |  **Odometer**<br />Rnage: 00.0~99.9km<br />Resolution: 0.1km<br />Accuracy: >2%
+<img src="https://github.com/zycn22/cycle_computer/blob/main/pic/modes/Slide3.png" width="50%" height="50%">  |  **Odometer**<br />Rnage: 00.0~99.9km<br />Resolution: 0.1km<br />Accuracy: >2%
+<img src="https://github.com/zycn22/cycle_computer/blob/main/pic/modes/Slide4.png" width="50%" height="50%">  |  **Odometer**<br />Rnage: 00.0~99.9km<br />Resolution: 0.1km<br />Accuracy: >2%
+<img src="https://github.com/zycn22/cycle_computer/blob/main/pic/modes/Slide5.png" width="50%" height="50%">  |  **Odometer**<br />Rnage: 00.0~99.9km<br />Resolution: 0.1km<br />Accuracy: >2%
+<img src="https://github.com/zycn22/cycle_computer/blob/main/pic/modes/Slide6.png" width="50%" height="50%">  |  **Odometer**<br />Rnage: 00.0~99.9km<br />Resolution: 0.1km<br />Accuracy: >2%
+<img src="https://github.com/zycn22/cycle_computer/blob/main/pic/modes/Slide7.png" width="50%" height="50%">  |  **Odometer**<br />Rnage: 00.0~99.9km<br />Resolution: 0.1km<br />Accuracy: >2%
 
 ## Architecture
 ![Architecture](https://github.com/zycn22/cycle_computer/blob/main/pic/architecture.png)
