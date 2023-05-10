@@ -1,7 +1,7 @@
 # Cycle Computer
 ## Table of Contents
 - [Overview](#overview)
-- [Modes & Functions](#modes & functions of the computer)
+- [Modes & Functions of the computer](#modes & functions of the computer)
 ## OverView:
 This is the ARM SoC Cycle Computer Group Project at University of Southampton in 2023.
 
